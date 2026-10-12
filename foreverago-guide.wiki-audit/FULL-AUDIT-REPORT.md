@@ -43,3 +43,12 @@
 ## 上线边界
 
 本报告记录上线前实测；生产HTTPS、正式统计网络、广告供应商响应、GSC/Bing/Yandex提交将在发布后另记，不以本地预览代替。localhost保护未加载正式广告/统计，实验室数据不包含正式域名完整第三方成本；真实字段CWV尚无数据。Yandex Webmaster当前官方页面报告数据中心故障，提交仍未完成。
+
+## 发布后结果
+
+- Cloudflare Pages发布完成，应用提交a6c3d994fb8ed52c4b694ff40ba06a3a32e30f8c；部署https://b8ed83ee.foreverago-guide.pages.dev，正式www域名可访问。
+- 正式37页、113自有资源、robots/sitemap、404与301路径/query均实查；详见findings/production.md。四政策边缘邮箱保护的可读性Low已关闭，政策正文邮箱直接可见且37/37页面HTML与out一致。
+- GA4与Clarity实际collect HTTP204，SPA进入攻略后page_view自动发送且标签/config没有重复；详见findings/integrations-and-submissions.md。
+- Adsterra完整5单元直载，无外层iframe；5个供应商脚本实际403，符合用户代理环境说明；真实fill/收益未知。
+- GSC sitemap提交并完成用户指定的XML实时抓取成功验收；首页/成就总表索引请求已接受。Bing sitemap和37网址请求已接受。提交不是已索引证据。
+- 唯一尚未执行的服务步骤：Yandex Webmaster.com/.ru官方故障，站点地图/索引提交仍未完成；未将整个目标标为已完成。

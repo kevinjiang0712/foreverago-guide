@@ -17,6 +17,6 @@
 
 ## 证据与边界
 
-- [导出 sitemap.xml](/Users/jiangchenxiang/Desktop/产品/forever ago/site/out/sitemap.xml)、[导出 robots.txt](/Users/jiangchenxiang/Desktop/产品/forever ago/site/out/robots.txt)、[sitemap owning source](/Users/jiangchenxiang/Desktop/产品/forever ago/site/src/seo/sitemap.ts:4)、[内容索引](/Users/jiangchenxiang/Desktop/产品/forever ago/site/.generated/content-index.json)。
+- [导出 sitemap.xml](</Users/jiangchenxiang/Desktop/产品/forever ago/site/out/sitemap.xml>)、[导出 robots.txt](</Users/jiangchenxiang/Desktop/产品/forever ago/site/out/robots.txt>)、[sitemap owning source](</Users/jiangchenxiang/Desktop/产品/forever ago/site/src/seo/sitemap.ts:4>)、[内容索引](</Users/jiangchenxiang/Desktop/产品/forever ago/site/.generated/content-index.json>)。
 - [Google sitemap 官方文档](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap)要求使用 canonical 与准确 lastmod；它没有要求同时更新的页面故意填写不同日期。
 - 本地 XML HTTP 抓取已通过；本报告不证明正式域名 XML 可抓取或已提交、已收录；这些由上线后 GSC/Bing/Yandex 的实际结果确认。

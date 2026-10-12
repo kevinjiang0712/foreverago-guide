@@ -21,7 +21,7 @@
 
 - 两份 after JSON 的 `lcp-discovery-insight` 均确认 `priorityHinted=true`、`requestDiscoverable=true`、`eagerlyLoaded=true`。实际 LCP 图片 HTML 是 `loading="eager" fetchpriority="high"`。
 - 首页 Hero 为 1600×1065 road-trip-art；攻略主图为 1600×900 campfire-art。网络日志实测艺术素材从 336,634→133,002 B、354,416→78,434 B，构图保留。
-- owning source：[Media.tsx](/Users/jiangchenxiang/Desktop/产品/forever ago/site/src/components/content/Media.tsx:8) 对首屏元素应用 eager/high；[ArticlePage.tsx](/Users/jiangchenxiang/Desktop/产品/forever ago/site/src/templates/article-page/ArticlePage.tsx:50) 的文章主图显式 eager。父 Agent 做修改，本子任务只读测量和记录。
+- owning source：[Media.tsx](</Users/jiangchenxiang/Desktop/产品/forever ago/site/src/components/content/Media.tsx:8>) 对首屏元素应用 eager/high；[ArticlePage.tsx](</Users/jiangchenxiang/Desktop/产品/forever ago/site/src/templates/article-page/ArticlePage.tsx:50>) 的文章主图显式 eager。父 Agent 做修改，本子任务只读测量和记录。
 
 ## 剩余问题与解释范围
 
@@ -32,9 +32,9 @@
 
 ## 原始证据
 
-- [首页 基线 JSON](/Users/jiangchenxiang/Desktop/产品/forever ago/site/foreverago-guide.wiki-audit/lighthouse/home-mobile.json)：2026-10-12T23:01:15+08:00。
-- [首页 修复后 JSON](/Users/jiangchenxiang/Desktop/产品/forever ago/site/foreverago-guide.wiki-audit/lighthouse/home-mobile-after.json)：2026-10-12T23:11:08+08:00。
-- [Gameplay 基线 JSON](/Users/jiangchenxiang/Desktop/产品/forever ago/site/foreverago-guide.wiki-audit/lighthouse/gameplay-mobile.json)：2026-10-12T23:02:10+08:00。
-- [Gameplay 修复后 JSON](/Users/jiangchenxiang/Desktop/产品/forever ago/site/foreverago-guide.wiki-audit/lighthouse/gameplay-mobile-after.json)：2026-10-12T23:11:58+08:00。
+- [首页 基线 JSON](</Users/jiangchenxiang/Desktop/产品/forever ago/site/foreverago-guide.wiki-audit/lighthouse/home-mobile.json>)：2026-10-12T23:01:15+08:00。
+- [首页 修复后 JSON](</Users/jiangchenxiang/Desktop/产品/forever ago/site/foreverago-guide.wiki-audit/lighthouse/home-mobile-after.json>)：2026-10-12T23:11:08+08:00。
+- [Gameplay 基线 JSON](</Users/jiangchenxiang/Desktop/产品/forever ago/site/foreverago-guide.wiki-audit/lighthouse/gameplay-mobile.json>)：2026-10-12T23:02:10+08:00。
+- [Gameplay 修复后 JSON](</Users/jiangchenxiang/Desktop/产品/forever ago/site/foreverago-guide.wiki-audit/lighthouse/gameplay-mobile-after.json>)：2026-10-12T23:11:58+08:00。
 
 方法参考：[LCP 优化与 lab/field 区别](https://web.dev/articles/optimize-lcp)、[Lighthouse 评分](https://developer.chrome.com/docs/lighthouse/performance/performance-scoring)、[TBT 定义](https://web.dev/articles/tbt)。

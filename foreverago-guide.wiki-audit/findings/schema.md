@@ -23,7 +23,7 @@
 
 ## 证据与边界
 
-- [JSON-LD owning source](/Users/jiangchenxiang/Desktop/产品/forever ago/site/src/seo/structured-data.ts:5)。
-- 实页例：[gameplay HTML](/Users/jiangchenxiang/Desktop/产品/forever ago/site/out/guide/forever-ago-gameplay.html)、[分类 HTML](/Users/jiangchenxiang/Desktop/产品/forever ago/site/out/guide.html)、[隐私 HTML](/Users/jiangchenxiang/Desktop/产品/forever ago/site/out/privacy.html)。
+- [JSON-LD owning source](</Users/jiangchenxiang/Desktop/产品/forever ago/site/src/seo/structured-data.ts:5>)。
+- 实页例：[gameplay HTML](</Users/jiangchenxiang/Desktop/产品/forever ago/site/out/guide/forever-ago-gameplay.html>)、[分类 HTML](</Users/jiangchenxiang/Desktop/产品/forever ago/site/out/guide.html>)、[隐私 HTML](</Users/jiangchenxiang/Desktop/产品/forever ago/site/out/privacy.html>)。
 - 依据 [Google Article 文档](https://developers.google.com/search/docs/appearance/structured-data/article) 与 [Breadcrumb 文档](https://developers.google.com/search/docs/appearance/structured-data/breadcrumb)核对类型和属性。Article 无强制属性，本文不把可选推荐项缺失当成错误。
 - 本轮是初始 HTML 的语法、值与页面一致性检查；未运行 Google Rich Results Test，不证明 Google 接收、展示富结果或收录。

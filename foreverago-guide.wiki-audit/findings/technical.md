@@ -23,10 +23,10 @@
 
 实际复核：Chromium desktop 1280×900、`javaScriptEnabled:false`。四答案区域初始高度均为 0，点击第一问题后仍为 0 且 inert/aria-hidden 保持 true。
 
-证据：[HomeFaqAccordion.tsx](/Users/jiangchenxiang/Desktop/产品/forever ago/site/src/templates/site-home/HomeFaqAccordion.tsx:13)；[首页导出 HTML](/Users/jiangchenxiang/Desktop/产品/forever ago/site/out/index.html)。建议：保留当前视觉的前提下，用原生可展开元素或明确的无 JS 可读回退。审计未修改源码。
+证据：[HomeFaqAccordion.tsx](</Users/jiangchenxiang/Desktop/产品/forever ago/site/src/templates/site-home/HomeFaqAccordion.tsx:13>)；[首页导出 HTML](</Users/jiangchenxiang/Desktop/产品/forever ago/site/out/index.html>)。建议：保留当前视觉的前提下，用原生可展开元素或明确的无 JS 可读回退。审计未修改源码。
 
 ## 证据与边界
 
-- [robots.txt](/Users/jiangchenxiang/Desktop/产品/forever ago/site/out/robots.txt)、[404.html](/Users/jiangchenxiang/Desktop/产品/forever ago/site/out/404.html)、[内容索引](/Users/jiangchenxiang/Desktop/产品/forever ago/site/.generated/content-index.json)。
-- [metadata 生成](/Users/jiangchenxiang/Desktop/产品/forever ago/site/src/seo/metadata.ts:15)、[Reveal 默认渲染](/Users/jiangchenxiang/Desktop/产品/forever ago/site/src/components/motion/Reveal.tsx:15)。
+- [robots.txt](</Users/jiangchenxiang/Desktop/产品/forever ago/site/out/robots.txt>)、[404.html](</Users/jiangchenxiang/Desktop/产品/forever ago/site/out/404.html>)、[内容索引](</Users/jiangchenxiang/Desktop/产品/forever ago/site/.generated/content-index.json>)。
+- [metadata 生成](</Users/jiangchenxiang/Desktop/产品/forever ago/site/src/seo/metadata.ts:15>)、[Reveal 默认渲染](</Users/jiangchenxiang/Desktop/产品/forever ago/site/src/components/motion/Reveal.tsx:15>)。
 - 尚未取得 field CWV、Google 索引或生产安全响应头证据；不据此给出健康评分或排名结论。

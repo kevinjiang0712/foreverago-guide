@@ -1,0 +1,3424 @@
+{
+  "release": "a6c3d994fb8ed52c4b694ff40ba06a3a32e30f8c",
+  "deployment": "https://b8ed83ee.foreverago-guide.pages.dev",
+  "origin": "https://www.foreverago-guide.wiki",
+  "method": "Pure curl HTTP; no JavaScript; max concurrency 4; TLS certificate verification enabled; no ads/analytics requests",
+  "pages": [
+    {
+      "url": "https://www.foreverago-guide.wiki/",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 162109,
+      "path": "/",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Wiki: Photos, Memories & Achievement Guides",
+      "h1Count": 1,
+      "bodySha256": "3ba3e08e9d9945ecc7f6f0b72ad00e3acb1cd3abf932a4da6970a8261c2f44ff",
+      "exportSha256": "3ba3e08e9d9945ecc7f6f0b72ad00e3acb1cd3abf932a4da6970a8261c2f44ff",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/review",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/review",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 54519,
+      "path": "/review",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/review"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Reviews: Story, Gameplay & Journey Length",
+      "h1Count": 1,
+      "bodySha256": "a2ba8fe540c2c5e86ed879dc2a1e00130dd186bb4caeca5444196e7b123360b1",
+      "exportSha256": "a2ba8fe540c2c5e86ed879dc2a1e00130dd186bb4caeca5444196e7b123360b1",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/guide",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/guide",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 71357,
+      "path": "/guide",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/guide"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Guides: Camera, Achievements & Story Replay",
+      "h1Count": 1,
+      "bodySha256": "a56c1e10c3a0bd0d7306197147b79844d94d8e6e0f30f469a83ac56562c82f34",
+      "exportSha256": "a56c1e10c3a0bd0d7306197147b79844d94d8e6e0f30f469a83ac56562c82f34",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/maps",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/maps",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 60533,
+      "path": "/maps",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/maps"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Locations: Photos, Petals & Memory Routes",
+      "h1Count": 1,
+      "bodySha256": "c868e80178d823c63d0134422058899f15995b9f36305a2dbf8853314709e677",
+      "exportSha256": "c868e80178d823c63d0134422058899f15995b9f36305a2dbf8853314709e677",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/story",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/story",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 53207,
+      "path": "/story",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/story"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Story: Ending Explained & Alfred’s Journey",
+      "h1Count": 1,
+      "bodySha256": "c4f92fbbed76d8c9131da395c087314a797a367f6c43f70aaaa7588b3bba553d",
+      "exportSha256": "c4f92fbbed76d8c9131da395c087314a797a367f6c43f70aaaa7588b3bba553d",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/walkthrough",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/walkthrough",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 56279,
+      "path": "/walkthrough",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/walkthrough"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Walkthrough: Photo Puzzles & Williamina Peak",
+      "h1Count": 1,
+      "bodySha256": "ef4ea00d03ad1d4b1f40918ece3d1c9b40c1641600551a4de5f7a2f268dd06a5",
+      "exportSha256": "ef4ea00d03ad1d4b1f40918ece3d1c9b40c1641600551a4de5f7a2f268dd06a5",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/characters",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/characters",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 53368,
+      "path": "/characters",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/characters"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Characters: Audrey’s Story & Life with Alfred",
+      "h1Count": 1,
+      "bodySha256": "8f7e0c9d6d4f9efbbf0564ec593c7c9781411b23c259b607aa69437a5af068cc",
+      "exportSha256": "8f7e0c9d6d4f9efbbf0564ec593c7c9781411b23c259b607aa69437a5af068cc",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/about",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/about",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 59077,
+      "path": "/about",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/about"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "About Forever Ago Wiki: Independent Guides and Coverage",
+      "h1Count": 1,
+      "bodySha256": "4b798b3b7748b86c60fd8a6373716b103564b1e7d8fccbb9d6e4c77bdbe94050",
+      "exportSha256": "4b798b3b7748b86c60fd8a6373716b103564b1e7d8fccbb9d6e4c77bdbe94050",
+      "matchesCurrentExport": true,
+      "beforeEmailSettingRecheck": {
+        "bodySha256": "b60b9e01bc3058354f8003f845ba5b286d80e75b67741e39df63bae3258978f9",
+        "matchesCurrentExport": false
+      },
+      "emailVisibleInMain": true,
+      "cloudflareEmailObfuscation": false
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/contact",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/contact",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 57372,
+      "path": "/contact",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/contact"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Contact Forever Ago Wiki: Corrections and Site Questions",
+      "h1Count": 1,
+      "bodySha256": "4dacf928fd8f2f3e79144c975baece87996c521f15ceffbfcf0828484d09cca4",
+      "exportSha256": "4dacf928fd8f2f3e79144c975baece87996c521f15ceffbfcf0828484d09cca4",
+      "matchesCurrentExport": true,
+      "beforeEmailSettingRecheck": {
+        "bodySha256": "4abb066a161854f1717e4d5de4b5ebe83e2680ceb4a8d03b2d70b81d6ab8d87d",
+        "matchesCurrentExport": false
+      },
+      "emailVisibleInMain": true,
+      "cloudflareEmailObfuscation": false
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/guide/forever-ago-achievements",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/guide/forever-ago-achievements",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 100523,
+      "path": "/guide/forever-ago-achievements",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/guide/forever-ago-achievements"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Achievements Guide and Tips | Forever Ago",
+      "h1Count": 1,
+      "bodySha256": "184df302b9fb485c399164bc0cd22c8019f9a5bc90b25435adc86900e1abbd69",
+      "exportSha256": "184df302b9fb485c399164bc0cd22c8019f9a5bc90b25435adc86900e1abbd69",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/characters/forever-ago-audrey-story",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/characters/forever-ago-audrey-story",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 98493,
+      "path": "/characters/forever-ago-audrey-story",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/characters/forever-ago-audrey-story"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Audrey Story Guide and Tips | Forever Ago",
+      "h1Count": 1,
+      "bodySha256": "452ff6a59b196553d2d90ee130e3e3befcc7d62533cfde589b121b9a599b1afb",
+      "exportSha256": "452ff6a59b196553d2d90ee130e3e3befcc7d62533cfde589b121b9a599b1afb",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/guide/forever-ago-camera-achievements",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/guide/forever-ago-camera-achievements",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 97196,
+      "path": "/guide/forever-ago-camera-achievements",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/guide/forever-ago-camera-achievements"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Camera Achievements Guide | Forever Ago Wiki",
+      "h1Count": 1,
+      "bodySha256": "e2b90d747fa2d9c3099285e53bd3e89ee5f1195fe1f415d5d19ff4a84aaa70e7",
+      "exportSha256": "e2b90d747fa2d9c3099285e53bd3e89ee5f1195fe1f415d5d19ff4a84aaa70e7",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/guide/forever-ago-camera-controls",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/guide/forever-ago-camera-controls",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 99523,
+      "path": "/guide/forever-ago-camera-controls",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/guide/forever-ago-camera-controls"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Camera Controls Guide | Forever Ago Wiki",
+      "h1Count": 1,
+      "bodySha256": "f36498e06ebd1feb12382f0d1a0a98e9b252065dfae7eee5ec4dc62aab244a4d",
+      "exportSha256": "f36498e06ebd1feb12382f0d1a0a98e9b252065dfae7eee5ec4dc62aab244a4d",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/maps/forever-ago-chapter-1-photos",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/maps/forever-ago-chapter-1-photos",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 96000,
+      "path": "/maps/forever-ago-chapter-1-photos",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/maps/forever-ago-chapter-1-photos"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Chapter 1 Photos Guide | Forever Ago Wiki",
+      "h1Count": 1,
+      "bodySha256": "dce4999d67133f3af25d129fad60340d29b57baa19048ce4f9358ae3b4d8cb01",
+      "exportSha256": "dce4999d67133f3af25d129fad60340d29b57baa19048ce4f9358ae3b4d8cb01",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/maps/forever-ago-chapter-2-photos",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/maps/forever-ago-chapter-2-photos",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 95075,
+      "path": "/maps/forever-ago-chapter-2-photos",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/maps/forever-ago-chapter-2-photos"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Chapter 2 Photos Guide | Forever Ago Wiki",
+      "h1Count": 1,
+      "bodySha256": "3706d5b64985bdf75d4dd2c20cdf8390c7b0250bdb02d9197e9e8b7b45771810",
+      "exportSha256": "3706d5b64985bdf75d4dd2c20cdf8390c7b0250bdb02d9197e9e8b7b45771810",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/maps/forever-ago-chapter-3-photos",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/maps/forever-ago-chapter-3-photos",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 93699,
+      "path": "/maps/forever-ago-chapter-3-photos",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/maps/forever-ago-chapter-3-photos"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Chapter 3 Photos Guide | Forever Ago Wiki",
+      "h1Count": 1,
+      "bodySha256": "6449df7a83219e218c1263d44d5bc12cc9fe67fb8642e50f03c3a4fb5b810d21",
+      "exportSha256": "6449df7a83219e218c1263d44d5bc12cc9fe67fb8642e50f03c3a4fb5b810d21",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/guide/forever-ago-chapter-select",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/guide/forever-ago-chapter-select",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 99397,
+      "path": "/guide/forever-ago-chapter-select",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/guide/forever-ago-chapter-select"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Chapter Select Guide | Forever Ago Wiki",
+      "h1Count": 1,
+      "bodySha256": "cb76ac2e689d45dbd399895e5824b44eabb78e469819899f1764eb1c42a4124d",
+      "exportSha256": "cb76ac2e689d45dbd399895e5824b44eabb78e469819899f1764eb1c42a4124d",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/guide/forever-ago-checkpoint-save",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/guide/forever-ago-checkpoint-save",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 98966,
+      "path": "/guide/forever-ago-checkpoint-save",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/guide/forever-ago-checkpoint-save"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Checkpoint Save Guide | Forever Ago Wiki",
+      "h1Count": 1,
+      "bodySha256": "4b5fa1737f2646a218f543fa0648c6721462b5e4aec636f445a624fe0b7447a6",
+      "exportSha256": "4b5fa1737f2646a218f543fa0648c6721462b5e4aec636f445a624fe0b7447a6",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/guide/forever-ago-collectibles",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/guide/forever-ago-collectibles",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 101946,
+      "path": "/guide/forever-ago-collectibles",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/guide/forever-ago-collectibles"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Collectibles Guide and Tips | Forever Ago",
+      "h1Count": 1,
+      "bodySha256": "afeee8b9deb230eb1913bfd323a67a8cd85215188662d651e172912157128c93",
+      "exportSha256": "afeee8b9deb230eb1913bfd323a67a8cd85215188662d651e172912157128c93",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/walkthrough/forever-ago-dog-photo",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/walkthrough/forever-ago-dog-photo",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 96200,
+      "path": "/walkthrough/forever-ago-dog-photo",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/walkthrough/forever-ago-dog-photo"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Dog Photo Guide and Tips | Forever Ago",
+      "h1Count": 1,
+      "bodySha256": "e7a71b5527253f88b1588583639ccb8dd083eb21a65c7870965ed25b07dfe79c",
+      "exportSha256": "e7a71b5527253f88b1588583639ccb8dd083eb21a65c7870965ed25b07dfe79c",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/story/forever-ago-ending-explained",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/story/forever-ago-ending-explained",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 96982,
+      "path": "/story/forever-ago-ending-explained",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/story/forever-ago-ending-explained"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Ending Explained Guide | Forever Ago Wiki",
+      "h1Count": 1,
+      "bodySha256": "90cff4e5650adb27e0e44a215dd54ba5913e9e260540e0dd75f5e11550a737aa",
+      "exportSha256": "90cff4e5650adb27e0e44a215dd54ba5913e9e260540e0dd75f5e11550a737aa",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/review/forever-ago-game-length",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/review/forever-ago-game-length",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 97583,
+      "path": "/review/forever-ago-game-length",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/review/forever-ago-game-length"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Game Length Guide and Tips | Forever Ago",
+      "h1Count": 1,
+      "bodySha256": "a11d17c90bf253ac3503e33bb3b385e4a1ebda4fded7831f3fbfa1c31629da69",
+      "exportSha256": "a11d17c90bf253ac3503e33bb3b385e4a1ebda4fded7831f3fbfa1c31629da69",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/guide/forever-ago-gameplay",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/guide/forever-ago-gameplay",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 96169,
+      "path": "/guide/forever-ago-gameplay",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/guide/forever-ago-gameplay"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Gameplay | Practical Guide for Players",
+      "h1Count": 1,
+      "bodySha256": "e28c296f8a8b2bd5911fbc9aae1a0b6b77f9f9e79f2f7ad4e732d106787013ce",
+      "exportSha256": "e28c296f8a8b2bd5911fbc9aae1a0b6b77f9f9e79f2f7ad4e732d106787013ce",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/guide/forever-ago-hidden-achievements",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/guide/forever-ago-hidden-achievements",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 100475,
+      "path": "/guide/forever-ago-hidden-achievements",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/guide/forever-ago-hidden-achievements"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Hidden Achievements Guide | Forever Ago Wiki",
+      "h1Count": 1,
+      "bodySha256": "23d6e9f8e7a23d7a68865da16f4cab59c8e703e373e0f1bdb39da831eafc51b0",
+      "exportSha256": "23d6e9f8e7a23d7a68865da16f4cab59c8e703e373e0f1bdb39da831eafc51b0",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/guide/forever-ago-journal-photos",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/guide/forever-ago-journal-photos",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 96766,
+      "path": "/guide/forever-ago-journal-photos",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/guide/forever-ago-journal-photos"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Journal Photos Guide | Forever Ago Wiki",
+      "h1Count": 1,
+      "bodySha256": "16bc093c23826acc1ee564c67fb569ffdcde868b79fcfe3453f6b79915917dfc",
+      "exportSha256": "16bc093c23826acc1ee564c67fb569ffdcde868b79fcfe3453f6b79915917dfc",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/maps/forever-ago-memory-locations",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/maps/forever-ago-memory-locations",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 100193,
+      "path": "/maps/forever-ago-memory-locations",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/maps/forever-ago-memory-locations"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Memory Locations Guide | Forever Ago Wiki",
+      "h1Count": 1,
+      "bodySha256": "3a7d1bf36a9e6efa649625e352b9f8ae6a55292067fc57dcab46f799712890cb",
+      "exportSha256": "3a7d1bf36a9e6efa649625e352b9f8ae6a55292067fc57dcab46f799712890cb",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/guide/forever-ago-missable-achievements",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/guide/forever-ago-missable-achievements",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 101384,
+      "path": "/guide/forever-ago-missable-achievements",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/guide/forever-ago-missable-achievements"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Missable Achievements Guide | Forever Ago Wiki",
+      "h1Count": 1,
+      "bodySha256": "5a5f9f661f7b35702886db12d72dea4f79156b55eaabe34303c4386efce2b84a",
+      "exportSha256": "5a5f9f661f7b35702886db12d72dea4f79156b55eaabe34303c4386efce2b84a",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/guide/forever-ago-old-bones-achievement",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/guide/forever-ago-old-bones-achievement",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 101514,
+      "path": "/guide/forever-ago-old-bones-achievement",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/guide/forever-ago-old-bones-achievement"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Old Bones Achievement Guide | Forever Ago Wiki",
+      "h1Count": 1,
+      "bodySha256": "30bada9df222a9c3772830a0b15012e39bbf4c534b6d0852d1c3093671d7cd1e",
+      "exportSha256": "30bada9df222a9c3772830a0b15012e39bbf4c534b6d0852d1c3093671d7cd1e",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/guide/forever-ago-petal-collector-achievement",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/guide/forever-ago-petal-collector-achievement",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 98893,
+      "path": "/guide/forever-ago-petal-collector-achievement",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/guide/forever-ago-petal-collector-achievement"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Petal Collector Achievement | Forever Ago Guide",
+      "h1Count": 1,
+      "bodySha256": "5d5d48677428d0c7bd7b70b9658733e74db6b7ef5cd11788095361826e3491ed",
+      "exportSha256": "5d5d48677428d0c7bd7b70b9658733e74db6b7ef5cd11788095361826e3491ed",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/maps/forever-ago-petal-locations",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/maps/forever-ago-petal-locations",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 96434,
+      "path": "/maps/forever-ago-petal-locations",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/maps/forever-ago-petal-locations"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Petal Locations Guide | Forever Ago Wiki",
+      "h1Count": 1,
+      "bodySha256": "a920aae3ad0addf618d7d9c733b09f1420f13347a19f0580570f45993120693d",
+      "exportSha256": "a920aae3ad0addf618d7d9c733b09f1420f13347a19f0580570f45993120693d",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/maps/forever-ago-photo-locations",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/maps/forever-ago-photo-locations",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 100145,
+      "path": "/maps/forever-ago-photo-locations",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/maps/forever-ago-photo-locations"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Photo Locations Guide | Forever Ago Wiki",
+      "h1Count": 1,
+      "bodySha256": "72ea01c63f37384a9af906116e460c1596fa8db15d05d335de05a9b6dd402c9a",
+      "exportSha256": "72ea01c63f37384a9af906116e460c1596fa8db15d05d335de05a9b6dd402c9a",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/walkthrough/forever-ago-photo-puzzle",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/walkthrough/forever-ago-photo-puzzle",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 97003,
+      "path": "/walkthrough/forever-ago-photo-puzzle",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/walkthrough/forever-ago-photo-puzzle"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Photo Puzzle Guide and Tips | Forever Ago",
+      "h1Count": 1,
+      "bodySha256": "125ecbe92579ff017ca7074411eae2c2483631dc1593130cf8c20ef43c587103",
+      "exportSha256": "125ecbe92579ff017ca7074411eae2c2483631dc1593130cf8c20ef43c587103",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/review/forever-ago-review",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/review/forever-ago-review",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 95158,
+      "path": "/review/forever-ago-review",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/review/forever-ago-review"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Review | Story, Gameplay and Player Advice",
+      "h1Count": 1,
+      "bodySha256": "ff3ee06dddecc83b4cf536b450043ac3b6e979e5348ed9bbdd5a842614537096",
+      "exportSha256": "ff3ee06dddecc83b4cf536b450043ac3b6e979e5348ed9bbdd5a842614537096",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/guide/forever-ago-selfie-achievement",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/guide/forever-ago-selfie-achievement",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 96578,
+      "path": "/guide/forever-ago-selfie-achievement",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/guide/forever-ago-selfie-achievement"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Selfie Achievement Guide | Forever Ago Wiki",
+      "h1Count": 1,
+      "bodySha256": "581c4f5b58895f2e975dab77893bb9b440765245ac9c9050565416327dd79438",
+      "exportSha256": "581c4f5b58895f2e975dab77893bb9b440765245ac9c9050565416327dd79438",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/walkthrough/forever-ago-williamina-peak",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/walkthrough/forever-ago-williamina-peak",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 97412,
+      "path": "/walkthrough/forever-ago-williamina-peak",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/walkthrough/forever-ago-williamina-peak"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Williamina Peak Guide | Forever Ago Wiki",
+      "h1Count": 1,
+      "bodySha256": "befd598ae8ee135194ac2996a1d6b5a34811e9bb5fb5426d17861f28fce72672",
+      "exportSha256": "befd598ae8ee135194ac2996a1d6b5a34811e9bb5fb5426d17861f28fce72672",
+      "matchesCurrentExport": true
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/privacy",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/privacy",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 62533,
+      "path": "/privacy",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/privacy"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Wiki Privacy Policy: Analytics and Advertising",
+      "h1Count": 1,
+      "bodySha256": "99478a0b9eb20b5f9509a308ffb2dba6231957f0a6917017dd039cedd9bd4a4d",
+      "exportSha256": "99478a0b9eb20b5f9509a308ffb2dba6231957f0a6917017dd039cedd9bd4a4d",
+      "matchesCurrentExport": true,
+      "beforeEmailSettingRecheck": {
+        "bodySha256": "2d3a3401a36e4e3e88f46b0e48f56a1611ee32196765c2fca2593185797070b8",
+        "matchesCurrentExport": false
+      },
+      "emailVisibleInMain": true,
+      "cloudflareEmailObfuscation": false
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/terms",
+      "method": "GET",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/terms",
+      "contentType": "text/html; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 59125,
+      "path": "/terms",
+      "canonical": [
+        "https://www.foreverago-guide.wiki/terms"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "favicon": [
+        "/favicon.ico"
+      ],
+      "nightPresent": true,
+      "ga4IdPresent": true,
+      "clarityIdPresent": true,
+      "title": "Forever Ago Wiki Terms of Use: Content and External Links",
+      "h1Count": 1,
+      "bodySha256": "6f08c53bccb7d609092a024ae49bb1a3c757da73258465ba7df1fb383fde70b6",
+      "exportSha256": "6f08c53bccb7d609092a024ae49bb1a3c757da73258465ba7df1fb383fde70b6",
+      "matchesCurrentExport": true,
+      "beforeEmailSettingRecheck": {
+        "bodySha256": "6d73bd8a28448abacc01ce2035eb8ed598d13602c33c05c0e87207b2660b7bf8",
+        "matchesCurrentExport": false
+      },
+      "emailVisibleInMain": true,
+      "cloudflareEmailObfuscation": false
+    }
+  ],
+  "resources": [
+    {
+      "url": "https://www.foreverago-guide.wiki/_next/static/chunks/258-7d3df08152967bd1.js",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/_next/static/chunks/258-7d3df08152967bd1.js",
+      "contentType": "application/javascript",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "application/javascript",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "W/\"e26dd61d5a80b17c723a9234971599ba\""
+      },
+      "bodyBytes": 768
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/_next/static/chunks/332-03f3efff51225e15.js",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/_next/static/chunks/332-03f3efff51225e15.js",
+      "contentType": "application/javascript",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "application/javascript",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "W/\"9fcc8bd6c491a6227426cc3f5f4ad17c\""
+      },
+      "bodyBytes": 766
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/_next/static/chunks/4bd1b696-92152b0f5947070d.js",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/_next/static/chunks/4bd1b696-92152b0f5947070d.js",
+      "contentType": "application/javascript",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "application/javascript",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "W/\"dc5bac8fbd46257b20ee5d5cd3e47c69\""
+      },
+      "bodyBytes": 770
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/_next/static/chunks/500-b13bb91f5a6311b6.js",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/_next/static/chunks/500-b13bb91f5a6311b6.js",
+      "contentType": "application/javascript",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "application/javascript",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "W/\"4840490ed228ff38cf26cdc94ad3b855\""
+      },
+      "bodyBytes": 774
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/_next/static/chunks/600-765ed7791e9b2e7a.js",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/_next/static/chunks/600-765ed7791e9b2e7a.js",
+      "contentType": "application/javascript",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "application/javascript",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "W/\"8aa1d178ded17714f5fee8265fb42115\""
+      },
+      "bodyBytes": 772
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/_next/static/chunks/794-8184f350ab0e9280.js",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/_next/static/chunks/794-8184f350ab0e9280.js",
+      "contentType": "application/javascript",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "application/javascript",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "W/\"b7e13f602c2f007d2377df0bab8b3395\""
+      },
+      "bodyBytes": 772
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/_next/static/chunks/app/[[...segments]]/layout-a1a10056737d4550.js",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/_next/static/chunks/app/%5B%5B...segments%5D%5D/layout-a1a10056737d4550.js",
+      "contentType": "application/javascript",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "application/javascript",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "W/\"5d61fbabc4cbf757ef0ecafc7b3a034b\""
+      },
+      "firstAttempt": {
+        "url": "https://www.foreverago-guide.wiki/_next/static/chunks/app/[[...segments]]/layout-a1a10056737d4550.js",
+        "method": "HEAD",
+        "error": "curl: (3) bad range specification in URL position 60:\nhttps://www.foreverago-guide.wiki/_next/static/chunks/app/[[...segments]]/layout-a1a10056737d4550.js\n                                                           ^",
+        "curlExit": 3
+      },
+      "retryReason": "Literal bracket URL encoding/globoff correction"
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/_next/static/chunks/app/[[...segments]]/not-found-4bd74d312a27b051.js",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/_next/static/chunks/app/%5B%5B...segments%5D%5D/not-found-4bd74d312a27b051.js",
+      "contentType": "application/javascript",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "application/javascript",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "W/\"cd7d282b7bea54c576d99adc63d2924a\""
+      },
+      "firstAttempt": {
+        "url": "https://www.foreverago-guide.wiki/_next/static/chunks/app/[[...segments]]/not-found-4bd74d312a27b051.js",
+        "method": "HEAD",
+        "error": "curl: (3) bad range specification in URL position 60:\nhttps://www.foreverago-guide.wiki/_next/static/chunks/app/[[...segments]]/not-found-4bd74d312a27b051.js\n                                                           ^",
+        "curlExit": 3
+      },
+      "retryReason": "Literal bracket URL encoding/globoff correction"
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/_next/static/chunks/app/[[...segments]]/page-03baf364e35299f7.js",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/_next/static/chunks/app/%5B%5B...segments%5D%5D/page-03baf364e35299f7.js",
+      "contentType": "application/javascript",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "application/javascript",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "W/\"ba0889003433fa672f8b505ea9bbdcd7\""
+      },
+      "firstAttempt": {
+        "url": "https://www.foreverago-guide.wiki/_next/static/chunks/app/[[...segments]]/page-03baf364e35299f7.js",
+        "method": "HEAD",
+        "error": "curl: (3) bad range specification in URL position 60:\nhttps://www.foreverago-guide.wiki/_next/static/chunks/app/[[...segments]]/page-03baf364e35299f7.js\n                                                           ^",
+        "curlExit": 3
+      },
+      "retryReason": "Literal bracket URL encoding/globoff correction"
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/_next/static/chunks/main-app-e422ed2c93a15520.js",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/_next/static/chunks/main-app-e422ed2c93a15520.js",
+      "contentType": "application/javascript",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "application/javascript",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "W/\"d3736bb11eee892c4f2eff0a136cf1cc\""
+      },
+      "bodyBytes": 764
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "contentType": "application/javascript",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "application/javascript",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"ffcb815f2cb3d53f8f0cd145af8e6864\""
+      },
+      "bodyBytes": 786
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/_next/static/chunks/webpack-5f593b6474dd9173.js",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/_next/static/chunks/webpack-5f593b6474dd9173.js",
+      "contentType": "application/javascript",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "application/javascript",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "W/\"70d33dce1bd2ffbc6e8e6e4fe30f4816\""
+      },
+      "bodyBytes": 780
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/_next/static/css/7ebd1632c5b8039e.css",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/_next/static/css/7ebd1632c5b8039e.css",
+      "contentType": "text/css; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "text/css; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "W/\"21a2cbaf12952f00ee3dd8e9931e1d72\""
+      },
+      "bodyBytes": 775
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/_next/static/css/b4739ab9151ccbb4.css",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/_next/static/css/b4739ab9151ccbb4.css",
+      "contentType": "text/css; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "text/css; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "W/\"037e7e135143a0037a59b07a43bf56b9\""
+      },
+      "bodyBytes": 771
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/_next/static/css/bf0344cc54906671.css",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/_next/static/css/bf0344cc54906671.css",
+      "contentType": "text/css; charset=utf-8",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "text/css; charset=utf-8",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "W/\"240477d5d4831e165c80939660103bcd\""
+      },
+      "bodyBytes": 771
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/favicon.ico",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/favicon.ico",
+      "contentType": "image/vnd.microsoft.icon",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/vnd.microsoft.icon",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "W/\"c4939b7caf9e8d63c46c3bcb59c8544f\""
+      },
+      "bodyBytes": 772
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-achievements-bedroom.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-achievements-bedroom.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"d822e67c9f466028228db1d86d1dfb20\""
+      },
+      "bodyBytes": 764
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-achievements-journal.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-achievements-journal.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"81e7477623e55f5c64ee3e3bec33edbe\""
+      },
+      "bodyBytes": 779
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-achievements-resort.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-achievements-resort.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"071fc526e0adc3c3dcc20a20a8db3daf\""
+      },
+      "bodyBytes": 775
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-audrey-story-audrey-opening.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-audrey-story-audrey-opening.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"5f0fdc26a145fd18d81a1802d9903b9c\""
+      },
+      "firstAttempt": {
+        "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-audrey-story-audrey-opening.webp",
+        "method": "HEAD",
+        "error": "curl: (28) Failed to connect to www.foreverago-guide.wiki port 443 after 15004 ms: Timeout was reached",
+        "curlExit": 28
+      },
+      "retryReason": "Connection timeout retry"
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-audrey-story-proposal.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-audrey-story-proposal.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"45d01b5cc29c44ea96fafcc43058701a\""
+      },
+      "bodyBytes": 771
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-audrey-story-shared-photo.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-audrey-story-shared-photo.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"abc9a09eed1676e57bd20efde696bdbb\""
+      },
+      "bodyBytes": 776
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-camera-achievements-bedroom.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-camera-achievements-bedroom.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"d822e67c9f466028228db1d86d1dfb20\""
+      },
+      "bodyBytes": 776
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-camera-achievements-journal.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-camera-achievements-journal.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"81e7477623e55f5c64ee3e3bec33edbe\""
+      },
+      "bodyBytes": 769
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-camera-achievements-milton-selfie.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-camera-achievements-milton-selfie.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"3fd5287c84d7d05adaed31af48b44fcd\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-camera-controls-print.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-camera-controls-print.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"731e9a7a32317cce60ab2bf17c2b24f2\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-camera-controls-selfie.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-camera-controls-selfie.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"5f0fdc26a145fd18d81a1802d9903b9c\""
+      },
+      "bodyBytes": 777
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-camera-controls-tutorial.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-camera-controls-tutorial.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"9ee5d898674d079a5e82c52fd480a923\""
+      },
+      "bodyBytes": 779
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-1-photos-bedroom.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-1-photos-bedroom.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"6e1226b8b7fd4e7fc66aeb007825e695\""
+      },
+      "bodyBytes": 766
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-1-photos-develop.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-1-photos-develop.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"19e783eb85de4eecaf5cc9606d15f089\""
+      },
+      "bodyBytes": 781
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-1-photos-trail-sign.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-1-photos-trail-sign.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"c979996710694fece4530f3dc2f89a9f\""
+      },
+      "bodyBytes": 779
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-1-photos-window.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-1-photos-window.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"1d40930b05ab864ba955b3e21a759dfa\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-2-photos-atlas.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-2-photos-atlas.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"b30bdeee2a8fc6a477bc54eb201d02e3\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-2-photos-journal.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-2-photos-journal.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"647f240224d12d109a3a268a9d6e36f8\""
+      },
+      "bodyBytes": 769
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-2-photos-playground.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-2-photos-playground.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"5761b814ecce601f0b779198842b7028\""
+      },
+      "bodyBytes": 777
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-2-photos-pumpkin.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-2-photos-pumpkin.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"f13bbc70c007cf1b9a77e99b233b0989\""
+      },
+      "bodyBytes": 769
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-3-photos-dog.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-3-photos-dog.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"eb6672f0bf34a562271812bc4d415ce1\""
+      },
+      "bodyBytes": 775
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-3-photos-entrance.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-3-photos-entrance.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"718b36e5012da02761ccaaea46597c64\""
+      },
+      "bodyBytes": 781
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-3-photos-pool.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-3-photos-pool.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"7f65d27891a1e454a9b7b0ee45fc6c87\""
+      },
+      "bodyBytes": 771
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-3-photos-window-photo.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-3-photos-window-photo.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"de206c1fe20ad5fdc36ec8d950ae0c92\""
+      },
+      "bodyBytes": 779
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-select-chapter-menu.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-select-chapter-menu.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"bb99617b19a6ecb6aadc6dd951e0cb88\""
+      },
+      "bodyBytes": 781
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-select-journal.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-select-journal.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"81e7477623e55f5c64ee3e3bec33edbe\""
+      },
+      "bodyBytes": 777
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-select-milton-selfie.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-chapter-select-milton-selfie.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"3fd5287c84d7d05adaed31af48b44fcd\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-checkpoint-save-atlas.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-checkpoint-save-atlas.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"d1ee0e984824006b2d779675a509b144\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-checkpoint-save-chapter-menu.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-checkpoint-save-chapter-menu.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"bb99617b19a6ecb6aadc6dd951e0cb88\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-checkpoint-save-journal.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-checkpoint-save-journal.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"81e7477623e55f5c64ee3e3bec33edbe\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-collectibles-home.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-collectibles-home.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"41f0bfa657dc1757e33172b7b997c057\""
+      },
+      "bodyBytes": 777
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-collectibles-pool.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-collectibles-pool.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"6e24489e1c2240317b4eade1f78832db\""
+      },
+      "bodyBytes": 777
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-collectibles-resort.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-collectibles-resort.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"57a1cef0ea3b7ed197055778b4231688\""
+      },
+      "bodyBytes": 776
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-collectibles-rest.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-collectibles-rest.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"220dec97313bdb0c3676f64351ab22ae\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-collectibles-vignette.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-collectibles-vignette.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"60854e49ec5df05be3111ca8ec73aa6e\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-dog-photo-booth.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-dog-photo-booth.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"502397f6ec898ea9604ea8b60ed37f56\""
+      },
+      "bodyBytes": 777
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-dog-photo-dog.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-dog-photo-dog.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"eb6672f0bf34a562271812bc4d415ce1\""
+      },
+      "bodyBytes": 771
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-dog-photo-lighthouse-path.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-dog-photo-lighthouse-path.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"0baa9c1857b8f95d39d07e656a62200f\""
+      },
+      "bodyBytes": 767
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-dog-photo-rubbish.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-dog-photo-rubbish.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"2d46905f6b3acebfe692ef276b5634a1\""
+      },
+      "bodyBytes": 771
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-ending-explained-epilogue.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-ending-explained-epilogue.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"d64ce079282049f098c27741d4f40a1b\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-ending-explained-letter.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-ending-explained-letter.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"9c076e33181478a0bebfea5b8ad12ff2\""
+      },
+      "bodyBytes": 775
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-ending-explained-memory.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-ending-explained-memory.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"2fe509d8b8a1fe4f153780499bfe881c\""
+      },
+      "bodyBytes": 789
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-game-length-journal.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-game-length-journal.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"ec0b1639ba0ccf67985b2ad4644cb7e4\""
+      },
+      "bodyBytes": 779
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-game-length-memory.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-game-length-memory.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"9b877cba826527fbf63dde5179be2041\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-game-length-travel.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-game-length-travel.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"911d25afa593ad8b6de2cf5eda5c6f52\""
+      },
+      "bodyBytes": 771
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-gameplay-camera.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-gameplay-camera.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"5f0fdc26a145fd18d81a1802d9903b9c\""
+      },
+      "bodyBytes": 782
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-gameplay-companion.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-gameplay-companion.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"c23766210adc960f0f23ec067ed3db4f\""
+      },
+      "bodyBytes": 787
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-gameplay-shop.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-gameplay-shop.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"2b25145f75f2a6cc117c42ec0c2fc0bd\""
+      },
+      "bodyBytes": 790
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-hidden-achievements-atlas.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-hidden-achievements-atlas.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"d1ee0e984824006b2d779675a509b144\""
+      },
+      "bodyBytes": 779
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-hidden-achievements-bedroom.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-hidden-achievements-bedroom.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"d822e67c9f466028228db1d86d1dfb20\""
+      },
+      "bodyBytes": 778
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-hidden-achievements-chapter-menu.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-hidden-achievements-chapter-menu.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"bb99617b19a6ecb6aadc6dd951e0cb88\""
+      },
+      "bodyBytes": 777
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-journal-photos-album.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-journal-photos-album.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"ec0b1639ba0ccf67985b2ad4644cb7e4\""
+      },
+      "bodyBytes": 777
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-journal-photos-companion-photo.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-journal-photos-companion-photo.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"d64ce079282049f098c27741d4f40a1b\""
+      },
+      "bodyBytes": 775
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-journal-photos-opening-journal.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-journal-photos-opening-journal.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"731e9a7a32317cce60ab2bf17c2b24f2\""
+      },
+      "bodyBytes": 771
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-memory-locations-cutout.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-memory-locations-cutout.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"74b7da8333477f93ad31e4ebf7bb3a2f\""
+      },
+      "bodyBytes": 771
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-memory-locations-harbor.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-memory-locations-harbor.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"0c19443277fe83b8ac0700ca8a69273b\""
+      },
+      "bodyBytes": 775
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-memory-locations-playground.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-memory-locations-playground.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"60854e49ec5df05be3111ca8ec73aa6e\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-memory-locations-pool.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-memory-locations-pool.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"6e24489e1c2240317b4eade1f78832db\""
+      },
+      "bodyBytes": 771
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-memory-locations-pumpkin.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-memory-locations-pumpkin.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"2c9fbe0f3f9e10804e323cea93c563af\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-memory-locations-statue.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-memory-locations-statue.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"57a1cef0ea3b7ed197055778b4231688\""
+      },
+      "bodyBytes": 776
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-missable-achievements-bedroom.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-missable-achievements-bedroom.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"d822e67c9f466028228db1d86d1dfb20\""
+      },
+      "bodyBytes": 774
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-missable-achievements-chapter-menu.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-missable-achievements-chapter-menu.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"bb99617b19a6ecb6aadc6dd951e0cb88\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-missable-achievements-store-rest.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-missable-achievements-store-rest.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"cb00cc8bd615055eeeac8f9553771026\""
+      },
+      "bodyBytes": 769
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-old-bones-achievement-diner-overlook-bench.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-old-bones-achievement-diner-overlook-bench.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"930f2a24dd059d1326d06f9ca8780a6f\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-old-bones-achievement-diner-tree-bench.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-old-bones-achievement-diner-tree-bench.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"6a230235e44ca0f451556d51e05765d3\""
+      },
+      "bodyBytes": 769
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-old-bones-achievement-gas-exterior.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-old-bones-achievement-gas-exterior.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"f7789aa00f848e379d6e4d61aee18cc8\""
+      },
+      "bodyBytes": 777
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-old-bones-achievement-resort-take-in-view.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-old-bones-achievement-resort-take-in-view.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"7023d0e7aa6770338cf990d3b4f1f1a2\""
+      },
+      "bodyBytes": 769
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-old-bones-achievement-store-rest.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-old-bones-achievement-store-rest.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"cb00cc8bd615055eeeac8f9553771026\""
+      },
+      "bodyBytes": 769
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-petal-collector-achievement-fun-colors.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-petal-collector-achievement-fun-colors.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"834b568d703b636f8214c606cfe3963c\""
+      },
+      "bodyBytes": 775
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-petal-collector-achievement-morning-after.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-petal-collector-achievement-morning-after.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"da34f8aec64163af26973bbf9fb829c9\""
+      },
+      "bodyBytes": 785
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-petal-collector-achievement-responsible-adults.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-petal-collector-achievement-responsible-adults.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"3d2a26f8f9e6b9816f86af4269df3a7d\""
+      },
+      "bodyBytes": 778
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-petal-locations-harbor.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-petal-locations-harbor.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"9d509c05c47200543510a24aff59769f\""
+      },
+      "bodyBytes": 775
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-petal-locations-inspect.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-petal-locations-inspect.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"f13bbc70c007cf1b9a77e99b233b0989\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-petal-locations-pool.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-petal-locations-pool.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"7f65d27891a1e454a9b7b0ee45fc6c87\""
+      },
+      "bodyBytes": 777
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-petal-locations-statue.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-petal-locations-statue.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"57a1cef0ea3b7ed197055778b4231688\""
+      },
+      "bodyBytes": 776
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-petal-locations-table.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-petal-locations-table.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"2ffb988beb5d89101977fa77db72b293\""
+      },
+      "bodyBytes": 771
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-locations-bedroom.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-locations-bedroom.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"6e1226b8b7fd4e7fc66aeb007825e695\""
+      },
+      "bodyBytes": 768
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-locations-boat.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-locations-boat.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"410d9a93793b3445138f2a66d0483a06\""
+      },
+      "bodyBytes": 772
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-locations-booth.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-locations-booth.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"502397f6ec898ea9604ea8b60ed37f56\""
+      },
+      "bodyBytes": 775
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-locations-dog.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-locations-dog.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"eb6672f0bf34a562271812bc4d415ce1\""
+      },
+      "bodyBytes": 775
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-locations-lighthouse.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-locations-lighthouse.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"85497608cd993df2ad4e2faeab442d7a\""
+      },
+      "bodyBytes": 775
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-puzzle-boat.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-puzzle-boat.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"410d9a93793b3445138f2a66d0483a06\""
+      },
+      "bodyBytes": 778
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-puzzle-develop.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-puzzle-develop.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"19e783eb85de4eecaf5cc9606d15f089\""
+      },
+      "bodyBytes": 769
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-puzzle-dog.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-puzzle-dog.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"eb6672f0bf34a562271812bc4d415ce1\""
+      },
+      "bodyBytes": 777
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-puzzle-vignette.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-puzzle-vignette.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"60854e49ec5df05be3111ca8ec73aa6e\""
+      },
+      "bodyBytes": 777
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-puzzle-window.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-photo-puzzle-window.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"1d40930b05ab864ba955b3e21a759dfa\""
+      },
+      "bodyBytes": 771
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-review-exploration.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-review-exploration.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"2b25145f75f2a6cc117c42ec0c2fc0bd\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-review-presentation.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-review-presentation.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"c23766210adc960f0f23ec067ed3db4f\""
+      },
+      "bodyBytes": 774
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-review-relationship.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-review-relationship.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"2fe509d8b8a1fe4f153780499bfe881c\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-selfie-achievement-chapter-menu.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-selfie-achievement-chapter-menu.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"bb99617b19a6ecb6aadc6dd951e0cb88\""
+      },
+      "bodyBytes": 777
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-selfie-achievement-journal.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-selfie-achievement-journal.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"81e7477623e55f5c64ee3e3bec33edbe\""
+      },
+      "bodyBytes": 769
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-selfie-achievement-milton-selfie.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-selfie-achievement-milton-selfie.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"3fd5287c84d7d05adaed31af48b44fcd\""
+      },
+      "bodyBytes": 765
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-williamina-peak-audrey.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-williamina-peak-audrey.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"737aea2436f9f9d2d35645028499db91\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-williamina-peak-storm.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-williamina-peak-storm.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"d34ebb7a6e34806e77e390816e07db72\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-williamina-peak-tracks.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/body-images-forever-ago-williamina-peak-tracks.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"08f698a4d0cffb2a8c4baed655a1faa2\""
+      },
+      "bodyBytes": 773
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/campfire-art.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/campfire-art.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"8494aca6e71780daa21b3dc640c2ac0e\""
+      },
+      "bodyBytes": 776
+    },
+    {
+      "url": "https://www.foreverago-guide.wiki/media/road-trip-art.webp",
+      "method": "HEAD",
+      "status": 200,
+      "effectiveUrl": "https://www.foreverago-guide.wiki/media/road-trip-art.webp",
+      "contentType": "image/webp",
+      "headers": {
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "content-type": "image/webp",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "\"e6c3dcf205f86cc92b10a2e652796d81\""
+      },
+      "bodyBytes": 779
+    }
+  ],
+  "robots": {
+    "url": "https://www.foreverago-guide.wiki/robots.txt",
+    "method": "GET",
+    "status": 200,
+    "effectiveUrl": "https://www.foreverago-guide.wiki/robots.txt",
+    "contentType": "text/plain; charset=utf-8",
+    "headers": {
+      "cache-control": "public, max-age=14400, must-revalidate",
+      "content-type": "text/plain; charset=utf-8",
+      "x-content-type-options": "nosniff",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "cloudflare",
+      "etag": "\"40d9895eab534e4483d1da2795d60119\""
+    },
+    "bodyBytes": 79
+  },
+  "robotsBody": "User-Agent: *\nAllow: /\n\nSitemap: https://www.foreverago-guide.wiki/sitemap.xml\n",
+  "sitemap": {
+    "url": "https://www.foreverago-guide.wiki/sitemap.xml",
+    "method": "GET",
+    "status": 200,
+    "effectiveUrl": "https://www.foreverago-guide.wiki/sitemap.xml",
+    "contentType": "application/xml",
+    "headers": {
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-type": "application/xml",
+      "x-content-type-options": "nosniff",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "cloudflare",
+      "etag": "\"c5e66b34a097b1f2cbd8191c4614fae4\""
+    },
+    "bodyBytes": 12639
+  },
+  "sitemapUrls": [
+    "https://www.foreverago-guide.wiki/",
+    "https://www.foreverago-guide.wiki/review",
+    "https://www.foreverago-guide.wiki/guide",
+    "https://www.foreverago-guide.wiki/maps",
+    "https://www.foreverago-guide.wiki/story",
+    "https://www.foreverago-guide.wiki/walkthrough",
+    "https://www.foreverago-guide.wiki/characters",
+    "https://www.foreverago-guide.wiki/about",
+    "https://www.foreverago-guide.wiki/contact",
+    "https://www.foreverago-guide.wiki/guide/forever-ago-achievements",
+    "https://www.foreverago-guide.wiki/characters/forever-ago-audrey-story",
+    "https://www.foreverago-guide.wiki/guide/forever-ago-camera-achievements",
+    "https://www.foreverago-guide.wiki/guide/forever-ago-camera-controls",
+    "https://www.foreverago-guide.wiki/maps/forever-ago-chapter-1-photos",
+    "https://www.foreverago-guide.wiki/maps/forever-ago-chapter-2-photos",
+    "https://www.foreverago-guide.wiki/maps/forever-ago-chapter-3-photos",
+    "https://www.foreverago-guide.wiki/guide/forever-ago-chapter-select",
+    "https://www.foreverago-guide.wiki/guide/forever-ago-checkpoint-save",
+    "https://www.foreverago-guide.wiki/guide/forever-ago-collectibles",
+    "https://www.foreverago-guide.wiki/walkthrough/forever-ago-dog-photo",
+    "https://www.foreverago-guide.wiki/story/forever-ago-ending-explained",
+    "https://www.foreverago-guide.wiki/review/forever-ago-game-length",
+    "https://www.foreverago-guide.wiki/guide/forever-ago-gameplay",
+    "https://www.foreverago-guide.wiki/guide/forever-ago-hidden-achievements",
+    "https://www.foreverago-guide.wiki/guide/forever-ago-journal-photos",
+    "https://www.foreverago-guide.wiki/maps/forever-ago-memory-locations",
+    "https://www.foreverago-guide.wiki/guide/forever-ago-missable-achievements",
+    "https://www.foreverago-guide.wiki/guide/forever-ago-old-bones-achievement",
+    "https://www.foreverago-guide.wiki/guide/forever-ago-petal-collector-achievement",
+    "https://www.foreverago-guide.wiki/maps/forever-ago-petal-locations",
+    "https://www.foreverago-guide.wiki/maps/forever-ago-photo-locations",
+    "https://www.foreverago-guide.wiki/walkthrough/forever-ago-photo-puzzle",
+    "https://www.foreverago-guide.wiki/review/forever-ago-review",
+    "https://www.foreverago-guide.wiki/guide/forever-ago-selfie-achievement",
+    "https://www.foreverago-guide.wiki/walkthrough/forever-ago-williamina-peak",
+    "https://www.foreverago-guide.wiki/privacy",
+    "https://www.foreverago-guide.wiki/terms"
+  ],
+  "missingRoute": {
+    "url": "https://www.foreverago-guide.wiki/audit-missing-route",
+    "method": "GET",
+    "status": 404,
+    "effectiveUrl": "https://www.foreverago-guide.wiki/audit-missing-route",
+    "contentType": "text/html; charset=utf-8",
+    "headers": {
+      "cache-control": "no-store",
+      "content-type": "text/html; charset=utf-8",
+      "x-content-type-options": "nosniff",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "cloudflare"
+    },
+    "bodyBytes": 54768,
+    "checks": {
+      "noindex": true,
+      "favicon": true,
+      "night": true,
+      "adDisabled": true,
+      "ga4Id": true,
+      "clarityId": true,
+      "canonical": []
+    }
+  },
+  "favicon": {
+    "url": "https://www.foreverago-guide.wiki/favicon.ico",
+    "method": "GET",
+    "status": 200,
+    "effectiveUrl": "https://www.foreverago-guide.wiki/favicon.ico",
+    "contentType": "image/vnd.microsoft.icon",
+    "headers": {
+      "cache-control": "public, max-age=14400, must-revalidate",
+      "content-type": "image/vnd.microsoft.icon",
+      "x-content-type-options": "nosniff",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "cloudflare",
+      "etag": "W/\"c4939b7caf9e8d63c46c3bcb59c8544f\""
+    },
+    "bodyBytes": 4371,
+    "matchesInput": true
+  },
+  "redirects": [
+    {
+      "url": "https://foreverago-guide.wiki/guide/forever-ago-gameplay?keep=1&from=audit",
+      "method": "HEAD",
+      "status": 301,
+      "effectiveUrl": "https://foreverago-guide.wiki/guide/forever-ago-gameplay?keep=1&from=audit",
+      "contentType": "text/html; charset=UTF-8",
+      "headers": {
+        "location": "https://www.foreverago-guide.wiki/guide/forever-ago-gameplay?keep=1&from=audit",
+        "content-type": "text/html; charset=UTF-8",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 569,
+      "expectedLocation": "https://www.foreverago-guide.wiki/guide/forever-ago-gameplay?keep=1&from=audit",
+      "locationMatches": true,
+      "permanentRedirect": true
+    },
+    {
+      "url": "https://foreverago-guide.wiki/?keep=1&from=audit",
+      "method": "HEAD",
+      "status": 301,
+      "effectiveUrl": "https://foreverago-guide.wiki/?keep=1&from=audit",
+      "contentType": "text/html; charset=UTF-8",
+      "headers": {
+        "location": "https://www.foreverago-guide.wiki/?keep=1&from=audit",
+        "content-type": "text/html; charset=UTF-8",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 535,
+      "expectedLocation": "https://www.foreverago-guide.wiki/?keep=1&from=audit",
+      "locationMatches": true,
+      "permanentRedirect": true
+    },
+    {
+      "url": "http://www.foreverago-guide.wiki/guide/forever-ago-gameplay?keep=1&from=audit",
+      "method": "HEAD",
+      "status": 301,
+      "effectiveUrl": "http://www.foreverago-guide.wiki/guide/forever-ago-gameplay?keep=1&from=audit",
+      "contentType": "text/html; charset=UTF-8",
+      "headers": {
+        "location": "https://www.foreverago-guide.wiki/guide/forever-ago-gameplay?keep=1&from=audit",
+        "content-type": "text/html; charset=UTF-8",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 644,
+      "expectedLocation": "https://www.foreverago-guide.wiki/guide/forever-ago-gameplay?keep=1&from=audit",
+      "locationMatches": true,
+      "permanentRedirect": true
+    },
+    {
+      "url": "http://foreverago-guide.wiki/guide/forever-ago-gameplay?keep=1&from=audit",
+      "method": "HEAD",
+      "status": 301,
+      "effectiveUrl": "http://foreverago-guide.wiki/guide/forever-ago-gameplay?keep=1&from=audit",
+      "contentType": "text/html; charset=UTF-8",
+      "headers": {
+        "location": "https://foreverago-guide.wiki/guide/forever-ago-gameplay?keep=1&from=audit",
+        "content-type": "text/html; charset=UTF-8",
+        "server": "cloudflare"
+      },
+      "bodyBytes": 640,
+      "expectedLocation": "https://foreverago-guide.wiki/guide/forever-ago-gameplay?keep=1&from=audit",
+      "locationMatches": true,
+      "permanentRedirect": true
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "pages200": 37,
+    "resources200": 113,
+    "sitemapUrls": 37,
+    "fieldsAllPages": true,
+    "htmlMatchesExport": 37,
+    "resourceHtmlFallbacks": 0,
+    "activeFindings": 0
+  },
+  "initialIncompleteResourceRequests": 4,
+  "checkedAt": "2026-10-12T23:24:57+08:00",
+  "findings": [
+    {
+      "severity": "Low",
+      "path": "/about",
+      "type": "Cloudflare email obfuscation",
+      "visibleEmailLabels": [
+        "[email protected]"
+      ],
+      "injectedScripts": [
+        "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      ],
+      "effect": "No-JavaScript readers see an email-protected label instead of the contact address.",
+      "status": "resolved",
+      "resolution": "Site-zone EmailAddressObfuscation disabled by parent Agent; targeted HTTP recheck now has visible email and no obfuscation/decode script."
+    },
+    {
+      "severity": "Low",
+      "path": "/contact",
+      "type": "Cloudflare email obfuscation",
+      "visibleEmailLabels": [
+        "[email protected]"
+      ],
+      "injectedScripts": [
+        "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      ],
+      "effect": "No-JavaScript readers see an email-protected label instead of the contact address.",
+      "status": "resolved",
+      "resolution": "Site-zone EmailAddressObfuscation disabled by parent Agent; targeted HTTP recheck now has visible email and no obfuscation/decode script."
+    },
+    {
+      "severity": "Low",
+      "path": "/privacy",
+      "type": "Cloudflare email obfuscation",
+      "visibleEmailLabels": [
+        "[email protected]"
+      ],
+      "injectedScripts": [
+        "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      ],
+      "effect": "No-JavaScript readers see an email-protected label instead of the contact address.",
+      "status": "resolved",
+      "resolution": "Site-zone EmailAddressObfuscation disabled by parent Agent; targeted HTTP recheck now has visible email and no obfuscation/decode script."
+    },
+    {
+      "severity": "Low",
+      "path": "/terms",
+      "type": "Cloudflare email obfuscation",
+      "visibleEmailLabels": [
+        "[email protected]"
+      ],
+      "injectedScripts": [
+        "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      ],
+      "effect": "No-JavaScript readers see an email-protected label instead of the contact address.",
+      "status": "resolved",
+      "resolution": "Site-zone EmailAddressObfuscation disabled by parent Agent; targeted HTTP recheck now has visible email and no obfuscation/decode script."
+    }
+  ],
+  "emailObfuscationRecheck": {
+    "checkedAt": "2026-10-12T23:34:43+08:00",
+    "paths": [
+      "/about",
+      "/contact",
+      "/privacy",
+      "/terms"
+    ],
+    "rows": [
+      {
+        "path": "/about",
+        "url": "https://www.foreverago-guide.wiki/about",
+        "method": "GET",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8",
+        "checks": {
+          "status200": true,
+          "emailVisibleInMain": true,
+          "noCfEmailMarkers": true,
+          "noEmailDecodeScript": true
+        },
+        "bodySha256": "4b798b3b7748b86c60fd8a6373716b103564b1e7d8fccbb9d6e4c77bdbe94050",
+        "exportSha256": "4b798b3b7748b86c60fd8a6373716b103564b1e7d8fccbb9d6e4c77bdbe94050",
+        "canonical": [
+          "https://www.foreverago-guide.wiki/about"
+        ],
+        "matchesCurrentExport": true
+      },
+      {
+        "path": "/contact",
+        "url": "https://www.foreverago-guide.wiki/contact",
+        "method": "GET",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8",
+        "checks": {
+          "status200": true,
+          "emailVisibleInMain": true,
+          "noCfEmailMarkers": true,
+          "noEmailDecodeScript": true
+        },
+        "bodySha256": "4dacf928fd8f2f3e79144c975baece87996c521f15ceffbfcf0828484d09cca4",
+        "exportSha256": "4dacf928fd8f2f3e79144c975baece87996c521f15ceffbfcf0828484d09cca4",
+        "canonical": [
+          "https://www.foreverago-guide.wiki/contact"
+        ],
+        "matchesCurrentExport": true
+      },
+      {
+        "path": "/privacy",
+        "url": "https://www.foreverago-guide.wiki/privacy",
+        "method": "GET",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8",
+        "checks": {
+          "status200": true,
+          "emailVisibleInMain": true,
+          "noCfEmailMarkers": true,
+          "noEmailDecodeScript": true
+        },
+        "bodySha256": "99478a0b9eb20b5f9509a308ffb2dba6231957f0a6917017dd039cedd9bd4a4d",
+        "exportSha256": "99478a0b9eb20b5f9509a308ffb2dba6231957f0a6917017dd039cedd9bd4a4d",
+        "canonical": [
+          "https://www.foreverago-guide.wiki/privacy"
+        ],
+        "matchesCurrentExport": true
+      },
+      {
+        "path": "/terms",
+        "url": "https://www.foreverago-guide.wiki/terms",
+        "method": "GET",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8",
+        "checks": {
+          "status200": true,
+          "emailVisibleInMain": true,
+          "noCfEmailMarkers": true,
+          "noEmailDecodeScript": true
+        },
+        "bodySha256": "6f08c53bccb7d609092a024ae49bb1a3c757da73258465ba7df1fb383fde70b6",
+        "exportSha256": "6f08c53bccb7d609092a024ae49bb1a3c757da73258465ba7df1fb383fde70b6",
+        "canonical": [
+          "https://www.foreverago-guide.wiki/terms"
+        ],
+        "matchesCurrentExport": true
+      }
+    ],
+    "allPassed": true
+  }
+}

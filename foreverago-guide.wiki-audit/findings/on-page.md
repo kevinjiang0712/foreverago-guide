@@ -54,7 +54,7 @@
 
 ## 证据与边界
 
-- [首页 HTML](/Users/jiangchenxiang/Desktop/产品/forever ago/site/out/index.html)、[相机控制 HTML](/Users/jiangchenxiang/Desktop/产品/forever ago/site/out/guide/forever-ago-camera-controls.html)、[关于页面 HTML](/Users/jiangchenxiang/Desktop/产品/forever ago/site/out/about.html)。
-- SEO owning source：[metadata.ts](/Users/jiangchenxiang/Desktop/产品/forever ago/site/src/seo/metadata.ts:15)；输入为 [文章 site-spec](/Users/jiangchenxiang/Desktop/产品/forever ago/site/site-spec/en/pages.json) 和 [首页 site-spec](/Users/jiangchenxiang/Desktop/产品/forever ago/site/site-spec/en/home.json)。
+- [首页 HTML](</Users/jiangchenxiang/Desktop/产品/forever ago/site/out/index.html>)、[相机控制 HTML](</Users/jiangchenxiang/Desktop/产品/forever ago/site/out/guide/forever-ago-camera-controls.html>)、[关于页面 HTML](</Users/jiangchenxiang/Desktop/产品/forever ago/site/out/about.html>)。
+- SEO owning source：[metadata.ts](</Users/jiangchenxiang/Desktop/产品/forever ago/site/src/seo/metadata.ts:15>)；输入为 [文章 site-spec](</Users/jiangchenxiang/Desktop/产品/forever ago/site/site-spec/en/pages.json>) 和 [首页 site-spec](</Users/jiangchenxiang/Desktop/产品/forever ago/site/site-spec/en/home.json>)。
 - 长度是本建站包的输入规范，不代表 Google 保证按同样长度展示；唯一 TDH 也不证明不同攻略意图已完全消除重叠。
 - 禁 JS Chromium 已实际检查 37/37 页面：H1 可见、main 正文可读取，26 攻略正文最少 1,561 英文词。首页面 FAQ 的无 JS 展开限制见 technical.md；没有字段 CWV、排名或索引结论。
