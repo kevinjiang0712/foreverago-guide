@@ -14,6 +14,6 @@ export function SiteShell({index,route,locale,pathname,defaultMode='night',child
  const adPaths=Object.fromEntries(Object.entries(index.routes).filter(([,entry])=>entry.kind!=='page'||index.pagesByKey[entry.bodyKey].category!=='_pages').map(([path,entry])=>[path,{tool:entry.kind==='page'&&['interactive-map','weapon-explorer'].includes(index.pagesByKey[entry.bodyKey].template)}]));
  return <div data-site-shell data-ad-mode={adMode}><AdProvider ads={index.ads} paths={adPaths} production={index.site.mode==='production'&&process.env.SITE_ENV!=='preview'&&process.env.NODE_ENV==='production'}><LocaleProvider locale={locale} dictionary={dictionary} homeHref={index.translationGroups.home[locale]}>
   <SiteHeader pathname={pathname} model={{brand:buildBrand(index,locale),items:buildNavigation(index,locale,route),locales:buildLocaleChoices(index,locale,route),siteId:index.site.siteId,defaultMode}}/>
-  <ShellBackground><AdRails siteId={index.site.siteId}/>{children}<SiteFooter model={buildFooter(index,locale)}/></ShellBackground>
+  <ShellBackground><AdRails/>{children}<SiteFooter model={buildFooter(index,locale)}/></ShellBackground>
  </LocaleProvider></AdProvider></div>;
 }

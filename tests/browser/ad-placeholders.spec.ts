@@ -35,16 +35,15 @@ test('Native is between complete article sections and outside lists/tables',asyn
  expect(order.slice(0,3)).toEqual(['H2','ASIDE','H2']);
 });
 
-test('mobile banner reserves navigation space and stays closed across client navigation',async({page})=>{
+test('mobile demo banner reserves navigation space without close controls',async({page})=>{
  await page.setViewportSize({width:390,height:844});await openPage(page,'/');
  await expect(page.locator('[data-revenue-slot="anchor"]')).toBeVisible();
  await expect(page.locator('.site-header')).toHaveCSS('top','50px');
- await page.getByRole('button',{name:'Close anchor advertisement',exact:true}).click();
- await expect(page.locator('[data-revenue-slot="anchor"]')).toHaveCount(0);
- await expect(page.locator('.site-header')).toHaveCSS('top','0px');
+ await expect(page.locator('.revenue-close')).toHaveCount(0);
  await page.locator('main a[href="/guides/first-steps"]:visible').first().click();
- await expect(page).toHaveURL(/first-steps/);await expect(page.locator('[data-revenue-slot="anchor"]')).toHaveCount(0);
- await page.reload({waitUntil:'domcontentloaded'});await expect(page.locator('[data-revenue-slot="anchor"]')).toHaveCount(0);
+ await expect(page).toHaveURL(/first-steps/);await expect(page.locator('[data-revenue-slot="anchor"]')).toBeVisible();
+ await expect(page.locator('.site-header')).toHaveCSS('top','50px');
+ await page.reload({waitUntil:'domcontentloaded'});await expect(page.locator('[data-revenue-slot="anchor"]')).toBeVisible();
 });
 
 test('short viewports, tools and policy pages do not get obstructive floating ads',async({page})=>{
