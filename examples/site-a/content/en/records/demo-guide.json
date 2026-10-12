@@ -1,0 +1,30 @@
+{
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "id": "demo-guide",
+  "type": "character",
+  "name": "Demo Guide",
+  "role": "PLAYABLE DEMO",
+  "summary": "A fictional playable character for checking the template. This is not information about a real game.",
+  "contentId": null,
+  "assetId": "demo-character-guide",
+  "attributes": [
+    {
+      "label": "Health",
+      "value": null
+    },
+    {
+      "label": "Attack",
+      "value": null
+    },
+    {
+      "label": "Defense",
+      "value": null
+    },
+    {
+      "label": "Movement speed",
+      "value": null
+    }
+  ]
+}

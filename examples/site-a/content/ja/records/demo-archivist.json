@@ -1,0 +1,30 @@
+{
+  "locale": "ja",
+  "demo": true,
+  "verification": "unverified",
+  "id": "demo-archivist",
+  "type": "character",
+  "name": "サンプル記録者",
+  "role": "住人",
+  "summary": "人物カード用の架空の説明です。",
+  "contentId": null,
+  "assetId": "demo-character-archivist",
+  "attributes": [
+    {
+      "label": "武器",
+      "value": null
+    },
+    {
+      "label": "特徴",
+      "value": null
+    },
+    {
+      "label": "初登場",
+      "value": null
+    },
+    {
+      "label": "声優",
+      "value": null
+    }
+  ]
+}

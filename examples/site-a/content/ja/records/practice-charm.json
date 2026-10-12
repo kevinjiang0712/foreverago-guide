@@ -1,0 +1,15 @@
+{
+  "id": "practice-charm",
+  "locale": "ja",
+  "type": "item",
+  "demo": true,
+  "verification": "unverified",
+  "name": "練習用のお守り",
+  "kind": "架空のアイテム",
+  "summary": "架空の組み合わせ例です。効果は測定されていません。",
+  "contentId": null,
+  "assetId": null,
+  "iconAssetId": null,
+  "facts": [],
+  "tags": []
+}

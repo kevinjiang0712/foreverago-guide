@@ -1,0 +1,75 @@
+{
+  "locale": "en",
+  "verification": "unverified",
+  "demo": true,
+  "id": "blade-detail",
+  "type": "weapon-detail",
+  "weaponId": "practice-blade",
+  "gallery": [],
+  "namingNote": null,
+  "heroLabel": "Fixture",
+  "primaryCta": "Details",
+  "secondaryCta": "Unlock",
+  "atAGlance": "Facts",
+  "unlockSteps": [],
+  "evidenceNote": "No evidence supplied.",
+  "moveset": [],
+  "movesetNote": "Unmeasured.",
+  "upgradeNodes": [],
+  "upgradeNote": "No upgrades supplied.",
+  "patchHistory": [],
+  "patchNote": "No patches supplied.",
+  "buildRefs": [],
+  "matchups": [],
+  "pairings": [],
+  "faq": [],
+  "tabs": {
+    "moveset": "Moveset",
+    "upgrades": "Upgrades",
+    "changes": "Changes",
+    "builds": "Builds"
+  },
+  "columns": {
+    "action": "action",
+    "input": "input",
+    "frames": "frames",
+    "coverage": "coverage",
+    "notes": "notes",
+    "patch": "patch",
+    "change": "change",
+    "source": "source",
+    "situation": "situation",
+    "result": "result",
+    "answer": "answer"
+  },
+  "overview": {
+    "eyebrow": "Fixture",
+    "title": "Fixture section",
+    "description": "Minimal structural test content."
+  },
+  "unlock": {
+    "eyebrow": "Fixture",
+    "title": "Fixture section",
+    "description": "Minimal structural test content."
+  },
+  "detail": {
+    "eyebrow": "Fixture",
+    "title": "Fixture section",
+    "description": "Minimal structural test content."
+  },
+  "matchupSection": {
+    "eyebrow": "Fixture",
+    "title": "Fixture section",
+    "description": "Minimal structural test content."
+  },
+  "pairingSection": {
+    "eyebrow": "Fixture",
+    "title": "Fixture section",
+    "description": "Minimal structural test content."
+  },
+  "faqSection": {
+    "eyebrow": "Fixture",
+    "title": "Fixture section",
+    "description": "Minimal structural test content."
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "id": "river-interactive-map",
+  "locale": "en",
+  "type": "interactive-map",
+  "verification": "unverified",
+  "demo": true,
+  "mapId": "demo-world",
+  "dataVersion": "demo-v1",
+  "knownTotal": null,
+  "sections": {
+    "map": {
+      "eyebrow": "Map",
+      "title": "Explore the demonstration plate",
+      "description": "Two illustrative regions with invented pins."
+    },
+    "legend": {
+      "eyebrow": "Legend",
+      "title": "What each pin means",
+      "description": "Category labels, icons and tones are supplied by this record."
+    },
+    "locations": {
+      "eyebrow": "Locations",
+      "title": "Every pin, written out",
+      "description": "Search and categories filter both the plate and this accessible list."
+    },
+    "progress": {
+      "eyebrow": "Progress",
+      "title": "Your collection progress",
+      "description": "Only collectible pins are saved in this browser. No account or upload is available."
+    },
+    "how-to": {
+      "eyebrow": "How to use",
+      "title": "Read the plate carefully",
+      "description": "These instructions explain the demonstration controls."
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Map questions",
+      "description": "What this demonstration can show."
+    }
+  },
+  "regions": [
+    {
+      "id": "north",
+      "label": "Northern sample",
+      "chapterLabel": "DEMO A",
+      "imageAssetId": null,
+      "width": 3000,
+      "height": 2060,
+      "plateLabel": "DEMONSTRATION PLATE — NORTH",
+      "plateNote": "Illustrative coordinates; no game map is supplied.",
+      "knownTotal": null,
+      "disabled": false,
+      "verification": "unverified"
+    },
+    {
+      "id": "south",
+      "label": "Southern sample",
+      "chapterLabel": "DEMO B",
+      "imageAssetId": null,
+      "width": 2600,
+      "height": 2600,
+      "plateLabel": "DEMONSTRATION PLATE — SOUTH",
+      "plateNote": "Illustrative coordinates; no game map is supplied.",
+      "knownTotal": null,
+      "disabled": false,
+      "verification": "unverified"
+    }
+  ],
+  "categories": [
+    {
+      "id": "river-collectibles",
+      "label": "Sample collectibles",
+      "description": "Invented items used to test local collection progress.",
+      "icon": "◆",
+      "tone": "marker"
+    },
+    {
+      "id": "notes",
+      "label": "Sample notes",
+      "description": "Invented landmarks without a collectible checkbox.",
+      "icon": "●",
+      "tone": "text-caption"
+    }
+  ],
+  "pins": [
+    {
+      "id": "north-token",
+      "regionId": "north",
+      "categoryId": "river-collectibles",
+      "xPercent": 28,
+      "yPercent": 31,
+      "label": "Northern token",
+      "description": "A fictional collectible for testing; no real location is claimed.",
+      "contentId": null,
+      "collectible": true,
+      "verification": "unverified"
+    },
+    {
+      "id": "north-page",
+      "regionId": "north",
+      "categoryId": "river-collectibles",
+      "xPercent": 71,
+      "yPercent": 66,
+      "label": "Northern page",
+      "description": "A second invented collectible.",
+      "contentId": null,
+      "collectible": true,
+      "verification": "unverified"
+    },
+    {
+      "id": "north-note",
+      "regionId": "north",
+      "categoryId": "notes",
+      "xPercent": 47,
+      "yPercent": 44,
+      "label": "Northern landmark",
+      "description": "A fictional note with no collection state.",
+      "contentId": null,
+      "collectible": false,
+      "verification": "unverified"
+    },
+    {
+      "id": "south-token",
+      "regionId": "south",
+      "categoryId": "river-collectibles",
+      "xPercent": 35,
+      "yPercent": 58,
+      "label": "Southern token",
+      "description": "An invented collectible in the second region.",
+      "contentId": null,
+      "collectible": true,
+      "verification": "unverified"
+    },
+    {
+      "id": "south-note",
+      "regionId": "south",
+      "categoryId": "notes",
+      "xPercent": 73,
+      "yPercent": 24,
+      "label": "Southern landmark",
+      "description": "An invented note in the second region.",
+      "contentId": null,
+      "collectible": false,
+      "verification": "unverified"
+    }
+  ],
+  "mapNote": "Drag to pan, scroll or use the buttons to zoom. Tab focuses pins and displays their details. The written list provides the same information without dragging.",
+  "locationsNote": "All supplied pins have written entries. Their positions and descriptions are demonstration data, not game facts.",
+  "progressImageAssetId": null,
+  "progressImageLabel": "Map comparison image — not supplied",
+  "progressCaption": "No capture or independent verification has been supplied for these demonstration pins.",
+  "instructions": [
+    {
+      "id": "filters",
+      "title": "Start with a region and a category.",
+      "description": "Hide all categories, then show the category you want to inspect.",
+      "verification": "unverified"
+    },
+    {
+      "id": "status",
+      "title": "Read the verification status.",
+      "description": "Every supplied pin is unverified demonstration data.",
+      "verification": "unverified"
+    },
+    {
+      "id": "keyboard",
+      "title": "Use the written locations list.",
+      "description": "Keyboard users can open every pin's details and mark collectible pins there.",
+      "verification": "unverified"
+    },
+    {
+      "id": "save",
+      "title": "Check the storage status.",
+      "description": "A storage error means progress was not saved. Retry or reset only this map's progress.",
+      "verification": "unverified"
+    }
+  ],
+  "faq": [
+    {
+      "id": "complete",
+      "question": "Is this a complete game map?",
+      "answer": "No. These are invented demonstration regions and pins. The real total is unknown.",
+      "verification": "unverified"
+    },
+    {
+      "id": "saved",
+      "question": "Where is my progress saved?",
+      "answer": "In this browser under this site's map and data version. No progress is uploaded.",
+      "verification": "unverified"
+    },
+    {
+      "id": "phone",
+      "question": "Can I use the map with a keyboard or phone?",
+      "answer": "Use the zoom buttons and written list to access all supplied pin information.",
+      "verification": "unverified"
+    }
+  ]
+}

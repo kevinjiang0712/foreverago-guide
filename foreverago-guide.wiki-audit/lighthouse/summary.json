@@ -1,0 +1,154 @@
+{
+  "scope": "mobile laboratory only; field CWV unknown",
+  "settingsMatch": true,
+  "runs": [
+    {
+      "page": "首页",
+      "stage": "基线",
+      "file": "home-mobile.json",
+      "url": "http://127.0.0.1:4173/",
+      "time": "2026-10-12T23:01:15+08:00",
+      "version": "13.5.0",
+      "settings": {
+        "formFactor": "mobile",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 390,
+          "height": 844,
+          "deviceScaleFactor": 3,
+          "disabled": false
+        },
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        }
+      },
+      "performance": 58,
+      "seo": 100,
+      "FCP": 1.5032044,
+      "LCP": 7.278204400000001,
+      "TBT": 696,
+      "CLS": 0.001319427631457699,
+      "SI": 2.860029305665663,
+      "transferBytes": 1050301,
+      "warnings": [],
+      "runtimeError": null
+    },
+    {
+      "page": "首页",
+      "stage": "修复后",
+      "file": "home-mobile-after.json",
+      "url": "http://127.0.0.1:4173/",
+      "time": "2026-10-12T23:11:08+08:00",
+      "version": "13.5.0",
+      "settings": {
+        "formFactor": "mobile",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 390,
+          "height": 844,
+          "deviceScaleFactor": 3,
+          "disabled": false
+        },
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        }
+      },
+      "performance": 79,
+      "seo": 100,
+      "FCP": 1.6486353,
+      "LCP": 2.8486352999999998,
+      "TBT": 379,
+      "CLS": 0.0009526765476994723,
+      "SI": 6.888552240840992,
+      "transferBytes": 569347,
+      "warnings": [],
+      "runtimeError": null
+    },
+    {
+      "page": "Gameplay",
+      "stage": "基线",
+      "file": "gameplay-mobile.json",
+      "url": "http://127.0.0.1:4173/guide/forever-ago-gameplay",
+      "time": "2026-10-12T23:02:10+08:00",
+      "version": "13.5.0",
+      "settings": {
+        "formFactor": "mobile",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 390,
+          "height": 844,
+          "deviceScaleFactor": 3,
+          "disabled": false
+        },
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        }
+      },
+      "performance": 64,
+      "seo": 100,
+      "FCP": 1.5267777999999999,
+      "LCP": 6.0267778,
+      "TBT": 516,
+      "CLS": 0.02953782542263259,
+      "SI": 2.8246419114745085,
+      "transferBytes": 756762,
+      "warnings": [],
+      "runtimeError": null
+    },
+    {
+      "page": "Gameplay",
+      "stage": "修复后",
+      "file": "gameplay-mobile-after.json",
+      "url": "http://127.0.0.1:4173/guide/forever-ago-gameplay",
+      "time": "2026-10-12T23:11:58+08:00",
+      "version": "13.5.0",
+      "settings": {
+        "formFactor": "mobile",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 390,
+          "height": 844,
+          "deviceScaleFactor": 3,
+          "disabled": false
+        },
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        }
+      },
+      "performance": 99,
+      "seo": 100,
+      "FCP": 1.2830698999999999,
+      "LCP": 2.1830698999999996,
+      "TBT": 61,
+      "CLS": 0.02953782542263259,
+      "SI": 1.4731909918624213,
+      "transferBytes": 480040,
+      "warnings": [],
+      "runtimeError": null
+    }
+  ]
+}

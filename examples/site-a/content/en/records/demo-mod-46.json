@@ -1,0 +1,23 @@
+{
+  "locale": "en",
+  "verification": "unverified",
+  "demo": true,
+  "id": "demo-mod-46",
+  "type": "mod",
+  "title": "Demo Mod 46",
+  "description": "A fictional mod for testing list density, sorting, and filters.",
+  "categoryId": "visuals",
+  "tagIds": [
+    "loader",
+    "palette"
+  ],
+  "testedVersions": [],
+  "updatedAt": null,
+  "downloads": null,
+  "contentId": null,
+  "assetId": null,
+  "authorName": null,
+  "releaseVersion": null,
+  "endorsements": null,
+  "fileSize": null
+}

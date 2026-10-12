@@ -1,0 +1,101 @@
+{
+  "id": "combat-reference",
+  "locale": "en",
+  "type": "systems-reference",
+  "demo": true,
+  "verification": "unverified",
+  "mechanics": {
+    "eyebrow": "Reading combat cues",
+    "title": "Reading combat cues",
+    "description": "This demonstration separates the visible action from claims that still need evidence."
+  },
+  "combos": {
+    "eyebrow": "Combo routes",
+    "title": "Combo routes",
+    "description": "Input sequences and frame counts remain unknown until recorded."
+  },
+  "items": {
+    "eyebrow": "Weapons and appearances",
+    "title": "Weapons and appearances",
+    "description": "The sample entities below are fictional. Their names resolve from shared records."
+  },
+  "diagramAssetId": "mechanism-diagram",
+  "mechanisms": [
+    {
+      "id": "timing",
+      "icon": "issen",
+      "title": "Timing window",
+      "description": "Record the start and end of the action before describing its timing. This sample supplies no frame count.",
+      "verification": "unverified"
+    },
+    {
+      "id": "cue",
+      "icon": "clock",
+      "title": "Reading the cue",
+      "description": "A visual cue belongs in the diagram beside these notes. Its colour and meaning are unverified.",
+      "verification": "unverified"
+    },
+    {
+      "id": "clash",
+      "icon": "clash",
+      "title": "Contact and recovery",
+      "description": "Recovery and resource use need separate observations. Neither has been measured for this fictional example.",
+      "verification": "unverified"
+    },
+    {
+      "id": "resource",
+      "icon": "soul",
+      "title": "Resource changes",
+      "description": "Only documented changes should enter a published reference. No increase or reset rule is asserted here.",
+      "verification": "unverified"
+    }
+  ],
+  "comboRoutes": [
+    {
+      "id": "practice-chain",
+      "name": "Practice chain",
+      "input": null,
+      "frames": null,
+      "use": "Fictional baseline sequence",
+      "verification": "unverified"
+    },
+    {
+      "id": "practice-follow-up",
+      "name": "Practice follow-up",
+      "input": null,
+      "frames": null,
+      "use": null,
+      "verification": "unverified"
+    }
+  ],
+  "itemIds": [
+    "practice-blade",
+    "practice-charm"
+  ],
+  "stats": [
+    {
+      "itemId": "practice-blade",
+      "attack": null,
+      "speed": null,
+      "note": "Measurements have not been supplied.",
+      "verification": "unverified"
+    },
+    {
+      "itemId": "practice-charm",
+      "attack": null,
+      "speed": null,
+      "note": "No gameplay effects are confirmed.",
+      "verification": "unverified"
+    }
+  ],
+  "columns": {
+    "route": "Route",
+    "input": "Input",
+    "frames": "Frames",
+    "use": "Use",
+    "item": "Item",
+    "attack": "Attack",
+    "speed": "Speed",
+    "notes": "Notes"
+  }
+}

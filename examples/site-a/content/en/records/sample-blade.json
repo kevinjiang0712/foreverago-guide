@@ -1,0 +1,19 @@
+{
+  "locale": "en",
+  "verification": "unverified",
+  "demo": true,
+  "id": "sample-blade",
+  "type": "database-entry",
+  "databaseId": "equipment-database",
+  "name": "Practice blade",
+  "summary": "Fictional demonstration values, not measured game statistics.",
+  "categoryId": "weapons",
+  "contentId": "database-blade",
+  "values": {
+    "attack": 10,
+    "weight": 2,
+    "acquisition": "Practice record"
+  },
+  "evidenceNote": "Fictional demonstration values, not measured game statistics.",
+  "sources": []
+}

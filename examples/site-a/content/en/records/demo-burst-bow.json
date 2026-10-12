@@ -1,0 +1,36 @@
+{
+  "id": "demo-burst-bow",
+  "type": "build",
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "name": "Burst bow setup",
+  "summary": "A fast ranged demonstration with no measured result.",
+  "assetId": "article-atmosphere",
+  "playstyleIds": [
+    "fast"
+  ],
+  "weaponIds": [
+    "practice-bow"
+  ],
+  "facts": [
+    {
+      "label": "Patch",
+      "value": null
+    },
+    {
+      "label": "Evidence",
+      "value": "Demo only"
+    }
+  ],
+  "equipment": [],
+  "bestFor": "Testing list search, filters, and pagination.",
+  "avoidIf": "You need verified gameplay advice.",
+  "howItWorks": "Demonstration only; no game behaviour or measured result is claimed.",
+  "artifactPriority": [],
+  "buildOrder": [],
+  "howToPlay": "Use this entry only to inspect the interface.",
+  "risks": "No performance claims have been verified.",
+  "evidenceNote": "No source is configured for this demonstration.",
+  "variants": []
+}

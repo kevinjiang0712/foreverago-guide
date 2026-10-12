@@ -1,0 +1,256 @@
+{
+  "siteId": "forever-ago",
+  "siteUrl": "https://www.foreverago-guide.wiki/",
+  "defaultLocale": "en",
+  "locales": [
+    "en"
+  ],
+  "mode": "production",
+  "brand": {
+    "logo": "brand-icon"
+  },
+  "officialLinks": {
+    "official": "https://forever-ago.com/",
+    "steam": "https://store.steampowered.com/app/1215940/Forever_Ago/",
+    "discord": null,
+    "youtube": "https://www.youtube.com/annapurnainteractive"
+  },
+  "seo": {
+    "titleTemplate": "{title} | {siteName}",
+    "image": null,
+    "noindex": false
+  },
+  "navigation": {
+    "en": [
+      {
+        "label": "Reviews",
+        "target": {
+          "type": "category",
+          "id": "review"
+        },
+        "children": [
+          {
+            "label": "Review and Verdict",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-review"
+            }
+          },
+          {
+            "label": "Game Length and Pacing",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-game-length"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Guides",
+        "target": {
+          "type": "category",
+          "id": "guide"
+        },
+        "children": [
+          {
+            "label": "Gameplay Essentials",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-gameplay"
+            }
+          },
+          {
+            "label": "Achievements Checklist",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-achievements"
+            }
+          },
+          {
+            "label": "Missable Achievements",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-missable-achievements"
+            }
+          },
+          {
+            "label": "Old Bones Resting Places",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-old-bones-achievement"
+            }
+          },
+          {
+            "label": "Petal Collector Guide",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-petal-collector-achievement"
+            }
+          },
+          {
+            "label": "Hidden Achievements Guide",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-hidden-achievements"
+            }
+          },
+          {
+            "label": "Collectibles Checklist",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-collectibles"
+            }
+          },
+          {
+            "label": "Camera Achievements Guide",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-camera-achievements"
+            }
+          },
+          {
+            "label": "Camera Controls Guide",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-camera-controls"
+            }
+          },
+          {
+            "label": "Journal Photos Guide",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-journal-photos"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Locations",
+        "target": {
+          "type": "category",
+          "id": "maps"
+        },
+        "children": [
+          {
+            "label": "All Memory Locations",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-memory-locations"
+            }
+          },
+          {
+            "label": "Photo Locations Guide",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-photo-locations"
+            }
+          },
+          {
+            "label": "Petal Locations Route",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-petal-locations"
+            }
+          },
+          {
+            "label": "Chapter 1 Photo Route",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-chapter-1-photos"
+            }
+          },
+          {
+            "label": "Chapter 2 Photo Route",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-chapter-2-photos"
+            }
+          },
+          {
+            "label": "Chapter 3 Photo Route",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-chapter-3-photos"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Story",
+        "target": {
+          "type": "category",
+          "id": "story"
+        },
+        "children": [
+          {
+            "label": "The Ending Explained",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-ending-explained"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Walkthrough",
+        "target": {
+          "type": "category",
+          "id": "walkthrough"
+        },
+        "children": [
+          {
+            "label": "Photo Puzzle Walkthrough",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-photo-puzzle"
+            }
+          },
+          {
+            "label": "Williamina Peak Route",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-williamina-peak"
+            }
+          },
+          {
+            "label": "Dog Photography Guide",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-dog-photo"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Characters",
+        "target": {
+          "type": "category",
+          "id": "characters"
+        },
+        "children": [
+          {
+            "label": "Audrey’s Story Explained",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-audrey-story"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "homepage": {
+    "featuredLimit": 6,
+    "categoryFloorMinItems": 4,
+    "categoryFloorLimit": 8,
+    "layoutOverrides": {}
+  },
+  "policies": {
+    "contactEmail": "kevinjiang0712@gmail.com",
+    "effectiveDate": "2026-10-12"
+  },
+  "footer": {
+    "columns": []
+  },
+  "redirects": []
+}

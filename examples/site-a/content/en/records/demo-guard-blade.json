@@ -1,0 +1,36 @@
+{
+  "id": "demo-guard-blade",
+  "type": "build",
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "name": "Guard blade setup",
+  "summary": "A steady blade example for dense list testing.",
+  "assetId": "article-atmosphere",
+  "playstyleIds": [
+    "steady"
+  ],
+  "weaponIds": [
+    "practice-blade"
+  ],
+  "facts": [
+    {
+      "label": "Patch",
+      "value": null
+    },
+    {
+      "label": "Evidence",
+      "value": "Demo only"
+    }
+  ],
+  "equipment": [],
+  "bestFor": "Testing list search, filters, and pagination.",
+  "avoidIf": "You need verified gameplay advice.",
+  "howItWorks": "Demonstration only; no game behaviour or measured result is claimed.",
+  "artifactPriority": [],
+  "buildOrder": [],
+  "howToPlay": "Use this entry only to inspect the interface.",
+  "risks": "No performance claims have been verified.",
+  "evidenceNote": "No source is configured for this demonstration.",
+  "variants": []
+}

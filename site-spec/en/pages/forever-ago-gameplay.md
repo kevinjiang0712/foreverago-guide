@@ -1,0 +1,99 @@
+Forever Ago gameplay centres on walking through compact locations, examining objects, talking to people, taking photographs, and completing tasks recorded in Alfred's journal. It is a single-player narrative adventure with small environmental puzzles and a deliberate pace. The main skill is recognising what the current scene needs, rather than mastering combat, managing a large economy, or navigating a competitive system.
+
+The opening teaches photography through Audrey before the story later follows Alfred in third person. Changes in viewpoint and transitions into memories are part of the structure. Follow the current scene's instructions: a camera-led introduction does not mean the entire game remains a first-person photography exercise.
+
+## Begin with the journal, then inspect the location
+
+At a new stop, identify the practical goal before exploring every object. The journal connects Alfred's destination with tasks associated with the trip. A short list gives you direction while leaving space to inspect the surroundings and discover additional relationship context.
+
+Objects can matter in several ways. Some supply a required item, some provide a comment or observation, and others connect the location with a memory. Do not assume that every interaction is another puzzle stage. The environment also exists to establish what Alfred recognises and what has changed since he was there with Audrey.
+
+A useful rhythm is to read the task, find the relevant area, and inspect nearby details before completing the final action. That lets you understand the stop without losing the main thread. It also avoids treating a busy interior as a random collection of equally important objects.
+
+The early shop demonstrates this design. Alfred needs supplies, but looking around and hearing the attendant also reveal his attitude toward the place. The task gives the scene a practical structure; the conversation and objects give it its narrative purpose. Both contribute to progress, although they do not produce the same kind of result.
+
+![Alfred facing Milton at the store counter](asset:body-images-forever-ago-gameplay-shop)
+
+## Conversations are actions, not background noise
+
+Characters can direct you, respond to an item, or introduce a new practical step. When someone is speaking, let the exchange reach its conclusion before trying to force the next interaction. A scene may be waiting for the conversation to end rather than for another photograph or another object inspection.
+
+The people Alfred meets are part of his adjustment to the present. Their lives and needs do not necessarily fit the route as he remembers it. A conversation can therefore be important even when the immediate task sounds small or the character seems to delay him.
+
+You can encounter dialogue choices, but the overall experience is strongly authored. Treat the responses as participation in Alfred's journey rather than as proof that you are creating a completely different plot. The useful question during play is what the scene has changed: a task, a relationship, a route, or your understanding of Alfred.
+
+If you finish a conversation and feel stuck, check the journal again. The exchange may have added context to an existing objective or established what you need to do next. Walking to a new part of the area without checking that change can make a clear task feel like an unexplained search.
+
+## Use photography for the scene's specific purpose
+
+The instant camera handles several different interactions. Sometimes the story calls for a named subject. Sometimes you choose a view for the journal. Optional memory discoveries also lead to photographs. These uses share a tool, but a picture that fulfils one purpose does not automatically fulfil all the others.
+
+In the opening, Audrey photographs objects and Alfred's poses. Later, Alfred takes the camera and movement becomes third person. The lesson is to follow the subject and the active prompt rather than expect a single action to remain available throughout every segment.
+
+When the scene explicitly asks for a picture, identify the person, sign, object, or view it names. Frame that subject and wait for the next scene response. A shutter press alone does not explain whether you have completed the current task. Look for the objective or conversation to move forward.
+
+The game also treats a printed picture as something you can physically interact with. The opening includes developing a photograph by shaking it and then placing it into the journal. If a picture has been taken but the scene has not finished, check whether it still expects a print or album action.
+
+![Young Alfred posing outside the bedroom window through the camera viewfinder](asset:body-images-forever-ago-gameplay-camera)
+
+## The album gives optional photos a place to go
+
+You are free to photograph parts of the trip beyond its prompted shots. The journal later lets you choose up to four photographs to preserve at a selection moment. A landscape, companion, or detail can become a record of how you approached the stop rather than simply an image used to open the next scene.
+
+Take different kinds of pictures if you want an album that communicates the journey. A portrait records whom Alfred met. A landmark establishes where he was. An object may preserve a detail associated with Audrey. This is a way to organise your own choices, not a formula for a hidden score.
+
+The album moments also create stopping points in the road-trip rhythm. You move from a location and its conversations to choosing what to keep, then continue toward another destination. That pattern helps the journey feel like a sequence of experiences rather than a string of disconnected tasks.
+
+Exact photo-capacity and deletion behaviour should be learned from your current interface. Do not assume a universal film limit or that an unused photograph will always be available later. The confirmed practical point is that selection is limited, so a handful of distinct views gives you more useful choices than repeated shots of the same subject.
+
+## Optional petals lead to additional memories
+
+Flower petals form the discovery loop for optional memory vignettes. Searching a location can reveal fragments of Alfred and Audrey's past, and collecting the relevant local petals leads to a fuller memory that you photograph. These scenes expand the relationship without turning every area into a large collectible field.
+
+Keep this separate from the main story's scheduled flashbacks. The road trip includes memories that arrive as part of progression, while optional discoveries reward inspection. Seeing one kind of memory does not prove you have found every vignette in the area.
+
+When you notice a petal, investigate nearby paths, edges, and landmarks before leaving the stop. The important action is completing the local discovery and following through with the photograph, rather than merely picking up the first visible fragment.
+
+The reward is narrative context. If you only follow the main tasks, you can miss smaller moments that show the couple outside the major turning points. If you enjoy their relationship, these discoveries provide a reason to slow down without needing an inventory upgrade as an incentive.
+
+## Environmental tasks remain small and specific
+
+The game asks you to carry out practical actions appropriate to the current destination. These range from collecting supplies and investigating a local problem to helping with a repair or using objects that open a route. The design keeps those actions understandable so that the surrounding conversation and memories remain central.
+
+A location can involve several related steps. You might need to speak with someone before an action becomes available, find an item before using an object, or finish a photograph before entering a memory. Read the chain in order rather than assuming the destination itself is locked behind a difficult abstract puzzle.
+
+The diner is a useful example of this structure without needing its entire solution here. Alfred has personal reasons to revisit it, yet a practical obstacle affects how he can use the place. Resolving that obstacle involves the present-day environment and its people, not only remembering what happened there in the past.
+
+Later interactions introduce different physical actions, but this is still a light adventure. The purpose is to place Alfred inside a lived situation. It is sensible to expect variety in scenery and context; it is less sensible to expect every stop to introduce a deeper mechanical system.
+
+![Alfred and Sam following the dog on a field path](asset:body-images-forever-ago-gameplay-companion)
+
+## Viewpoint changes tell you how to approach a segment
+
+Normal exploration, photography, driving scenes, and memories do not all use the same presentation. A change in camera view can signal that the game is asking for a different kind of participation. Respond to what is currently visible instead of trying to restore the previous movement mode immediately.
+
+Some transitions are intentionally dreamlike. Follow the presented route and interact with the objects the sequence places in front of you. Their unusual appearance is part of the story's treatment of memory, not by itself evidence of an error or a missing optional route.
+
+Likewise, a scene that controls the camera is not necessarily withholding an interaction you should already have. Let dialogue, a pose, or a scripted moment finish. Trying to raise the camera during every transition can make the interface feel less predictable than it actually is.
+
+This pattern is especially useful for newcomers after the opening. You have already learned to take pictures, but the later third-person journey also expects ordinary walking and inspection. Photography remains important without replacing all other ways of interacting with the environment.
+
+## Recover from a stalled interaction
+
+Use a short check before searching for a completely new objective:
+
+1. Let any active dialogue finish.
+2. Read the current journal task rather than relying on its earlier wording.
+3. Identify whether the scene expects movement, inspection, conversation, a photograph, or an album action.
+4. Adjust your view and position if the relevant object's prompt does not appear.
+5. Complete the action and watch for the scene's response before repeating it.
+
+Interaction prompts can be finicky. A door or another object may need a particular viewing angle, so a small change in viewpoint is more useful than repeatedly pressing an action while no prompt is present. Lowering the camera and returning to normal inspection can also clarify which interaction mode the scene expects.
+
+Avoid turning every pause into a search for a secret item. A conversation, developed print, or pending journal action can be enough to hold a sequence open. Start with the visible task and the most recent scene change; only expand the search when those checks do not explain the pause.
+
+## Match your play style to the road trip
+
+For a story-focused first run, follow the objectives, listen to the conversations, and take a few photos you want to keep. For a more exploratory run, inspect each compact area before its final required action and pursue the petals you find. Both approaches use the same core controls, but the second gives the relationship more room through optional memories.
+
+The pace remains deliberate whichever approach you choose. Progress is not measured by how quickly you can issue commands. It comes from understanding the location, completing its current actions, and carrying the relevant moments into the next part of Alfred's journey.

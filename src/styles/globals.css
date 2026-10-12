@@ -1,0 +1,14 @@
+@import './core/core-space.css';
+@import './core/core-typescale.css';
+@import './core/core-motion.css';
+@import './core/core-texture.css';
+@import './core/base.css';
+@import '../components/content/content.css';
+@import '../components/content/inner-hero.css';
+@import '../components/ads/ad-placeholder.css';
+/* Stateful text uses the text accent, never a button fill. */
+a:hover, a:active { color: var(--accent-text); }
+html { font-synthesis: none; }
+/* Texture is local so the day-mode grain cannot tint the night-only Hero. */
+:where(main,.site-footer,.related-content,[data-motion-hero]){position:relative;isolation:isolate}
+:is(main,.site-header,.site-footer,.related-content,[data-motion-hero])::after{content:'';position:absolute;inset:0;background-image:var(--tex-grain);opacity:var(--grain-opacity);pointer-events:none;z-index:900;mix-blend-mode:var(--grain-blend)}

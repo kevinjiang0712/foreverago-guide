@@ -1,0 +1,30 @@
+{
+  "locale": "ja",
+  "demo": true,
+  "verification": "unverified",
+  "id": "demo-traveller",
+  "type": "character",
+  "name": "サンプル旅人",
+  "role": "主人公",
+  "summary": "人物カード用の架空の説明です。",
+  "contentId": "first-steps",
+  "assetId": "demo-character-traveller",
+  "attributes": [
+    {
+      "label": "武器",
+      "value": null
+    },
+    {
+      "label": "特徴",
+      "value": null
+    },
+    {
+      "label": "初登場",
+      "value": null
+    },
+    {
+      "label": "声優",
+      "value": null
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+[
+  {
+    "id": "guides",
+    "slug": "guides",
+    "order": 10,
+    "navigation": true,
+    "landing": null,
+    "showWhenEmpty": false,
+    "heroAsset": "article-atmosphere"
+  },
+  {
+    "id": "bosses",
+    "slug": "bosses",
+    "order": 20,
+    "navigation": true,
+    "landing": "boss-catalogue",
+    "showWhenEmpty": false
+  },
+  {
+    "id": "characters",
+    "slug": "characters",
+    "order": 30,
+    "navigation": true,
+    "landing": "character-catalogue",
+    "showWhenEmpty": false
+  },
+  {
+    "id": "systems",
+    "slug": "systems",
+    "order": 40,
+    "navigation": false,
+    "landing": "combat-reference",
+    "showWhenEmpty": false
+  },
+  {
+    "id": "weapons",
+    "slug": "weapons",
+    "order": 50,
+    "navigation": true,
+    "landing": null,
+    "showWhenEmpty": false
+  },
+  {
+    "id": "builds",
+    "slug": "builds",
+    "order": 60,
+    "navigation": false,
+    "landing": "build-library",
+    "showWhenEmpty": false
+  },
+  {
+    "id": "arsenal",
+    "slug": "arsenal",
+    "order": 70,
+    "navigation": false,
+    "landing": "weapon-explorer",
+    "showWhenEmpty": false
+  },
+  {
+    "id": "mods",
+    "slug": "mods",
+    "order": 80,
+    "navigation": true,
+    "landing": "mod-index",
+    "showWhenEmpty": false
+  },
+  {
+    "id": "database",
+    "slug": "database",
+    "order": 90,
+    "navigation": true,
+    "landing": "database-index",
+    "showWhenEmpty": false
+  }
+]

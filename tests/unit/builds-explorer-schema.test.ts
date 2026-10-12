@@ -1,0 +1,43 @@
+import {expect,it} from 'vitest';
+import {recordSchema} from '../../src/content/schemas/record';
+const copy={eyebrow:'Demo',title:'Demo',description:'Demo only'};
+export const library={id:'library',locale:'en',type:'build-library',verification:'unverified',demo:true,sections:{evidence:copy,find:copy,setups:copy,presets:copy,rescue:copy,faq:copy},evidenceLegend:[],filterOptions:{playstyles:[],weapons:[]},buildIds:[],presets:[],rescueRows:[],faq:[],columns:{build:'Build',protectFirst:'Protect first',ifMissing:'If missing',pivot:'Pivot'}};
+export const explorer={id:'explorer',locale:'en',type:'weapon-explorer',unlockSummary:'No verified unlock routes',riskLabel:'Risk',upgradeMedia:{assetId:null,fallbackLabel:'Upgrade inventory',caption:'No image supplied.'},verification:'unverified',demo:true,sections:{comparison:copy,explorer:copy,playstyles:copy,details:copy,tier:copy,unlocks:copy,upgrades:copy,changes:copy,faq:copy},comparison:[],treeNodes:[],playstylePicks:[],detailSections:[],tierRows:[],unlockRows:[],upgradeExplanation:[],patchHistory:[],faq:[],columns:{weapon:'Weapon',identity:'Identity',action:'Action',learning:'Learning',bestFor:'Best for',tradeoff:'Tradeoff',tier:'Tier',reason:'Reason',unlock:'Unlock',version:'Version',change:'Change',whenToMove:'When to move them',cost:'Cost',evidence:'Evidence',subject:'Subject'},treeNotes:['Base','Branch','Final']};
+it('registers both full template records',()=>{expect(recordSchema.safeParse(library).success).toBe(true);expect(recordSchema.safeParse(explorer).success).toBe(true);});
+it('accepts confirmed nested rows without parent sources',()=>{expect(recordSchema.safeParse({...explorer,faq:[{id:'q',question:'Question',answer:'Answer',verification:'confirmed'}]}).success).toBe(true);});
+it('rejects invalid trees and duplicate filter IDs',()=>{expect(recordSchema.safeParse({...explorer,treeNodes:[{id:'orphan',parentId:'missing',tier:2,label:'Orphan',details:'Demo',verification:'unverified',iconAssetId:null}]}).success).toBe(false);expect(recordSchema.safeParse({...library,filterOptions:{playstyles:[{id:'steady',label:'Steady'},{id:'steady',label:'Other'}],weapons:[]}}).success).toBe(false);});
+
+it('rejects duplicate variant IDs within a build',()=>{const setup={equipment:[],bestFor:'Demo',avoidIf:'Demo',howItWorks:'Demo',artifactPriority:[],buildOrder:[],howToPlay:'Demo',risks:'Demo',evidenceNote:'Demo',verification:'unverified'};expect(recordSchema.safeParse({id:'build',locale:'en',type:'build',demo:true,name:'Demo',summary:'Demo',assetId:null,playstyleIds:[],weaponIds:[],facts:[],...setup,variants:[{id:'same',label:'One',...setup},{id:'same',label:'Two',...setup}]}).success).toBe(false);});
+
+import {buildIndex} from '../../src/content/build-index';
+import {siteFixture} from './site-fixture';
+const setup={equipment:[],bestFor:'Demo',avoidIf:'Demo',howItWorks:'Demo',artifactPriority:[],buildOrder:[],howToPlay:'Demo',risks:'Demo',evidenceNote:'Demo',verification:'unverified'};
+const build={id:'example-build',locale:'en',type:'build',demo:true,name:'Demo',summary:'Demo',assetId:null,playstyleIds:[],weaponIds:[],facts:[],...setup,variants:[]};
+it.each(['build-library','weapon-explorer'])('requires exactly one primary %s record',async template=>{const input=await siteFixture();Object.assign(input.pages[0],{template,guide:undefined});expect(()=>buildIndex(input,{preview:false})).toThrow(new RegExp(`exactly one ${template}`));});
+it('reports missing build reference with source and field',async()=>{const input=await siteFixture();input.records.push({...recordSchema.parse({...library,buildIds:['missing-build']}),sourcePath:'library.json'});expect(()=>buildIndex(input,{preview:false})).toThrow(/library.json.*buildIds.0.*missing-build/);});
+it('reports unregistered stable playstyle ID on owning build',async()=>{const input=await siteFixture();input.records.push({...recordSchema.parse({...build,playstyleIds:['unregistered']}),sourcePath:'build.json'},{...recordSchema.parse({...library,buildIds:['example-build']}),sourcePath:'library.json'});expect(()=>buildIndex(input,{preview:false})).toThrow(/build.json.*playstyleIds.0.*unregistered/);});
+it('rejects demo builds reached indirectly from production library',async()=>{const input=await siteFixture();input.site.mode='production';input.site.siteUrl='https://wiki.garden';input.homes.forEach(home=>{home.demo=false;home.hero.video=null;});input.pages.forEach(page=>page.demo=false);input.records=[{...recordSchema.parse(build),sourcePath:'build.json'},{...recordSchema.parse({...library,demo:false,buildIds:['example-build']}),sourcePath:'library.json'}];input.pages[0].records=['library'];expect(()=>buildIndex(input,{preview:false})).toThrow(/build.json.*demo.*reachable demo/);});
+it('rejects missing explorer weapon and node artwork references',async()=>{const input=await siteFixture();input.records=[{...recordSchema.parse({...explorer,comparison:[{weaponId:'missing-weapon',identity:'Demo',action:null,learning:null,bestFor:'Demo',tradeoff:'Demo',verification:'unverified'}]}),sourcePath:'explorer.json'}];expect(()=>buildIndex(input,{preview:false})).toThrow(/explorer.json.*comparison.0.weaponId.*missing-weapon/);input.records=[{...recordSchema.parse({...explorer,treeNodes:[{id:'root',parentId:null,tier:1,label:'Demo',details:'Demo',iconAssetId:'missing-art',verification:'unverified'}]}),sourcePath:'explorer.json'}];expect(()=>buildIndex(input,{preview:false})).toThrow(/explorer.json.*treeNodes.0.iconAssetId.*missing-art/);});
+import {fixedPageAnchors} from '../../src/content/template-anchors';
+it('registers fixed anchors so authored FAQ headings cannot shadow template floors',()=>{expect(fixedPageAnchors('build-library')).toContain('faq');expect(fixedPageAnchors('weapon-explorer')).toContain('faq');expect(fixedPageAnchors('weapon-explorer')).not.toContain('all-six');});
+
+it('preserves required nullable catalogue fields and rejects obsolete three-column rescue rows',()=>{
+ expect(recordSchema.safeParse({...library,rescueRows:[{id:'rescue',buildId:'example-build',protectFirst:null,ifMissing:null,pivot:null,verification:'unverified'}],buildIds:['example-build']}).success).toBe(true);
+ expect(recordSchema.safeParse({...library,rescueRows:[{id:'rescue',missing:'Item',fallback:'Other',reason:'Demo',verification:'unverified'}]}).success).toBe(false);
+ expect(recordSchema.safeParse({...explorer,playstylePicks:[{id:'pick',label:'Pick',weaponId:'blade',description:'Demo',risk:null,verification:'unverified'}],tierRows:[{id:'tier',tier:null,weaponIds:['blade'],reason:'Demo',whenToMove:null,verification:'unverified'}],unlockRows:[{weaponId:'blade',method:null,cost:null,evidence:null,verification:'unverified'}],patchHistory:[{id:'patch',version:null,weaponId:null,subject:null,change:'Demo',verification:'unverified'}]}).success).toBe(true);
+ expect(recordSchema.safeParse({...explorer,upgradeMedia:{assetId:null,fallbackLabel:'Inventory'}}).success).toBe(false);
+});
+it('rejects rescue builds outside the library and patch subjects with missing weapon references',async()=>{
+ const input=await siteFixture();input.records=[{...recordSchema.parse({...library,rescueRows:[{id:'rescue',buildId:'missing-build',protectFirst:null,ifMissing:null,pivot:null,verification:'unverified'}]}),sourcePath:'library.json'}];
+ expect(()=>buildIndex(input,{preview:false})).toThrow(/library.json.*rescueRows.0.buildId.*missing-build/);
+ input.records=[{...recordSchema.parse({...explorer,patchHistory:[{id:'patch',version:null,weaponId:'missing-weapon',subject:null,change:'Demo',verification:'unverified'}]}),sourcePath:'explorer.json'}];
+ expect(()=>buildIndex(input,{preview:false})).toThrow(/explorer.json.*patchHistory.0.weaponId.*missing-weapon/);
+});
+it('validates upgrade artwork references and rejects real demo media reached from production explorer',async()=>{
+ const input=await siteFixture();input.records=[{...recordSchema.parse({...explorer,upgradeMedia:{...explorer.upgradeMedia,assetId:'missing-art'}}),sourcePath:'explorer.json'}];
+ expect(()=>buildIndex(input,{preview:false})).toThrow(/explorer.json.*upgradeMedia.assetId.*missing-art/);
+ const index=buildIndex(await siteFixture(),{preview:false});index.assets['upgrade-art']={id:'upgrade-art',src:'/media/demo.png',width:1200,height:900,alt:{en:'Demo'},purpose:'Demo',position:'50% 50%',demo:true};
+ index.records['en:explorer']={...recordSchema.parse({...explorer,demo:false,upgradeMedia:{...explorer.upgradeMedia,assetId:'upgrade-art'}}),sourcePath:'explorer.json'};
+ expect(()=>validateTemplateRecord(index,'en:explorer',true)).toThrow(/explorer.json.*upgradeMedia.assetId.*reachable demo asset/);
+});
+import {validateTemplateRecord} from '../../src/content/template-references';

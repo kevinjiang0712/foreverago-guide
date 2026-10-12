@@ -1,0 +1,32 @@
+[
+  {
+    "id": "review",
+    "slug": "review",
+    "order": 0
+  },
+  {
+    "id": "guide",
+    "slug": "guide",
+    "order": 1
+  },
+  {
+    "id": "maps",
+    "slug": "maps",
+    "order": 2
+  },
+  {
+    "id": "story",
+    "slug": "story",
+    "order": 3
+  },
+  {
+    "id": "walkthrough",
+    "slug": "walkthrough",
+    "order": 4
+  },
+  {
+    "id": "characters",
+    "slug": "characters",
+    "order": 5
+  }
+]

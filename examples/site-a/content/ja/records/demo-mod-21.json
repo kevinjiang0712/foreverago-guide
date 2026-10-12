@@ -1,0 +1,22 @@
+{
+  "locale": "ja",
+  "verification": "unverified",
+  "demo": true,
+  "id": "demo-mod-21",
+  "type": "mod",
+  "title": "デモ MOD 21",
+  "description": "一覧の密度、並び替え、絞り込み確認用の架空 Mod。",
+  "categoryId": "interface",
+  "tagIds": [
+    "panel"
+  ],
+  "testedVersions": [],
+  "updatedAt": null,
+  "downloads": null,
+  "contentId": null,
+  "assetId": null,
+  "authorName": null,
+  "releaseVersion": null,
+  "endorsements": null,
+  "fileSize": null
+}

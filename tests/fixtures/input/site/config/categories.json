@@ -1,0 +1,10 @@
+[
+  {
+    "id": "guides",
+    "slug": "guides",
+    "order": 10,
+    "navigation": true,
+    "landing": null,
+    "showWhenEmpty": false
+  }
+]

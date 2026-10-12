@@ -1,0 +1,163 @@
+{
+  "id": "river-practice-blade-detail",
+  "locale": "en",
+  "type": "weapon-detail",
+  "demo": true,
+  "verification": "unverified",
+  "weaponId": "river-practice-blade",
+  "gallery": [
+    "weapon-render",
+    "weapon-action"
+  ],
+  "namingNote": "This is a fictional sample name. It does not identify an announced game weapon.",
+  "heroLabel": "Demonstration · training",
+  "primaryCta": "Explore weapon details",
+  "secondaryCta": "How to unlock",
+  "overview": {
+    "eyebrow": "How it plays",
+    "title": "How it plays",
+    "description": "Read the fictional base action first. Unknown costs and timing remain explicit."
+  },
+  "unlock": {
+    "eyebrow": "How to unlock the practice blade",
+    "title": "How to unlock the practice blade",
+    "description": "No real unlock route is established by this demonstration."
+  },
+  "detail": {
+    "eyebrow": "Moveset, upgrades, patches and builds",
+    "title": "Moveset, upgrades, patches and builds",
+    "description": "The tabs separate observations from missing evidence."
+  },
+  "matchupSection": {
+    "eyebrow": "Where the action might fit",
+    "title": "Where the action might fit",
+    "description": "These fictional situations show how to document a matchup without inventing a rating."
+  },
+  "pairingSection": {
+    "eyebrow": "Items to examine together",
+    "title": "Items to examine together",
+    "description": "A pairing suggestion needs its own evidence. The example below is unverified."
+  },
+  "faqSection": {
+    "eyebrow": "River specimen 27 questions",
+    "title": "River specimen 27 questions",
+    "description": "Answers describe the limits of this sample."
+  },
+  "atAGlance": "At a glance",
+  "unlockSteps": [
+    {
+      "id": "locate",
+      "title": "Locate a reliable source",
+      "description": "Start with a source that explicitly identifies the weapon and its unlock conditions.",
+      "verification": "unverified"
+    },
+    {
+      "id": "confirm",
+      "title": "Confirm prerequisites and costs",
+      "description": "Record the current client and evidence. This example has no known cost or prerequisite.",
+      "verification": "unverified"
+    }
+  ],
+  "evidenceNote": "No unlock route, prerequisite or cost is confirmed. This section demonstrates the evidence limit.",
+  "moveset": [
+    {
+      "id": "practice-swing",
+      "action": "Practice swing",
+      "input": null,
+      "frames": null,
+      "coverage": null,
+      "notes": "Fictional base action; no measurements supplied.",
+      "verification": "unverified"
+    },
+    {
+      "id": "practice-response",
+      "action": "Practice response",
+      "input": null,
+      "frames": null,
+      "coverage": null,
+      "notes": "Timing and defensive effects remain unverified.",
+      "verification": "unverified"
+    }
+  ],
+  "movesetNote": "This sample contains no measured frame data, version-specific values or confirmed inputs.",
+  "upgradeNodes": [
+    {
+      "id": "training-base",
+      "parentId": null,
+      "tier": 1,
+      "name": "River specimen 25",
+      "description": "A fictional starting point used to illustrate a connected upgrade.",
+      "verification": "unverified"
+    },
+    {
+      "id": "training-follow-up",
+      "parentId": "training-base",
+      "tier": 2,
+      "name": "River specimen 26",
+      "description": "Its real cost and effect are unknown.",
+      "verification": "unverified"
+    }
+  ],
+  "upgradeNote": "This is an illustrative branch, with no claim of a complete or real upgrade tree.",
+  "patchHistory": [],
+  "patchNote": "No patch sources are configured. An empty list does not prove that nothing changed.",
+  "buildRefs": [],
+  "matchups": [
+    {
+      "id": "open-space",
+      "situation": "Open practice space",
+      "contentId": null,
+      "result": null,
+      "answer": "Record reach and recovery before recommending this action.",
+      "verification": "unverified"
+    },
+    {
+      "id": "close-space",
+      "situation": "Narrow practice space",
+      "contentId": null,
+      "result": null,
+      "answer": "Check whether the environment changes the action. No test has been supplied.",
+      "verification": "unverified"
+    }
+  ],
+  "pairings": [
+    {
+      "recordId": "river-practice-charm",
+      "description": "A fictional pairing shown without claiming a damage or timing benefit.",
+      "verification": "unverified"
+    }
+  ],
+  "faq": [
+    {
+      "id": "real",
+      "question": "Is this a real weapon?",
+      "answer": "No. This is demonstration content for the template.",
+      "verification": "unverified"
+    },
+    {
+      "id": "cost",
+      "question": "What does it cost to unlock?",
+      "answer": "The cost is unknown. No source has been supplied.",
+      "verification": "unverified"
+    }
+  ],
+  "tabs": {
+    "moveset": "Moveset",
+    "upgrades": "Upgrade tree",
+    "changes": "Patch history",
+    "builds": "Builds using it"
+  },
+  "columns": {
+    "action": "Action",
+    "input": "Input",
+    "frames": "Frames",
+    "coverage": "Coverage",
+    "notes": "Notes",
+    "patch": "Patch",
+    "change": "Change",
+    "source": "Source",
+    "situation": "Situation",
+    "result": "Result",
+    "answer": "What to do"
+  }
+}

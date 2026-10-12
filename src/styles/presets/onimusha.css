@@ -1,0 +1,94 @@
+/* THEME · Onimusha — dark, sumi ink + bone + crimson + gold hairlines.
+   Reference implementation of the theme contract. See guidelines/THEMING.md. */
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Shippori+Mincho+B1:wght@600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap");
+
+:root{
+  color-scheme:dark;
+
+  /* --- surface --- */
+  --surface-page:#08080A;
+  --surface-alt:#0E0F12;
+  --surface-card:#14161A;
+  --surface-card-hover:#1B1E23;
+  --surface-well:#0B0C0F;
+  --surface-input:#1B1E23;
+  --surface-disabled:#2A1B1D;
+
+  /* --- text --- */
+  --text-primary:#E9E5DD;
+  --text-secondary:#A8A39A;
+  --text-caption:#848079;
+  --text-on-accent:#F7F3EC;
+  --text-disabled:#7E7A73;
+
+  /* --- border --- */
+  --border-default:#262A31;
+  --border-soft:#1A1D22;
+  --border-hover:#31363F;
+  --border-on-media:rgba(233,229,221,.5);
+  --placeholder-border:#262A31;
+
+  /* --- accent (under 3% of any screen) --- */
+  --accent:#B91724;
+  --accent-hover:#D5202F;
+  --accent-press:#6E0D14;
+  --accent-text:#CB5D66;   /* accent used as TEXT — must clear 4.5:1 on every ground */
+
+  /* --- marker: hairlines, numerals, section leaders --- */
+  --marker:#C8A54B;
+  --marker-soft:#907E44;
+
+  /* --- semantic --- */
+  --ok:#4E8C6A;
+  --warn:#C08A2E;
+  --danger:#CD5A64;
+
+  /* --- focus + shadow --- */
+  --focus-ring:#C8A54B;
+  --shadow-card:0 24px 60px rgba(0,0,0,.6);
+
+  /* --- state fills --- */
+  --state-ghost-hover:rgba(255,255,255,.04);
+  --state-row-hover:#14161A;
+
+  /* --- veils, scrims, decorative gradients --- */
+  --veil-hero:linear-gradient(to bottom,rgba(8,8,10,.78) 0%,rgba(8,8,10,.34) 40%,rgba(8,8,10,.7) 76%,#08080A 100%); /* @kind other */
+  --veil-vignette:radial-gradient(130% 86% at 46% 38%,transparent 36%,rgba(8,8,10,.78) 100%); /* @kind other */
+  --scrim-nav:rgba(8,8,10,.86);
+  --scrim-drawer:rgba(8,8,10,.985);
+  --nav-blur:blur(14px); /* @kind other */
+  --rule-marker:linear-gradient(90deg,transparent,#C8A54B,transparent); /* @kind other */
+  --sweep-highlight:linear-gradient(105deg,transparent,rgba(255,255,255,.34),transparent); /* @kind other */
+
+  /* --- texture --- */
+  --grain-opacity:.035; /* @kind other */
+  --grain-blend:overlay; /* @kind other */
+
+  /* --- type --- */
+  --font-display:"Marcellus","Shippori Mincho B1","Songti SC",serif; /* @kind font */
+  --font-ui:"Zen Kaku Gothic New","PingFang SC",sans-serif; /* @kind font */
+  --font-num:"Zen Kaku Gothic New",ui-monospace; /* @kind font */
+  --display-weight:400; /* @kind font */
+  --display-case:none; /* @kind font */
+  --ls-d1:-.012em; /* @kind font */
+  --ls-h1:-.014em; /* @kind font */
+  --ls-h2:-.008em; /* @kind font */
+  --ls-label:.32em; /* @kind font */
+  --ls-meta:.28em; /* @kind font */
+  --ls-button:.16em; /* @kind font */
+  --ls-wordmark:.14em; /* @kind font */
+
+  /* --- shape --- */
+  --radius:2px; /* @kind radius */
+  --radius-lg:2px; /* @kind radius */
+  --radius-chip:999px; /* @kind radius */
+  --border-width:1px; /* @kind spacing */
+  --card-border-style:solid; /* @kind other */
+
+  /* ── motion personality ── */
+  --e-entry:cubic-bezier(.16,.84,.28,1); /* @kind other */
+  --e-exit:cubic-bezier(.4,0,1,1); /* @kind other */
+  --e-emphasis:cubic-bezier(.7,0,.2,1); /* @kind other */
+  --motion-scale:1; /* @kind other */
+  --motion-overshoot:0; /* @kind other */
+}

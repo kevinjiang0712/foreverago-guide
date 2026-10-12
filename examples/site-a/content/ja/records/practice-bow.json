@@ -1,0 +1,22 @@
+{
+  "id": "practice-bow",
+  "type": "weapon",
+  "locale": "ja",
+  "demo": true,
+  "verification": "unverified",
+  "name": "練習用ボウ",
+  "kind": "デモ遠距離武器",
+  "summary": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+  "contentId": null,
+  "assetId": null,
+  "iconAssetId": null,
+  "facts": [
+    {
+      "label": "ダメージ",
+      "value": null
+    }
+  ],
+  "tags": [
+    "デモ専用"
+  ]
+}

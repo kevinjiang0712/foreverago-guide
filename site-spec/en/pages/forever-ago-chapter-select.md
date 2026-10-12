@@ -1,0 +1,111 @@
+Forever Ago unlocks chapter select after you finish the story. Use it to return to one of the game's nine chapters for a missed interaction or another look at a scene. Starting New Game is a different action: it overwrites your current save, so choose chapter select when your intention is to revisit a location from the completed journey.
+
+The most useful replay plan begins with the exact task you missed. Chrono Selfie needs Milton at Karl's Pump 'n' Mart, Snooping Shutterbug needs the opening room, and Guardian Lord needs the resort arcade. A chapter name tells you where to return; it does not mean the missing achievement will unlock merely because you selected that chapter.
+
+## Unlock chapter select by completing the journey
+
+During the initial run, continue Alfred's story through its normal progression. Chapter select is a post-story feature, so it is not a replacement for the first playthrough's automatic checkpoints or a way to skip ahead to an unseen location.
+
+If you are still midway through the game and cannot find the option, finish the remaining story rather than starting over. The route includes the road-trip destinations, Williamina Peak, and the epilogue. Let the final sequence complete before returning to the main menu to look for chapter replay.
+
+Do not assume that seeing credits at one point in the ending means you should close the game immediately. Complete the ending sequence as presented, including the epilogue, and then use the menu. This is also a useful distinction for the final house collectible task, which belongs to the epilogue rather than an earlier road-trip location.
+
+![Chapter select menu with Karl's Pump 'n' Mart highlighted](asset:body-images-forever-ago-chapter-select-chapter-menu)
+
+## Choose between continuing, replaying, and starting again
+
+These are different intentions and should lead to different menu choices. Continue is for returning to the current saved journey. Chapter select is for revisiting a chosen section after completion. New Game begins a fresh journey and overwrites the current save.
+
+| What you want to do | Appropriate approach | Main consideration |
+| --- | --- | --- |
+| Resume an unfinished first run | Continue the saved journey | You resume from saved checkpoint progress |
+| Return to Milton for a selfie | Post-story chapter select | Choose Karl's Pump 'n' Mart |
+| Revisit the bedroom's camera objects | Post-story chapter select | Choose Woolson Falls |
+| Attempt the resort arcade again | Post-story chapter select | Choose the resort chapter and reach the machine |
+| Play the whole story from the beginning | New Game | The current save is overwritten |
+
+Before selecting a menu item, state the purpose to yourself in one sentence. “I need a selfie with Milton” points toward replay. “I want a completely new story run” points toward New Game. That small distinction prevents a local cleanup attempt from turning into an unintended reset.
+
+## The nine chapters and their replay uses
+
+Use the names in the chapter menu to identify the location you need. The table is a navigation aid, not a list of guaranteed achievement carryover rules. Local tasks still need to be performed in the scene once you load it.
+
+| Chapter | Useful reason to revisit |
+| --- | --- |
+| Woolson Falls | Photograph the opening room's curious objects and revisit the introductory camera sequence |
+| Karl's Pump 'n' Mart | Take Milton's selfie, finish the shopping or listening tasks, and inspect early memory searches |
+| Highway Star Diner | Revisit the nap and hat sequence or the diner's optional vignettes |
+| On the Road Back Home | Revisit the vehicle breakdown and its story sequence |
+| The Sam Detour | Return to the kitchen drawer or Sam's watering activity |
+| Captain Marley & The Buccaneers' Retreat | Attempt the arcade record and inspect the resort's optional tasks |
+| Winslow Lighthouse | Revisit the bird's-nest photography sequence involving Doggo |
+| Williamina Peak | Return to the climb and Doggo-calling interaction |
+| Epilogue | Search Audrey's mosaic pumpkins and revisit the final house sequence |
+
+You do not need to select a chapter merely because its number sounds close to the task. Use the actual setting. The gas station, diner, and resort each have several optional activities, while the road-back-home section is a distinct story stop between the diner and Sam.
+
+## Plan a focused return to Milton
+
+Chrono Selfie requires a selfie with Milton. If you missed it during the early shopping visit, choose Karl's Pump 'n' Mart after finishing the story. Follow the loaded scene until Milton is available and the camera can be used, then switch to selfie mode and include him alongside Alfred.
+
+![Alfred and Milton framed together in selfie mode inside the store](asset:body-images-forever-ago-chapter-select-milton-selfie)
+
+This is a useful replay task because it has a clear local subject. You are not trying to recreate every photograph from the entire journey. The endpoint is one correctly framed shared selfie followed by the achievement confirmation.
+
+If Self-Portrait Photography or Picture Perfect is also missing, decide whether to work on those counts during the same return. Keep the requirements distinct: ten selfies and fifty photos are numerical milestones, while Chrono Selfie asks for Milton specifically. A pile of ordinary shop photographs cannot replace the companion selfie.
+
+## Replay the opening for Snooping Shutterbug
+
+Snooping Shutterbug belongs to Alfred's room in the opening chapter. Return to Woolson Falls and complete the room's curious-object photographs before taking the portrait of Alfred outside the window that moves the sequence forward.
+
+Check the camera manual, teddy bear, wall photographs near the desk, and calendar. Aim at the subjects deliberately rather than assuming several shots of one corner will satisfy every object. This is a room-specific set, so later scenery photos are not a useful substitute.
+
+The chapter also contains additional introduction and trail photography. Follow the requested scene progression after finishing your room search. Selecting the chapter alone does not grant immediate access to every later point, and a replay is still a sequence you need to navigate.
+
+## Use the resort chapter for its own extra conditions
+
+Captain Marley & The Buccaneers' Retreat is the relevant location for Guardian Lord, the resort history search, Marley's bobblehead, fetch opportunities, vignettes, and the boat spin. Choose one or a small group of those tasks before loading the chapter.
+
+For Guardian Lord, reach the arcade and beat the record. Merely playing can satisfy the main story objective even when the high score is not beaten, so check the actual result. A replay that advances the narrative without the achievement is a sign to review the extra condition rather than assume the menu failed.
+
+For object searches, finish the available resort exploration before leaving for the boat. The bobblehead is separate from the mascot tickets, and the written history is separate from the memory petals. A focused task list prevents the larger area from becoming another incomplete general search.
+
+Do not infer that every resort collectible will automatically merge with a partially completed earlier search. Read the current scene's progress, complete the task available in that replay, and check the platform confirmation. The chapter menu offers access to the location, not a universal explanation of every achievement's stored state.
+
+## Treat journey-wide requirements with extra care
+
+Old Bones asks for every opportunity to rest across the route. The completion route has six rests: two at the gas-station section, three around the diner, and one at the resort. The conservative completion plan is to use all six during one continuous journey.
+
+Do not assume a chapter replay will repair every missed rest merely because replay works for a local selfie. Those requirements are structured differently: one concerns a specific picture, while the other concerns a complete sequence of opportunities across multiple chapters.
+
+Petal Collector similarly needs all seven vignettes, not one isolated petal. If you return to a memory location, finish the local search and memory interaction shown in the replay. Keep a seven-name checklist rather than relying only on a general memory of having visited the gas station, diner, and resort.
+
+This distinction is about planning. It prevents you from treating chapter select as an automatic completion button and helps you decide whether your remaining goal is local, numerical, or journey-wide before choosing the next action.
+
+## Replay still uses the checkpoint-based save system
+
+Forever Ago uses automatic checkpoints and has no manual save option. Chapter select does not create an on-demand save feature or a collection of independent manual save slots. Plan a replay session with enough time to reach and complete the task you selected.
+
+If you quit during the replay, the next resume can return to saved checkpoint progress rather than the exact moment you stopped moving. A photographed object, a short conversation, or a brief walk should not be treated as proof of a fresh checkpoint by itself.
+
+![A developed photograph beside Alfred's open journal](asset:body-images-forever-ago-chapter-select-journal)
+
+Finish the immediate interaction and let the surrounding sequence settle before leaving. If the game shows a save indication, allow it to complete. Do not force-close the application while assuming the chapter menu has preserved every minor action automatically.
+
+The journal is also separate from saving. Placing favorite photographs in the album is a game interaction, not a manual save command. Use the menu's normal continuation behavior to resume the journey and keep the album choices distinct from checkpoint expectations.
+
+## Understand what chapter select does not promise
+
+The menu lets you choose a chapter, but it does not necessarily place you at the exact object, dialogue line, or minigame you want. Expect to navigate the scene until the required interaction is available. This matters when the target occurs near the middle or end of a larger resort or diner sequence.
+
+Do not assume you can freely jump between every checkpoint inside a chapter. The visible chapter list is a list of story sections. Use its actual options rather than inventing a subchapter selector or an unlock requirement that the interface does not show.
+
+Do not use another game's chapter-replay rules as a guide to this save. Similar narrative adventures can reset progress differently or allow choices to carry forward in different ways. For Forever Ago, the practical facts are the post-story unlock and New Game's overwrite; achievement cleanup still depends on its own concrete condition.
+
+## Confirm the result before selecting another chapter
+
+After completing a replay task, check the platform achievement list. A scene moving forward is not always the same as the optional condition unlocking, particularly with the arcade record, a specific selfie subject, or a repeated interaction.
+
+If the result is missing, inspect the requirement while you are still at the relevant location. Correct the framing, repeat the appropriate action, or finish the local search instead of immediately jumping elsewhere. This keeps the diagnosis tied to the scene where the task actually occurs.
+
+When the goal is confirmed, choose your next chapter from the remaining task list. Keeping replay sessions narrow gives each return a purpose and avoids replacing your completed save with New Game simply because you were unsure which menu option would reach one missed activity.

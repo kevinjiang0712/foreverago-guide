@@ -1,0 +1,30 @@
+{
+  "locale": "ja",
+  "demo": true,
+  "verification": "unverified",
+  "id": "demo-guide",
+  "type": "character",
+  "name": "サンプル案内人",
+  "role": "プレイアブル・サンプル",
+  "summary": "テンプレート確認用の架空の操作可能キャラクターです。実在のゲームの情報ではありません。",
+  "contentId": null,
+  "assetId": "demo-character-guide",
+  "attributes": [
+    {
+      "label": "体力",
+      "value": null
+    },
+    {
+      "label": "攻撃力",
+      "value": null
+    },
+    {
+      "label": "防御力",
+      "value": null
+    },
+    {
+      "label": "移動速度",
+      "value": null
+    }
+  ]
+}

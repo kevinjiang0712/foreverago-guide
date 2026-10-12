@@ -1,0 +1,206 @@
+{
+  "locale": "en",
+  "verification": "unverified",
+  "demo": true,
+  "id": "river-mod-detail",
+  "type": "mod-detail",
+  "modId": "river-demo-mod-a",
+  "dataVersion": "demo-v1",
+  "authorUrl": null,
+  "authorNote": "No files are hosted here. This demo has no author link.",
+  "gallery": [
+    "mod-preview",
+    "mod-menu",
+    "mod-config"
+  ],
+  "sections": {
+    "overview": {
+      "eyebrow": "Overview",
+      "title": "What it does",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour."
+    },
+    "requirements": {
+      "eyebrow": "Requirements",
+      "title": "Requirements",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour."
+    },
+    "install": {
+      "eyebrow": "Install",
+      "title": "Installing this mod",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour."
+    },
+    "tabs": {
+      "eyebrow": "Details",
+      "title": "Files, changelog, posts and permissions",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour."
+    },
+    "conflicts": {
+      "eyebrow": "Conflicts",
+      "title": "Known interactions",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour."
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Questions about this mod",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour."
+    },
+    "report": {
+      "eyebrow": "Report",
+      "title": "Something wrong on this page?",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour."
+    }
+  },
+  "atAGlance": "At a glance",
+  "facts": [
+    {
+      "label": "Author",
+      "value": null
+    },
+    {
+      "label": "Licence",
+      "value": null
+    }
+  ],
+  "evidenceNote": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+  "requirements": [
+    {
+      "id": "loader",
+      "modId": "river-demo-mod-g",
+      "title": "Workshop entry 20",
+      "version": null,
+      "reason": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "status": "Example dependency",
+      "verification": "unverified"
+    }
+  ],
+  "installSteps": [
+    {
+      "id": "prepare",
+      "title": "Prepare the sample configuration",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "verification": "unverified"
+    },
+    {
+      "id": "test",
+      "title": "Verify the example",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "verification": "unverified"
+    }
+  ],
+  "files": [
+    {
+      "id": "example-file",
+      "title": "Demonstration file slot",
+      "version": null,
+      "size": null,
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "url": null,
+      "verification": "unverified",
+      "uploadedAt": null
+    }
+  ],
+  "changelog": [
+    {
+      "id": "example-change",
+      "version": null,
+      "date": null,
+      "verification": "unverified",
+      "changes": [
+        "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+        "A second sample change; this is not an update to a real mod."
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": "example-post",
+      "author": "Demonstration contributor",
+      "date": null,
+      "body": "This is supplied example text, not a live discussion or a submitted message.",
+      "verification": "unverified"
+    }
+  ],
+  "permissions": [
+    {
+      "id": "reuse",
+      "title": "Reuse permission unknown",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "verification": "unverified"
+    },
+    {
+      "id": "redistribute",
+      "title": "Redistribution permission unknown",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "verification": "unverified"
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "alternate",
+      "modId": "river-demo-mod-f",
+      "title": "Workshop entry 19",
+      "interaction": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "resolution": null,
+      "verification": "unverified"
+    }
+  ],
+  "faq": [
+    {
+      "id": "demo-question",
+      "question": "Can I download these examples?",
+      "answer": "No. These are invented layout examples. No real file or author page is supplied.",
+      "verification": "unverified"
+    },
+    {
+      "id": "version-question",
+      "question": "Are the version labels verified?",
+      "answer": "No. River edition and Sample B exist only to demonstrate combined filtering.",
+      "verification": "unverified"
+    }
+  ],
+  "feedbackTarget": null,
+  "feedbackOptions": [
+    {
+      "id": "version",
+      "title": "Version badge is wrong",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "verification": "unverified"
+    },
+    {
+      "id": "link",
+      "title": "Link is broken",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "verification": "unverified"
+    },
+    {
+      "id": "permission",
+      "title": "Permissions changed",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "verification": "unverified"
+    }
+  ],
+  "tabs": {
+    "files": "Files",
+    "changelog": "Changelog",
+    "posts": "Posts",
+    "permissions": "Permissions"
+  },
+  "columns": {
+    "requirement": "Requirement",
+    "version": "Version",
+    "reason": "Why",
+    "status": "Status",
+    "mod": "Mod",
+    "interaction": "Interaction",
+    "resolution": "Resolution",
+    "file": "File",
+    "uploaded": "Uploaded",
+    "notes": "Notes",
+    "permission": "Permission",
+    "terms": "Author\u2019s terms"
+  },
+  "categoryLabel": "User interface",
+  "filesNote": "No real file is provided for this demonstration.",
+  "permissionsNote": "These example terms do not grant permission to use a real mod.",
+  "postsNote": "Supplied static examples only. This index does not host comments."
+}

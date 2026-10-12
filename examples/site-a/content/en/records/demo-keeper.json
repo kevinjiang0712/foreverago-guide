@@ -1,0 +1,13 @@
+{
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "id": "demo-keeper",
+  "type": "character",
+  "name": "Demo Keeper",
+  "role": "SUPPORT",
+  "summary": "A fictional character for testing list quantity and role filters.",
+  "contentId": null,
+  "assetId": null,
+  "attributes": []
+}

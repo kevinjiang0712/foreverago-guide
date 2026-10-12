@@ -1,0 +1,14 @@
+/* Shared geometry for every inner page. Homepage Hero is independent. */
+.inner-hero{--inner-hero-min-height:320px;--inner-hero-padding:var(--s-8);min-height:var(--inner-hero-min-height)}
+.inner-hero[data-hero-size=article]{--inner-hero-min-height:560px}
+.inner-hero .inner-hero-content{width:100%;max-width:var(--container);margin-inline:auto;padding:var(--inner-hero-padding) var(--pad-page)}
+.inner-hero .breadcrumb{margin:0 0 var(--s-6)}
+.inner-hero h1{font-family:var(--font-display);font-weight:var(--display-weight);font-size:var(--fluid-h1);line-height:var(--lh-h1);letter-spacing:var(--ls-h1);max-width:24ch;text-wrap:balance;overflow-wrap:anywhere;margin:0 0 var(--s-4);padding:0}
+@media(min-width:768px) and (max-width:1023px){
+ .inner-hero{--inner-hero-min-height:280px}
+ .inner-hero[data-hero-size=article]{--inner-hero-min-height:0px}
+}
+@media(max-width:767px){
+ .inner-hero{--inner-hero-min-height:240px;--inner-hero-padding:var(--s-6)}
+ .inner-hero[data-hero-size=article]{--inner-hero-min-height:0px}
+}

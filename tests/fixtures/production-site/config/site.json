@@ -1,0 +1,110 @@
+{
+  "siteId": "production-test-fixture",
+  "siteUrl": "https://wiki.fixture-game.com",
+  "defaultLocale": "en",
+  "locales": [
+    "en",
+    "ja"
+  ],
+  "mode": "production",
+  "brand": {
+    "logo": null
+  },
+  "officialLinks": {
+    "official": "https://fixture-game.com",
+    "steam": null,
+    "discord": null,
+    "youtube": null
+  },
+  "seo": {
+    "titleTemplate": "{title} | {siteName}",
+    "image": null,
+    "noindex": false
+  },
+  "navigation": {
+    "en": [
+      {
+        "label": "Home",
+        "target": {
+          "type": "home"
+        },
+        "children": []
+      },
+      {
+        "label": "Guides",
+        "target": {
+          "type": "category",
+          "id": "guides"
+        },
+        "children": []
+      },
+      {
+        "label": "Help",
+        "target": {
+          "type": "external",
+          "url": "https://fixture-game.com/help"
+        },
+        "children": []
+      },
+      {
+        "label": "Community",
+        "target": {
+          "type": "external",
+          "url": "https://fixture-game.com/community"
+        },
+        "children": []
+      }
+    ],
+    "ja": [
+      {
+        "label": "ホーム",
+        "target": {
+          "type": "home"
+        },
+        "children": []
+      },
+      {
+        "label": "攻略",
+        "target": {
+          "type": "category",
+          "id": "guides"
+        },
+        "children": []
+      },
+      {
+        "label": "ヘルプ",
+        "target": {
+          "type": "external",
+          "url": "https://fixture-game.com/help"
+        },
+        "children": []
+      },
+      {
+        "label": "コミュニティ",
+        "target": {
+          "type": "external",
+          "url": "https://fixture-game.com/community"
+        },
+        "children": []
+      }
+    ]
+  },
+  "homepage": {
+    "featuredLimit": 6,
+    "categoryFloorMinItems": 4,
+    "categoryFloorLimit": 8,
+    "layoutOverrides": {}
+  },
+  "footer": {
+    "columns": []
+  },
+  "redirects": [
+    {
+      "from": "/old-guide",
+      "to": "first-steps",
+      "locale": "en",
+      "permanent": true
+    }
+  ],
+  "policies": null
+}

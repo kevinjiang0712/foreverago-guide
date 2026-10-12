@@ -1,0 +1,13 @@
+{
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "id": "demo-character-19",
+  "type": "character",
+  "name": "Demo Character 19",
+  "role": "SCOUT",
+  "summary": "A fictional character for testing list density and role filters.",
+  "contentId": null,
+  "assetId": null,
+  "attributes": []
+}

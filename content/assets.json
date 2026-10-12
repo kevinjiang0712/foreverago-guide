@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "brand-icon",
+    "src": "/media/logo.png",
+    "width": 48,
+    "height": 48,
+    "purpose": "brand-icon",
+    "alt": {
+      "en": "Forever Ago"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "road-trip-art",
+    "src": "/media/road-trip-art.webp",
+    "width": 1600,
+    "height": 1065,
+    "purpose": "road-trip-art",
+    "alt": {
+      "en": "Forever Ago key art showing Alfred and his van beside a mountain road"
+    },
+    "position": "44% 64%",
+    "demo": false
+  },
+  {
+    "id": "campfire-art",
+    "src": "/media/campfire-art.webp",
+    "width": 1600,
+    "height": 900,
+    "purpose": "campfire-art",
+    "alt": {
+      "en": "Forever Ago promotional art showing Alfred, his dog and a campfire"
+    },
+    "position": "28% 70%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-review-relationship",
+    "src": "/media/body-images-forever-ago-review-relationship.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-review-relationship",
+    "alt": {
+      "en": "Young Alfred and Audrey crossing a stream on their forest walk"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-review-exploration",
+    "src": "/media/body-images-forever-ago-review-exploration.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-review-exploration",
+    "alt": {
+      "en": "Alfred speaking with Milton inside the roadside store"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-review-presentation",
+    "src": "/media/body-images-forever-ago-review-presentation.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-review-presentation",
+    "alt": {
+      "en": "Alfred following Sam and the dog along a sunlit field path"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-gameplay-shop",
+    "src": "/media/body-images-forever-ago-gameplay-shop.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-gameplay-shop",
+    "alt": {
+      "en": "Alfred facing Milton at the store counter"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-gameplay-camera",
+    "src": "/media/body-images-forever-ago-gameplay-camera.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-gameplay-camera",
+    "alt": {
+      "en": "Young Alfred posing outside the bedroom window through the camera viewfinder"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-gameplay-companion",
+    "src": "/media/body-images-forever-ago-gameplay-companion.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-gameplay-companion",
+    "alt": {
+      "en": "Alfred and Sam following the dog on a field path"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-achievements-bedroom",
+    "src": "/media/body-images-forever-ago-achievements-bedroom.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-achievements-bedroom",
+    "alt": {
+      "en": "Teddy bear on the bed seen through the opening camera view"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-achievements-resort",
+    "src": "/media/body-images-forever-ago-achievements-resort.webp",
+    "width": 1280,
+    "height": 717,
+    "purpose": "body-images-forever-ago-achievements-resort",
+    "alt": {
+      "en": "A petal interaction beside a wooden building in the abandoned resort"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-achievements-journal",
+    "src": "/media/body-images-forever-ago-achievements-journal.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-achievements-journal",
+    "alt": {
+      "en": "A developed photograph beside Alfred's open journal"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-memory-locations-playground",
+    "src": "/media/body-images-forever-ago-memory-locations-playground.webp",
+    "width": 1321,
+    "height": 737,
+    "purpose": "body-images-forever-ago-memory-locations-playground",
+    "alt": {
+      "en": "Fun & Colors unlock beside the blue slide and sandpit"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-memory-locations-pumpkin",
+    "src": "/media/body-images-forever-ago-memory-locations-pumpkin.webp",
+    "width": 1318,
+    "height": 739,
+    "purpose": "body-images-forever-ago-memory-locations-pumpkin",
+    "alt": {
+      "en": "The Worlds Largest Mosaic Pumpkin vignette unlocked beside the sculpture"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-memory-locations-pool",
+    "src": "/media/body-images-forever-ago-memory-locations-pool.webp",
+    "width": 1319,
+    "height": 743,
+    "purpose": "body-images-forever-ago-memory-locations-pool",
+    "alt": {
+      "en": "The Morning After petal location near motel pool steps"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-memory-locations-statue",
+    "src": "/media/body-images-forever-ago-memory-locations-statue.webp",
+    "width": 1316,
+    "height": 734,
+    "purpose": "body-images-forever-ago-memory-locations-statue",
+    "alt": {
+      "en": "Farewell Forever Marley unlocked beside the pirate statue and fountain"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-memory-locations-cutout",
+    "src": "/media/body-images-forever-ago-memory-locations-cutout.webp",
+    "width": 1325,
+    "height": 742,
+    "purpose": "body-images-forever-ago-memory-locations-cutout",
+    "alt": {
+      "en": "Its Tradition petal location beside the pirate photo cutout"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-memory-locations-harbor",
+    "src": "/media/body-images-forever-ago-memory-locations-harbor.webp",
+    "width": 1317,
+    "height": 738,
+    "purpose": "body-images-forever-ago-memory-locations-harbor",
+    "alt": {
+      "en": "Responsible Adults unlocked near harbor steps, bench and life ring"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-missable-achievements-bedroom",
+    "src": "/media/body-images-forever-ago-missable-achievements-bedroom.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-missable-achievements-bedroom",
+    "alt": {
+      "en": "Teddy bear on the bed seen through the opening camera view"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-missable-achievements-store-rest",
+    "src": "/media/body-images-forever-ago-missable-achievements-store-rest.webp",
+    "width": 1280,
+    "height": 711,
+    "purpose": "body-images-forever-ago-missable-achievements-store-rest",
+    "alt": {
+      "en": "Yellow sofa inside Karl's Pump 'n' Mart with the Sit Down prompt"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-missable-achievements-chapter-menu",
+    "src": "/media/body-images-forever-ago-missable-achievements-chapter-menu.webp",
+    "width": 1280,
+    "height": 641,
+    "purpose": "body-images-forever-ago-missable-achievements-chapter-menu",
+    "alt": {
+      "en": "Chapter select menu with Karl's Pump 'n' Mart highlighted"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-old-bones-achievement-gas-exterior",
+    "src": "/media/body-images-forever-ago-old-bones-achievement-gas-exterior.webp",
+    "width": 1280,
+    "height": 717,
+    "purpose": "body-images-forever-ago-old-bones-achievement-gas-exterior",
+    "alt": {
+      "en": "Alfred outside Karl's Pump 'n' Mart near the outdoor rest area"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-old-bones-achievement-store-rest",
+    "src": "/media/body-images-forever-ago-old-bones-achievement-store-rest.webp",
+    "width": 1280,
+    "height": 711,
+    "purpose": "body-images-forever-ago-old-bones-achievement-store-rest",
+    "alt": {
+      "en": "Yellow sofa inside Karl's Pump 'n' Mart with the Sit Down prompt"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-old-bones-achievement-diner-tree-bench",
+    "src": "/media/body-images-forever-ago-old-bones-achievement-diner-tree-bench.webp",
+    "width": 1280,
+    "height": 562,
+    "purpose": "body-images-forever-ago-old-bones-achievement-diner-tree-bench",
+    "alt": {
+      "en": "Alfred beside the red bench beneath a tree on the diner path"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-old-bones-achievement-diner-overlook-bench",
+    "src": "/media/body-images-forever-ago-old-bones-achievement-diner-overlook-bench.webp",
+    "width": 1280,
+    "height": 562,
+    "purpose": "body-images-forever-ago-old-bones-achievement-diner-overlook-bench",
+    "alt": {
+      "en": "Red bench beside mariposa lilies near the diner telescope and sea overlook"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-old-bones-achievement-resort-take-in-view",
+    "src": "/media/body-images-forever-ago-old-bones-achievement-resort-take-in-view.webp",
+    "width": 1280,
+    "height": 562,
+    "purpose": "body-images-forever-ago-old-bones-achievement-resort-take-in-view",
+    "alt": {
+      "en": "Alfred leaning at the resort lake-facing railing during the rest interaction"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-photo-locations-bedroom",
+    "src": "/media/body-images-forever-ago-photo-locations-bedroom.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-photo-locations-bedroom",
+    "alt": {
+      "en": "Bedroom teddy bear seen through the camera"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-photo-locations-dog",
+    "src": "/media/body-images-forever-ago-photo-locations-dog.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-photo-locations-dog",
+    "alt": {
+      "en": "Dog beside the diner rubbish bins"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-photo-locations-booth",
+    "src": "/media/body-images-forever-ago-photo-locations-booth.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-photo-locations-booth",
+    "alt": {
+      "en": "The reserved booth inside the diner"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-photo-locations-boat",
+    "src": "/media/body-images-forever-ago-photo-locations-boat.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-photo-locations-boat",
+    "alt": {
+      "en": "Alfred and Audrey in the boat on the way to the island"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-photo-locations-lighthouse",
+    "src": "/media/body-images-forever-ago-photo-locations-lighthouse.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-photo-locations-lighthouse",
+    "alt": {
+      "en": "The trail toward Winslow Lighthouse"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-petal-collector-achievement-fun-colors",
+    "src": "/media/body-images-forever-ago-petal-collector-achievement-fun-colors.webp",
+    "width": 1280,
+    "height": 713,
+    "purpose": "body-images-forever-ago-petal-collector-achievement-fun-colors",
+    "alt": {
+      "en": "Fun and Colors petal progress beside the swing structure"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-petal-collector-achievement-morning-after",
+    "src": "/media/body-images-forever-ago-petal-collector-achievement-morning-after.webp",
+    "width": 1280,
+    "height": 721,
+    "purpose": "body-images-forever-ago-petal-collector-achievement-morning-after",
+    "alt": {
+      "en": "The Morning After vignette progress outside the diner buildings"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-petal-collector-achievement-responsible-adults",
+    "src": "/media/body-images-forever-ago-petal-collector-achievement-responsible-adults.webp",
+    "width": 1280,
+    "height": 712,
+    "purpose": "body-images-forever-ago-petal-collector-achievement-responsible-adults",
+    "alt": {
+      "en": "Responsible Adults vignette progress beside a wooden resort building"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-ending-explained-memory",
+    "src": "/media/body-images-forever-ago-ending-explained-memory.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-ending-explained-memory",
+    "alt": {
+      "en": "Young Alfred and Audrey together on a forest walk"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-ending-explained-letter",
+    "src": "/media/body-images-forever-ago-ending-explained-letter.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-ending-explained-letter",
+    "alt": {
+      "en": "Alfred beside the desk with the Read Audrey’s Note prompt"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-ending-explained-epilogue",
+    "src": "/media/body-images-forever-ago-ending-explained-epilogue.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-ending-explained-epilogue",
+    "alt": {
+      "en": "The stray dog peering out beside the diner’s rubbish bins"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-petal-locations-inspect",
+    "src": "/media/body-images-forever-ago-petal-locations-inspect.webp",
+    "width": 1322,
+    "height": 740,
+    "purpose": "body-images-forever-ago-petal-locations-inspect",
+    "alt": {
+      "en": "Inspect Petals prompt on the ground below the pumpkin information board"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-petal-locations-table",
+    "src": "/media/body-images-forever-ago-petal-locations-table.webp",
+    "width": 1320,
+    "height": 740,
+    "purpose": "body-images-forever-ago-petal-locations-table",
+    "alt": {
+      "en": "Fun & Colors two-of-three counter beside the picnic table"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-petal-locations-pool",
+    "src": "/media/body-images-forever-ago-petal-locations-pool.webp",
+    "width": 1318,
+    "height": 736,
+    "purpose": "body-images-forever-ago-petal-locations-pool",
+    "alt": {
+      "en": "The Morning After unlock at the pool slide and fence"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-petal-locations-statue",
+    "src": "/media/body-images-forever-ago-petal-locations-statue.webp",
+    "width": 1316,
+    "height": 734,
+    "purpose": "body-images-forever-ago-petal-locations-statue",
+    "alt": {
+      "en": "Petals beside the resort pirate statue base"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-petal-locations-harbor",
+    "src": "/media/body-images-forever-ago-petal-locations-harbor.webp",
+    "width": 1314,
+    "height": 743,
+    "purpose": "body-images-forever-ago-petal-locations-harbor",
+    "alt": {
+      "en": "Responsible Adults two-of-three counter on the harbor platform"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-hidden-achievements-bedroom",
+    "src": "/media/body-images-forever-ago-hidden-achievements-bedroom.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-hidden-achievements-bedroom",
+    "alt": {
+      "en": "Teddy bear on the bed seen through the opening camera view"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-hidden-achievements-atlas",
+    "src": "/media/body-images-forever-ago-hidden-achievements-atlas.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-hidden-achievements-atlas",
+    "alt": {
+      "en": "Road atlas display inside Karl's Pump 'n' Mart"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-hidden-achievements-chapter-menu",
+    "src": "/media/body-images-forever-ago-hidden-achievements-chapter-menu.webp",
+    "width": 1280,
+    "height": 641,
+    "purpose": "body-images-forever-ago-hidden-achievements-chapter-menu",
+    "alt": {
+      "en": "Chapter select menu with Karl's Pump 'n' Mart highlighted"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-collectibles-vignette",
+    "src": "/media/body-images-forever-ago-collectibles-vignette.webp",
+    "width": 1321,
+    "height": 737,
+    "purpose": "body-images-forever-ago-collectibles-vignette",
+    "alt": {
+      "en": "Fun & Colors vignette unlock at the gas-station playground"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-collectibles-pool",
+    "src": "/media/body-images-forever-ago-collectibles-pool.webp",
+    "width": 1319,
+    "height": 743,
+    "purpose": "body-images-forever-ago-collectibles-pool",
+    "alt": {
+      "en": "Petal counter around the motel pool"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-collectibles-resort",
+    "src": "/media/body-images-forever-ago-collectibles-resort.webp",
+    "width": 1316,
+    "height": 734,
+    "purpose": "body-images-forever-ago-collectibles-resort",
+    "alt": {
+      "en": "Pirate statue memory at the resort"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-collectibles-rest",
+    "src": "/media/body-images-forever-ago-collectibles-rest.webp",
+    "width": 1311,
+    "height": 728,
+    "purpose": "body-images-forever-ago-collectibles-rest",
+    "alt": {
+      "en": "A Sit Down prompt for a seat inside the mart"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-collectibles-home",
+    "src": "/media/body-images-forever-ago-collectibles-home.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-collectibles-home",
+    "alt": {
+      "en": "Alfred inside the epilogue house"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-game-length-travel",
+    "src": "/media/body-images-forever-ago-game-length-travel.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-game-length-travel",
+    "alt": {
+      "en": "Alfred driving his camper van past a roadside view"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-game-length-memory",
+    "src": "/media/body-images-forever-ago-game-length-memory.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-game-length-memory",
+    "alt": {
+      "en": "Petal silhouettes revealed inside the camera viewfinder"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-game-length-journal",
+    "src": "/media/body-images-forever-ago-game-length-journal.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-game-length-journal",
+    "alt": {
+      "en": "The open journal and an instant photograph at a campsite pause"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-camera-achievements-bedroom",
+    "src": "/media/body-images-forever-ago-camera-achievements-bedroom.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-camera-achievements-bedroom",
+    "alt": {
+      "en": "Teddy bear on the bed seen through the opening camera view"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-camera-achievements-milton-selfie",
+    "src": "/media/body-images-forever-ago-camera-achievements-milton-selfie.webp",
+    "width": 1280,
+    "height": 562,
+    "purpose": "body-images-forever-ago-camera-achievements-milton-selfie",
+    "alt": {
+      "en": "Alfred and Milton framed together in selfie mode inside the store"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-camera-achievements-journal",
+    "src": "/media/body-images-forever-ago-camera-achievements-journal.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-camera-achievements-journal",
+    "alt": {
+      "en": "A developed photograph beside Alfred's open journal"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-camera-controls-tutorial",
+    "src": "/media/body-images-forever-ago-camera-controls-tutorial.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-camera-controls-tutorial",
+    "alt": {
+      "en": "Bedroom objects seen through the opening camera viewfinder"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-camera-controls-selfie",
+    "src": "/media/body-images-forever-ago-camera-controls-selfie.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-camera-controls-selfie",
+    "alt": {
+      "en": "Young Alfred posing outside the window for Audrey’s camera"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-camera-controls-print",
+    "src": "/media/body-images-forever-ago-camera-controls-print.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-camera-controls-print",
+    "alt": {
+      "en": "Alfred holding an undeveloped instant photo with the Shake Photo prompt"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-journal-photos-opening-journal",
+    "src": "/media/body-images-forever-ago-journal-photos-opening-journal.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-journal-photos-opening-journal",
+    "alt": {
+      "en": "Instant print in Alfred’s hands before the opening journal action"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-journal-photos-album",
+    "src": "/media/body-images-forever-ago-journal-photos-album.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-journal-photos-album",
+    "alt": {
+      "en": "The illustrated journal, camera, and a travel photograph on the campsite table"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-journal-photos-companion-photo",
+    "src": "/media/body-images-forever-ago-journal-photos-companion-photo.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-journal-photos-companion-photo",
+    "alt": {
+      "en": "The dog framed in the camera beside the diner’s rubbish bins"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-selfie-achievement-milton-selfie",
+    "src": "/media/body-images-forever-ago-selfie-achievement-milton-selfie.webp",
+    "width": 1280,
+    "height": 562,
+    "purpose": "body-images-forever-ago-selfie-achievement-milton-selfie",
+    "alt": {
+      "en": "Alfred and Milton framed together in selfie mode inside the store"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-selfie-achievement-chapter-menu",
+    "src": "/media/body-images-forever-ago-selfie-achievement-chapter-menu.webp",
+    "width": 1280,
+    "height": 641,
+    "purpose": "body-images-forever-ago-selfie-achievement-chapter-menu",
+    "alt": {
+      "en": "Chapter select menu with Karl's Pump 'n' Mart highlighted"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-selfie-achievement-journal",
+    "src": "/media/body-images-forever-ago-selfie-achievement-journal.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-selfie-achievement-journal",
+    "alt": {
+      "en": "A developed photograph beside Alfred's open journal"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-chapter-select-chapter-menu",
+    "src": "/media/body-images-forever-ago-chapter-select-chapter-menu.webp",
+    "width": 1280,
+    "height": 641,
+    "purpose": "body-images-forever-ago-chapter-select-chapter-menu",
+    "alt": {
+      "en": "Chapter select menu with Karl's Pump 'n' Mart highlighted"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-chapter-select-milton-selfie",
+    "src": "/media/body-images-forever-ago-chapter-select-milton-selfie.webp",
+    "width": 1280,
+    "height": 562,
+    "purpose": "body-images-forever-ago-chapter-select-milton-selfie",
+    "alt": {
+      "en": "Alfred and Milton framed together in selfie mode inside the store"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-chapter-select-journal",
+    "src": "/media/body-images-forever-ago-chapter-select-journal.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-chapter-select-journal",
+    "alt": {
+      "en": "A developed photograph beside Alfred's open journal"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-checkpoint-save-atlas",
+    "src": "/media/body-images-forever-ago-checkpoint-save-atlas.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-checkpoint-save-atlas",
+    "alt": {
+      "en": "Road atlas display inside Karl's Pump 'n' Mart"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-checkpoint-save-journal",
+    "src": "/media/body-images-forever-ago-checkpoint-save-journal.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-checkpoint-save-journal",
+    "alt": {
+      "en": "A developed photograph beside Alfred's open journal"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-checkpoint-save-chapter-menu",
+    "src": "/media/body-images-forever-ago-checkpoint-save-chapter-menu.webp",
+    "width": 1280,
+    "height": 641,
+    "purpose": "body-images-forever-ago-checkpoint-save-chapter-menu",
+    "alt": {
+      "en": "Chapter select menu with Karl's Pump 'n' Mart highlighted"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-photo-puzzle-window",
+    "src": "/media/body-images-forever-ago-photo-puzzle-window.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-photo-puzzle-window",
+    "alt": {
+      "en": "Young Alfred outside the opening bedroom window"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-photo-puzzle-develop",
+    "src": "/media/body-images-forever-ago-photo-puzzle-develop.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-photo-puzzle-develop",
+    "alt": {
+      "en": "The instant photograph and Shake Photo prompt"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-photo-puzzle-dog",
+    "src": "/media/body-images-forever-ago-photo-puzzle-dog.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-photo-puzzle-dog",
+    "alt": {
+      "en": "Dog photo subject behind the diner bins"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-photo-puzzle-vignette",
+    "src": "/media/body-images-forever-ago-photo-puzzle-vignette.webp",
+    "width": 1321,
+    "height": 737,
+    "purpose": "body-images-forever-ago-photo-puzzle-vignette",
+    "alt": {
+      "en": "Vignette Unlocked prompt after the playground petal search"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-photo-puzzle-boat",
+    "src": "/media/body-images-forever-ago-photo-puzzle-boat.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-photo-puzzle-boat",
+    "alt": {
+      "en": "Boat ride with Audrey during the resort memory"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-williamina-peak-storm",
+    "src": "/media/body-images-forever-ago-williamina-peak-storm.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-williamina-peak-storm",
+    "alt": {
+      "en": "Alfred walking into a dark dream passage"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-williamina-peak-tracks",
+    "src": "/media/body-images-forever-ago-williamina-peak-tracks.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-williamina-peak-tracks",
+    "alt": {
+      "en": "Alfred facing the snowy path during the search for his dog"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-williamina-peak-audrey",
+    "src": "/media/body-images-forever-ago-williamina-peak-audrey.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-williamina-peak-audrey",
+    "alt": {
+      "en": "Alfred holding a bowl beside Audrey with the Feed Audrey prompt"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-chapter-1-photos-bedroom",
+    "src": "/media/body-images-forever-ago-chapter-1-photos-bedroom.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-chapter-1-photos-bedroom",
+    "alt": {
+      "en": "Teddy bear on the bed viewed through the instant camera"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-chapter-1-photos-window",
+    "src": "/media/body-images-forever-ago-chapter-1-photos-window.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-chapter-1-photos-window",
+    "alt": {
+      "en": "Young Alfred posing outside the bedroom window beside a car"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-chapter-1-photos-trail-sign",
+    "src": "/media/body-images-forever-ago-chapter-1-photos-trail-sign.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-chapter-1-photos-trail-sign",
+    "alt": {
+      "en": "Woolson Falls trail sign through the camera"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-chapter-1-photos-develop",
+    "src": "/media/body-images-forever-ago-chapter-1-photos-develop.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-chapter-1-photos-develop",
+    "alt": {
+      "en": "Alfred holding the undeveloped instant photograph"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-chapter-2-photos-playground",
+    "src": "/media/body-images-forever-ago-chapter-2-photos-playground.webp",
+    "width": 1313,
+    "height": 731,
+    "purpose": "body-images-forever-ago-chapter-2-photos-playground",
+    "alt": {
+      "en": "Alfred at the swings with the Fun & Colors petal counter"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-chapter-2-photos-pumpkin",
+    "src": "/media/body-images-forever-ago-chapter-2-photos-pumpkin.webp",
+    "width": 1322,
+    "height": 740,
+    "purpose": "body-images-forever-ago-chapter-2-photos-pumpkin",
+    "alt": {
+      "en": "Inspectable petals below the mosaic pumpkin information board"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-chapter-2-photos-atlas",
+    "src": "/media/body-images-forever-ago-chapter-2-photos-atlas.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-chapter-2-photos-atlas",
+    "alt": {
+      "en": "Road atlases displayed in the convenience store"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-chapter-2-photos-journal",
+    "src": "/media/body-images-forever-ago-chapter-2-photos-journal.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-chapter-2-photos-journal",
+    "alt": {
+      "en": "The campsite journal and a photograph on the table"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-chapter-3-photos-pool",
+    "src": "/media/body-images-forever-ago-chapter-3-photos-pool.webp",
+    "width": 1318,
+    "height": 736,
+    "purpose": "body-images-forever-ago-chapter-3-photos-pool",
+    "alt": {
+      "en": "The Morning After vignette unlock beside the motel swimming pool"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-chapter-3-photos-entrance",
+    "src": "/media/body-images-forever-ago-chapter-3-photos-entrance.webp",
+    "width": 1314,
+    "height": 744,
+    "purpose": "body-images-forever-ago-chapter-3-photos-entrance",
+    "alt": {
+      "en": "Seeking Shelter vignette unlock at the diner glass entrance"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-chapter-3-photos-dog",
+    "src": "/media/body-images-forever-ago-chapter-3-photos-dog.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-chapter-3-photos-dog",
+    "alt": {
+      "en": "Dog beside rubbish bins behind the Highway Star Diner"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-chapter-3-photos-window-photo",
+    "src": "/media/body-images-forever-ago-chapter-3-photos-window-photo.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-chapter-3-photos-window-photo",
+    "alt": {
+      "en": "The diner window scenery viewed through the instant camera"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-dog-photo-booth",
+    "src": "/media/body-images-forever-ago-dog-photo-booth.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-dog-photo-booth",
+    "alt": {
+      "en": "Restricted diner booth before completing Maddys request"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-dog-photo-rubbish",
+    "src": "/media/body-images-forever-ago-dog-photo-rubbish.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-dog-photo-rubbish",
+    "alt": {
+      "en": "Rubbish investigation area behind the diner"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-dog-photo-dog",
+    "src": "/media/body-images-forever-ago-dog-photo-dog.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-dog-photo-dog",
+    "alt": {
+      "en": "Dog beside the bins through the instant camera"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-dog-photo-lighthouse-path",
+    "src": "/media/body-images-forever-ago-dog-photo-lighthouse-path.webp",
+    "width": 800,
+    "height": 450,
+    "purpose": "body-images-forever-ago-dog-photo-lighthouse-path",
+    "alt": {
+      "en": "Alfred on the lighthouse walk with Charles and the dogs"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-audrey-story-audrey-opening",
+    "src": "/media/body-images-forever-ago-audrey-story-audrey-opening.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-audrey-story-audrey-opening",
+    "alt": {
+      "en": "Alfred posing outside the window in Audrey’s opening camera view"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-audrey-story-proposal",
+    "src": "/media/body-images-forever-ago-audrey-story-proposal.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-audrey-story-proposal",
+    "alt": {
+      "en": "Young Alfred facing Audrey at the overlook with the Help Audrey Up prompt"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-images-forever-ago-audrey-story-shared-photo",
+    "src": "/media/body-images-forever-ago-audrey-story-shared-photo.webp",
+    "width": 1440,
+    "height": 810,
+    "purpose": "body-images-forever-ago-audrey-story-shared-photo",
+    "alt": {
+      "en": "Young Alfred following Audrey through the forest after the camera handover"
+    },
+    "position": "50% 50%",
+    "demo": false
+  }
+]

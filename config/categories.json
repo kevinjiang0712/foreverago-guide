@@ -1,0 +1,50 @@
+[
+  {
+    "id": "review",
+    "slug": "review",
+    "order": 0,
+    "navigation": true,
+    "landing": null,
+    "showWhenEmpty": false
+  },
+  {
+    "id": "guide",
+    "slug": "guide",
+    "order": 1,
+    "navigation": true,
+    "landing": null,
+    "showWhenEmpty": false
+  },
+  {
+    "id": "maps",
+    "slug": "maps",
+    "order": 2,
+    "navigation": true,
+    "landing": null,
+    "showWhenEmpty": false
+  },
+  {
+    "id": "story",
+    "slug": "story",
+    "order": 3,
+    "navigation": true,
+    "landing": null,
+    "showWhenEmpty": false
+  },
+  {
+    "id": "walkthrough",
+    "slug": "walkthrough",
+    "order": 4,
+    "navigation": true,
+    "landing": null,
+    "showWhenEmpty": false
+  },
+  {
+    "id": "characters",
+    "slug": "characters",
+    "order": 5,
+    "navigation": true,
+    "landing": null,
+    "showWhenEmpty": false
+  }
+]

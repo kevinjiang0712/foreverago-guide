@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+.next/
+out/
+.wrangler/
+.generated/
+.artifacts/
+playwright-report/
+test-results/
+*.tsbuildinfo
+.env*
+!.env.example
+next-env.d.ts

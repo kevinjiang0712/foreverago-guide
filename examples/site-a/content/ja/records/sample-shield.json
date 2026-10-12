@@ -1,0 +1,19 @@
+{
+  "locale": "ja",
+  "verification": "unverified",
+  "demo": true,
+  "id": "sample-shield",
+  "type": "database-entry",
+  "databaseId": "equipment-database",
+  "name": "稽古用の盾",
+  "summary": "デモ専用の架空データです。実際のゲーム性能を示しません。",
+  "categoryId": "shields",
+  "contentId": null,
+  "values": {
+    "attack": 0,
+    "weight": 4,
+    "acquisition": "練習用の記録"
+  },
+  "evidenceNote": "デモ専用の架空データです。実際のゲーム性能を示しません。",
+  "sources": []
+}

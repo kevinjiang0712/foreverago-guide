@@ -1,0 +1,16 @@
+import type {Sourced} from './read-site';
+import type {SiteConfig} from './schemas/site';
+import type {AdsConfig} from './schemas/ads';
+import type {Dictionary} from './schemas/dictionary';
+import type {Asset} from './schemas/asset';
+import type {HomeContent} from './schemas/home';
+import type {PageMetadata} from './schemas/page';
+import type {CategoryConfig} from './schemas/category';
+import type {ContentRecord} from './schemas/record';
+export type Heading={id:string;text:string;depth:2|3};
+export type IndexedPage=Sourced<PageMetadata>&{path:string;headings:Heading[]};
+export type IndexedHome=Sourced<HomeContent>&{hero:HomeContent['hero']&{title:string}};
+type RouteBase={locale:string;path:string;contentId:string;indexable:boolean;title:string;description:string;updatedAt?:string;publishedAt?:string};
+export type ContentRoute=RouteBase&({kind:'home'}|{kind:'category';categoryId:string}|{kind:'page';categoryId:string;bodyKey:string});
+export type IndexedCategory=CategoryConfig&{locale:string;path:string;title:string;description:string;homepageTitle?:string;homepageDescription?:string;seo?:{title?:string;description?:string;image?:string|null;noindex:boolean;final?:boolean};pages:string[];visible:boolean};
+export type ContentIndex={site:SiteConfig;ads:AdsConfig;preview:boolean;dictionaries:Record<string,Dictionary>;homes:Record<string,IndexedHome>;assets:Record<string,Asset>;records:Record<string,Sourced<ContentRecord>>;routes:Record<string,ContentRoute>;pagesByKey:Record<string,IndexedPage>;translationGroups:Record<string,Record<string,string>>;categories:Record<string,IndexedCategory>;redirects:{source:string;destination:string;permanent:boolean}[]};

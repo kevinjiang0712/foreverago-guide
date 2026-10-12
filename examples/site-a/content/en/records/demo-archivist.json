@@ -1,0 +1,30 @@
+{
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "id": "demo-archivist",
+  "type": "character",
+  "name": "Demo Archivist",
+  "role": "RESIDENT",
+  "summary": "Fictional character copy for a template demonstration.",
+  "contentId": null,
+  "assetId": "demo-character-archivist",
+  "attributes": [
+    {
+      "label": "Weapon",
+      "value": null
+    },
+    {
+      "label": "Signature",
+      "value": null
+    },
+    {
+      "label": "Appears from",
+      "value": null
+    },
+    {
+      "label": "Voice",
+      "value": null
+    }
+  ]
+}

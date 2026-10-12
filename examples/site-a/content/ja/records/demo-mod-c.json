@@ -1,0 +1,25 @@
+{
+  "locale": "ja",
+  "verification": "unverified",
+  "demo": true,
+  "id": "demo-mod-c",
+  "type": "mod",
+  "title": "小型パネルのデモ",
+  "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+  "categoryId": "interface",
+  "tagIds": [
+    "panel",
+    "loader"
+  ],
+  "testedVersions": [
+    "Sample B"
+  ],
+  "updatedAt": "2026-09-03",
+  "downloads": null,
+  "contentId": null,
+  "assetId": null,
+  "authorName": null,
+  "releaseVersion": null,
+  "endorsements": null,
+  "fileSize": null
+}

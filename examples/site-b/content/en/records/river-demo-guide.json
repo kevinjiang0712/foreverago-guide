@@ -1,0 +1,30 @@
+{
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "id": "river-demo-guide",
+  "type": "character",
+  "name": "River specimen 13",
+  "role": "PLAYABLE DEMO",
+  "summary": "A fictional playable character for checking the template. This is not information about a real game.",
+  "contentId": null,
+  "assetId": null,
+  "attributes": [
+    {
+      "label": "Health",
+      "value": null
+    },
+    {
+      "label": "Attack",
+      "value": null
+    },
+    {
+      "label": "Defense",
+      "value": null
+    },
+    {
+      "label": "Movement speed",
+      "value": null
+    }
+  ]
+}

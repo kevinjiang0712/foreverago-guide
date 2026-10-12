@@ -1,0 +1,26 @@
+.revenue-ad{position:relative;width:100%;min-width:0;margin-block:var(--s-7);display:grid;justify-items:center;--revenue-width:100%;--revenue-height:480px}
+.revenue-ad-label{font:var(--fs-label)/var(--lh-caption) var(--font-ui);color:var(--text-caption);display:block;margin-bottom:var(--s-2)}
+.revenue-ad-canvas,.revenue-ad .ad-placeholder-canvas{width:var(--revenue-width);height:var(--revenue-height);border:0;display:block}
+.revenue-ad--native .revenue-ad-canvas{height:auto;min-height:var(--revenue-height)}
+.revenue-ad-canvas iframe{display:block;border:0}
+.revenue-ad .ad-placeholder-canvas{box-sizing:border-box;display:grid;place-items:center;max-width:100%;color:var(--text-caption);border:var(--border-width) dashed var(--placeholder-border);background:var(--surface-well);font-family:var(--font-ui)}
+.revenue-ad--native{min-height:508px}
+.revenue-ad--inline{display:none}
+.revenue-rail{position:fixed;z-index:var(--z-rail);width:160px}
+.revenue-rail .revenue-ad{margin:0}
+.revenue-rail .revenue-ad-label{position:absolute;bottom:100%;margin:0}
+.revenue-close{position:absolute;right:0;top:-24px;z-index:2;width:24px;height:24px;border:var(--border-width) solid var(--border-default);background:var(--surface-page);color:var(--text-primary);cursor:pointer}
+.revenue-rail--anchor{top:0;left:0;width:100%;height:calc(50px + env(safe-area-inset-top));padding-top:env(safe-area-inset-top);background:var(--surface-page);z-index:calc(var(--z-nav) + 1)}
+.revenue-rail--anchor .revenue-ad-label{display:none}
+.revenue-rail--anchor .revenue-close{top:0;right:0}
+.list-grid>.revenue-ad,.catalog-cards>.revenue-ad{grid-column:1/-1}
+@media(max-width:767px){
+ .revenue-ad--inline{display:grid;min-height:278px}
+ .revenue-ad--inline[data-ready=false]{height:0;min-height:0;margin:0;overflow:hidden}
+ .revenue-ad--inline[data-ready=true]{display:grid}
+}
+
+@media(max-width:367px){
+ .revenue-rail--anchor{height:calc(78px + env(safe-area-inset-top));padding-top:calc(var(--s-6) + var(--s-1) + env(safe-area-inset-top))}
+ .revenue-rail--anchor .revenue-close{top:env(safe-area-inset-top)}
+}

@@ -1,0 +1,13 @@
+{
+  "locale": "ja",
+  "demo": true,
+  "verification": "unverified",
+  "id": "demo-character-16",
+  "type": "character",
+  "name": "デモキャラクター 16",
+  "role": "支援役",
+  "summary": "一覧の密度と役割フィルター確認用の架空キャラクター。",
+  "contentId": null,
+  "assetId": null,
+  "attributes": []
+}

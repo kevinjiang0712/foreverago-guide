@@ -1,0 +1,75 @@
+{
+  "id": "demo-guide-detail",
+  "type": "character-detail",
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "characterId": "demo-guide",
+  "sections": {
+    "attributes": {
+      "eyebrow": "REFERENCE / 01",
+      "title": "Attributes",
+      "description": "Values are unverified. Attribute labels can be changed for each game."
+    },
+    "skills": {
+      "eyebrow": "REFERENCE / 02",
+      "title": "Skills",
+      "description": "Skill types, effects, costs and cooldowns in one place."
+    },
+    "acquisition": {
+      "eyebrow": "REFERENCE / 03",
+      "title": "How to obtain",
+      "description": "Check the requirements and location, then follow the acquisition steps."
+    }
+  },
+  "labels": {
+    "cost": "Cost",
+    "cooldown": "Cooldown",
+    "prerequisites": "Prerequisites",
+    "location": "Location",
+    "version": "Game version",
+    "updated": "Last updated",
+    "skillArtwork": "Skill icon"
+  },
+  "attributeNote": "Use this note to state the level, equipment and conditions used to measure attributes.",
+  "skills": [
+    {
+      "id": "active-demo",
+      "name": "Example active skill",
+      "kind": "ACTIVE",
+      "description": "A demonstration of the effect description. Gameplay effects and values are unverified.",
+      "iconAssetId": null,
+      "cost": "Unverified",
+      "cooldown": "Unverified",
+      "verification": "unverified"
+    },
+    {
+      "id": "passive-demo",
+      "name": "Example passive skill",
+      "kind": "PASSIVE",
+      "description": "A demonstration of a passive skill with no cost or cooldown fields.",
+      "iconAssetId": null,
+      "cost": null,
+      "cooldown": null,
+      "verification": "unverified"
+    }
+  ],
+  "acquisition": {
+    "prerequisites": null,
+    "location": null,
+    "steps": [
+      {
+        "id": "check-conditions",
+        "title": "Check the unlock requirements",
+        "description": "The real requirements have not been verified. This step demonstrates the layout.",
+        "verification": "unverified"
+      },
+      {
+        "id": "complete-unlock",
+        "title": "Complete the unlock steps",
+        "description": "Replace this example with verified steps and locations.",
+        "verification": "unverified"
+      }
+    ]
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "locale": "ja",
+  "demo": true,
+  "verification": "unverified",
+  "id": "boss-catalogue",
+  "type": "boss-index",
+  "entities": [
+    {
+      "id": "demo-guardian",
+      "name": "サンプル守護者",
+      "contentId": "first-steps",
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 1,
+      "tags": [
+        "架空のサンプル"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-warden",
+      "name": "サンプル番人",
+      "contentId": "boss-catalogue-reference",
+      "assetId": null,
+      "difficultyId": "high",
+      "phaseCount": 3,
+      "tags": [
+        "架空のサンプル"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-sentinel",
+      "name": "サンプル歩哨",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 2,
+      "tags": [
+        "架空のサンプル"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-harbinger",
+      "name": "デモ先触れ",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "high",
+      "phaseCount": 3,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-watchman",
+      "name": "デモ監視者",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 1,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-colossus",
+      "name": "デモ巨像",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "high",
+      "phaseCount": 2,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-stalker",
+      "name": "デモ追跡者",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "unknown-tier",
+      "phaseCount": null,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-keeper-boss",
+      "name": "デモ門番",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 2,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-tempest",
+      "name": "デモ嵐",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "high",
+      "phaseCount": 3,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-remnant",
+      "name": "デモ残影",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "unknown-tier",
+      "phaseCount": 1,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-11",
+      "name": "デモボス 11",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 2,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-12",
+      "name": "デモボス 12",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "unknown-tier",
+      "phaseCount": null,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-13",
+      "name": "デモボス 13",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 2,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-14",
+      "name": "デモボス 14",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "high",
+      "phaseCount": 1,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-15",
+      "name": "デモボス 15",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "unknown-tier",
+      "phaseCount": null,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-16",
+      "name": "デモボス 16",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "high",
+      "phaseCount": 1,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-17",
+      "name": "デモボス 17",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 2,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-18",
+      "name": "デモボス 18",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "unknown-tier",
+      "phaseCount": null,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-19",
+      "name": "デモボス 19",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 2,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-20",
+      "name": "デモボス 20",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "high",
+      "phaseCount": 1,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-21",
+      "name": "デモボス 21",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "unknown-tier",
+      "phaseCount": null,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-22",
+      "name": "デモボス 22",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "high",
+      "phaseCount": 1,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-23",
+      "name": "デモボス 23",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 2,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-24",
+      "name": "デモボス 24",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "unknown-tier",
+      "phaseCount": null,
+      "tags": [
+        "架空デモ"
+      ],
+      "verification": "unverified"
+    }
+  ],
+  "filterOptions": [
+    {
+      "id": "low",
+      "label": "低難度"
+    },
+    {
+      "id": "high",
+      "label": "高難度"
+    },
+    {
+      "id": "unknown-tier",
+      "label": "未評価"
+    }
+  ],
+  "knownTotal": null,
+  "index": {
+    "eyebrow": "ボス索引",
+    "title": "難度で絞り込む",
+    "description": "絞り込みを示す架空のデータです。実際のゲーム情報ではありません。"
+  },
+  "unrevealed": {
+    "status": "unrevealed",
+    "label": "未公開",
+    "description": "追加のボスと総数は未確認です。"
+  },
+  "detail": {
+    "entityId": "demo-warden",
+    "eyebrow": "架空のボス詳細",
+    "stats": [
+      {
+        "label": "推奨レベル",
+        "value": null
+      },
+      {
+        "label": "戦闘時間",
+        "value": null
+      }
+    ],
+    "facts": [
+      {
+        "label": "弱点",
+        "value": null
+      },
+      {
+        "label": "推奨装備",
+        "value": null
+      },
+      {
+        "label": "ドロップ",
+        "value": null
+      }
+    ],
+    "videoAssetId": null,
+    "attacksTitle": "攻撃と対処",
+    "columns": {
+      "attack": "攻撃",
+      "phase": "フェーズ",
+      "windUp": "予備動作（フレーム）",
+      "answer": "対処"
+    },
+    "attacks": [
+      {
+        "id": "attack-a",
+        "name": "サンプル攻撃 1",
+        "phases": null,
+        "windUpFrames": null,
+        "answer": null,
+        "verification": "unverified"
+      },
+      {
+        "id": "attack-b",
+        "name": "サンプル攻撃 2",
+        "phases": null,
+        "windUpFrames": null,
+        "answer": null,
+        "verification": "unverified"
+      },
+      {
+        "id": "attack-c",
+        "name": "サンプル攻撃 3",
+        "phases": null,
+        "windUpFrames": null,
+        "answer": null,
+        "verification": "unverified"
+      },
+      {
+        "id": "attack-d",
+        "name": "サンプル攻撃 4",
+        "phases": null,
+        "windUpFrames": null,
+        "answer": null,
+        "verification": "unverified"
+      }
+    ]
+  },
+  "footer": {
+    "note": "攻略情報は検証待ちです。",
+    "link": {
+      "label": "ガイドを読む",
+      "target": {
+        "type": "content",
+        "id": "first-steps"
+      }
+    }
+  }
+}

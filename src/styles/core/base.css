@@ -1,0 +1,21 @@
+/* Resets and keyframes. Reads theme tokens only — never a literal colour. */
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--surface-page);color:var(--text-primary);font-family:var(--font-ui);font-size:var(--fs-body);line-height:var(--lh-body);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;text-wrap:pretty;overflow-x:hidden}
+h1,h2,h3,h4,p,figure{margin:0}
+h1,h2{font-weight:var(--display-weight)}
+a{color:var(--text-primary);text-decoration:none;transition:color var(--d-ui) var(--e-settle)}
+a:hover{color:var(--accent-hover)}
+button,input,select,textarea{font-family:var(--font-ui)}
+:focus-visible{outline:var(--border-width) solid var(--focus-ring);outline-offset:var(--focus-offset)}
+::selection{background:var(--accent);color:var(--text-on-accent)}
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-track{background:var(--surface-well)}
+::-webkit-scrollbar-thumb{background:var(--border-default)}
+::-webkit-scrollbar-thumb:hover{background:var(--border-hover)}
+[data-reveal]{transition:opacity .8s var(--e-settle),transform .8s var(--e-settle)}
+[data-reveal="off"]{opacity:0;transform:translateY(var(--reveal-y))}
+@keyframes oni-skeleton{0%{background-position:-140% 0}100%{background-position:240% 0}}
+@keyframes oni-dot{0%,100%{opacity:.22}50%{opacity:1}}
+@keyframes oni-scroll-cue{0%{transform:scaleY(0);transform-origin:top}44%{transform:scaleY(1);transform-origin:top}56%{transform:scaleY(1);transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms !important;transition-duration:.14s !important}}

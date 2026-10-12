@@ -1,0 +1,140 @@
+{
+  "id": "home",
+  "template": "site-home",
+  "locale": "en",
+  "title": "Template Sample A",
+  "description": "A game website demonstration with replaceable content.",
+  "status": "published",
+  "verification": "unverified",
+  "demo": true,
+  "hero": {
+    "eyebrow": "DEMONSTRATION",
+    "description": "Fictional sample. Actual game information is unverified.",
+    "asset": "hero",
+    "video": null,
+    "stats": [
+      {
+        "label": "Introductory guide samples",
+        "value": "2"
+      },
+      {
+        "label": "Languages",
+        "value": "2"
+      },
+      {
+        "label": "Game release",
+        "value": null
+      },
+      {
+        "label": "Platforms",
+        "value": null
+      }
+    ]
+  },
+  "featured": {
+    "eyebrow": "DEMONSTRATION",
+    "title": "Your journey",
+    "description": "Fictional sample. Actual game information is unverified.",
+    "pinnedIds": [
+      "first-steps",
+      "reference-notes"
+    ]
+  },
+  "about": {
+    "eyebrow": "DEMONSTRATION",
+    "title": "What is it?",
+    "paragraphs": [
+      "This fictional sample does not describe a real game. Release dates, platforms and gameplay information remain unverified.",
+      "Replace the game name, artwork and writing while keeping the page structure and reading experience."
+    ],
+    "facts": [
+      {
+        "label": "Developer",
+        "value": null
+      },
+      {
+        "label": "Publisher",
+        "value": null
+      },
+      {
+        "label": "Release date",
+        "value": null
+      },
+      {
+        "label": "Platforms",
+        "value": null
+      },
+      {
+        "label": "Genre",
+        "value": null
+      },
+      {
+        "label": "Players",
+        "value": null
+      }
+    ],
+    "link": {
+      "label": "All guides",
+      "target": {
+        "type": "category",
+        "id": "guides"
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "DEMONSTRATION",
+    "title": "Questions about this site",
+    "description": "Fictional sample. Actual game information is unverified.",
+    "support": {
+      "prefix": "Can't find what you're looking for? Reach out through our",
+      "link": {
+        "label": "contact page",
+        "target": {
+          "type": "content",
+          "id": "contact"
+        }
+      },
+      "suffix": "for assistance."
+    },
+    "items": [
+      {
+        "question": "Is this an official site?",
+        "answer": "No. This is a fictional, independent template demonstration."
+      },
+      {
+        "question": "Is this real gameplay advice?",
+        "answer": "No. Verify game sources before publishing actual guides."
+      },
+      {
+        "question": "How are unknown values displayed?",
+        "answer": "They are marked unverified. Measurements are never guessed."
+      },
+      {
+        "question": "What happens when an image is missing?",
+        "answer": "The page shows an image slot with its purpose and required dimensions."
+      }
+    ]
+  },
+  "cta": {
+    "links": [
+      {
+        "label": "Read the guides",
+        "target": {
+          "type": "category",
+          "id": "guides"
+        }
+      },
+      {
+        "label": "Getting started",
+        "target": {
+          "type": "content",
+          "id": "first-steps"
+        }
+      }
+    ]
+  },
+  "weaponShowcase": {
+    "asset": "demo-weapon-shuffle",
+    "ariaLabel": "Animated grid of sixteen fictional weapon studies"
+  }
+}

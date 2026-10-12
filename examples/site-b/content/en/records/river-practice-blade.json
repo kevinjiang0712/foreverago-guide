@@ -1,0 +1,39 @@
+{
+  "id": "river-practice-blade",
+  "locale": "en",
+  "type": "weapon",
+  "demo": true,
+  "verification": "unverified",
+  "name": "River specimen 27",
+  "kind": "Demonstration weapon",
+  "summary": "A fictional weapon used to demonstrate this reference layout. No real combat properties are claimed.",
+  "contentId": "river-practice-blade-detail",
+  "assetId": "weapon-still",
+  "iconAssetId": "weapon-icon",
+  "facts": [
+    {
+      "label": "Combat identity",
+      "value": "Fictional training example"
+    },
+    {
+      "label": "Special action",
+      "value": "Practice sweep"
+    },
+    {
+      "label": "Learning curve",
+      "value": null
+    },
+    {
+      "label": "Unlock cost",
+      "value": null
+    },
+    {
+      "label": "Measured damage",
+      "value": null
+    }
+  ],
+  "tags": [
+    "Demonstration",
+    "No measurements"
+  ]
+}

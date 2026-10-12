@@ -1,0 +1,164 @@
+{
+  "id": "river-demo-fast",
+  "type": "build",
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "name": "River specimen 12",
+  "summary": "A fictional alternative with no measured performance.",
+  "assetId": null,
+  "playstyleIds": [
+    "fast"
+  ],
+  "weaponIds": [
+    "river-practice-blade"
+  ],
+  "facts": [
+    {
+      "label": "Patch",
+      "value": null
+    },
+    {
+      "label": "Evidence",
+      "value": "Demo only"
+    }
+  ],
+  "equipment": [
+    {
+      "recordId": "river-practice-blade",
+      "label": "Weapon path",
+      "value": "River specimen 27 → Steady branch → Steady finish"
+    },
+    {
+      "recordId": "river-practice-charm",
+      "label": "Accessory",
+      "value": "River specimen 29"
+    },
+    {
+      "recordId": null,
+      "label": "Required resource",
+      "value": null
+    }
+  ],
+  "bestFor": "Inspecting a complete demonstration setup.",
+  "avoidIf": "You need a verified recommendation for a real game.",
+  "howItWorks": "Demonstration only; no game behaviour or measured result is claimed.",
+  "artifactPriority": [
+    {
+      "id": "core",
+      "priority": "Core example",
+      "items": "River specimen 29",
+      "instruction": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    {
+      "id": "optional",
+      "priority": "Optional example",
+      "items": "No verified item",
+      "instruction": "Leave unknown values empty until a source is available."
+    }
+  ],
+  "buildOrder": [
+    "Choose a demonstration branch.",
+    "Read the example equipment and limitations.",
+    "Compare the alternate demonstration variant."
+  ],
+  "howToPlay": "Use these rows to review the layout, not to plan a real run.",
+  "risks": "The example has no verified damage, resource cost or clear evidence.",
+  "evidenceNote": "Demonstration only; no game behaviour or measured result is claimed.",
+  "variants": [
+    {
+      "id": "standard",
+      "label": "Standard example",
+      "equipment": [
+        {
+          "recordId": "river-practice-blade",
+          "label": "Weapon path",
+          "value": "River specimen 27 → Steady branch → Steady finish"
+        },
+        {
+          "recordId": "river-practice-charm",
+          "label": "Accessory",
+          "value": "River specimen 29"
+        },
+        {
+          "recordId": null,
+          "label": "Required resource",
+          "value": null
+        }
+      ],
+      "bestFor": "Inspecting a complete demonstration setup.",
+      "avoidIf": "You need a verified recommendation for a real game.",
+      "howItWorks": "Standard demonstration with unknown performance.",
+      "artifactPriority": [
+        {
+          "id": "core",
+          "priority": "Core example",
+          "items": "River specimen 29",
+          "instruction": "Demonstration only; no game behaviour or measured result is claimed."
+        },
+        {
+          "id": "optional",
+          "priority": "Optional example",
+          "items": "No verified item",
+          "instruction": "Leave unknown values empty until a source is available."
+        }
+      ],
+      "buildOrder": [
+        "Choose a demonstration branch.",
+        "Read the example equipment and limitations.",
+        "Compare the alternate demonstration variant."
+      ],
+      "howToPlay": "Use these rows to review the layout, not to plan a real run.",
+      "risks": "The example has no verified damage, resource cost or clear evidence.",
+      "evidenceNote": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified"
+    },
+    {
+      "id": "alternate",
+      "label": "Alternate example",
+      "equipment": [
+        {
+          "recordId": "river-practice-blade",
+          "label": "Weapon path",
+          "value": "River specimen 27 → Steady branch → Steady finish"
+        },
+        {
+          "recordId": "river-practice-charm",
+          "label": "Accessory",
+          "value": "River specimen 29"
+        },
+        {
+          "recordId": null,
+          "label": "Required resource",
+          "value": null
+        }
+      ],
+      "bestFor": "Inspecting a complete demonstration setup.",
+      "avoidIf": "You need a verified recommendation for a real game.",
+      "howItWorks": "Alternate demonstration; it changes the example instructions only.",
+      "artifactPriority": [
+        {
+          "id": "core",
+          "priority": "Core example",
+          "items": "River specimen 29",
+          "instruction": "Demonstration only; no game behaviour or measured result is claimed."
+        },
+        {
+          "id": "optional",
+          "priority": "Optional example",
+          "items": "No verified item",
+          "instruction": "Leave unknown values empty until a source is available."
+        }
+      ],
+      "buildOrder": [
+        "Choose a demonstration branch.",
+        "Read the example equipment and limitations.",
+        "Compare the alternate demonstration variant."
+      ],
+      "howToPlay": "Use these rows to review the layout, not to plan a real run.",
+      "risks": "The example has no verified damage, resource cost or clear evidence.",
+      "evidenceNote": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "river-build-library",
+  "type": "build-library",
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "sections": {
+    "evidence": {
+      "eyebrow": "EVIDENCE",
+      "title": "What each badge proves",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    "find": {
+      "eyebrow": "FIND A BUILD",
+      "title": "Find the right build",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    "setups": {
+      "eyebrow": "COMPLETE SETUPS",
+      "title": "Complete build setups",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    "presets": {
+      "eyebrow": "PRESET CODES",
+      "title": "Preset codes and evidence",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    "rescue": {
+      "eyebrow": "RESCUE A RUN",
+      "title": "When a core item is missing",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    "faq": {
+      "eyebrow": "QUESTIONS",
+      "title": "Build questions",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    }
+  },
+  "evidenceLegend": [
+    {
+      "id": "demo",
+      "label": "Unverified demonstration",
+      "description": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified"
+    },
+    {
+      "id": "no-measurement",
+      "label": "No measured results",
+      "description": "The example does not report clears, damage or success rates.",
+      "verification": "unverified"
+    },
+    {
+      "id": "no-source",
+      "label": "No source supplied",
+      "description": "Replace this example only after registering real evidence.",
+      "verification": "unverified"
+    }
+  ],
+  "filterOptions": {
+    "playstyles": [
+      {
+        "id": "steady",
+        "label": "Steady"
+      },
+      {
+        "id": "fast",
+        "label": "Fast"
+      }
+    ],
+    "weapons": [
+      {
+        "id": "river-practice-blade",
+        "label": "River specimen 27"
+      },
+      {
+        "id": "river-practice-bow",
+        "label": "River specimen 28"
+      }
+    ]
+  },
+  "buildIds": [
+    "river-demo-steady",
+    "river-demo-range",
+    "river-demo-fast"
+  ],
+  "presets": [
+    {
+      "id": "demo-preset",
+      "buildId": "river-demo-steady",
+      "title": "Demonstration preset — not importable",
+      "code": "DEMO-ONLY|practice-setup|NOT-A-GAME-IMPORT",
+      "description": "This text tests copying only. It cannot be imported into a game.",
+      "verification": "unverified"
+    }
+  ],
+  "rescueRows": [
+    {
+      "id": "missing-core",
+      "buildId": "river-demo-steady",
+      "protectFirst": null,
+      "ifMissing": null,
+      "pivot": null,
+      "verification": "unverified"
+    }
+  ],
+  "faq": [
+    {
+      "id": "real",
+      "question": "Are these real recommendations?",
+      "answer": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified"
+    }
+  ],
+  "columns": {
+    "build": "Build",
+    "protectFirst": "Protect first",
+    "ifMissing": "If missing",
+    "pivot": "Pivot"
+  }
+}

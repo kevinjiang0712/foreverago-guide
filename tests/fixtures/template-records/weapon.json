@@ -1,0 +1,15 @@
+{
+  "locale": "en",
+  "verification": "unverified",
+  "demo": true,
+  "id": "practice-blade",
+  "type": "weapon",
+  "name": "Fixture weapon",
+  "kind": "Fixture",
+  "summary": "Minimal reusable entity.",
+  "contentId": null,
+  "assetId": null,
+  "iconAssetId": null,
+  "facts": [],
+  "tags": []
+}

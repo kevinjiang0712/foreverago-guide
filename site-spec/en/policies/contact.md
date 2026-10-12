@@ -1,0 +1,21 @@
+## Contact Kevin
+
+For site questions, corrections, broken links, image concerns, or privacy enquiries, email `kevinjiang0712@gmail.com`. This contact is for the independent guide site at https://www.foreverago-guide.wiki/.
+
+## Report a content issue
+
+Include the page address and the specific sentence, step, or image that needs attention. If the issue depends on your platform or game version, include that information. A screenshot of the relevant game prompt or a link to official information can help establish what should change.
+
+Please distinguish a factual correction from a preferred interpretation of the story. Both can be useful, but they require different kinds of review. Do not send passwords, account credentials, payment details, or an entire save file containing personal information.
+
+## Report a site issue
+
+Describe what you tried, what happened, and which page you were visiting. For a layout or navigation problem, include your browser, device type, and whether the problem occurs after refreshing the page. Avoid including private information in screenshots.
+
+The site is not operated by Third Shift or Annapurna Interactive. We cannot access your game account, change your game save, issue a game refund, or resolve a platform purchase. Use the relevant official support channel for those requests.
+
+## Privacy and image enquiries
+
+Use the same email address for questions about site data use or an illustration. For an image concern, identify the page, image, and basis of your request so it can be assessed. For a privacy request, explain what information or interaction it concerns without sending unnecessary identifiers.
+
+See the [Privacy Policy](content:privacy) for details of analytics and advertising services. We do not promise a fixed response time or a particular outcome before reviewing a request.

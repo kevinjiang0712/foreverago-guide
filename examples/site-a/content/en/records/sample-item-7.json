@@ -1,0 +1,19 @@
+{
+  "locale": "en",
+  "verification": "unverified",
+  "demo": true,
+  "id": "sample-item-7",
+  "type": "database-entry",
+  "databaseId": "equipment-database",
+  "name": "Demo accessory 7",
+  "summary": "Fictional demonstration values, not measured game statistics.",
+  "categoryId": "accessories",
+  "contentId": null,
+  "values": {
+    "attack": 7,
+    "weight": 0.7,
+    "acquisition": "Demo record"
+  },
+  "evidenceNote": "Fictional demonstration values, not measured game statistics.",
+  "sources": []
+}

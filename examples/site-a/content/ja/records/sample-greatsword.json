@@ -1,0 +1,19 @@
+{
+  "locale": "ja",
+  "verification": "unverified",
+  "demo": true,
+  "id": "sample-greatsword",
+  "type": "database-entry",
+  "databaseId": "equipment-database",
+  "name": "大剣",
+  "summary": "デモ専用の架空データです。実際のゲーム性能を示しません。",
+  "categoryId": "weapons",
+  "contentId": null,
+  "values": {
+    "attack": 24,
+    "weight": 6,
+    "acquisition": "練習用の記録"
+  },
+  "evidenceNote": "デモ専用の架空データです。実際のゲーム性能を示しません。",
+  "sources": []
+}

@@ -1,0 +1,112 @@
+{
+  "locale": "en",
+  "verification": "unverified",
+  "demo": true,
+  "id": "equipment-database",
+  "type": "database-index",
+  "entryIds": [
+    "sample-blade",
+    "sample-sabre",
+    "sample-greatsword",
+    "sample-shield",
+    "sample-unknown",
+    "sample-item-6",
+    "sample-item-7",
+    "sample-item-8",
+    "sample-item-9",
+    "sample-item-10",
+    "sample-item-11",
+    "sample-item-12",
+    "sample-item-13",
+    "sample-item-14",
+    "sample-item-15",
+    "sample-item-16",
+    "sample-item-17",
+    "sample-item-18",
+    "sample-item-19",
+    "sample-item-20",
+    "sample-item-21",
+    "sample-item-22",
+    "sample-item-23",
+    "sample-item-24",
+    "sample-item-25",
+    "sample-item-26",
+    "sample-item-27",
+    "sample-item-28",
+    "sample-item-29",
+    "sample-item-30",
+    "sample-item-31",
+    "sample-item-32",
+    "sample-item-33",
+    "sample-item-34",
+    "sample-item-35",
+    "sample-item-36",
+    "sample-item-37",
+    "sample-item-38",
+    "sample-item-39",
+    "sample-item-40",
+    "sample-item-41",
+    "sample-item-42",
+    "sample-item-43",
+    "sample-item-44",
+    "sample-item-45",
+    "sample-item-46",
+    "sample-item-47",
+    "sample-item-48",
+    "sample-item-49",
+    "sample-item-50",
+    "sample-item-51",
+    "sample-item-52",
+    "sample-item-53",
+    "sample-item-54",
+    "sample-item-55",
+    "sample-item-56",
+    "sample-item-57",
+    "sample-item-58",
+    "sample-item-59",
+    "sample-item-60",
+    "sample-item-61",
+    "sample-item-62",
+    "sample-item-63",
+    "sample-item-64",
+    "sample-item-65"
+  ],
+  "fields": [
+    {
+      "id": "attack",
+      "label": "Attack",
+      "kind": "number",
+      "unit": null,
+      "compare": true
+    },
+    {
+      "id": "weight",
+      "label": "Weight",
+      "kind": "number",
+      "unit": "kg",
+      "compare": true
+    },
+    {
+      "id": "acquisition",
+      "label": "Acquisition",
+      "kind": "text",
+      "unit": null,
+      "compare": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "weapons",
+      "label": "Weapons"
+    },
+    {
+      "id": "shields",
+      "label": "Shields"
+    },
+    {
+      "id": "accessories",
+      "label": "Accessories (demo)"
+    }
+  ],
+  "evidenceNote": "Fictional demonstration values, not measured game statistics."
+}

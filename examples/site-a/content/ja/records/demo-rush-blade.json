@@ -1,0 +1,36 @@
+{
+  "id": "demo-rush-blade",
+  "type": "build",
+  "locale": "ja",
+  "demo": true,
+  "verification": "unverified",
+  "name": "ラッシュブレード配装",
+  "summary": "ページ送り確認用の高速ブレード例。",
+  "assetId": null,
+  "playstyleIds": [
+    "fast"
+  ],
+  "weaponIds": [
+    "practice-blade"
+  ],
+  "facts": [
+    {
+      "label": "パッチ",
+      "value": null
+    },
+    {
+      "label": "証拠",
+      "value": "デモ専用"
+    }
+  ],
+  "equipment": [],
+  "bestFor": "一覧の検索、絞り込み、ページ送りを確認する用途。",
+  "avoidIf": "実際の攻略情報が必要な場合。",
+  "howItWorks": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+  "artifactPriority": [],
+  "buildOrder": [],
+  "howToPlay": "表示構成の確認にのみ使用します。",
+  "risks": "検証済みの性能情報はありません。",
+  "evidenceNote": "出典は設定されていません。",
+  "variants": []
+}

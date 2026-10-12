@@ -1,0 +1,75 @@
+{
+  "id": "demo-guide-detail",
+  "type": "character-detail",
+  "locale": "ja",
+  "demo": true,
+  "verification": "unverified",
+  "characterId": "demo-guide",
+  "sections": {
+    "attributes": {
+      "eyebrow": "資料 / 01",
+      "title": "基本属性",
+      "description": "数値は未確認です。属性名はゲームに合わせて変更できます。"
+    },
+    "skills": {
+      "eyebrow": "資料 / 02",
+      "title": "スキル",
+      "description": "スキルの種類、効果、消費量と再使用時間をまとめます。"
+    },
+    "acquisition": {
+      "eyebrow": "資料 / 03",
+      "title": "入手方法",
+      "description": "条件と場所を確認し、手順に沿って入手します。"
+    }
+  },
+  "labels": {
+    "cost": "消費量",
+    "cooldown": "再使用時間",
+    "prerequisites": "前提条件",
+    "location": "場所",
+    "version": "対象バージョン",
+    "updated": "更新日",
+    "skillArtwork": "スキルアイコン"
+  },
+  "attributeNote": "レベルや装備など、数値の測定条件をここに記載します。",
+  "skills": [
+    {
+      "id": "active-demo",
+      "name": "アクティブスキルの例",
+      "kind": "アクティブ",
+      "description": "効果説明の表示例です。数値やゲーム内の効果は未確認です。",
+      "iconAssetId": null,
+      "cost": "未確認",
+      "cooldown": "未確認",
+      "verification": "unverified"
+    },
+    {
+      "id": "passive-demo",
+      "name": "パッシブスキルの例",
+      "kind": "パッシブ",
+      "description": "消費量や再使用時間がないスキルの表示例です。",
+      "iconAssetId": null,
+      "cost": null,
+      "cooldown": null,
+      "verification": "unverified"
+    }
+  ],
+  "acquisition": {
+    "prerequisites": null,
+    "location": null,
+    "steps": [
+      {
+        "id": "check-conditions",
+        "title": "解放条件を確認",
+        "description": "実際の条件はまだ確認されていません。この手順はレイアウト用の例です。",
+        "verification": "unverified"
+      },
+      {
+        "id": "complete-unlock",
+        "title": "解放手順を完了",
+        "description": "確認できた手順と場所をここに記載してください。",
+        "verification": "unverified"
+      }
+    ]
+  }
+}

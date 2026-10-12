@@ -1,0 +1,39 @@
+{
+  "id": "practice-blade",
+  "locale": "ja",
+  "type": "weapon",
+  "demo": true,
+  "verification": "unverified",
+  "name": "練習用の刃",
+  "kind": "架空の武器",
+  "summary": "参照ページを示すための架空の武器です。実際の戦闘性能を示すものではありません。",
+  "contentId": "practice-blade-detail",
+  "assetId": "weapon-still",
+  "iconAssetId": "weapon-icon",
+  "facts": [
+    {
+      "label": "戦闘での役割",
+      "value": "架空の練習用サンプル"
+    },
+    {
+      "label": "特殊動作",
+      "value": "練習スイープ"
+    },
+    {
+      "label": "習得難度",
+      "value": null
+    },
+    {
+      "label": "解放コスト",
+      "value": null
+    },
+    {
+      "label": "測定ダメージ",
+      "value": null
+    }
+  ],
+  "tags": [
+    "デモ",
+    "測定なし"
+  ]
+}

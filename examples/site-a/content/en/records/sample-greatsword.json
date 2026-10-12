@@ -1,0 +1,19 @@
+{
+  "locale": "en",
+  "verification": "unverified",
+  "demo": true,
+  "id": "sample-greatsword",
+  "type": "database-entry",
+  "databaseId": "equipment-database",
+  "name": "Greatsword",
+  "summary": "Fictional demonstration values, not measured game statistics.",
+  "categoryId": "weapons",
+  "contentId": null,
+  "values": {
+    "attack": 24,
+    "weight": 6,
+    "acquisition": "Practice record"
+  },
+  "evidenceNote": "Fictional demonstration values, not measured game statistics.",
+  "sources": []
+}

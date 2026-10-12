@@ -1,0 +1,19 @@
+{
+  "locale": "en",
+  "verification": "unverified",
+  "demo": true,
+  "id": "sample-unknown",
+  "type": "database-entry",
+  "databaseId": "equipment-database",
+  "name": "Undocumented weapon",
+  "summary": "Fictional demonstration values, not measured game statistics.",
+  "categoryId": "weapons",
+  "contentId": null,
+  "values": {
+    "attack": null,
+    "weight": null,
+    "acquisition": null
+  },
+  "evidenceNote": "Fictional demonstration values, not measured game statistics.",
+  "sources": []
+}

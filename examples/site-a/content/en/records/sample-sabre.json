@@ -1,0 +1,19 @@
+{
+  "locale": "en",
+  "verification": "unverified",
+  "demo": true,
+  "id": "sample-sabre",
+  "type": "database-entry",
+  "databaseId": "equipment-database",
+  "name": "Light sabre",
+  "summary": "Fictional demonstration values, not measured game statistics.",
+  "categoryId": "weapons",
+  "contentId": null,
+  "values": {
+    "attack": 8,
+    "weight": 1.5,
+    "acquisition": "Practice record"
+  },
+  "evidenceNote": "Fictional demonstration values, not measured game statistics.",
+  "sources": []
+}

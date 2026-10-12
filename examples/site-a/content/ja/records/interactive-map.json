@@ -1,0 +1,199 @@
+{
+  "id": "interactive-map",
+  "locale": "ja",
+  "type": "interactive-map",
+  "verification": "unverified",
+  "demo": true,
+  "mapId": "demo-world",
+  "dataVersion": "demo-v1",
+  "knownTotal": null,
+  "sections": {
+    "map": {
+      "eyebrow": "地図",
+      "title": "サンプル地図を探索",
+      "description": "架空のピンを配置した二つの地域です。"
+    },
+    "legend": {
+      "eyebrow": "凡例",
+      "title": "ピンの意味",
+      "description": "分類名、アイコン、色は資料に登録されています。"
+    },
+    "locations": {
+      "eyebrow": "場所",
+      "title": "すべてのピンを文章で読む",
+      "description": "検索と分類は地図とこの一覧に同時に適用されます。"
+    },
+    "progress": {
+      "eyebrow": "進捗",
+      "title": "収集の進捗",
+      "description": "収集対象のピンだけをこのブラウザーに保存します。アカウントやアップロードはありません。"
+    },
+    "how-to": {
+      "eyebrow": "使い方",
+      "title": "地図の読み方",
+      "description": "サンプルの操作方法を説明します。"
+    },
+    "faq": {
+      "eyebrow": "よくある質問",
+      "title": "地図について",
+      "description": "このデモで確認できること。"
+    }
+  },
+  "regions": [
+    {
+      "id": "north",
+      "label": "北のサンプル",
+      "chapterLabel": "デモ A",
+      "imageAssetId": null,
+      "width": 3000,
+      "height": 2060,
+      "plateLabel": "サンプル地図 — 北",
+      "plateNote": "架空の座標です。ゲームの地図は提供されていません。",
+      "knownTotal": null,
+      "disabled": false,
+      "verification": "unverified"
+    },
+    {
+      "id": "south",
+      "label": "南のサンプル",
+      "chapterLabel": "デモ B",
+      "imageAssetId": null,
+      "width": 2600,
+      "height": 2600,
+      "plateLabel": "サンプル地図 — 南",
+      "plateNote": "架空の座標です。ゲームの地図は提供されていません。",
+      "knownTotal": null,
+      "disabled": false,
+      "verification": "unverified"
+    }
+  ],
+  "categories": [
+    {
+      "id": "collectibles",
+      "label": "サンプル収集品",
+      "description": "ローカル保存を確認するための架空のアイテム。",
+      "icon": "◆",
+      "tone": "marker"
+    },
+    {
+      "id": "notes",
+      "label": "サンプルメモ",
+      "description": "収集チェックのない架空の目印。",
+      "icon": "●",
+      "tone": "text-caption"
+    }
+  ],
+  "pins": [
+    {
+      "id": "north-token",
+      "regionId": "north",
+      "categoryId": "collectibles",
+      "xPercent": 28,
+      "yPercent": 31,
+      "label": "北のトークン",
+      "description": "動作確認用の架空の収集品。実際の場所ではありません。",
+      "contentId": null,
+      "collectible": true,
+      "verification": "unverified"
+    },
+    {
+      "id": "north-page",
+      "regionId": "north",
+      "categoryId": "collectibles",
+      "xPercent": 71,
+      "yPercent": 66,
+      "label": "北のページ",
+      "description": "二つ目の架空の収集品。",
+      "contentId": null,
+      "collectible": true,
+      "verification": "unverified"
+    },
+    {
+      "id": "north-note",
+      "regionId": "north",
+      "categoryId": "notes",
+      "xPercent": 47,
+      "yPercent": 44,
+      "label": "北の目印",
+      "description": "収集状態のない架空のメモ。",
+      "contentId": null,
+      "collectible": false,
+      "verification": "unverified"
+    },
+    {
+      "id": "south-token",
+      "regionId": "south",
+      "categoryId": "collectibles",
+      "xPercent": 35,
+      "yPercent": 58,
+      "label": "南のトークン",
+      "description": "二つ目の地域にある架空の収集品。",
+      "contentId": null,
+      "collectible": true,
+      "verification": "unverified"
+    },
+    {
+      "id": "south-note",
+      "regionId": "south",
+      "categoryId": "notes",
+      "xPercent": 73,
+      "yPercent": 24,
+      "label": "南の目印",
+      "description": "二つ目の地域にある架空のメモ。",
+      "contentId": null,
+      "collectible": false,
+      "verification": "unverified"
+    }
+  ],
+  "mapNote": "ドラッグで移動し、スクロールまたはボタンで拡大します。Tab キーでピンの詳細を表示できます。文章一覧でも同じ情報を確認できます。",
+  "locationsNote": "登録されたすべてのピンに説明があります。位置と説明はデモ用であり、ゲームの事実ではありません。",
+  "progressImageAssetId": null,
+  "progressImageLabel": "比較用の地図画像 — 未提供",
+  "progressCaption": "デモのピンについて、キャプチャーや独立した検証は提供されていません。",
+  "instructions": [
+    {
+      "id": "filters",
+      "title": "地域と分類から始めます。",
+      "description": "分類をすべて非表示にしてから、必要な分類を表示します。",
+      "verification": "unverified"
+    },
+    {
+      "id": "status",
+      "title": "検証状態を確認します。",
+      "description": "登録されたピンはすべて未検証のデモ情報です。",
+      "verification": "unverified"
+    },
+    {
+      "id": "keyboard",
+      "title": "文章の場所一覧を使います。",
+      "description": "キーボードでも詳細を開き、収集品をチェックできます。",
+      "verification": "unverified"
+    },
+    {
+      "id": "save",
+      "title": "保存状態を確認します。",
+      "description": "保存エラーは進捗が保存されなかったことを示します。再試行するか、この地図だけをリセットしてください。",
+      "verification": "unverified"
+    }
+  ],
+  "faq": [
+    {
+      "id": "complete",
+      "question": "これは完全なゲーム地図ですか？",
+      "answer": "いいえ。架空の地域とピンを使ったデモです。実際の総数は不明です。",
+      "verification": "unverified"
+    },
+    {
+      "id": "saved",
+      "question": "進捗はどこに保存されますか？",
+      "answer": "このサイトの地図とデータ版ごとに、このブラウザー内に保存します。アップロードはありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "phone",
+      "question": "キーボードやスマートフォンでも使えますか？",
+      "answer": "拡大ボタンと文章一覧で、登録されたすべてのピン情報を確認できます。",
+      "verification": "unverified"
+    }
+  ]
+}

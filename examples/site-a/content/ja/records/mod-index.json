@@ -1,0 +1,254 @@
+{
+  "locale": "ja",
+  "verification": "unverified",
+  "demo": true,
+  "id": "mod-index",
+  "type": "mod-index",
+  "sections": {
+    "browse": {
+      "eyebrow": "一覧",
+      "title": "掲載 MOD 一覧",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。"
+    },
+    "install": {
+      "eyebrow": "導入",
+      "title": "MOD の導入手順",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。"
+    },
+    "compat": {
+      "eyebrow": "互換性",
+      "title": "バージョン表示の意味",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。"
+    },
+    "safety": {
+      "eyebrow": "安全性",
+      "title": "協力プレイ・実績・アカウント",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。"
+    },
+    "faq": {
+      "eyebrow": "よくある質問",
+      "title": "MOD に関する質問",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。"
+    },
+    "legal": {
+      "eyebrow": "出典",
+      "title": "出典と掲載範囲",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。"
+    }
+  },
+  "modIds": [
+    "demo-mod-a",
+    "demo-mod-b",
+    "demo-mod-c",
+    "demo-mod-d",
+    "demo-mod-e",
+    "demo-mod-f",
+    "demo-mod-g",
+    "demo-mod-h",
+    "demo-mod-i",
+    "demo-mod-j",
+    "demo-mod-11",
+    "demo-mod-12",
+    "demo-mod-13",
+    "demo-mod-14",
+    "demo-mod-15",
+    "demo-mod-16",
+    "demo-mod-17",
+    "demo-mod-18",
+    "demo-mod-19",
+    "demo-mod-20",
+    "demo-mod-21",
+    "demo-mod-22",
+    "demo-mod-23",
+    "demo-mod-24",
+    "demo-mod-25",
+    "demo-mod-26",
+    "demo-mod-27",
+    "demo-mod-28",
+    "demo-mod-29",
+    "demo-mod-30",
+    "demo-mod-31",
+    "demo-mod-32",
+    "demo-mod-33",
+    "demo-mod-34",
+    "demo-mod-35",
+    "demo-mod-36",
+    "demo-mod-37",
+    "demo-mod-38",
+    "demo-mod-39",
+    "demo-mod-40",
+    "demo-mod-41",
+    "demo-mod-42",
+    "demo-mod-43",
+    "demo-mod-44",
+    "demo-mod-45",
+    "demo-mod-46",
+    "demo-mod-47",
+    "demo-mod-48",
+    "demo-mod-49",
+    "demo-mod-50",
+    "demo-mod-51",
+    "demo-mod-52",
+    "demo-mod-53",
+    "demo-mod-54",
+    "demo-mod-55",
+    "demo-mod-56",
+    "demo-mod-57",
+    "demo-mod-58",
+    "demo-mod-59",
+    "demo-mod-60",
+    "demo-mod-61",
+    "demo-mod-62",
+    "demo-mod-63",
+    "demo-mod-64",
+    "demo-mod-65"
+  ],
+  "currentVersion": "Sample A",
+  "perPage": 30,
+  "knownTotal": null,
+  "sortOptions": [
+    {
+      "id": "listed",
+      "label": "注目順（掲載順）"
+    },
+    {
+      "id": "downloads",
+      "label": "ダウンロード数順"
+    },
+    {
+      "id": "updated",
+      "label": "更新日順"
+    }
+  ],
+  "categories": [
+    {
+      "id": "interface",
+      "label": "インターフェース"
+    },
+    {
+      "id": "visuals",
+      "label": "ビジュアル"
+    }
+  ],
+  "tags": [
+    {
+      "id": "panel",
+      "label": "パネル"
+    },
+    {
+      "id": "loader",
+      "label": "ローダー"
+    },
+    {
+      "id": "palette",
+      "label": "配色"
+    }
+  ],
+  "beforeInstall": {
+    "eyebrow": "導入前",
+    "title": "導入前の確認",
+    "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。"
+  },
+  "installSteps": [
+    {
+      "id": "read",
+      "title": "元の手順を確認する",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "backup",
+      "title": "バックアップ手順を確認する",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "verify",
+      "title": "テスト対象バージョンを確認する",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "verification": "unverified"
+    }
+  ],
+  "compatibility": [
+    {
+      "id": "current",
+      "title": "テスト対象として掲載されたバージョン",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "other",
+      "title": "別のバージョン",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "unknown",
+      "title": "バージョン不明",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "verification": "unverified"
+    }
+  ],
+  "safetyNotes": [
+    {
+      "id": "coop",
+      "title": "協力プレイへの影響",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "achievements",
+      "title": "実績への影響",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "account",
+      "title": "アカウントの制限",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "files",
+      "title": "ファイルの出所",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "verification": "unverified"
+    }
+  ],
+  "safetyAssetId": "mod-manager",
+  "safetyCaption": "このデモには MOD 管理ツールの画像はありません。",
+  "faq": [
+    {
+      "id": "demo-question",
+      "question": "このサンプルはダウンロードできますか？",
+      "answer": "いいえ。レイアウト確認用の架空のサンプルです。実際のファイルや作者ページはありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "version-question",
+      "question": "バージョン表示は検証済みですか？",
+      "answer": "いいえ。Sample A と Sample B は絞り込みを実演するためだけの値です。",
+      "verification": "unverified"
+    }
+  ],
+  "legalNotes": [
+    {
+      "id": "scope",
+      "title": "掲載範囲",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "rights",
+      "title": "作者の権利",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "corrections",
+      "title": "訂正",
+      "description": "このデモでは送信先は未設定です。",
+      "verification": "unverified"
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "id": "boss-catalogue",
+  "type": "boss-index",
+  "entities": [
+    {
+      "id": "demo-guardian",
+      "name": "Demo Guardian",
+      "contentId": "first-steps",
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 1,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-warden",
+      "name": "Demo Warden",
+      "contentId": "boss-catalogue-reference",
+      "assetId": null,
+      "difficultyId": "high",
+      "phaseCount": 3,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-sentinel",
+      "name": "Demo Sentinel",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 2,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-harbinger",
+      "name": "Demo Harbinger",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "high",
+      "phaseCount": 3,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-watchman",
+      "name": "Demo Watchman",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 1,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-colossus",
+      "name": "Demo Colossus",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "high",
+      "phaseCount": 2,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-stalker",
+      "name": "Demo Stalker",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "unknown-tier",
+      "phaseCount": null,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-keeper-boss",
+      "name": "Demo Gatekeeper",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 2,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-tempest",
+      "name": "Demo Tempest",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "high",
+      "phaseCount": 3,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-remnant",
+      "name": "Demo Remnant",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "unknown-tier",
+      "phaseCount": 1,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-11",
+      "name": "Demo Boss 11",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 2,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-12",
+      "name": "Demo Boss 12",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "unknown-tier",
+      "phaseCount": null,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-13",
+      "name": "Demo Boss 13",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 2,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-14",
+      "name": "Demo Boss 14",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "high",
+      "phaseCount": 1,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-15",
+      "name": "Demo Boss 15",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "unknown-tier",
+      "phaseCount": null,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-16",
+      "name": "Demo Boss 16",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "high",
+      "phaseCount": 1,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-17",
+      "name": "Demo Boss 17",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 2,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-18",
+      "name": "Demo Boss 18",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "unknown-tier",
+      "phaseCount": null,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-19",
+      "name": "Demo Boss 19",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 2,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-20",
+      "name": "Demo Boss 20",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "high",
+      "phaseCount": 1,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-21",
+      "name": "Demo Boss 21",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "unknown-tier",
+      "phaseCount": null,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-22",
+      "name": "Demo Boss 22",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "high",
+      "phaseCount": 1,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-23",
+      "name": "Demo Boss 23",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 2,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-boss-24",
+      "name": "Demo Boss 24",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "unknown-tier",
+      "phaseCount": null,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    }
+  ],
+  "filterOptions": [
+    {
+      "id": "low",
+      "label": "Low difficulty"
+    },
+    {
+      "id": "high",
+      "label": "High difficulty"
+    },
+    {
+      "id": "unknown-tier",
+      "label": "Unrated"
+    }
+  ],
+  "knownTotal": null,
+  "index": {
+    "eyebrow": "BOSS INDEX",
+    "title": "Filter by difficulty",
+    "description": "Fictional entries demonstrate the filters. These are not verified game facts."
+  },
+  "unrevealed": {
+    "status": "unrevealed",
+    "label": "Held back",
+    "description": "Further bosses and the total remain unknown."
+  },
+  "detail": {
+    "entityId": "demo-warden",
+    "eyebrow": "FICTIONAL BOSS DETAIL",
+    "stats": [
+      {
+        "label": "Suggested level",
+        "value": null
+      },
+      {
+        "label": "Fight length",
+        "value": null
+      }
+    ],
+    "facts": [
+      {
+        "label": "Weak point",
+        "value": null
+      },
+      {
+        "label": "Recommended equipment",
+        "value": null
+      },
+      {
+        "label": "Drops",
+        "value": null
+      }
+    ],
+    "videoAssetId": null,
+    "attacksTitle": "Attacks and answers",
+    "columns": {
+      "attack": "Attack",
+      "phase": "Phase",
+      "windUp": "Wind-up (frames)",
+      "answer": "Answer"
+    },
+    "attacks": [
+      {
+        "id": "attack-a",
+        "name": "Demo attack 1",
+        "phases": null,
+        "windUpFrames": null,
+        "answer": null,
+        "verification": "unverified"
+      },
+      {
+        "id": "attack-b",
+        "name": "Demo attack 2",
+        "phases": null,
+        "windUpFrames": null,
+        "answer": null,
+        "verification": "unverified"
+      },
+      {
+        "id": "attack-c",
+        "name": "Demo attack 3",
+        "phases": null,
+        "windUpFrames": null,
+        "answer": null,
+        "verification": "unverified"
+      },
+      {
+        "id": "attack-d",
+        "name": "Demo attack 4",
+        "phases": null,
+        "windUpFrames": null,
+        "answer": null,
+        "verification": "unverified"
+      }
+    ]
+  },
+  "footer": {
+    "note": "Strategy details await verification.",
+    "link": {
+      "label": "READ THE GUIDE",
+      "target": {
+        "type": "content",
+        "id": "first-steps"
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "collectibles",
+  "locale": "ja",
+  "type": "table",
+  "title": "収集情報の見本",
+  "demo": true,
+  "verification": "unverified",
+  "columns": [
+    {
+      "id": "number",
+      "label": "#"
+    },
+    {
+      "id": "item",
+      "label": "アイテム"
+    },
+    {
+      "id": "location",
+      "label": "場所"
+    },
+    {
+      "id": "status",
+      "label": "確認状況"
+    }
+  ],
+  "rows": [
+    {
+      "number": 1,
+      "item": "見本アイテム 1",
+      "location": null,
+      "status": null
+    },
+    {
+      "number": 2,
+      "item": "見本アイテム 2",
+      "location": null,
+      "status": null
+    },
+    {
+      "number": 3,
+      "item": "見本アイテム 3",
+      "location": null,
+      "status": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "preset": "onimusha",
+  "defaultMode": "day",
+  "common": {
+    "--radius": "8px",
+    "--radius-lg": "16px",
+    "--radius-chip": "999px"
+  },
+  "day": {
+    "--accent": "#1D4ED8",
+    "--accent-hover": "#1E40AF",
+    "--accent-press": "#1E3A8A",
+    "--accent-text": "#1D4ED8"
+  },
+  "night": {
+    "--accent": "#1D4ED8",
+    "--accent-hover": "#1E40AF",
+    "--accent-press": "#1E3A8A",
+    "--accent-text": "#93C5FD"
+  },
+  "fonts": []
+}

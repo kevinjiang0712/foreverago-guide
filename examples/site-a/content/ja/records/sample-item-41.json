@@ -1,0 +1,19 @@
+{
+  "locale": "ja",
+  "verification": "unverified",
+  "demo": true,
+  "id": "sample-item-41",
+  "type": "database-entry",
+  "databaseId": "equipment-database",
+  "name": "デモアクセサリー 41",
+  "summary": "デモ専用の架空データです。実際のゲーム性能を示しません。",
+  "categoryId": "accessories",
+  "contentId": null,
+  "values": {
+    "attack": 41,
+    "weight": 4.1,
+    "acquisition": "デモ記録"
+  },
+  "evidenceNote": "デモ専用の架空データです。実際のゲーム性能を示しません。",
+  "sources": []
+}

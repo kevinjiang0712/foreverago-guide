@@ -1,0 +1,24 @@
+{
+  "locale": "ja",
+  "verification": "unverified",
+  "demo": true,
+  "id": "demo-mod-i",
+  "type": "mod",
+  "title": "デモ小型ステータスパネル",
+  "description": "一覧の件数、並び替え、絞り込み確認用の架空 Mod。",
+  "categoryId": "interface",
+  "tagIds": [
+    "panel"
+  ],
+  "testedVersions": [
+    "Sample A"
+  ],
+  "updatedAt": "2026-09-09",
+  "downloads": 1200,
+  "contentId": null,
+  "assetId": null,
+  "authorName": null,
+  "releaseVersion": null,
+  "endorsements": null,
+  "fileSize": null
+}

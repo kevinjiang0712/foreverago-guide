@@ -1,0 +1,206 @@
+{
+  "locale": "ja",
+  "verification": "unverified",
+  "demo": true,
+  "id": "mod-detail",
+  "type": "mod-detail",
+  "modId": "demo-mod-a",
+  "dataVersion": "demo-v1",
+  "authorUrl": null,
+  "authorNote": "このサイトはファイルを配布していません。このデモには作者へのリンクもありません。",
+  "gallery": [
+    "mod-preview",
+    "mod-menu",
+    "mod-config"
+  ],
+  "sections": {
+    "overview": {
+      "eyebrow": "概要",
+      "title": "機能の概要",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。"
+    },
+    "requirements": {
+      "eyebrow": "必要条件",
+      "title": "必要条件",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。"
+    },
+    "install": {
+      "eyebrow": "導入",
+      "title": "この MOD の導入",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。"
+    },
+    "tabs": {
+      "eyebrow": "詳細",
+      "title": "ファイル・変更履歴・投稿・利用条件",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。"
+    },
+    "conflicts": {
+      "eyebrow": "競合",
+      "title": "組み合わせによる影響",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。"
+    },
+    "faq": {
+      "eyebrow": "よくある質問",
+      "title": "この MOD に関する質問",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。"
+    },
+    "report": {
+      "eyebrow": "報告",
+      "title": "このページの内容に誤りがありますか？",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。"
+    }
+  },
+  "atAGlance": "基本情報",
+  "facts": [
+    {
+      "label": "作者",
+      "value": null
+    },
+    {
+      "label": "ライセンス",
+      "value": null
+    }
+  ],
+  "evidenceNote": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+  "requirements": [
+    {
+      "id": "loader",
+      "modId": "demo-mod-g",
+      "title": "ローダーのデモ",
+      "version": null,
+      "reason": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "status": "依存関係の例",
+      "verification": "unverified"
+    }
+  ],
+  "installSteps": [
+    {
+      "id": "prepare",
+      "title": "サンプル設定を準備する",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "test",
+      "title": "サンプルを確認する",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "verification": "unverified"
+    }
+  ],
+  "files": [
+    {
+      "id": "example-file",
+      "title": "ファイル表示のデモ",
+      "version": null,
+      "size": null,
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "url": null,
+      "verification": "unverified",
+      "uploadedAt": null
+    }
+  ],
+  "changelog": [
+    {
+      "id": "example-change",
+      "version": null,
+      "date": null,
+      "verification": "unverified",
+      "changes": [
+        "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+        "サンプルの変更項目です。実在する MOD の更新ではありません。"
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": "example-post",
+      "author": "投稿者のデモ",
+      "date": null,
+      "body": "これは用意されたサンプル文です。実際の議論や送信されたメッセージではありません。",
+      "verification": "unverified"
+    }
+  ],
+  "permissions": [
+    {
+      "id": "reuse",
+      "title": "再利用の許可は不明",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "redistribute",
+      "title": "再配布の許可は不明",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "verification": "unverified"
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "alternate",
+      "modId": "demo-mod-h",
+      "title": "別パネルのデモ",
+      "interaction": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "resolution": null,
+      "verification": "unverified"
+    }
+  ],
+  "faq": [
+    {
+      "id": "demo-question",
+      "question": "このサンプルはダウンロードできますか？",
+      "answer": "いいえ。レイアウト確認用の架空のサンプルです。実際のファイルや作者ページはありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "version-question",
+      "question": "バージョン表示は検証済みですか？",
+      "answer": "いいえ。Sample A と Sample B は絞り込みを実演するためだけの値です。",
+      "verification": "unverified"
+    }
+  ],
+  "feedbackTarget": null,
+  "feedbackOptions": [
+    {
+      "id": "version",
+      "title": "バージョン表示が違う",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "link",
+      "title": "リンクが切れている",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "permission",
+      "title": "利用条件が変わった",
+      "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+      "verification": "unverified"
+    }
+  ],
+  "tabs": {
+    "files": "ファイル",
+    "changelog": "変更履歴",
+    "posts": "投稿",
+    "permissions": "利用条件"
+  },
+  "columns": {
+    "requirement": "必要条件",
+    "version": "バージョン",
+    "reason": "理由",
+    "status": "状態",
+    "mod": "MOD",
+    "interaction": "影響",
+    "resolution": "対処",
+    "file": "ファイル",
+    "uploaded": "公開日",
+    "notes": "備考",
+    "permission": "許可の種類",
+    "terms": "作者の条件"
+  },
+  "categoryLabel": "インターフェース",
+  "filesNote": "このサンプルに実際のファイルはありません。",
+  "permissionsNote": "このサンプルは利用許可を表すものではありません。",
+  "postsNote": "静的な投稿サンプルです。コメントの投稿機能はありません。"
+}

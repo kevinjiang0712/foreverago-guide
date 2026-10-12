@@ -1,0 +1,19 @@
+{
+  "locale": "en",
+  "verification": "unverified",
+  "demo": true,
+  "id": "sample-shield",
+  "type": "database-entry",
+  "databaseId": "equipment-database",
+  "name": "Practice shield",
+  "summary": "Fictional demonstration values, not measured game statistics.",
+  "categoryId": "shields",
+  "contentId": null,
+  "values": {
+    "attack": 0,
+    "weight": 4,
+    "acquisition": "Practice record"
+  },
+  "evidenceNote": "Fictional demonstration values, not measured game statistics.",
+  "sources": []
+}

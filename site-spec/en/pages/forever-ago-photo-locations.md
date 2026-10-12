@@ -1,0 +1,110 @@
+Forever Ago photo locations include the opening bedroom and Woolson Falls trail, the dog behind the Highway Star Diner, the view through its booth window, the selfie with Sam, the boat at Buccaneers' Retreat, and the lighthouse photography sequence. Photograph the subject associated with the current prompt. Optional scenery and petal vignettes are separate opportunities, so they should not be treated as one fixed list of mandatory photo spots.
+
+The route below identifies the subjects and positions that matter for progression. It also marks where a photo is a personal choice rather than a required action. That distinction prevents a well-framed landscape from being mistaken for the specific dog, sign, person, or window view the scene is waiting for.
+
+## Photo subjects in road-trip order
+
+| Location | Supported subject or action | Position or landmark | Role |
+| --- | --- | --- | --- |
+| Opening bedroom | Manual, teddy bear, displayed photographs and calendar | Bed and study area | Tutorial and room photography |
+| Bedroom window | Alfred posing outside | Window facing the parked car | Scene progression |
+| Drive to Woolson Falls | Roadside sign | When Alfred points it out | Prompted travel photograph |
+| Woolson Falls trail | Low flowers, sign and Alfred's poses | Arrival ground and walking route | Opening photography sequence |
+| End of the hike | Alfred and Audrey together | Waterfall endpoint | Leads to the developed photograph and journal |
+| Karl's Pump 'N' Mart | Playground and pumpkin memories | Exterior petal landmarks | Optional vignettes |
+| Highway Star Diner | Dog | Rubbish area behind the restaurant | Maddy's request |
+| Highway Star Diner | Exterior view | From the permitted booth | Story-memory transition |
+| Sam's detour | Selfie with Sam | Seated at the end of the field walk | Journal photograph |
+| Buccaneers' Retreat | Boat-ride photograph | During the journey toward the island | Story-memory transition |
+| Winslow Lighthouse | Charles photography sequence | Where he sits during the walk | Prompted shots |
+| Winslow Lighthouse | Top of the lighthouse | After reading the entrance sign | Story-memory transition |
+
+This table does not assign a collectible number to every scenic view. The camera can record personal photographs outside these prompts. Use named subjects for the story route and your own choice for additional scenery.
+
+## Bedroom subjects before the window shot
+
+Sweep the opening room while it is available. Begin with the camera manual, turn toward the teddy bear on the bed, and check the displayed photographs and calendar around the study area. These are recognizable subjects near large furniture, so work through them before pointing the camera outside.
+
+![Bedroom teddy bear seen through the camera](asset:body-images-forever-ago-photo-locations-bedroom)
+
+Alfred's pose at the window advances the introduction into the car ride. Keep that photograph until after the room exploration you want to complete. The person outside is the target; a picture of the parked car alone is a different composition and does not match the prompted subject.
+
+The opening camera sequence changes perspective later. Follow the scene's current camera holder rather than assuming elderly Alfred is already performing every action. The useful location facts remain straightforward: bed, study wall, calendar, window, and the person posing outside.
+
+## Drive and trail photographs at Woolson Falls
+
+During the drive, listen when Alfred draws attention to the Woolson Falls sign. Aim toward the sign and take its photograph. This is a prompted roadside subject, so you do not need to locate an invented series of highway photo markers.
+
+After arrival, crouch near the low flowers and photograph them. Look toward Alfred's nearby pose, then continue the route to another Woolson Falls sign and the later pose following the conversation. Keep repeated-looking subjects separate: an earlier pose does not replace a later photograph the sequence presents.
+
+At the end of the hike, the couple photograph leads to a time change. Shake the physical instant photograph until the image develops, then place it in the journal. The photo location task has moved from framing a person outdoors to completing the handling of an already-taken picture.
+
+If you reach the journal with the image in hand, do not return to the trail looking for another camera target. Finish development and the journal placement. The scene is asking you to preserve the photograph, not to find a missing waterfall marker.
+
+## Exterior memory photos at Karl's Pump 'N' Mart
+
+The gas-station playground and mosaic pumpkin are optional memory-photo areas. Fun & Colors uses the swings, picnic table, and blue slide with its sandpit. The World's Largest Mosaic Pumpkin uses the large sculpture and its information-board area.
+
+Before the camera action, inspect the petals for the named cluster. Once the vignette unlocks, find where the petals gather and reveal the memory with the camera. A personal photograph of the slide or sculpture taken before that sequence is not the same as the vignette interaction.
+
+Inside the store, the old hanging photograph near the toilet-paper and atlas section is a useful story landmark. Alfred still needs cookies, windshield wipers, and the road atlas. Photographing a shelf does not collect its products, so finish the shopping actions separately from any pictures you choose to take.
+
+The campsite after the store provides a journal opportunity for the day's photographs. Review the pictures available there and complete their placement before the following day's travel.
+
+## Dog photograph behind the Highway Star Diner
+
+The diner dog photograph is tied to Maddy's request. First check the booth and speak to her at the counter. Leave the restaurant, turn right through the nearby fence, and investigate the hole and rubbish area behind the building. Photograph the dog beside the bins, then return to Maddy.
+
+![Dog beside the diner rubbish bins](asset:body-images-forever-ago-photo-locations-dog)
+
+Use the bins and fence to find the place, but use the animal as the photo subject. A frame dominated by rubbish can show the correct area while missing the dog. Reposition the camera so the animal is visible rather than repeatedly taking pictures of the same bin.
+
+The outdoor flower patch near the telescope belongs to another diner objective. It is not the location for this dog request. If you find yourself beside the van and telescope, return toward the restaurant entrance and take the right-side rubbish-area route.
+
+After the picture, the report to Maddy matters. Booth permission comes from finishing the request, not from accumulating a certain number of dog photographs.
+
+## Window photograph from the diner booth
+
+With booth access obtained, sit in the reserved area and follow the camera prompt. Photograph the scenery outside the window. The position is part of the action: a photograph taken through a different window while standing elsewhere is not the same scene step.
+
+![The reserved booth inside the diner](asset:body-images-forever-ago-photo-locations-booth)
+
+The diner also requires flowers and the jukebox song Green Green Grass of Home by Patti Page. If the booth sequence is not ready, check those active objectives and Maddy's conversation. Additional scenic photographs cannot replace unfinished access or story tasks.
+
+The successful booth shot moves the story into Alfred and Audrey's past. Follow the new memory scene rather than searching the present-day restaurant for another window angle. The transition is your practical cue that the required photograph has done its job.
+
+## Selfie at the end of Sam's walk
+
+Sam's photo opportunity comes after the van-repair sequence and the detour through the fields. Follow her, help with the plants, obtain the gaskets, and finish the remaining bolts. Then take the field walk with Sam and the dog.
+
+At the seated endpoint, take the selfie with Sam and add it to the journal. This gives you a specific person and moment to record. A picture of Sam during an earlier gardening interaction can be a personal photograph, but it is not the same as the seated selfie opportunity at the end of the walk.
+
+Follow the displayed camera options for the selfie rather than assuming a binding from another input device. The location cue is more useful here than a universal key command: finish the detour, sit with Sam, and use the camera action the scene provides.
+
+## Boat photograph at Buccaneers' Retreat
+
+The resort photograph happens during the boat trip toward the island. Reaching that point requires the resort's access route: obtain the day ticket, explore the captain's galley, cross the damaged floor using planks, find the bolt cutter, and open the necessary locked areas.
+
+After the arcade and souvenir-shop objectives, use the route by the parrot toward the docks. Cut the harbor lock and board the boat. During the ride, take the camera photograph that moves the scene into the memory with Audrey.
+
+![Alfred and Audrey in the boat on the way to the island](asset:body-images-forever-ago-photo-locations-boat)
+
+The photograph and rowing are separate stages. Once the memory begins, coordinate with Audrey by waiting for her stroke and then performing Alfred's. Taking more pictures does not substitute for the movement sequence required to reach the island.
+
+Optional resort vignettes around the statue, photo cutout, and harbor platforms also use the camera, but begin with petal searches. Complete those local interactions separately from the main boat photograph.
+
+## Charles and the lighthouse photograph
+
+At the lighthouse stop, complete the morning coffee and dog-feeding interactions, then follow Charles. When he sits, take the prompted photographs. The camera perspective changes automatically through the sequence, so continue responding to the current view instead of walking away to hunt for another position.
+
+After the photography session, continue along the trail toward the lighthouse. Read the sign at the entrance. Following the scene, aim toward the top of the lighthouse and take the photograph that begins the memory. The upper part of the structure is the target, rather than a random tree or the path underfoot.
+
+![The trail toward Winslow Lighthouse](asset:body-images-forever-ago-photo-locations-lighthouse)
+
+Continue into the lighthouse and up the stairs once the memory begins. As with the diner and boat, a photo can change the scene state. That transition tells you the required camera action succeeded and that the next task belongs to the memory route.
+
+## Resolve a missing photograph by subject and scene state
+
+When progression stalls, identify whether you are looking for a subject, an interaction prerequisite, or a journal action. A wrong subject needs a different frame. A restricted booth needs Maddy's task completed. An undeveloped picture needs shaking and placement, rather than another shutter press.
+
+For petal vignettes, verify collection and the gathering-point action separately. For story photos, use the resulting scene transition as the progress check. For personal photographs, use the current selection interface when deciding what to keep. Those distinctions provide a reliable route without claiming every camera shot is a collectible or promising an unsupported complete list of scenic viewpoints.

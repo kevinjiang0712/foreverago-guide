@@ -1,0 +1,19 @@
+{
+  "locale": "ja",
+  "verification": "unverified",
+  "demo": true,
+  "id": "sample-item-64",
+  "type": "database-entry",
+  "databaseId": "equipment-database",
+  "name": "デモアクセサリー 64",
+  "summary": "デモ専用の架空データです。実際のゲーム性能を示しません。",
+  "categoryId": "accessories",
+  "contentId": null,
+  "values": {
+    "attack": 64,
+    "weight": 6.4,
+    "acquisition": "デモ記録"
+  },
+  "evidenceNote": "デモ専用の架空データです。実際のゲーム性能を示しません。",
+  "sources": []
+}

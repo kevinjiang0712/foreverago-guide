@@ -1,0 +1,329 @@
+{
+  "id": "river-weapon-explorer",
+  "type": "weapon-explorer",
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "sections": {
+    "comparison": {
+      "eyebrow": "COMPARE",
+      "title": "Weapons at a glance",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    "explorer": {
+      "eyebrow": "EXPLORE",
+      "title": "Interactive weapon explorer",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    "playstyles": {
+      "eyebrow": "PLAYSTYLES",
+      "title": "Choose by playstyle",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    "details": {
+      "eyebrow": "WEAPON DETAILS",
+      "title": "Every weapon explained",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    "tier": {
+      "eyebrow": "TIER LIST",
+      "title": "Weapon tier list",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    "unlocks": {
+      "eyebrow": "UNLOCKS",
+      "title": "How to unlock each weapon",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    "upgrades": {
+      "eyebrow": "UPGRADES",
+      "title": "How upgrades work",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    "changes": {
+      "eyebrow": "CHANGES",
+      "title": "Weapon changes and limits",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    "faq": {
+      "eyebrow": "QUESTIONS",
+      "title": "Weapon questions",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    }
+  },
+  "comparison": [
+    {
+      "weaponId": "river-practice-blade",
+      "identity": "Demo only",
+      "action": null,
+      "learning": null,
+      "bestFor": "Layout inspection",
+      "tradeoff": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified"
+    },
+    {
+      "weaponId": "river-practice-bow",
+      "identity": "Demo only",
+      "action": null,
+      "learning": null,
+      "bestFor": "Layout inspection",
+      "tradeoff": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified"
+    }
+  ],
+  "treeNodes": [
+    {
+      "id": "blade",
+      "parentId": null,
+      "tier": 1,
+      "label": "River specimen 27",
+      "details": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified",
+      "iconAssetId": null
+    },
+    {
+      "id": "blade-steady",
+      "parentId": "blade",
+      "tier": 2,
+      "label": "Steady branch",
+      "details": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified",
+      "iconAssetId": null
+    },
+    {
+      "id": "blade-fast",
+      "parentId": "blade",
+      "tier": 2,
+      "label": "Fast branch",
+      "details": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified",
+      "iconAssetId": null
+    },
+    {
+      "id": "blade-steady-final",
+      "parentId": "blade-steady",
+      "tier": 3,
+      "label": "Steady finish",
+      "details": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified",
+      "iconAssetId": null
+    },
+    {
+      "id": "blade-fast-final",
+      "parentId": "blade-fast",
+      "tier": 3,
+      "label": "Fast finish",
+      "details": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified",
+      "iconAssetId": null
+    },
+    {
+      "id": "bow",
+      "parentId": null,
+      "tier": 1,
+      "label": "River specimen 28",
+      "details": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified",
+      "iconAssetId": null
+    },
+    {
+      "id": "bow-range",
+      "parentId": "bow",
+      "tier": 2,
+      "label": "Range branch",
+      "details": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified",
+      "iconAssetId": null
+    },
+    {
+      "id": "bow-empty",
+      "parentId": "bow",
+      "tier": 2,
+      "label": "Empty branch",
+      "details": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified",
+      "iconAssetId": null
+    },
+    {
+      "id": "bow-range-final",
+      "parentId": "bow-range",
+      "tier": 3,
+      "label": "Range finish",
+      "details": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified",
+      "iconAssetId": null
+    }
+  ],
+  "treeNotes": [
+    "Base node. Choose a branch to inspect its descendants.",
+    "Branch node. Changing a branch clears the final selection.",
+    "Final node. This demonstration has no verified effect."
+  ],
+  "playstylePicks": [
+    {
+      "id": "steady",
+      "label": "Steady example",
+      "weaponId": "river-practice-blade",
+      "description": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified",
+      "risk": null
+    },
+    {
+      "id": "range",
+      "label": "Range example",
+      "weaponId": "river-practice-bow",
+      "description": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified",
+      "risk": null
+    }
+  ],
+  "detailSections": [
+    {
+      "id": "river-practice-blade",
+      "weaponId": "river-practice-blade",
+      "label": "DEMONSTRATION",
+      "facts": [
+        {
+          "label": "Core mechanic",
+          "value": "Demonstration only; no game behaviour or measured result is claimed."
+        },
+        {
+          "label": "Best for",
+          "value": null
+        },
+        {
+          "label": "Main strength",
+          "value": null
+        },
+        {
+          "label": "Main cost",
+          "value": null
+        },
+        {
+          "label": "Upgrade direction",
+          "value": "Demonstration only; no game behaviour or measured result is claimed."
+        }
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "river-practice-bow",
+      "weaponId": "river-practice-bow",
+      "label": "DEMONSTRATION",
+      "facts": [
+        {
+          "label": "Core mechanic",
+          "value": "Demonstration only; no game behaviour or measured result is claimed."
+        },
+        {
+          "label": "Best for",
+          "value": null
+        },
+        {
+          "label": "Main strength",
+          "value": null
+        },
+        {
+          "label": "Main cost",
+          "value": null
+        },
+        {
+          "label": "Upgrade direction",
+          "value": "Demonstration only; no game behaviour or measured result is claimed."
+        }
+      ],
+      "verification": "unverified"
+    }
+  ],
+  "tierRows": [
+    {
+      "id": "unknown",
+      "tier": null,
+      "weaponIds": [
+        "river-practice-blade",
+        "river-practice-bow"
+      ],
+      "reason": "No verified ranking is available.",
+      "verification": "unverified",
+      "whenToMove": null
+    }
+  ],
+  "unlockRows": [
+    {
+      "weaponId": "river-practice-blade",
+      "method": null,
+      "verification": "unverified",
+      "cost": null,
+      "evidence": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    {
+      "weaponId": "river-practice-bow",
+      "method": null,
+      "verification": "unverified",
+      "cost": null,
+      "evidence": "Demonstration only; no game behaviour or measured result is claimed."
+    }
+  ],
+  "upgradeExplanation": [
+    {
+      "id": "base",
+      "title": "Start with a base",
+      "description": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified"
+    },
+    {
+      "id": "branch",
+      "title": "Choose a connected branch",
+      "description": "An empty branch is valid and does not imply missing data.",
+      "verification": "unverified"
+    },
+    {
+      "id": "finish",
+      "title": "Inspect the final node",
+      "description": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified"
+    }
+  ],
+  "patchHistory": [
+    {
+      "id": "no-evidence",
+      "version": null,
+      "change": "No verified game patch has been registered.",
+      "verification": "unverified",
+      "weaponId": null,
+      "subject": null
+    }
+  ],
+  "faq": [
+    {
+      "id": "real",
+      "question": "Does this tree describe a real game?",
+      "answer": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified"
+    }
+  ],
+  "columns": {
+    "weapon": "Weapon",
+    "identity": "Combat identity",
+    "action": "Special action",
+    "learning": "Learning curve",
+    "bestFor": "Best fit",
+    "tradeoff": "Main tradeoff",
+    "tier": "Tier",
+    "reason": "Reason",
+    "unlock": "Unlock condition",
+    "version": "Version",
+    "change": "Change",
+    "whenToMove": "When to move them",
+    "cost": "Cost",
+    "evidence": "Evidence",
+    "subject": "Subject"
+  },
+  "unlockSummary": "No verified unlock routes",
+  "riskLabel": "Risk",
+  "upgradeMedia": {
+    "assetId": null,
+    "fallbackLabel": "Upgrade inventory arrangement",
+    "caption": "No image supplied. This demonstration does not document actual upgrade effects."
+  }
+}

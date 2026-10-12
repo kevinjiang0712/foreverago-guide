@@ -1,0 +1,22 @@
+{
+  "locale": "en",
+  "verification": "unverified",
+  "demo": true,
+  "id": "demo-mod-g",
+  "type": "mod",
+  "title": "Demo loader",
+  "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+  "categoryId": "interface",
+  "tagIds": [
+    "loader"
+  ],
+  "testedVersions": [],
+  "updatedAt": null,
+  "downloads": null,
+  "contentId": null,
+  "assetId": null,
+  "authorName": null,
+  "releaseVersion": null,
+  "endorsements": null,
+  "fileSize": null
+}

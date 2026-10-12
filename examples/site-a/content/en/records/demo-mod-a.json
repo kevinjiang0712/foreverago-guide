@@ -1,0 +1,25 @@
+{
+  "locale": "en",
+  "verification": "unverified",
+  "demo": true,
+  "id": "demo-mod-a",
+  "type": "mod",
+  "title": "Demo overlay",
+  "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+  "categoryId": "interface",
+  "tagIds": [
+    "panel",
+    "loader"
+  ],
+  "testedVersions": [
+    "Sample A"
+  ],
+  "updatedAt": "2026-09-01",
+  "downloads": null,
+  "contentId": "mod-detail",
+  "assetId": "mod-preview",
+  "authorName": null,
+  "releaseVersion": null,
+  "endorsements": null,
+  "fileSize": null
+}

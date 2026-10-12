@@ -1,0 +1,62 @@
+{
+  "review": {
+    "title": "Reviews",
+    "description": "Assess the story, pacing, and time you need for Alfred’s journey.",
+    "seo": {
+      "title": "Forever Ago Reviews: Story, Gameplay & Journey Length",
+      "description": "Decide whether Forever Ago suits you with guides to its story, deliberate pacing, photography, and reported game length. Plan time for Alfred’s road trip.",
+      "image": "campfire-art",
+      "noindex": false
+    }
+  },
+  "guide": {
+    "title": "Guides",
+    "description": "Understand camera actions, journal choices, achievements, and replay.",
+    "seo": {
+      "title": "Forever Ago Guides: Camera, Achievements & Story Replay",
+      "description": "Find Forever Ago guides for camera actions, journal photos, achievements, collectibles, chapter replay, and checkpoint saving. Choose the next task to tackle.",
+      "image": "campfire-art",
+      "noindex": false
+    }
+  },
+  "maps": {
+    "title": "Locations",
+    "description": "Follow photo routes and search for petals and memories at each stop.",
+    "seo": {
+      "title": "Forever Ago Locations: Photos, Petals & Memory Routes",
+      "description": "Explore Forever Ago photo locations, memory discoveries, petal routes, and early chapter photography. Find the clues that connect each stop to Alfred’s past.",
+      "image": "campfire-art",
+      "noindex": false
+    }
+  },
+  "story": {
+    "title": "Story",
+    "description": "Explore the ending, final note, and meaning of Alfred’s journey.",
+    "seo": {
+      "title": "Forever Ago Story: Ending Explained & Alfred’s Journey",
+      "description": "Understand Forever Ago’s ending, Audrey’s final note, and Alfred’s return home. Explore how the final memories and the dog shape the story’s hopeful close.",
+      "image": "campfire-art",
+      "noindex": false
+    }
+  },
+  "walkthrough": {
+    "title": "Walkthrough",
+    "description": "Work through photo puzzles, the dog encounter, and Williamina Peak.",
+    "seo": {
+      "title": "Forever Ago Walkthrough: Photo Puzzles & Williamina Peak",
+      "description": "Follow Forever Ago walkthroughs for photo puzzles, the dog encounter, and Williamina Peak. Find the next scene action and recognise the route’s transitions.",
+      "image": "campfire-art",
+      "noindex": false
+    }
+  },
+  "characters": {
+    "title": "Characters",
+    "description": "Follow Audrey’s life with Alfred and her influence on the road trip.",
+    "seo": {
+      "title": "Forever Ago Characters: Audrey’s Story & Life with Alfred",
+      "description": "Explore Audrey’s story in Forever Ago, from her opening photographs and shared travels to illness and the journal that helps Alfred continue after her loss.",
+      "image": "campfire-art",
+      "noindex": false
+    }
+  }
+}

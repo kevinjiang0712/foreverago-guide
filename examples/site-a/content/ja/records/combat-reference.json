@@ -1,0 +1,101 @@
+{
+  "id": "combat-reference",
+  "locale": "ja",
+  "type": "systems-reference",
+  "demo": true,
+  "verification": "unverified",
+  "mechanics": {
+    "eyebrow": "戦闘の合図を読む",
+    "title": "戦闘の合図を読む",
+    "description": "このデモでは、動作の説明と証拠が必要な情報を分けています。"
+  },
+  "combos": {
+    "eyebrow": "連続技のルート",
+    "title": "連続技のルート",
+    "description": "入力手順とフレーム数は、記録されるまで未確認です。"
+  },
+  "items": {
+    "eyebrow": "武器と外見",
+    "title": "武器と外見",
+    "description": "以下は架空のサンプルです。性能や外見効果は未確認です。"
+  },
+  "diagramAssetId": "mechanism-diagram",
+  "mechanisms": [
+    {
+      "id": "timing",
+      "icon": "issen",
+      "title": "タイミングの幅",
+      "description": "動作の開始と終了を記録してから、タイミングを説明します。このサンプルに測定値はありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "cue",
+      "icon": "clock",
+      "title": "合図を読む",
+      "description": "視覚的な合図は横の図にまとめます。色と意味は未確認です。",
+      "verification": "unverified"
+    },
+    {
+      "id": "clash",
+      "icon": "clash",
+      "title": "接触と硬直",
+      "description": "硬直と資源消費は別々に確認する必要があります。この架空の例には測定記録がありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "resource",
+      "icon": "soul",
+      "title": "資源の変化",
+      "description": "公開する参照資料には、記録された変化だけを使用します。増加やリセットの条件は未確認です。",
+      "verification": "unverified"
+    }
+  ],
+  "comboRoutes": [
+    {
+      "id": "practice-chain",
+      "name": "練習用の連続技",
+      "input": null,
+      "frames": null,
+      "use": "架空の基本動作",
+      "verification": "unverified"
+    },
+    {
+      "id": "practice-follow-up",
+      "name": "練習用の追撃",
+      "input": null,
+      "frames": null,
+      "use": null,
+      "verification": "unverified"
+    }
+  ],
+  "itemIds": [
+    "practice-blade",
+    "practice-charm"
+  ],
+  "stats": [
+    {
+      "itemId": "practice-blade",
+      "attack": null,
+      "speed": null,
+      "note": "測定記録は未登録です。",
+      "verification": "unverified"
+    },
+    {
+      "itemId": "practice-charm",
+      "attack": null,
+      "speed": null,
+      "note": "ゲーム内の効果は未確認です。",
+      "verification": "unverified"
+    }
+  ],
+  "columns": {
+    "route": "ルート",
+    "input": "入力",
+    "frames": "フレーム",
+    "use": "用途",
+    "item": "アイテム",
+    "attack": "攻撃",
+    "speed": "速度",
+    "notes": "備考"
+  }
+}

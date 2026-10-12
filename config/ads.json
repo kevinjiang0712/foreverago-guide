@@ -1,0 +1,63 @@
+{
+  "mode": "adsterra",
+  "adsterra": {
+    "allowedHosts": [
+      "www.foreverago-guide.wiki",
+      "foreverago-guide.wiki"
+    ],
+    "units": {
+      "native": {
+        "containerId": "container-0b980c4f07a8a3ae9d1bea353cd6bdbb",
+        "scriptUrl": "https://bauval.org/21/0b980c4f07a8a3ae9d1bea353cd6bdbb"
+      },
+      "left": {
+        "key": "3b4ee0977f8c3eae5ca43e2f2715af63",
+        "scriptUrl": "https://bauval.org/22/3b4ee0977f8c3eae5ca43e2f2715af63"
+      },
+      "right": {
+        "key": "a5dd169b5c2f54b123c1cee7d1687132",
+        "scriptUrl": "https://bauval.org/22/a5dd169b5c2f54b123c1cee7d1687132"
+      },
+      "inline": {
+        "key": "022560a71834d120ae48f9d385b4d880",
+        "scriptUrl": "https://bauval.org/22/022560a71834d120ae48f9d385b4d880"
+      },
+      "anchor": {
+        "key": "43675deabe0c7d508546483f93c3f9e5",
+        "scriptUrl": "https://bauval.org/22/43675deabe0c7d508546483f93c3f9e5"
+      }
+    }
+  },
+  "placements": {
+    "a1": {
+      "anchor": "site-header",
+      "position": "after"
+    },
+    "a2": {
+      "site-home": {
+        "anchor": "featured",
+        "position": "after"
+      },
+      "list-page": {
+        "anchor": "result-grid",
+        "position": "after"
+      },
+      "article-page": {
+        "anchor": "content-midpoint",
+        "position": "after"
+      },
+      "weapon-explorer": {
+        "anchor": "explorer",
+        "position": "after"
+      },
+      "interactive-map": {
+        "anchor": "locations",
+        "position": "after"
+      }
+    },
+    "a3": {
+      "anchor": "site-footer",
+      "position": "before"
+    }
+  }
+}

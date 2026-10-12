@@ -1,0 +1,77 @@
+{
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "id": "character-catalogue",
+  "type": "character-database",
+  "leadCharacterId": "demo-traveller",
+  "characterIds": [
+    "demo-traveller",
+    "demo-guide",
+    "demo-archivist",
+    "demo-scout",
+    "demo-smith",
+    "demo-healer",
+    "demo-ranger",
+    "demo-merchant",
+    "demo-scholar",
+    "demo-keeper",
+    "demo-character-11",
+    "demo-character-12",
+    "demo-character-13",
+    "demo-character-14",
+    "demo-character-15",
+    "demo-character-16",
+    "demo-character-17",
+    "demo-character-18",
+    "demo-character-19",
+    "demo-character-20",
+    "demo-character-21",
+    "demo-character-22",
+    "demo-character-23",
+    "demo-character-24"
+  ],
+  "leadLabel": "LEAD",
+  "cast": {
+    "eyebrow": "CAST",
+    "title": "Explore the cast",
+    "description": "Every character, name, and relationship here is fictional demonstration content."
+  },
+  "connections": {
+    "eyebrow": "RELATIONS",
+    "title": "Character connections",
+    "description": "Unverified demonstration connections. Verify against primary sources before publication."
+  },
+  "unrevealed": {
+    "status": "unrevealed",
+    "label": "Held back",
+    "description": "Additional characters remain unknown."
+  },
+  "relationNote": "Further relationships remain unknown.",
+  "relations": [
+    {
+      "fromId": "demo-traveller",
+      "toId": "demo-guide",
+      "type": "ally",
+      "label": "Demonstration ally",
+      "verification": "unverified",
+      "sourceLabel": null
+    },
+    {
+      "fromId": "demo-traveller",
+      "toId": "demo-archivist",
+      "type": "acquaintance",
+      "label": "Demonstration acquaintance",
+      "verification": "unverified",
+      "sourceLabel": null
+    },
+    {
+      "fromId": "demo-archivist",
+      "toId": "demo-guide",
+      "type": "contact",
+      "label": "Demonstration contact",
+      "verification": "unverified",
+      "sourceLabel": null
+    }
+  ]
+}

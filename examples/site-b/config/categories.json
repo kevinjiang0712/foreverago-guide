@@ -1,0 +1,66 @@
+[
+  {
+    "id": "journeys",
+    "slug": "trail-notes",
+    "order": 156,
+    "navigation": true,
+    "landing": null,
+    "showWhenEmpty": false
+  },
+  {
+    "id": "encounters",
+    "slug": "encounters",
+    "order": 149,
+    "navigation": true,
+    "landing": "river-boss-catalogue",
+    "showWhenEmpty": false
+  },
+  {
+    "id": "residents",
+    "slug": "residents",
+    "order": 142,
+    "navigation": true,
+    "landing": "river-character-catalogue",
+    "showWhenEmpty": false
+  },
+  {
+    "id": "workshop",
+    "slug": "workshop",
+    "order": 135,
+    "navigation": false,
+    "landing": "river-combat-reference",
+    "showWhenEmpty": false
+  },
+  {
+    "id": "tools",
+    "slug": "field-tools",
+    "order": 128,
+    "navigation": true,
+    "landing": null,
+    "showWhenEmpty": false
+  },
+  {
+    "id": "loadouts",
+    "slug": "loadouts",
+    "order": 121,
+    "navigation": false,
+    "landing": "river-build-library",
+    "showWhenEmpty": false
+  },
+  {
+    "id": "toolbook",
+    "slug": "toolbook",
+    "order": 114,
+    "navigation": false,
+    "landing": "river-weapon-explorer",
+    "showWhenEmpty": false
+  },
+  {
+    "id": "creations",
+    "slug": "creations",
+    "order": 107,
+    "navigation": true,
+    "landing": "river-mod-index",
+    "showWhenEmpty": false
+  }
+]

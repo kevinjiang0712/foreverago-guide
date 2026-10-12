@@ -1,0 +1,19 @@
+{
+  "locale": "ja",
+  "verification": "unverified",
+  "demo": true,
+  "id": "sample-blade",
+  "type": "database-entry",
+  "databaseId": "equipment-database",
+  "name": "稽古刀",
+  "summary": "デモ専用の架空データです。実際のゲーム性能を示しません。",
+  "categoryId": "weapons",
+  "contentId": "database-blade",
+  "values": {
+    "attack": 10,
+    "weight": 2,
+    "acquisition": "練習用の記録"
+  },
+  "evidenceNote": "デモ専用の架空データです。実際のゲーム性能を示しません。",
+  "sources": []
+}

@@ -1,0 +1,140 @@
+{
+  "id": "home",
+  "template": "site-home",
+  "locale": "ja",
+  "title": "テンプレート見本 A",
+  "description": "すべての内容を差し替えられるゲームサイトの見本。",
+  "status": "published",
+  "verification": "unverified",
+  "demo": true,
+  "hero": {
+    "eyebrow": "見本",
+    "description": "架空の見本です。実際のゲーム情報は未確認です。",
+    "asset": "hero",
+    "video": null,
+    "stats": [
+      {
+        "label": "入門ガイドの見本",
+        "value": "2"
+      },
+      {
+        "label": "対応言語",
+        "value": "2"
+      },
+      {
+        "label": "ゲーム発売日",
+        "value": null
+      },
+      {
+        "label": "対応機種",
+        "value": null
+      }
+    ]
+  },
+  "featured": {
+    "eyebrow": "見本",
+    "title": "最初の一歩",
+    "description": "架空の見本です。実際のゲーム情報は未確認です。",
+    "pinnedIds": [
+      "first-steps",
+      "reference-notes"
+    ]
+  },
+  "about": {
+    "eyebrow": "見本",
+    "title": "このゲームについて",
+    "paragraphs": [
+      "これは架空のゲームサイトの見本です。実際のゲームの発売日や仕様を示すものではありません。",
+      "ゲーム名、画像、文章を差し替えることで、同じページ構成を使えます。"
+    ],
+    "facts": [
+      {
+        "label": "開発元",
+        "value": null
+      },
+      {
+        "label": "発売元",
+        "value": null
+      },
+      {
+        "label": "発売日",
+        "value": null
+      },
+      {
+        "label": "対応機種",
+        "value": null
+      },
+      {
+        "label": "ジャンル",
+        "value": null
+      },
+      {
+        "label": "プレイ人数",
+        "value": null
+      }
+    ],
+    "link": {
+      "label": "すべての攻略",
+      "target": {
+        "type": "category",
+        "id": "guides"
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "見本",
+    "title": "このサイトについて",
+    "description": "架空の見本です。実際のゲーム情報は未確認です。",
+    "support": {
+      "prefix": "お探しの情報が見つからない場合は、",
+      "link": {
+        "label": "お問い合わせページ",
+        "target": {
+          "type": "content",
+          "id": "contact"
+        }
+      },
+      "suffix": "からご連絡ください。"
+    },
+    "items": [
+      {
+        "question": "公式サイトですか？",
+        "answer": "いいえ。これは独立した架空のテンプレート見本です。"
+      },
+      {
+        "question": "実際の攻略情報ですか？",
+        "answer": "いいえ。公開する前にゲームの出典を確認してください。"
+      },
+      {
+        "question": "未確認の値はどう表示されますか？",
+        "answer": "「未確認」と表示されます。数値を推測して補完しません。"
+      },
+      {
+        "question": "画像がない場合は？",
+        "answer": "用途と必要な画像サイズを記載した枠が表示されます。"
+      }
+    ]
+  },
+  "cta": {
+    "links": [
+      {
+        "label": "攻略を読む",
+        "target": {
+          "type": "category",
+          "id": "guides"
+        }
+      },
+      {
+        "label": "最初の攻略",
+        "target": {
+          "type": "content",
+          "id": "first-steps"
+        }
+      }
+    ]
+  },
+  "weaponShowcase": {
+    "asset": "demo-weapon-shuffle",
+    "ariaLabel": "16種類の架空の武器が入れ替わるグリッド"
+  }
+}

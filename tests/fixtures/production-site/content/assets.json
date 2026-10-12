@@ -1,0 +1,54 @@
+[
+  {
+    "id": "hero",
+    "src": null,
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Hero artwork",
+    "alt": {
+      "en": "Hero artwork",
+      "ja": "メインビジュアル"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "trailer",
+    "src": null,
+    "width": 960,
+    "height": 540,
+    "purpose": "Trailer poster",
+    "alt": {
+      "en": "Trailer poster",
+      "ja": "予告映像"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "card",
+    "src": null,
+    "width": 700,
+    "height": 500,
+    "purpose": "Entity portrait",
+    "alt": {
+      "en": "Entity portrait",
+      "ja": "人物画像"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "route",
+    "src": null,
+    "width": 1440,
+    "height": 810,
+    "purpose": "Route screenshot",
+    "alt": {
+      "en": "Route screenshot",
+      "ja": "ルート画像"
+    },
+    "position": "50% 50%",
+    "demo": true
+  }
+]

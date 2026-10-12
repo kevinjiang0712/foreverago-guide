@@ -1,0 +1,70 @@
+{
+  "id": "home",
+  "template": "site-home",
+  "locale": "en",
+  "title": "Template Sample A",
+  "description": "A game website demonstration with replaceable content.",
+  "status": "published",
+  "verification": "unverified",
+  "demo": true,
+  "hero": {
+    "eyebrow": "DEMONSTRATION",
+    "description": "Fictional sample. Actual game information is unverified.",
+    "asset": "hero",
+    "video": null,
+    "stats": [
+      {
+        "label": "Confirmed information",
+        "value": null
+      }
+    ]
+  },
+  "featured": {
+    "eyebrow": "DEMONSTRATION",
+    "title": "Your journey",
+    "description": "Fictional sample. Actual game information is unverified.",
+    "pinnedIds": []
+  },
+  "about": {
+    "eyebrow": "DEMONSTRATION",
+    "title": "What is it?",
+    "paragraphs": [
+      "This is a fictional sample and does not describe a real game."
+    ],
+    "facts": [
+      {
+        "label": "Release date",
+        "value": null
+      }
+    ],
+    "link": {
+      "label": "All guides",
+      "target": {
+        "type": "category",
+        "id": "guides"
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "DEMONSTRATION",
+    "title": "Questions about this site",
+    "description": "Fictional sample. Actual game information is unverified.",
+    "items": [
+      {
+        "question": "Is this an official site?",
+        "answer": "No. This is a fictional, independent template demonstration."
+      }
+    ]
+  },
+  "cta": {
+    "links": [
+      {
+        "label": "Read the guides",
+        "target": {
+          "type": "category",
+          "id": "guides"
+        }
+      }
+    ]
+  }
+}

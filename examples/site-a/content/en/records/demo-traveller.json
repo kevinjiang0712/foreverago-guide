@@ -1,0 +1,30 @@
+{
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "id": "demo-traveller",
+  "type": "character",
+  "name": "Demo Traveller",
+  "role": "PROTAGONIST",
+  "summary": "Fictional character copy for a template demonstration.",
+  "contentId": "first-steps",
+  "assetId": "demo-character-traveller",
+  "attributes": [
+    {
+      "label": "Weapon",
+      "value": null
+    },
+    {
+      "label": "Signature",
+      "value": null
+    },
+    {
+      "label": "Appears from",
+      "value": null
+    },
+    {
+      "label": "Voice",
+      "value": null
+    }
+  ]
+}

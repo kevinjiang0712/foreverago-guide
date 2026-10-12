@@ -1,0 +1,1065 @@
+{
+  "cases": [
+    {
+      "width": 1920,
+      "height": 900,
+      "route": "/",
+      "status": 200,
+      "documentWidth": 1920,
+      "viewport": 1920,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 72
+      },
+      "main": {
+        "x": 340,
+        "y": 756,
+        "width": 1240,
+        "height": 3835
+      },
+      "footer": {
+        "x": 0,
+        "y": 4591,
+        "width": 1920,
+        "height": 561
+      },
+      "navForm": "inline",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0
+    },
+    {
+      "width": 1920,
+      "height": 900,
+      "route": "/guide",
+      "status": 200,
+      "documentWidth": 1920,
+      "viewport": 1920,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 72
+      },
+      "main": {
+        "x": 340,
+        "y": 392,
+        "width": 1240,
+        "height": 2801.953125
+      },
+      "footer": {
+        "x": 0,
+        "y": 3193.953125,
+        "width": 1920,
+        "height": 561
+      },
+      "navForm": "inline",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0
+    },
+    {
+      "width": 1920,
+      "height": 900,
+      "route": "/guide/forever-ago-achievements",
+      "status": 200,
+      "documentWidth": 1920,
+      "viewport": 1920,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 72
+      },
+      "main": {
+        "x": 400,
+        "y": 635.046875,
+        "width": 1120,
+        "height": 7992.28125
+      },
+      "footer": {
+        "x": 0,
+        "y": 9276.1875,
+        "width": 1920,
+        "height": 561
+      },
+      "navForm": "inline",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0
+    },
+    {
+      "width": 1680,
+      "height": 900,
+      "route": "/",
+      "status": 200,
+      "documentWidth": 1680,
+      "viewport": 1680,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1680,
+        "height": 72
+      },
+      "main": {
+        "x": 220,
+        "y": 756,
+        "width": 1240,
+        "height": 3805.3125
+      },
+      "footer": {
+        "x": 0,
+        "y": 4561.3125,
+        "width": 1680,
+        "height": 561
+      },
+      "navForm": "inline",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0
+    },
+    {
+      "width": 1680,
+      "height": 900,
+      "route": "/guide",
+      "status": 200,
+      "documentWidth": 1680,
+      "viewport": 1680,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1680,
+        "height": 72
+      },
+      "main": {
+        "x": 220,
+        "y": 392,
+        "width": 1240,
+        "height": 2829.703125
+      },
+      "footer": {
+        "x": 0,
+        "y": 3221.703125,
+        "width": 1680,
+        "height": 561
+      },
+      "navForm": "inline",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0
+    },
+    {
+      "width": 1680,
+      "height": 900,
+      "route": "/guide/forever-ago-achievements",
+      "status": 200,
+      "documentWidth": 1680,
+      "viewport": 1680,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1680,
+        "height": 72
+      },
+      "main": {
+        "x": 280,
+        "y": 635.046875,
+        "width": 1120,
+        "height": 8051.46875
+      },
+      "footer": {
+        "x": 0,
+        "y": 9335.375,
+        "width": 1680,
+        "height": 561
+      },
+      "navForm": "inline",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "/",
+      "status": 200,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 72
+      },
+      "main": {
+        "x": 100,
+        "y": 756,
+        "width": 1240,
+        "height": 3795.6875
+      },
+      "footer": {
+        "x": 0,
+        "y": 4551.6875,
+        "width": 1440,
+        "height": 548.1875
+      },
+      "navForm": "inline",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "/guide",
+      "status": 200,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 72
+      },
+      "main": {
+        "x": 100,
+        "y": 392,
+        "width": 1240,
+        "height": 2829.703125
+      },
+      "footer": {
+        "x": 0,
+        "y": 3221.703125,
+        "width": 1440,
+        "height": 548.1875
+      },
+      "navForm": "inline",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "/guide/forever-ago-achievements",
+      "status": 200,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 72
+      },
+      "main": {
+        "x": 160,
+        "y": 635.046875,
+        "width": 1120,
+        "height": 8051.46875
+      },
+      "footer": {
+        "x": 0,
+        "y": 9335.375,
+        "width": 1440,
+        "height": 548.1875
+      },
+      "navForm": "inline",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "route": "/",
+      "status": 200,
+      "documentWidth": 1280,
+      "viewport": 1280,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 72
+      },
+      "main": {
+        "x": 20,
+        "y": 756,
+        "width": 1240,
+        "height": 3736.09375
+      },
+      "footer": {
+        "x": 0,
+        "y": 4492.09375,
+        "width": 1280,
+        "height": 487.390625
+      },
+      "navForm": "inline",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "route": "/guide",
+      "status": 200,
+      "documentWidth": 1280,
+      "viewport": 1280,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 72
+      },
+      "main": {
+        "x": 20,
+        "y": 392,
+        "width": 1240,
+        "height": 2764.328125
+      },
+      "footer": {
+        "x": 0,
+        "y": 3156.328125,
+        "width": 1280,
+        "height": 487.390625
+      },
+      "navForm": "inline",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "route": "/guide/forever-ago-achievements",
+      "status": 200,
+      "documentWidth": 1280,
+      "viewport": 1280,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 72
+      },
+      "main": {
+        "x": 80,
+        "y": 635.046875,
+        "width": 1120,
+        "height": 8045.0625
+      },
+      "footer": {
+        "x": 0,
+        "y": 9328.96875,
+        "width": 1280,
+        "height": 487.390625
+      },
+      "navForm": "inline",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0
+    },
+    {
+      "width": 390,
+      "height": 900,
+      "route": "/",
+      "status": 200,
+      "documentWidth": 390,
+      "viewport": 390,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 60
+      },
+      "main": {
+        "x": 0,
+        "y": 470.484375,
+        "width": 390,
+        "height": 4729.796875
+      },
+      "footer": {
+        "x": 0,
+        "y": 5200.28125,
+        "width": 390,
+        "height": 1596.09375
+      },
+      "navForm": "burger",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0,
+      "hydrated": true
+    },
+    {
+      "width": 390,
+      "height": 900,
+      "route": "/guide",
+      "status": 200,
+      "documentWidth": 390,
+      "viewport": 390,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 60
+      },
+      "main": {
+        "x": 0,
+        "y": 300,
+        "width": 390,
+        "height": 7146.296875
+      },
+      "footer": {
+        "x": 0,
+        "y": 7446.296875,
+        "width": 390,
+        "height": 1596.09375
+      },
+      "navForm": "burger",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0,
+      "hydrated": true
+    },
+    {
+      "width": 390,
+      "height": 900,
+      "route": "/guide/forever-ago-achievements",
+      "status": 200,
+      "documentWidth": 390,
+      "viewport": 390,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 60
+      },
+      "main": {
+        "x": 0,
+        "y": 618.171875,
+        "width": 390,
+        "height": 11870.953125
+      },
+      "footer": {
+        "x": 0,
+        "y": 13617.546875,
+        "width": 390,
+        "height": 1596.09375
+      },
+      "navForm": "burger",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0,
+      "hydrated": true
+    },
+    {
+      "width": 320,
+      "height": 900,
+      "route": "/",
+      "status": 200,
+      "documentWidth": 320,
+      "viewport": 320,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 60
+      },
+      "main": {
+        "x": 0,
+        "y": 510,
+        "width": 320,
+        "height": 4692.578125
+      },
+      "footer": {
+        "x": 0,
+        "y": 5202.578125,
+        "width": 320,
+        "height": 1618.484375
+      },
+      "navForm": "burger",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0,
+      "hydrated": true
+    },
+    {
+      "width": 320,
+      "height": 900,
+      "route": "/guide",
+      "status": 200,
+      "documentWidth": 320,
+      "viewport": 320,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 60
+      },
+      "main": {
+        "x": 0,
+        "y": 300,
+        "width": 320,
+        "height": 6634.421875
+      },
+      "footer": {
+        "x": 0,
+        "y": 6934.421875,
+        "width": 320,
+        "height": 1618.484375
+      },
+      "navForm": "burger",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0,
+      "hydrated": true
+    },
+    {
+      "width": 320,
+      "height": 900,
+      "route": "/guide/forever-ago-achievements",
+      "status": 200,
+      "documentWidth": 320,
+      "viewport": 320,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 60
+      },
+      "main": {
+        "x": 0,
+        "y": 681.65625,
+        "width": 320,
+        "height": 14317.59375
+      },
+      "footer": {
+        "x": 0,
+        "y": 16114.078125,
+        "width": 320,
+        "height": 1618.484375
+      },
+      "navForm": "burger",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0,
+      "hydrated": true
+    },
+    {
+      "width": 1920,
+      "height": 360,
+      "route": "/guide/forever-ago-achievements",
+      "short": true,
+      "status": 200,
+      "documentWidth": 1920,
+      "viewport": 1920,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 72
+      },
+      "main": {
+        "x": 400,
+        "y": 635.046875,
+        "width": 1120,
+        "height": 8051.46875
+      },
+      "footer": {
+        "x": 0,
+        "y": 9335.375,
+        "width": 1920,
+        "height": 561
+      },
+      "navForm": "inline",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0
+    },
+    {
+      "width": 1280,
+      "height": 360,
+      "route": "/guide/forever-ago-achievements",
+      "short": true,
+      "status": 200,
+      "documentWidth": 1280,
+      "viewport": 1280,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 72
+      },
+      "main": {
+        "x": 80,
+        "y": 635.046875,
+        "width": 1120,
+        "height": 8045.0625
+      },
+      "footer": {
+        "x": 0,
+        "y": 9328.96875,
+        "width": 1280,
+        "height": 487.390625
+      },
+      "navForm": "inline",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0
+    },
+    {
+      "width": 390,
+      "height": 420,
+      "route": "/guide/forever-ago-achievements",
+      "short": true,
+      "status": 200,
+      "documentWidth": 390,
+      "viewport": 390,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 60
+      },
+      "main": {
+        "x": 0,
+        "y": 618.171875,
+        "width": 390,
+        "height": 11870.953125
+      },
+      "footer": {
+        "x": 0,
+        "y": 13617.546875,
+        "width": 390,
+        "height": 1596.09375
+      },
+      "navForm": "burger",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0,
+      "hydrated": true
+    },
+    {
+      "width": 320,
+      "height": 420,
+      "route": "/guide/forever-ago-achievements",
+      "short": true,
+      "status": 200,
+      "documentWidth": 320,
+      "viewport": 320,
+      "mode": "night",
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 60
+      },
+      "main": {
+        "x": 0,
+        "y": 681.65625,
+        "width": 320,
+        "height": 14317.59375
+      },
+      "footer": {
+        "x": 0,
+        "y": 16114.078125,
+        "width": 320,
+        "height": 1618.484375
+      },
+      "navForm": "burger",
+      "visibleModeToggle": 0,
+      "logoSources": [
+        "/favicon.ico",
+        "/favicon.ico",
+        "/favicon.ico"
+      ],
+      "activeRails": 0,
+      "hydrated": true
+    }
+  ],
+  "policies": [
+    {
+      "route": "/about",
+      "status": 200,
+      "adMode": "disabled",
+      "revenueAds": 0,
+      "adPlaceholders": 0,
+      "activeRails": 0,
+      "documentWidth": 320,
+      "viewport": 320
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "adMode": "disabled",
+      "revenueAds": 0,
+      "adPlaceholders": 0,
+      "activeRails": 0,
+      "documentWidth": 320,
+      "viewport": 320
+    },
+    {
+      "route": "/privacy",
+      "status": 200,
+      "adMode": "disabled",
+      "revenueAds": 0,
+      "adPlaceholders": 0,
+      "activeRails": 0,
+      "documentWidth": 320,
+      "viewport": 320
+    },
+    {
+      "route": "/terms",
+      "status": 200,
+      "adMode": "disabled",
+      "revenueAds": 0,
+      "adPlaceholders": 0,
+      "activeRails": 0,
+      "documentWidth": 320,
+      "viewport": 320
+    }
+  ],
+  "drawers": [
+    {
+      "width": 390,
+      "expanded": "true",
+      "documentWidth": 390,
+      "viewport": 390,
+      "dialog": [
+        {
+          "x": 0,
+          "width": 390,
+          "height": 640,
+          "scrollHeight": 1409,
+          "clientHeight": 640
+        }
+      ],
+      "brandSources": [
+        "/favicon.ico"
+      ],
+      "escaped": true
+    },
+    {
+      "width": 320,
+      "expanded": "true",
+      "documentWidth": 320,
+      "viewport": 320,
+      "dialog": [
+        {
+          "x": 0,
+          "width": 320,
+          "height": 640,
+          "scrollHeight": 1409,
+          "clientHeight": 640
+        }
+      ],
+      "brandSources": [
+        "/favicon.ico"
+      ],
+      "escaped": true
+    }
+  ],
+  "statistics": [],
+  "thirdParty": [],
+  "exceptions": [],
+  "failedRequests": [
+    {
+      "url": "http://127.0.0.1:4173/",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/maps",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/guide",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/walkthrough",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/guide",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/maps",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/walkthrough",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/guide",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/maps",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/walkthrough",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/maps",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/walkthrough",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/guide",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/maps",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/guide",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/walkthrough",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/guide/forever-ago-gameplay",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/maps",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/guide/forever-ago-journal-photos",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/guide/forever-ago-achievements",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/guide/forever-ago-gameplay",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/guide",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/guide/forever-ago-gameplay",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/guide/forever-ago-achievements",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/guide",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/maps",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/walkthrough",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/guide",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/guide/forever-ago-gameplay",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/maps",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/guide/forever-ago-journal-photos",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/guide/forever-ago-gameplay",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/maps",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/guide/forever-ago-journal-photos",
+      "reason": "net::ERR_ABORTED"
+    }
+  ]
+}

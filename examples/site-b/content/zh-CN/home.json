@@ -1,0 +1,112 @@
+{
+  "id": "home",
+  "template": "site-home",
+  "locale": "zh-CN",
+  "title": "河岸工坊",
+  "description": "虚构的河岸工坊建站演示，展示独立配置、内容与中文翻译。",
+  "status": "published",
+  "verification": "unverified",
+  "demo": true,
+  "hero": {
+    "eyebrow": "独立站示例",
+    "description": "这是虚构的模板样例。真实游戏资料、发售日期和玩法均待核实。",
+    "asset": "hero",
+    "video": null,
+    "stats": [
+      {
+        "label": "中文示例文章",
+        "value": "1"
+      },
+      {
+        "label": "支持语言",
+        "value": "2"
+      },
+      {
+        "label": "发售日期",
+        "value": null
+      },
+      {
+        "label": "平台",
+        "value": null
+      }
+    ]
+  },
+  "featured": {
+    "eyebrow": "开始阅读",
+    "title": "沿着河岸出发",
+    "description": "示例仅演示内容结构，不代表真实攻略。",
+    "pinnedIds": [
+      "river-first-steps"
+    ]
+  },
+  "about": {
+    "eyebrow": "关于示例",
+    "title": "这是什么站？",
+    "paragraphs": [
+      "河岸工坊是用于验证模板复用的虚构站点，不对应真实游戏。",
+      "本例替换了站名、主题、分类、语言与内容，页面由同一套框架生成。"
+    ],
+    "facts": [
+      {
+        "label": "开发者",
+        "value": null
+      },
+      {
+        "label": "发行商",
+        "value": null
+      },
+      {
+        "label": "版本",
+        "value": null
+      },
+      {
+        "label": "平台",
+        "value": null
+      }
+    ],
+    "link": {
+      "label": "发行商尚未配置",
+      "target": {
+        "type": "official",
+        "id": "official"
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "常见问题",
+    "title": "关于这个站",
+    "description": "区分模板示例与真实攻略。",
+    "items": [
+      {
+        "question": "这是官方站点吗？",
+        "answer": "不是。本例是虚构的独立模板演示。"
+      },
+      {
+        "question": "这里的内容能直接当攻略使用吗？",
+        "answer": "不能。发布真实攻略前需要补充并核验游戏来源。"
+      },
+      {
+        "question": "为什么只有一篇中文文章？",
+        "answer": "本例演示部分翻译；没有翻译的英文文章不会生成中文占位页。"
+      }
+    ]
+  },
+  "cta": {
+    "links": [
+      {
+        "label": "浏览中文旅程",
+        "target": {
+          "type": "category",
+          "id": "journeys"
+        }
+      },
+      {
+        "label": "打开旅途手记",
+        "target": {
+          "type": "content",
+          "id": "river-first-steps"
+        }
+      }
+    ]
+  }
+}

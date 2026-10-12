@@ -1,0 +1,262 @@
+[
+  {
+    "id": "hero",
+    "src": null,
+    "width": 2560,
+    "height": 1440,
+    "purpose": "Hero artwork",
+    "alt": {
+      "en": "Hero artwork",
+      "ja": "メインビジュアル"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "trailer",
+    "src": null,
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Trailer poster",
+    "alt": {
+      "en": "Trailer poster",
+      "ja": "予告映像"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "card",
+    "src": null,
+    "width": 1400,
+    "height": 1000,
+    "purpose": "Entity portrait",
+    "alt": {
+      "en": "Entity portrait",
+      "ja": "人物画像"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "route",
+    "src": null,
+    "width": 1600,
+    "height": 900,
+    "purpose": "Route screenshot",
+    "alt": {
+      "en": "Route screenshot",
+      "ja": "ルート画像"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "page-hero",
+    "src": null,
+    "width": 2560,
+    "height": 1000,
+    "purpose": "Page key art",
+    "alt": {
+      "en": "Page key art",
+      "ja": "ページのメイン画像"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "weapon-render",
+    "src": null,
+    "width": 1280,
+    "height": 720,
+    "purpose": "Practice blade render — artwork not supplied",
+    "alt": {
+      "en": "Practice blade render — artwork not supplied",
+      "ja": "練習用の刃 — 画像未登録"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "weapon-action",
+    "src": null,
+    "width": 640,
+    "height": 360,
+    "purpose": "Practice action — artwork not supplied",
+    "alt": {
+      "en": "Practice action — artwork not supplied",
+      "ja": "練習動作 — 画像未登録"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "weapon-still",
+    "src": null,
+    "width": 800,
+    "height": 800,
+    "purpose": "Practice blade still",
+    "alt": {
+      "en": "Practice blade still",
+      "ja": "練習用の刃の静止画"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "weapon-icon",
+    "src": null,
+    "width": 64,
+    "height": 64,
+    "purpose": "Weapon icon",
+    "alt": {
+      "en": "Weapon icon",
+      "ja": "武器アイコン"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "mechanism-diagram",
+    "src": null,
+    "width": 1600,
+    "height": 900,
+    "purpose": "Timing diagram — measurements not supplied",
+    "alt": {
+      "en": "Timing diagram — measurements not supplied",
+      "ja": "タイミング図 — 測定資料なし"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "mod-preview",
+    "src": null,
+    "width": 1280,
+    "height": 720,
+    "purpose": "Demo mod preview",
+    "alt": {
+      "en": "Demo mod preview",
+      "ja": "MOD プレビューのデモ"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "mod-menu",
+    "src": null,
+    "width": 640,
+    "height": 360,
+    "purpose": "Demo mod menu",
+    "alt": {
+      "en": "Demo mod menu",
+      "ja": "MOD メニューのデモ"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "mod-config",
+    "src": null,
+    "width": 640,
+    "height": 360,
+    "purpose": "Demo configuration",
+    "alt": {
+      "en": "Demo configuration",
+      "ja": "設定画面のデモ"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "mod-manager",
+    "src": null,
+    "width": 1200,
+    "height": 900,
+    "purpose": "Demo mod manager",
+    "alt": {
+      "en": "Demo mod manager",
+      "ja": "MOD 管理画面のデモ"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "map-hero",
+    "src": null,
+    "width": 2560,
+    "height": 900,
+    "purpose": "Interactive map hero",
+    "alt": {
+      "en": "Map page key art — not supplied",
+      "ja": "地図ページのメイン画像 — 未提供"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "article-atmosphere",
+    "src": "/media/article-shrine-atmosphere.webp",
+    "width": 1536,
+    "height": 1024,
+    "purpose": "AI-generated fictional shrine atmosphere for template demonstration; not official game artwork",
+    "alt": {
+      "en": "Illustrated mountain shrine in mist, fictional atmosphere artwork",
+      "ja": "霧の山中にある架空の神社のイラスト"
+    },
+    "position": "72% 50%",
+    "demo": true
+  },
+  {
+    "id": "demo-character-traveller",
+    "src": "/media/characters/demo-traveller.webp",
+    "width": 640,
+    "height": 640,
+    "purpose": "AI-generated fictional traveller portrait for template demonstration",
+    "alt": {
+      "en": "Fictional traveller portrait for template demonstration",
+      "ja": "テンプレート見本用の架空の旅人"
+    },
+    "position": "50% 38%",
+    "demo": true
+  },
+  {
+    "id": "demo-character-guide",
+    "src": "/media/characters/demo-guide.webp",
+    "width": 640,
+    "height": 640,
+    "purpose": "AI-generated fictional guide portrait for template demonstration",
+    "alt": {
+      "en": "Fictional guide portrait for template demonstration",
+      "ja": "テンプレート見本用の架空の案内役"
+    },
+    "position": "50% 38%",
+    "demo": true
+  },
+  {
+    "id": "demo-character-archivist",
+    "src": "/media/characters/demo-archivist.webp",
+    "width": 640,
+    "height": 640,
+    "purpose": "AI-generated fictional archivist portrait for template demonstration",
+    "alt": {
+      "en": "Fictional archivist portrait for template demonstration",
+      "ja": "テンプレート見本用の架空の記録係"
+    },
+    "position": "50% 38%",
+    "demo": true
+  },
+  {
+    "id": "demo-weapon-shuffle",
+    "src": "/media/weapons/demo-weapon-shuffle.webp",
+    "width": 1024,
+    "height": 1024,
+    "purpose": "AI-generated fictional weapon sprite sheet for the homepage shuffle grid",
+    "alt": {
+      "en": "Sixteen fictional weapon studies arranged in a grid",
+      "ja": "16種類の架空の武器を並べたグリッド"
+    },
+    "position": "50% 50%",
+    "demo": true
+  }
+]

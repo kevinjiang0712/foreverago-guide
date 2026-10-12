@@ -1,0 +1,30 @@
+{
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "id": "river-demo-archivist",
+  "type": "character",
+  "name": "River specimen 11",
+  "role": "RESIDENT",
+  "summary": "Fictional character copy for a template demonstration.",
+  "contentId": null,
+  "assetId": null,
+  "attributes": [
+    {
+      "label": "Weapon",
+      "value": null
+    },
+    {
+      "label": "Signature",
+      "value": null
+    },
+    {
+      "label": "Appears from",
+      "value": null
+    },
+    {
+      "label": "Voice",
+      "value": null
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "siteId": "template-sample-a",
+  "siteUrl": "https://sample-a.example",
+  "defaultLocale": "en",
+  "locales": [
+    "en",
+    "ja"
+  ],
+  "mode": "demo",
+  "brand": {
+    "logo": null
+  },
+  "officialLinks": {
+    "official": null,
+    "steam": null,
+    "discord": null,
+    "youtube": null
+  },
+  "seo": {
+    "titleTemplate": "{title} | {siteName}",
+    "image": null,
+    "noindex": false
+  },
+  "navigation": {
+    "en": [
+      {
+        "label": "Guides",
+        "target": {
+          "type": "category",
+          "id": "guides"
+        },
+        "children": [
+          {
+            "label": "Getting started",
+            "target": {
+              "type": "content",
+              "id": "first-steps"
+            }
+          },
+          {
+            "label": "Reading the reference",
+            "target": {
+              "type": "content",
+              "id": "reference-notes"
+            }
+          },
+          {
+            "label": "Interactive map",
+            "target": {
+              "type": "content",
+              "id": "interactive-map"
+            }
+          },
+          {
+            "label": "Combat systems & reference",
+            "target": {
+              "type": "content",
+              "id": "combat-reference"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Bosses",
+        "target": {
+          "type": "category",
+          "id": "bosses"
+        },
+        "children": []
+      },
+      {
+        "label": "Characters",
+        "target": {
+          "type": "category",
+          "id": "characters"
+        },
+        "children": []
+      },
+      {
+        "label": "Weapons",
+        "target": {
+          "type": "category",
+          "id": "weapons"
+        },
+        "children": [
+          {
+            "label": "Weapon explorer",
+            "target": {
+              "type": "content",
+              "id": "weapon-explorer"
+            }
+          },
+          {
+            "label": "Practice blade",
+            "target": {
+              "type": "content",
+              "id": "practice-blade-detail"
+            }
+          },
+          {
+            "label": "Build library",
+            "target": {
+              "type": "content",
+              "id": "build-library"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Mods",
+        "target": {
+          "type": "category",
+          "id": "mods"
+        },
+        "children": [
+          {
+            "label": "Demo overlay",
+            "target": {
+              "type": "content",
+              "id": "mod-detail"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Database",
+        "target": {
+          "type": "content",
+          "id": "database-index"
+        },
+        "children": [
+          {
+            "label": "Sample equipment",
+            "target": {
+              "type": "content",
+              "id": "database-blade"
+            }
+          }
+        ]
+      }
+    ],
+    "ja": [
+      {
+        "label": "攻略",
+        "target": {
+          "type": "category",
+          "id": "guides"
+        },
+        "children": [
+          {
+            "label": "最初の攻略",
+            "target": {
+              "type": "content",
+              "id": "first-steps"
+            }
+          },
+          {
+            "label": "資料の読み方と未確認情報を整理するためのテンプレート見本",
+            "target": {
+              "type": "content",
+              "id": "reference-notes"
+            }
+          },
+          {
+            "label": "インタラクティブ地図",
+            "target": {
+              "type": "content",
+              "id": "interactive-map"
+            }
+          },
+          {
+            "label": "戦闘の仕組みと参照資料",
+            "target": {
+              "type": "content",
+              "id": "combat-reference"
+            }
+          }
+        ]
+      },
+      {
+        "label": "ボス",
+        "target": {
+          "type": "category",
+          "id": "bosses"
+        },
+        "children": []
+      },
+      {
+        "label": "キャラクター",
+        "target": {
+          "type": "category",
+          "id": "characters"
+        },
+        "children": []
+      },
+      {
+        "label": "武器",
+        "target": {
+          "type": "category",
+          "id": "weapons"
+        },
+        "children": [
+          {
+            "label": "武器エクスプローラー",
+            "target": {
+              "type": "content",
+              "id": "weapon-explorer"
+            }
+          },
+          {
+            "label": "練習用の刃",
+            "target": {
+              "type": "content",
+              "id": "practice-blade-detail"
+            }
+          },
+          {
+            "label": "配装ライブラリ",
+            "target": {
+              "type": "content",
+              "id": "build-library"
+            }
+          }
+        ]
+      },
+      {
+        "label": "MOD",
+        "target": {
+          "type": "category",
+          "id": "mods"
+        },
+        "children": [
+          {
+            "label": "表示パネルのデモ",
+            "target": {
+              "type": "content",
+              "id": "mod-detail"
+            }
+          }
+        ]
+      },
+      {
+        "label": "データベース",
+        "target": {
+          "type": "content",
+          "id": "database-index"
+        },
+        "children": [
+          {
+            "label": "サンプル装備",
+            "target": {
+              "type": "content",
+              "id": "database-blade"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "homepage": {
+    "featuredLimit": 6,
+    "categoryFloorMinItems": 4,
+    "categoryFloorLimit": 8,
+    "layoutOverrides": {}
+  },
+  "footer": {
+    "columns": []
+  },
+  "redirects": [],
+  "policies": {
+    "contactEmail": null,
+    "effectiveDate": "2026-09-20"
+  }
+}

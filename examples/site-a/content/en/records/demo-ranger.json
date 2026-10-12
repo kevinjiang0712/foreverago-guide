@@ -1,0 +1,13 @@
+{
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "id": "demo-ranger",
+  "type": "character",
+  "name": "Demo Ranger",
+  "role": "RANGED",
+  "summary": "A fictional character for testing list quantity and role filters.",
+  "contentId": null,
+  "assetId": null,
+  "attributes": []
+}

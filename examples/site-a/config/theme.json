@@ -1,0 +1,8 @@
+{
+  "preset": "onimusha",
+  "defaultMode": "night",
+  "common": {},
+  "day": {},
+  "night": {},
+  "fonts": []
+}

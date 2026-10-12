@@ -1,0 +1,43 @@
+import {AdContentSlot} from '@/components/ads/AdContentSlot';
+import Link from 'next/link';
+import type {ReactNode} from 'react';
+import type {ContentIndex,IndexedPage} from '@/content/types';
+import {PageHero} from '@/components/content/PageHero';
+import {SectionHeading} from '@/components/content/SectionHeading';
+import {Media} from '@/components/content/Media';
+import {Disclosure} from '@/components/content/Disclosure';
+import {EmptyState} from '@/components/content/EmptyState';
+import {Reveal} from '@/components/motion/Reveal';
+import {UpgradeExplorer} from '@/components/interactive/UpgradeExplorer';
+import {AnchorRail} from '@/components/chrome/AnchorRail';
+import {ConfiguredAdSlot,assertAdAnchor} from '@/components/ads/AdSlot';
+import {weaponExplorerModel} from './model';
+import './catalogue.css';
+import './weapon-explorer.css';
+function ComparisonTable({label,columns,children}:{label:string;columns:string[];children:ReactNode}){return <div className="catalogue-table-scroll" role="region" tabIndex={0} aria-label={label}><table><caption className="visually-hidden">{label}</caption><thead><tr>{columns.map((column,i)=><th scope="col" key={i}>{column}</th>)}</tr></thead><tbody>{children}</tbody></table></div>;}
+export function WeaponExplorer({index,page,body}:{index:ContentIndex;page:IndexedPage;body:ReactNode}){
+ const {record,weapon,headings,upgradeAsset}=weaponExplorerModel(index,page);const ui=index.dictionaries[page.locale].ui;const c=record.columns;const empty=<EmptyState title={ui.empty} description={ui.emptyReason}/>;const name=(id:string)=>{const entry=weapon(id);return entry.href?<Link href={entry.href}>{entry.name}</Link>:entry.name;};const status=(value:'confirmed'|'partial'|'unverified')=><span className="catalogue-status">{ui[value]}</span>;
+ const a2Anchors=['comparison','explorer','playstyles','details','tier-list','unlocks','upgrades','changes','faq'];assertAdAnchor(index.ads,'a2',a2Anchors,'weapon-explorer');
+ const a2=(anchor:string,position:'before'|'after')=><ConfiguredAdSlot ads={index.ads} placement="a2" template="weapon-explorer" anchor={anchor} position={position}/>;
+ return <div data-template="weapon-explorer"><PageHero index={index} locale={page.locale} pathname={page.path} title={page.title} description={page.description} label={ui[page.verification]} categoryId={page.category} assetId={page.assets.hero}><div className="explorer-hero-metadata" data-explorer-metadata data-hero-step><span data-weapon-count>{ui.weaponCount}: {record.comparison.length}</span><span data-version>{ui.version}: {page.gameVersion??ui.unknown}</span><span data-unlock-summary>{record.unlockSummary}</span><span data-node-count>{record.treeNodes.length} {ui.documentedNodes}</span></div><div className="catalogue-hero-actions" data-hero-step><a href="#comparison" className="button button-primary"><span aria-hidden="true" data-sweep/><span className="button-label">{ui.compareWeapons}</span></a><a href="#explorer" className="button button-ghost">{ui.openExplorer}</a></div></PageHero><AnchorRail headings={headings} label={ui.onThisPage}/><main id="main" className="container explorer-main">
+ {a2('comparison','before')}
+ <Reveal as="section" id="comparison" data-floor="comparison" className="catalogue-floor catalogue-first"><SectionHeading {...record.sections.comparison}/><div className="catalogue-body" data-template-body>{body}</div>{record.comparison.length?<div className="weapon-comparison"><ComparisonTable label={record.sections.comparison.title} columns={[c.weapon,c.identity,c.action,c.learning,c.bestFor,c.tradeoff]}>{record.comparison.map(row=><tr key={row.weaponId}><td>{name(row.weaponId)}{status(row.verification)}</td><td>{row.identity}</td><td>{row.action??ui.unknown}</td><td>{row.learning??ui.unknown}</td><td>{row.bestFor}</td><td>{row.tradeoff}</td></tr>)}</ComparisonTable></div>:empty}</Reveal>
+ <AdContentSlot/>{a2('comparison','after')}{a2('explorer','before')}
+ <Reveal as="section" id="explorer" data-floor="explorer" className="catalogue-floor"><SectionHeading {...record.sections.explorer}/><UpgradeExplorer nodes={record.treeNodes} notes={record.treeNotes} assets={Object.fromEntries(record.treeNodes.flatMap(node=>node.iconAssetId?[[node.iconAssetId,index.assets[node.iconAssetId]]]:[]))} locale={page.locale} labels={ui}/></Reveal>
+ {a2('explorer','after')}{a2('playstyles','before')}
+ <Reveal as="section" id="playstyles" data-floor="playstyles" className="catalogue-floor"><SectionHeading {...record.sections.playstyles}/>{record.playstylePicks.length?<div className="explorer-picks">{record.playstylePicks.map(pick=><article key={pick.id} className="explorer-pick" data-lift><div className="catalogue-label">{pick.label}</div><h3>{name(pick.weaponId)}</h3><p>{pick.description}</p>{status(pick.verification)}<p className="explorer-pick-risk"><span>{record.riskLabel} · </span>{pick.risk??ui.unknown}</p></article>)}</div>:empty}</Reveal>
+ {a2('playstyles','after')}{a2('details','before')}
+ <Reveal as="section" id="details" data-floor="details" className="catalogue-floor"><SectionHeading {...record.sections.details}/>{record.detailSections.length?<div className="explorer-detail-list">{record.detailSections.map(detail=>{const entry=weapon(detail.weaponId);const icon=entry.iconAssetId?index.assets[entry.iconAssetId]:{id:'weapon-icon',src:null,width:64,height:64,purpose:ui.weaponIcon,alt:{[page.locale]:ui.weaponIcon},position:'50% 50%',demo:false};return <article className="explorer-weapon-detail" key={detail.id}><div><Media asset={icon} locale={page.locale} ratio="1/1" className="upgrade-icon"/><div className="catalogue-label">{detail.label}</div><h3>{name(detail.weaponId)}</h3>{status(detail.verification)}</div><dl className="catalogue-facts">{detail.facts.map((fact,i)=><div key={i}><dt>{fact.label}</dt><dd>{fact.value??ui.unknown}</dd></div>)}</dl></article>;})}</div>:empty}</Reveal>
+ {a2('details','after')}{a2('tier-list','before')}
+ <Reveal as="section" id="tier-list" data-floor="tier-list" className="catalogue-floor"><SectionHeading {...record.sections.tier}/>{record.tierRows.length?<ComparisonTable label={record.sections.tier.title} columns={[c.tier,c.weapon,c.reason,c.whenToMove]}>{record.tierRows.map(row=><tr key={row.id}><td>{row.tier??ui.unknown}</td><td>{row.weaponIds.map((id,i)=><span key={id}>{i>0?' · ':''}{name(id)}</span>)}</td><td>{row.reason}{status(row.verification)}</td><td>{row.whenToMove??ui.unknown}</td></tr>)}</ComparisonTable>:empty}</Reveal>
+ {a2('tier-list','after')}{a2('unlocks','before')}
+ <Reveal as="section" id="unlocks" data-floor="unlocks" className="catalogue-floor"><SectionHeading {...record.sections.unlocks}/>{record.unlockRows.length?<ComparisonTable label={record.sections.unlocks.title} columns={[c.weapon,c.unlock,c.cost,c.evidence]}>{record.unlockRows.map(row=><tr key={row.weaponId}><td>{name(row.weaponId)}</td><td>{row.method??ui.unknown}</td><td>{row.cost??ui.unknown}</td><td>{row.evidence??ui.unknown}{status(row.verification)}</td></tr>)}</ComparisonTable>:empty}</Reveal>
+ {a2('unlocks','after')}{a2('upgrades','before')}
+ <Reveal as="section" id="upgrades" data-floor="upgrades" className="catalogue-floor"><SectionHeading {...record.sections.upgrades}/><div className="explorer-upgrade-grid">{record.upgradeExplanation.length?<ol className="explorer-upgrade-steps">{record.upgradeExplanation.map((row,i)=><li key={row.id}><span aria-hidden="true">{String(i+1).padStart(2,'0')}</span><div><h3>{row.title}</h3><p>{row.description}</p>{status(row.verification)}</div></li>)}</ol>:empty}<figure className="explorer-upgrade-media"><Media asset={upgradeAsset} locale={page.locale} ratio="4/3"/><figcaption>{record.upgradeMedia.caption}</figcaption></figure></div></Reveal>
+ {a2('upgrades','after')}{a2('changes','before')}
+ <Reveal as="section" id="changes" data-floor="changes" className="catalogue-floor"><SectionHeading {...record.sections.changes}/>{record.patchHistory.length?<ComparisonTable label={record.sections.changes.title} columns={[c.version,c.subject,c.change]}>{record.patchHistory.map(row=><tr key={row.id}><td>{row.version??ui.unknown}</td><td>{row.weaponId?name(row.weaponId):row.subject??ui.unknown}</td><td>{row.change}{status(row.verification)}</td></tr>)}</ComparisonTable>:empty}</Reveal>
+ {a2('changes','after')}{a2('faq','before')}
+ <Reveal as="section" id="faq" data-floor="faq" className="catalogue-floor catalogue-last"><SectionHeading {...record.sections.faq}/><div className="catalogue-faq">{record.faq.map(row=><Disclosure key={row.id} question={row.question}><p>{row.answer}</p>{status(row.verification)}</Disclosure>)}</div>{!record.faq.length&&empty}</Reveal>
+ {a2('faq','after')}
+ </main></div>;
+}

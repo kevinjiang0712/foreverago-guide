@@ -1,0 +1,329 @@
+{
+  "id": "weapon-explorer",
+  "type": "weapon-explorer",
+  "locale": "ja",
+  "demo": true,
+  "verification": "unverified",
+  "sections": {
+    "comparison": {
+      "eyebrow": "比較",
+      "title": "武器を比較する",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+    },
+    "explorer": {
+      "eyebrow": "ツリー",
+      "title": "武器アップグレードを探す",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+    },
+    "playstyles": {
+      "eyebrow": "スタイル",
+      "title": "プレイスタイルで選ぶ",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+    },
+    "details": {
+      "eyebrow": "詳細",
+      "title": "各武器の説明",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+    },
+    "tier": {
+      "eyebrow": "評価",
+      "title": "武器の評価一覧",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+    },
+    "unlocks": {
+      "eyebrow": "解放",
+      "title": "各武器の解放方法",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+    },
+    "upgrades": {
+      "eyebrow": "強化",
+      "title": "アップグレードの仕組み",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+    },
+    "changes": {
+      "eyebrow": "変更",
+      "title": "武器の変更と制約",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+    },
+    "faq": {
+      "eyebrow": "質問",
+      "title": "武器に関する質問",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+    }
+  },
+  "comparison": [
+    {
+      "weaponId": "practice-blade",
+      "identity": "デモ専用",
+      "action": null,
+      "learning": null,
+      "bestFor": "表示確認",
+      "tradeoff": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+      "verification": "unverified"
+    },
+    {
+      "weaponId": "practice-bow",
+      "identity": "デモ専用",
+      "action": null,
+      "learning": null,
+      "bestFor": "表示確認",
+      "tradeoff": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+      "verification": "unverified"
+    }
+  ],
+  "treeNodes": [
+    {
+      "id": "blade",
+      "parentId": null,
+      "tier": 1,
+      "label": "練習用ブレード",
+      "details": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+      "verification": "unverified",
+      "iconAssetId": null
+    },
+    {
+      "id": "blade-steady",
+      "parentId": "blade",
+      "tier": 2,
+      "label": "安定分岐",
+      "details": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+      "verification": "unverified",
+      "iconAssetId": null
+    },
+    {
+      "id": "blade-fast",
+      "parentId": "blade",
+      "tier": 2,
+      "label": "高速分岐",
+      "details": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+      "verification": "unverified",
+      "iconAssetId": null
+    },
+    {
+      "id": "blade-steady-final",
+      "parentId": "blade-steady",
+      "tier": 3,
+      "label": "安定終端",
+      "details": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+      "verification": "unverified",
+      "iconAssetId": null
+    },
+    {
+      "id": "blade-fast-final",
+      "parentId": "blade-fast",
+      "tier": 3,
+      "label": "高速終端",
+      "details": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+      "verification": "unverified",
+      "iconAssetId": null
+    },
+    {
+      "id": "bow",
+      "parentId": null,
+      "tier": 1,
+      "label": "練習用ボウ",
+      "details": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+      "verification": "unverified",
+      "iconAssetId": null
+    },
+    {
+      "id": "bow-range",
+      "parentId": "bow",
+      "tier": 2,
+      "label": "遠距離分岐",
+      "details": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+      "verification": "unverified",
+      "iconAssetId": null
+    },
+    {
+      "id": "bow-empty",
+      "parentId": "bow",
+      "tier": 2,
+      "label": "子要素なし分岐",
+      "details": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+      "verification": "unverified",
+      "iconAssetId": null
+    },
+    {
+      "id": "bow-range-final",
+      "parentId": "bow-range",
+      "tier": 3,
+      "label": "遠距離終端",
+      "details": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+      "verification": "unverified",
+      "iconAssetId": null
+    }
+  ],
+  "treeNotes": [
+    "基本ノード。分岐を選択すると子要素を確認できます。",
+    "分岐ノード。分岐を変えると終端の選択が解除されます。",
+    "終端ノード。このデモに確認済みの効果はありません。"
+  ],
+  "playstylePicks": [
+    {
+      "id": "steady",
+      "label": "安定の例",
+      "weaponId": "practice-blade",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+      "verification": "unverified",
+      "risk": null
+    },
+    {
+      "id": "range",
+      "label": "遠距離の例",
+      "weaponId": "practice-bow",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+      "verification": "unverified",
+      "risk": null
+    }
+  ],
+  "detailSections": [
+    {
+      "id": "practice-blade",
+      "weaponId": "practice-blade",
+      "label": "デモ",
+      "facts": [
+        {
+          "label": "基本動作",
+          "value": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+        },
+        {
+          "label": "適した用途",
+          "value": null
+        },
+        {
+          "label": "主な強み",
+          "value": null
+        },
+        {
+          "label": "主なコスト",
+          "value": null
+        },
+        {
+          "label": "強化方針",
+          "value": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+        }
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "practice-bow",
+      "weaponId": "practice-bow",
+      "label": "デモ",
+      "facts": [
+        {
+          "label": "基本動作",
+          "value": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+        },
+        {
+          "label": "適した用途",
+          "value": null
+        },
+        {
+          "label": "主な強み",
+          "value": null
+        },
+        {
+          "label": "主なコスト",
+          "value": null
+        },
+        {
+          "label": "強化方針",
+          "value": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+        }
+      ],
+      "verification": "unverified"
+    }
+  ],
+  "tierRows": [
+    {
+      "id": "unknown",
+      "tier": null,
+      "weaponIds": [
+        "practice-blade",
+        "practice-bow"
+      ],
+      "reason": "確認済みのランキングはありません。",
+      "verification": "unverified",
+      "whenToMove": null
+    }
+  ],
+  "unlockRows": [
+    {
+      "weaponId": "practice-blade",
+      "method": null,
+      "verification": "unverified",
+      "cost": null,
+      "evidence": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+    },
+    {
+      "weaponId": "practice-bow",
+      "method": null,
+      "verification": "unverified",
+      "cost": null,
+      "evidence": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+    }
+  ],
+  "upgradeExplanation": [
+    {
+      "id": "base",
+      "title": "基本を選ぶ",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "branch",
+      "title": "接続された分岐を選ぶ",
+      "description": "子要素のない分岐も有効です。必ずしもデータ欠落ではありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "finish",
+      "title": "終端を確認する",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+      "verification": "unverified"
+    }
+  ],
+  "patchHistory": [
+    {
+      "id": "no-evidence",
+      "version": null,
+      "change": "確認済みのゲームパッチは未登録です。",
+      "verification": "unverified",
+      "weaponId": null,
+      "subject": null
+    }
+  ],
+  "faq": [
+    {
+      "id": "real",
+      "question": "実際のゲームのツリーですか？",
+      "answer": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+      "verification": "unverified"
+    }
+  ],
+  "columns": {
+    "weapon": "武器",
+    "identity": "戦闘特性",
+    "action": "特殊動作",
+    "learning": "習熟難度",
+    "bestFor": "適した用途",
+    "tradeoff": "主な制約",
+    "tier": "評価",
+    "reason": "理由",
+    "unlock": "解放条件",
+    "version": "バージョン",
+    "change": "変更",
+    "whenToMove": "順位を変更する条件",
+    "cost": "費用",
+    "evidence": "根拠",
+    "subject": "対象"
+  },
+  "unlockSummary": "確認済みの解放ルートなし",
+  "riskLabel": "リスク",
+  "upgradeMedia": {
+    "assetId": null,
+    "fallbackLabel": "強化と所持品の配置図",
+    "caption": "画像は未登録です。実際の強化効果を示す資料ではありません。"
+  }
+}

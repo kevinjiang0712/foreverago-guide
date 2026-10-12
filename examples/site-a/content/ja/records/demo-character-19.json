@@ -1,0 +1,13 @@
+{
+  "locale": "ja",
+  "demo": true,
+  "verification": "unverified",
+  "id": "demo-character-19",
+  "type": "character",
+  "name": "デモキャラクター 19",
+  "role": "偵察役",
+  "summary": "一覧の密度と役割フィルター確認用の架空キャラクター。",
+  "contentId": null,
+  "assetId": null,
+  "attributes": []
+}

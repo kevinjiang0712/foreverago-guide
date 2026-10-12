@@ -1,0 +1,205 @@
+{
+  "siteId": "river-workshop",
+  "siteUrl": "https://river-workshop.example",
+  "defaultLocale": "en",
+  "locales": [
+    "en",
+    "zh-CN"
+  ],
+  "mode": "demo",
+  "brand": {
+    "logo": null
+  },
+  "officialLinks": {
+    "official": null,
+    "steam": null,
+    "discord": null,
+    "youtube": null
+  },
+  "seo": {
+    "titleTemplate": "{title} | {siteName}",
+    "image": null,
+    "noindex": false
+  },
+  "navigation": {
+    "en": [
+      {
+        "label": "Home",
+        "target": {
+          "type": "home"
+        },
+        "children": []
+      },
+      {
+        "label": "Creations",
+        "target": {
+          "type": "category",
+          "id": "creations"
+        },
+        "children": [
+          {
+            "label": "Workshop entry 14",
+            "target": {
+              "type": "content",
+              "id": "river-mod-detail"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Field tools",
+        "target": {
+          "type": "category",
+          "id": "tools"
+        },
+        "children": [
+          {
+            "label": "Tool pathways",
+            "target": {
+              "type": "content",
+              "id": "river-weapon-explorer"
+            }
+          },
+          {
+            "label": "River specimen 27",
+            "target": {
+              "type": "content",
+              "id": "river-practice-blade-detail"
+            }
+          },
+          {
+            "label": "Field loadouts",
+            "target": {
+              "type": "content",
+              "id": "river-build-library"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Residents",
+        "target": {
+          "type": "category",
+          "id": "residents"
+        },
+        "children": []
+      },
+      {
+        "label": "Encounters",
+        "target": {
+          "type": "category",
+          "id": "encounters"
+        },
+        "children": []
+      },
+      {
+        "label": "Journeys",
+        "target": {
+          "type": "category",
+          "id": "journeys"
+        },
+        "children": [
+          {
+            "label": "Trail journal",
+            "target": {
+              "type": "content",
+              "id": "river-first-steps"
+            }
+          },
+          {
+            "label": "Reference journal",
+            "target": {
+              "type": "content",
+              "id": "river-reference-notes"
+            }
+          },
+          {
+            "label": "River atlas",
+            "target": {
+              "type": "content",
+              "id": "river-interactive-map"
+            }
+          },
+          {
+            "label": "Workshop handbook",
+            "target": {
+              "type": "content",
+              "id": "river-combat-reference"
+            }
+          }
+        ]
+      }
+    ],
+    "zh-CN": [
+      {
+        "label": "首页",
+        "target": {
+          "type": "home"
+        },
+        "children": []
+      },
+      {
+        "label": "社区创作",
+        "target": {
+          "type": "category",
+          "id": "creations"
+        },
+        "children": []
+      },
+      {
+        "label": "野外工具",
+        "target": {
+          "type": "category",
+          "id": "tools"
+        },
+        "children": []
+      },
+      {
+        "label": "居民",
+        "target": {
+          "type": "category",
+          "id": "residents"
+        },
+        "children": []
+      },
+      {
+        "label": "遭遇",
+        "target": {
+          "type": "category",
+          "id": "encounters"
+        },
+        "children": []
+      },
+      {
+        "label": "旅程",
+        "target": {
+          "type": "category",
+          "id": "journeys"
+        },
+        "children": [
+          {
+            "label": "旅途手记",
+            "target": {
+              "type": "content",
+              "id": "river-first-steps"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "homepage": {
+    "featuredLimit": 6,
+    "categoryFloorMinItems": 4,
+    "categoryFloorLimit": 8,
+    "layoutOverrides": {}
+  },
+  "footer": {
+    "columns": []
+  },
+  "redirects": [],
+  "policies": {
+    "contactEmail": null,
+    "effectiveDate": "2026-09-20"
+  }
+}

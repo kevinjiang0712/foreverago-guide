@@ -1,0 +1,13 @@
+{
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "id": "demo-scholar",
+  "type": "character",
+  "name": "Demo Scholar",
+  "role": "SCHOLAR",
+  "summary": "A fictional character for testing list quantity and role filters.",
+  "contentId": null,
+  "assetId": null,
+  "attributes": []
+}

@@ -1,0 +1,30 @@
+{
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "id": "river-demo-traveller",
+  "type": "character",
+  "name": "River specimen 24",
+  "role": "PROTAGONIST",
+  "summary": "Fictional character copy for a template demonstration.",
+  "contentId": "river-first-steps",
+  "assetId": null,
+  "attributes": [
+    {
+      "label": "Weapon",
+      "value": null
+    },
+    {
+      "label": "Signature",
+      "value": null
+    },
+    {
+      "label": "Appears from",
+      "value": null
+    },
+    {
+      "label": "Voice",
+      "value": null
+    }
+  ]
+}

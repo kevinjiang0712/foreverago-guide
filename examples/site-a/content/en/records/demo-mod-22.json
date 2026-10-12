@@ -1,0 +1,25 @@
+{
+  "locale": "en",
+  "verification": "unverified",
+  "demo": true,
+  "id": "demo-mod-22",
+  "type": "mod",
+  "title": "Demo Mod 22",
+  "description": "A fictional mod for testing list density, sorting, and filters.",
+  "categoryId": "visuals",
+  "tagIds": [
+    "loader",
+    "palette"
+  ],
+  "testedVersions": [
+    "Sample A"
+  ],
+  "updatedAt": null,
+  "downloads": null,
+  "contentId": null,
+  "assetId": null,
+  "authorName": null,
+  "releaseVersion": null,
+  "endorsements": null,
+  "fileSize": null
+}

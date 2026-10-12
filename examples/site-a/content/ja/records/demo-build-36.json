@@ -1,0 +1,69 @@
+{
+  "id": "demo-build-36",
+  "type": "build",
+  "locale": "ja",
+  "demo": true,
+  "verification": "unverified",
+  "name": "デモ配装 36",
+  "summary": "一覧の密度、検索、絞り込み、ページ送り確認用の架空配装。",
+  "assetId": null,
+  "playstyleIds": [
+    "fast"
+  ],
+  "weaponIds": [
+    "practice-bow"
+  ],
+  "facts": [
+    {
+      "label": "パッチ",
+      "value": null
+    },
+    {
+      "label": "証拠",
+      "value": "デモ専用"
+    }
+  ],
+  "equipment": [
+    {
+      "recordId": "practice-blade",
+      "label": "武器ルート",
+      "value": "練習用ブレード → 安定分岐 → 安定終端"
+    },
+    {
+      "recordId": "practice-charm",
+      "label": "アクセサリー",
+      "value": "練習用チャーム"
+    },
+    {
+      "recordId": null,
+      "label": "必要リソース",
+      "value": null
+    }
+  ],
+  "bestFor": "デモ配装の全項目を確認する用途。",
+  "avoidIf": "実際のゲームで検証済みの推奨が必要な場合。",
+  "howItWorks": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+  "artifactPriority": [
+    {
+      "id": "core",
+      "priority": "基本例",
+      "items": "練習用チャーム",
+      "instruction": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+    },
+    {
+      "id": "optional",
+      "priority": "任意の例",
+      "items": "確認済み装備なし",
+      "instruction": "出典が得られるまで不明な数値は空欄にします。"
+    }
+  ],
+  "buildOrder": [
+    "デモ分岐を選びます。",
+    "装備例と制約を確認します。",
+    "別のデモバリエーションと比較します。"
+  ],
+  "howToPlay": "実際の攻略ではなく、表示構成の確認に使います。",
+  "risks": "この例には確認済みのダメージ、消費量、クリア実績がありません。",
+  "evidenceNote": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+  "variants": []
+}

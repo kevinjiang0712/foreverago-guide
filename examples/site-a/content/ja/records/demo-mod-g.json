@@ -1,0 +1,22 @@
+{
+  "locale": "ja",
+  "verification": "unverified",
+  "demo": true,
+  "id": "demo-mod-g",
+  "type": "mod",
+  "title": "ローダーのデモ",
+  "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+  "categoryId": "interface",
+  "tagIds": [
+    "loader"
+  ],
+  "testedVersions": [],
+  "updatedAt": null,
+  "downloads": null,
+  "contentId": null,
+  "assetId": null,
+  "authorName": null,
+  "releaseVersion": null,
+  "endorsements": null,
+  "fileSize": null
+}

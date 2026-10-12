@@ -1,0 +1,13 @@
+{
+  "locale": "ja",
+  "demo": true,
+  "verification": "unverified",
+  "id": "demo-smith",
+  "type": "character",
+  "name": "デモ鍛冶師",
+  "role": "支援役",
+  "summary": "一覧の件数と役割フィルターを確認する架空キャラクター。",
+  "contentId": null,
+  "assetId": null,
+  "attributes": []
+}

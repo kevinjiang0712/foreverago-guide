@@ -1,0 +1,15 @@
+{
+  "id": "river-practice-charm",
+  "locale": "en",
+  "type": "item",
+  "demo": true,
+  "verification": "unverified",
+  "name": "River specimen 29",
+  "kind": "Demonstration item",
+  "summary": "A fictional pairing example. Its effects have not been measured.",
+  "contentId": null,
+  "assetId": null,
+  "iconAssetId": null,
+  "facts": [],
+  "tags": []
+}

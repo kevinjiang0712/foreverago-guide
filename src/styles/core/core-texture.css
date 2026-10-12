@@ -1,0 +1,6 @@
+/* The grain plate itself is fixed; a theme sets its opacity and blend mode
+   (dark themes overlay, light themes multiply) in the theme contract. */
+:root{
+  --tex-grain:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='140' height='140'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='140' height='140' filter='url(%23n)'/></svg>"); /* @kind other */
+  --focus-offset:3px; /* @kind spacing */
+}

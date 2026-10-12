@@ -1,0 +1,55 @@
+{
+  "locale": "en",
+  "verification": "unverified",
+  "demo": true,
+  "id": "boss-catalogue",
+  "type": "boss-index",
+  "entities": [
+    {
+      "id": "fixture-boss",
+      "name": "Fixture boss",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": null,
+      "phaseCount": null,
+      "tags": [],
+      "verification": "unverified"
+    }
+  ],
+  "filterOptions": [],
+  "knownTotal": null,
+  "index": {
+    "eyebrow": "Fixture",
+    "title": "Fixture section",
+    "description": "Minimal structural test content."
+  },
+  "unrevealed": null,
+  "detail": {
+    "entityId": "fixture-boss",
+    "eyebrow": "Fixture detail",
+    "stats": [],
+    "facts": [],
+    "videoAssetId": null,
+    "attacksTitle": "Fixture attacks",
+    "columns": {
+      "attack": "Attack",
+      "phase": "Phase",
+      "windUp": "Wind-up",
+      "answer": "Answer"
+    },
+    "attacks": [
+      {
+        "id": "fixture-attack",
+        "name": "Fixture attack",
+        "phases": null,
+        "windUpFrames": null,
+        "answer": null,
+        "verification": "unverified"
+      }
+    ]
+  },
+  "footer": {
+    "note": "Minimal fixture.",
+    "link": null
+  }
+}

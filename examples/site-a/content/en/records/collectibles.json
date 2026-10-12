@@ -1,0 +1,46 @@
+{
+  "id": "collectibles",
+  "locale": "en",
+  "type": "table",
+  "title": "Sample collectible reference",
+  "demo": true,
+  "verification": "unverified",
+  "columns": [
+    {
+      "id": "number",
+      "label": "#"
+    },
+    {
+      "id": "item",
+      "label": "Item"
+    },
+    {
+      "id": "location",
+      "label": "Location"
+    },
+    {
+      "id": "status",
+      "label": "Status"
+    }
+  ],
+  "rows": [
+    {
+      "number": 1,
+      "item": "Sample item 1",
+      "location": null,
+      "status": null
+    },
+    {
+      "number": 2,
+      "item": "Sample item 2",
+      "location": null,
+      "status": null
+    },
+    {
+      "number": 3,
+      "item": "Sample item 3",
+      "location": null,
+      "status": null
+    }
+  ]
+}

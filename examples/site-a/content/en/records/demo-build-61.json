@@ -1,0 +1,69 @@
+{
+  "id": "demo-build-61",
+  "type": "build",
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "name": "Demo Build 61",
+  "summary": "A fictional build for testing list density, search, filtering, and pagination.",
+  "assetId": null,
+  "playstyleIds": [
+    "steady"
+  ],
+  "weaponIds": [
+    "practice-blade"
+  ],
+  "facts": [
+    {
+      "label": "Patch",
+      "value": null
+    },
+    {
+      "label": "Evidence",
+      "value": "Demo only"
+    }
+  ],
+  "equipment": [
+    {
+      "recordId": "practice-blade",
+      "label": "Weapon path",
+      "value": "Practice blade → Steady branch → Steady finish"
+    },
+    {
+      "recordId": "practice-charm",
+      "label": "Accessory",
+      "value": "Practice charm"
+    },
+    {
+      "recordId": null,
+      "label": "Required resource",
+      "value": null
+    }
+  ],
+  "bestFor": "Inspecting a complete demonstration setup.",
+  "avoidIf": "You need a verified recommendation for a real game.",
+  "howItWorks": "Demonstration only; no game behaviour or measured result is claimed.",
+  "artifactPriority": [
+    {
+      "id": "core",
+      "priority": "Core example",
+      "items": "Practice charm",
+      "instruction": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    {
+      "id": "optional",
+      "priority": "Optional example",
+      "items": "No verified item",
+      "instruction": "Leave unknown values empty until a source is available."
+    }
+  ],
+  "buildOrder": [
+    "Choose a demonstration branch.",
+    "Read the example equipment and limitations.",
+    "Compare the alternate demonstration variant."
+  ],
+  "howToPlay": "Use these rows to review the layout, not to plan a real run.",
+  "risks": "The example has no verified damage, resource cost or clear evidence.",
+  "evidenceNote": "Demonstration only; no game behaviour or measured result is claimed.",
+  "variants": []
+}

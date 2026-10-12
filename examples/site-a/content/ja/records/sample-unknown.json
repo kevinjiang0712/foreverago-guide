@@ -1,0 +1,19 @@
+{
+  "locale": "ja",
+  "verification": "unverified",
+  "demo": true,
+  "id": "sample-unknown",
+  "type": "database-entry",
+  "databaseId": "equipment-database",
+  "name": "未確認の武器",
+  "summary": "デモ専用の架空データです。実際のゲーム性能を示しません。",
+  "categoryId": "weapons",
+  "contentId": null,
+  "values": {
+    "attack": null,
+    "weight": null,
+    "acquisition": null
+  },
+  "evidenceNote": "デモ専用の架空データです。実際のゲーム性能を示しません。",
+  "sources": []
+}

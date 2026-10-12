@@ -1,0 +1,154 @@
+{
+  "id": "home",
+  "template": "site-home",
+  "locale": "en",
+  "title": "Forever Ago Wiki",
+  "description": "Independent Forever Ago guides for photos, memories, achievements, and Alfred’s road trip.",
+  "status": "published",
+  "verification": "confirmed",
+  "demo": false,
+  "seo": {
+    "title": "Forever Ago Wiki: Photos, Memories & Achievement Guides",
+    "description": "Explore Forever Ago guides for photographs, memory petals, achievements, chapter replay, and Alfred’s story. Find the next step for your road-trip adventure.",
+    "image": "road-trip-art",
+    "noindex": false,
+    "final": true
+  },
+  "hero": {
+    "eyebrow": "THE ROAD AHEAD",
+    "description": "Find your way through Alfred’s photos, memories, and story.",
+    "asset": "road-trip-art",
+    "video": null,
+    "stats": null
+  },
+  "featured": {
+    "eyebrow": "START HERE",
+    "title": "Make the Next Stop Count",
+    "description": "Start with the essentials, then follow the memories north.",
+    "pinnedIds": [
+      "forever-ago-gameplay",
+      "forever-ago-journal-photos",
+      "forever-ago-camera-controls",
+      "forever-ago-achievements",
+      "forever-ago-memory-locations",
+      "forever-ago-game-length"
+    ]
+  },
+  "about": {
+    "eyebrow": "ABOUT THE GAME",
+    "title": "A Journey Through Memory",
+    "paragraphs": [
+      "Alfred travels north with an instant camera and a journal. Explore familiar places, meet new people, and revisit a lifetime of love with his sweetheart Audrey."
+    ],
+    "facts": [
+      {
+        "label": "Developer",
+        "value": "Third Shift"
+      },
+      {
+        "label": "Publisher",
+        "value": "Annapurna Interactive"
+      },
+      {
+        "label": "Released",
+        "value": "October 8, 2026"
+      },
+      {
+        "label": "Genre",
+        "value": "Narrative adventure"
+      },
+      {
+        "label": "Players",
+        "value": "Single-player"
+      },
+      {
+        "label": "Music",
+        "value": "Clark Aboud"
+      }
+    ],
+    "link": {
+      "label": "About",
+      "target": {
+        "type": "content",
+        "id": "about"
+      }
+    }
+  },
+  "articleFloors": [
+    {
+      "id": "photos-and-memories",
+      "eyebrow": "LOOK CLOSER",
+      "title": "Photos and Memories",
+      "description": "Follow camera prompts and find the memories along the way.",
+      "articleIds": [
+        "forever-ago-petal-locations",
+        "forever-ago-camera-achievements",
+        "forever-ago-chapter-2-photos",
+        "forever-ago-photo-locations",
+        "forever-ago-photo-puzzle",
+        "forever-ago-chapter-1-photos",
+        "forever-ago-dog-photo",
+        "forever-ago-chapter-3-photos"
+      ]
+    },
+    {
+      "id": "finish-the-journey",
+      "eyebrow": "KEEP GOING",
+      "title": "Finish the Journey",
+      "description": "Explore optional goals, replay choices, and the story’s end.",
+      "articleIds": [
+        "forever-ago-missable-achievements",
+        "forever-ago-old-bones-achievement",
+        "forever-ago-petal-collector-achievement",
+        "forever-ago-hidden-achievements",
+        "forever-ago-collectibles",
+        "forever-ago-chapter-select",
+        "forever-ago-ending-explained",
+        "forever-ago-williamina-peak"
+      ]
+    }
+  ],
+  "characterSpotlight": null,
+  "weaponShowcase": null,
+  "faq": {
+    "eyebrow": "BEFORE YOU GO",
+    "title": "Know the Road Ahead",
+    "description": "Understand the pace, camera, and scope before setting out.",
+    "items": [
+      {
+        "question": "What kind of game is Forever Ago?",
+        "answer": "Forever Ago is a single-player narrative road-trip adventure. Explore compact locations, meet people, take instant-camera photos, and solve small environmental puzzles."
+      },
+      {
+        "question": "How long is the main story journey?",
+        "answer": "Reported story playthroughs span roughly two to five hours. Allow three to five hours for a first visit; optional memories, photography, and replay can add time."
+      },
+      {
+        "question": "What does Alfred use the camera for?",
+        "answer": "The instant camera records the trip and helps with prompted scenes, memories, and small puzzles. Later journal moments let you choose up to four photos to keep."
+      },
+      {
+        "question": "Is this an official Forever Ago site?",
+        "answer": "No. Kevin maintains this independent guide site. It is not affiliated with Third Shift or Annapurna Interactive. Official game announcements come from the developer and publisher."
+      }
+    ]
+  },
+  "cta": {
+    "links": [
+      {
+        "label": "Start the Journey",
+        "target": {
+          "type": "content",
+          "id": "forever-ago-gameplay"
+        }
+      },
+      {
+        "label": "Find Photo Guides",
+        "target": {
+          "type": "category",
+          "id": "maps"
+        }
+      }
+    ]
+  }
+}

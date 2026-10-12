@@ -1,0 +1,163 @@
+{
+  "id": "practice-blade-detail",
+  "locale": "ja",
+  "type": "weapon-detail",
+  "demo": true,
+  "verification": "unverified",
+  "weaponId": "practice-blade",
+  "gallery": [
+    "weapon-render",
+    "weapon-action"
+  ],
+  "namingNote": "この名称はデモ用です。発表済みのゲーム内武器を指すものではありません。",
+  "heroLabel": "デモ · 練習",
+  "primaryCta": "武器の詳細を見る",
+  "secondaryCta": "解放方法を見る",
+  "overview": {
+    "eyebrow": "使い方",
+    "title": "使い方",
+    "description": "架空の基本動作を示します。費用とタイミングは未確認として表示します。"
+  },
+  "unlock": {
+    "eyebrow": "練習用の刃の解放方法",
+    "title": "練習用の刃の解放方法",
+    "description": "このデモは、実際の解放ルートを示すものではありません。"
+  },
+  "detail": {
+    "eyebrow": "動作・強化・更新・構成",
+    "title": "動作・強化・更新・構成",
+    "description": "各タブに記録と未確認事項を分けて表示します。"
+  },
+  "matchupSection": {
+    "eyebrow": "動作が役立つ場面",
+    "title": "動作が役立つ場面",
+    "description": "架空の場面を使って、未確認の相性を評価せずに示しています。"
+  },
+  "pairingSection": {
+    "eyebrow": "併せて確認するアイテム",
+    "title": "併せて確認するアイテム",
+    "description": "組み合わせには個別の確認記録が必要です。以下の例は未確認です。"
+  },
+  "faqSection": {
+    "eyebrow": "練習用の刃について",
+    "title": "練習用の刃について",
+    "description": "このサンプルで確認できる範囲を説明します。"
+  },
+  "atAGlance": "基本情報",
+  "unlockSteps": [
+    {
+      "id": "locate",
+      "title": "信頼できる資料を探す",
+      "description": "武器名と解放条件を明記した資料から確認します。",
+      "verification": "unverified"
+    },
+    {
+      "id": "confirm",
+      "title": "前提条件と費用を確認する",
+      "description": "使用した版と確認記録を残します。この例の費用と前提条件は未確認です。",
+      "verification": "unverified"
+    }
+  ],
+  "evidenceNote": "解放経路、前提条件、費用はいずれも未確認です。確認できた範囲を示すデモです。",
+  "moveset": [
+    {
+      "id": "practice-swing",
+      "action": "練習スイング",
+      "input": null,
+      "frames": null,
+      "coverage": null,
+      "notes": "架空の基本動作です。測定記録はありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "practice-response",
+      "action": "練習応答",
+      "input": null,
+      "frames": null,
+      "coverage": null,
+      "notes": "タイミングと防御効果は未確認です。",
+      "verification": "unverified"
+    }
+  ],
+  "movesetNote": "このサンプルに測定済みのフレーム値、版ごとの数値、確認済みの入力はありません。",
+  "upgradeNodes": [
+    {
+      "id": "training-base",
+      "parentId": null,
+      "tier": 1,
+      "name": "練習用の分岐",
+      "description": "接続された強化を示すための架空の開始点です。",
+      "verification": "unverified"
+    },
+    {
+      "id": "training-follow-up",
+      "parentId": "training-base",
+      "tier": 2,
+      "name": "練習用の続き",
+      "description": "実際の費用と効果は未確認です。",
+      "verification": "unverified"
+    }
+  ],
+  "upgradeNote": "強化分岐の見本です。実際のツリーや完全な一覧ではありません。",
+  "patchHistory": [],
+  "patchNote": "更新情報の出典は未設定です。空の一覧は、変更がなかったことを意味しません。",
+  "buildRefs": [],
+  "matchups": [
+    {
+      "id": "open-space",
+      "situation": "開けた練習場",
+      "contentId": null,
+      "result": null,
+      "answer": "推奨する前に、間合いと硬直を記録します。",
+      "verification": "unverified"
+    },
+    {
+      "id": "close-space",
+      "situation": "狭い練習場",
+      "contentId": null,
+      "result": null,
+      "answer": "環境による動作の変化を確認します。検証記録は未登録です。",
+      "verification": "unverified"
+    }
+  ],
+  "pairings": [
+    {
+      "recordId": "practice-charm",
+      "description": "ダメージやタイミングへの効果を断定しない架空の組み合わせです。",
+      "verification": "unverified"
+    }
+  ],
+  "faq": [
+    {
+      "id": "real",
+      "question": "実在する武器ですか？",
+      "answer": "いいえ。テンプレート用のデモコンテンツです。",
+      "verification": "unverified"
+    },
+    {
+      "id": "cost",
+      "question": "解放にはいくら必要ですか？",
+      "answer": "費用は未確認です。出典が登録されていません。",
+      "verification": "unverified"
+    }
+  ],
+  "tabs": {
+    "moveset": "動作",
+    "upgrades": "強化ツリー",
+    "changes": "更新履歴",
+    "builds": "使用する構成"
+  },
+  "columns": {
+    "action": "動作",
+    "input": "入力",
+    "frames": "フレーム",
+    "coverage": "範囲",
+    "notes": "備考",
+    "patch": "更新",
+    "change": "変更",
+    "source": "出典",
+    "situation": "場面",
+    "result": "結果",
+    "answer": "対応"
+  }
+}

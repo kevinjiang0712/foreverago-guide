@@ -1,0 +1,197 @@
+[
+  {
+    "id": "hero",
+    "src": null,
+    "width": 2560,
+    "height": 1440,
+    "purpose": "Hero artwork",
+    "alt": {
+      "en": "Hero artwork",
+      "zh-CN": "示意素材，2560 × 1440，非真实游戏图片"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "trailer",
+    "src": null,
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Trailer poster",
+    "alt": {
+      "en": "Trailer poster",
+      "zh-CN": "示意素材，1920 × 1080，非真实游戏图片"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "card",
+    "src": null,
+    "width": 1400,
+    "height": 1000,
+    "purpose": "Entity portrait",
+    "alt": {
+      "en": "Entity portrait",
+      "zh-CN": "示意素材，1400 × 1000，非真实游戏图片"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "route",
+    "src": null,
+    "width": 1600,
+    "height": 900,
+    "purpose": "Route screenshot",
+    "alt": {
+      "en": "Route screenshot",
+      "zh-CN": "示意素材，1600 × 900，非真实游戏图片"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "page-hero",
+    "src": null,
+    "width": 2560,
+    "height": 1000,
+    "purpose": "Page key art",
+    "alt": {
+      "en": "Page key art",
+      "zh-CN": "示意素材，2560 × 1000，非真实游戏图片"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "weapon-render",
+    "src": null,
+    "width": 1280,
+    "height": 720,
+    "purpose": "River specimen 27 render — artwork not supplied",
+    "alt": {
+      "en": "River specimen 27 render — artwork not supplied",
+      "zh-CN": "示意素材，1280 × 720，非真实游戏图片"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "weapon-action",
+    "src": null,
+    "width": 640,
+    "height": 360,
+    "purpose": "Practice action — artwork not supplied",
+    "alt": {
+      "en": "Practice action — artwork not supplied",
+      "zh-CN": "示意素材，640 × 360，非真实游戏图片"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "weapon-still",
+    "src": null,
+    "width": 800,
+    "height": 800,
+    "purpose": "River specimen 27 still",
+    "alt": {
+      "en": "River specimen 27 still",
+      "zh-CN": "示意素材，800 × 800，非真实游戏图片"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "weapon-icon",
+    "src": null,
+    "width": 64,
+    "height": 64,
+    "purpose": "Weapon icon",
+    "alt": {
+      "en": "Weapon icon",
+      "zh-CN": "示意素材，64 × 64，非真实游戏图片"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "mechanism-diagram",
+    "src": null,
+    "width": 1600,
+    "height": 900,
+    "purpose": "Timing diagram — measurements not supplied",
+    "alt": {
+      "en": "Timing diagram — measurements not supplied",
+      "zh-CN": "示意素材，1600 × 900，非真实游戏图片"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "mod-preview",
+    "src": null,
+    "width": 1280,
+    "height": 720,
+    "purpose": "Demo mod preview",
+    "alt": {
+      "en": "Demo mod preview",
+      "zh-CN": "示意素材，1280 × 720，非真实游戏图片"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "mod-menu",
+    "src": null,
+    "width": 640,
+    "height": 360,
+    "purpose": "Demo mod menu",
+    "alt": {
+      "en": "Demo mod menu",
+      "zh-CN": "示意素材，640 × 360，非真实游戏图片"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "mod-config",
+    "src": null,
+    "width": 640,
+    "height": 360,
+    "purpose": "Demo configuration",
+    "alt": {
+      "en": "Demo configuration",
+      "zh-CN": "示意素材，640 × 360，非真实游戏图片"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "mod-manager",
+    "src": null,
+    "width": 1200,
+    "height": 900,
+    "purpose": "Demo mod manager",
+    "alt": {
+      "en": "Demo mod manager",
+      "zh-CN": "示意素材，1200 × 900，非真实游戏图片"
+    },
+    "position": "50% 50%",
+    "demo": true
+  },
+  {
+    "id": "map-hero",
+    "src": null,
+    "width": 2560,
+    "height": 900,
+    "purpose": "River atlas hero",
+    "alt": {
+      "en": "Map page key art — not supplied",
+      "zh-CN": "示意素材，2560 × 900，非真实游戏图片"
+    },
+    "position": "50% 50%",
+    "demo": true
+  }
+]

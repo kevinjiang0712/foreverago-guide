@@ -1,0 +1,70 @@
+{
+  "id": "home",
+  "template": "site-home",
+  "locale": "ja",
+  "title": "テンプレート見本 A",
+  "description": "すべての内容を差し替えられるゲームサイトの見本。",
+  "status": "published",
+  "verification": "unverified",
+  "demo": false,
+  "hero": {
+    "eyebrow": "見本",
+    "description": "架空の見本です。実際のゲーム情報は未確認です。",
+    "asset": "hero",
+    "video": null,
+    "stats": [
+      {
+        "label": "確認済みの情報",
+        "value": null
+      }
+    ]
+  },
+  "featured": {
+    "eyebrow": "見本",
+    "title": "最初の一歩",
+    "description": "架空の見本です。実際のゲーム情報は未確認です。",
+    "pinnedIds": []
+  },
+  "about": {
+    "eyebrow": "見本",
+    "title": "このゲームについて",
+    "paragraphs": [
+      "これは架空の見本であり、ゲームの事実を表しません。"
+    ],
+    "facts": [
+      {
+        "label": "発売日",
+        "value": null
+      }
+    ],
+    "link": {
+      "label": "すべての攻略",
+      "target": {
+        "type": "category",
+        "id": "guides"
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "見本",
+    "title": "このサイトについて",
+    "description": "架空の見本です。実際のゲーム情報は未確認です。",
+    "items": [
+      {
+        "question": "公式サイトですか？",
+        "answer": "いいえ。これは架空の独立した見本サイトです。"
+      }
+    ]
+  },
+  "cta": {
+    "links": [
+      {
+        "label": "攻略を読む",
+        "target": {
+          "type": "category",
+          "id": "guides"
+        }
+      }
+    ]
+  }
+}

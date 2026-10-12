@@ -1,0 +1,35 @@
+{
+  "mode": "disabled",
+  "placements": {
+    "a1": {
+      "anchor": "site-header",
+      "position": "after"
+    },
+    "a2": {
+      "site-home": {
+        "anchor": "featured",
+        "position": "after"
+      },
+      "list-page": {
+        "anchor": "result-grid",
+        "position": "after"
+      },
+      "article-page": {
+        "anchor": "content-midpoint",
+        "position": "after"
+      },
+      "weapon-explorer": {
+        "anchor": "explorer",
+        "position": "after"
+      },
+      "interactive-map": {
+        "anchor": "locations",
+        "position": "after"
+      }
+    },
+    "a3": {
+      "anchor": "site-footer",
+      "position": "before"
+    }
+  }
+}

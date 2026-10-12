@@ -1,0 +1,56 @@
+{
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "id": "river-character-catalogue",
+  "type": "character-database",
+  "leadCharacterId": "river-demo-traveller",
+  "characterIds": [
+    "river-demo-traveller",
+    "river-demo-guide",
+    "river-demo-archivist"
+  ],
+  "leadLabel": "LEAD",
+  "cast": {
+    "eyebrow": "CAST",
+    "title": "Explore the cast",
+    "description": "Every character, name, and relationship here is fictional demonstration content."
+  },
+  "connections": {
+    "eyebrow": "RELATIONS",
+    "title": "Character connections",
+    "description": "Unverified demonstration connections. Verify against primary sources before publication."
+  },
+  "unrevealed": {
+    "status": "unrevealed",
+    "label": "Held back",
+    "description": "Additional characters remain unknown."
+  },
+  "relationNote": "Further relationships remain unknown.",
+  "relations": [
+    {
+      "fromId": "river-demo-traveller",
+      "toId": "river-demo-guide",
+      "type": "ally",
+      "label": "Demonstration ally",
+      "verification": "unverified",
+      "sourceLabel": null
+    },
+    {
+      "fromId": "river-demo-traveller",
+      "toId": "river-demo-archivist",
+      "type": "acquaintance",
+      "label": "Demonstration acquaintance",
+      "verification": "unverified",
+      "sourceLabel": null
+    },
+    {
+      "fromId": "river-demo-archivist",
+      "toId": "river-demo-guide",
+      "type": "contact",
+      "label": "Demonstration contact",
+      "verification": "unverified",
+      "sourceLabel": null
+    }
+  ]
+}

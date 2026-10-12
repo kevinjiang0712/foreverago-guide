@@ -1,0 +1,150 @@
+{
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "id": "river-boss-catalogue",
+  "type": "boss-index",
+  "entities": [
+    {
+      "id": "demo-guardian",
+      "name": "River specimen 1",
+      "contentId": "river-first-steps",
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 1,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-warden",
+      "name": "River specimen 2",
+      "contentId": "river-boss-catalogue-reference",
+      "assetId": null,
+      "difficultyId": "high",
+      "phaseCount": 3,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    },
+    {
+      "id": "demo-sentinel",
+      "name": "River specimen 3",
+      "contentId": null,
+      "assetId": null,
+      "difficultyId": "low",
+      "phaseCount": 2,
+      "tags": [
+        "FICTIONAL DEMO"
+      ],
+      "verification": "unverified"
+    }
+  ],
+  "filterOptions": [
+    {
+      "id": "low",
+      "label": "Low difficulty"
+    },
+    {
+      "id": "high",
+      "label": "High difficulty"
+    },
+    {
+      "id": "unknown-tier",
+      "label": "Unrated"
+    }
+  ],
+  "knownTotal": null,
+  "index": {
+    "eyebrow": "BOSS INDEX",
+    "title": "Filter by difficulty",
+    "description": "Fictional entries demonstrate the filters. These are not verified game facts."
+  },
+  "unrevealed": {
+    "status": "unrevealed",
+    "label": "Held back",
+    "description": "Further bosses and the total remain unknown."
+  },
+  "detail": {
+    "entityId": "demo-warden",
+    "eyebrow": "FICTIONAL BOSS DETAIL",
+    "stats": [
+      {
+        "label": "Suggested level",
+        "value": null
+      },
+      {
+        "label": "Fight length",
+        "value": null
+      }
+    ],
+    "facts": [
+      {
+        "label": "Weak point",
+        "value": null
+      },
+      {
+        "label": "Recommended equipment",
+        "value": null
+      },
+      {
+        "label": "Drops",
+        "value": null
+      }
+    ],
+    "videoAssetId": null,
+    "attacksTitle": "Attacks and answers",
+    "columns": {
+      "attack": "Attack",
+      "phase": "Phase",
+      "windUp": "Wind-up (frames)",
+      "answer": "Answer"
+    },
+    "attacks": [
+      {
+        "id": "attack-a",
+        "name": "River specimen 4",
+        "phases": null,
+        "windUpFrames": null,
+        "answer": null,
+        "verification": "unverified"
+      },
+      {
+        "id": "attack-b",
+        "name": "River specimen 5",
+        "phases": null,
+        "windUpFrames": null,
+        "answer": null,
+        "verification": "unverified"
+      },
+      {
+        "id": "attack-c",
+        "name": "River specimen 6",
+        "phases": null,
+        "windUpFrames": null,
+        "answer": null,
+        "verification": "unverified"
+      },
+      {
+        "id": "attack-d",
+        "name": "River specimen 7",
+        "phases": null,
+        "windUpFrames": null,
+        "answer": null,
+        "verification": "unverified"
+      }
+    ]
+  },
+  "footer": {
+    "note": "Strategy details await verification.",
+    "link": {
+      "label": "READ THE GUIDE",
+      "target": {
+        "type": "content",
+        "id": "river-first-steps"
+      }
+    }
+  }
+}

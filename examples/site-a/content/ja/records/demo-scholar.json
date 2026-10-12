@@ -1,0 +1,13 @@
+{
+  "locale": "ja",
+  "demo": true,
+  "verification": "unverified",
+  "id": "demo-scholar",
+  "type": "character",
+  "name": "デモ学者",
+  "role": "学者",
+  "summary": "一覧の件数と役割フィルターを確認する架空キャラクター。",
+  "contentId": null,
+  "assetId": null,
+  "attributes": []
+}

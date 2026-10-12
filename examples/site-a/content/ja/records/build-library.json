@@ -1,0 +1,188 @@
+{
+  "id": "build-library",
+  "type": "build-library",
+  "locale": "ja",
+  "demo": true,
+  "verification": "unverified",
+  "sections": {
+    "evidence": {
+      "eyebrow": "証拠",
+      "title": "各バッジの意味",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+    },
+    "find": {
+      "eyebrow": "配装検索",
+      "title": "目的に合う配装を探す",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+    },
+    "setups": {
+      "eyebrow": "完全配装",
+      "title": "配装の全構成",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+    },
+    "presets": {
+      "eyebrow": "プリセット",
+      "title": "プリセットコードと証拠",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+    },
+    "rescue": {
+      "eyebrow": "立て直し",
+      "title": "必須装備が見つからない場合",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+    },
+    "faq": {
+      "eyebrow": "質問",
+      "title": "配装に関する質問",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。"
+    }
+  },
+  "evidenceLegend": [
+    {
+      "id": "demo",
+      "label": "未検証デモ",
+      "description": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "no-measurement",
+      "label": "測定結果なし",
+      "description": "クリア実績、ダメージ、成功率は記載していません。",
+      "verification": "unverified"
+    },
+    {
+      "id": "no-source",
+      "label": "出典未登録",
+      "description": "実際の証拠を登録してから置き換えてください。",
+      "verification": "unverified"
+    }
+  ],
+  "filterOptions": {
+    "playstyles": [
+      {
+        "id": "steady",
+        "label": "安定"
+      },
+      {
+        "id": "fast",
+        "label": "高速"
+      }
+    ],
+    "weapons": [
+      {
+        "id": "practice-blade",
+        "label": "練習用ブレード"
+      },
+      {
+        "id": "practice-bow",
+        "label": "練習用ボウ"
+      }
+    ],
+    "classes": [
+      {
+        "id": "vanguard",
+        "label": "前衛（デモ）"
+      }
+    ]
+  },
+  "buildIds": [
+    "demo-steady",
+    "demo-range",
+    "demo-fast",
+    "demo-guard-blade",
+    "demo-focus-bow",
+    "demo-anchor-blade",
+    "demo-burst-bow",
+    "demo-rush-blade",
+    "demo-dash-bow",
+    "demo-edge-bow",
+    "demo-build-11",
+    "demo-build-12",
+    "demo-build-13",
+    "demo-build-14",
+    "demo-build-15",
+    "demo-build-16",
+    "demo-build-17",
+    "demo-build-18",
+    "demo-build-19",
+    "demo-build-20",
+    "demo-build-21",
+    "demo-build-22",
+    "demo-build-23",
+    "demo-build-24",
+    "demo-build-25",
+    "demo-build-26",
+    "demo-build-27",
+    "demo-build-28",
+    "demo-build-29",
+    "demo-build-30",
+    "demo-build-31",
+    "demo-build-32",
+    "demo-build-33",
+    "demo-build-34",
+    "demo-build-35",
+    "demo-build-36",
+    "demo-build-37",
+    "demo-build-38",
+    "demo-build-39",
+    "demo-build-40",
+    "demo-build-41",
+    "demo-build-42",
+    "demo-build-43",
+    "demo-build-44",
+    "demo-build-45",
+    "demo-build-46",
+    "demo-build-47",
+    "demo-build-48",
+    "demo-build-49",
+    "demo-build-50",
+    "demo-build-51",
+    "demo-build-52",
+    "demo-build-53",
+    "demo-build-54",
+    "demo-build-55",
+    "demo-build-56",
+    "demo-build-57",
+    "demo-build-58",
+    "demo-build-59",
+    "demo-build-60",
+    "demo-build-61",
+    "demo-build-62",
+    "demo-build-63",
+    "demo-build-64",
+    "demo-build-65"
+  ],
+  "presets": [
+    {
+      "id": "demo-preset",
+      "buildId": "demo-steady",
+      "title": "デモプリセット — インポート不可",
+      "code": "DEMO-ONLY|practice-setup|NOT-A-GAME-IMPORT",
+      "description": "コピー機能を試すための文字列です。ゲームにはインポートできません。",
+      "verification": "unverified"
+    }
+  ],
+  "rescueRows": [
+    {
+      "id": "missing-core",
+      "buildId": "demo-steady",
+      "protectFirst": null,
+      "ifMissing": null,
+      "pivot": null,
+      "verification": "unverified"
+    }
+  ],
+  "faq": [
+    {
+      "id": "real",
+      "question": "実際の推奨配装ですか？",
+      "answer": "デモ専用です。ゲームの挙動や測定結果を示すものではありません。",
+      "verification": "unverified"
+    }
+  ],
+  "columns": {
+    "build": "配装",
+    "protectFirst": "最優先で守る要素",
+    "ifMissing": "不足した場合",
+    "pivot": "切り替え先"
+  }
+}

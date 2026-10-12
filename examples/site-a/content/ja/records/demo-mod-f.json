@@ -1,0 +1,24 @@
+{
+  "locale": "ja",
+  "verification": "unverified",
+  "demo": true,
+  "id": "demo-mod-f",
+  "type": "mod",
+  "title": "アイコンのデモ",
+  "description": "表示確認用のデモです。実在する MOD や検証済みのゲーム動作を示すものではありません。",
+  "categoryId": "visuals",
+  "tagIds": [
+    "palette"
+  ],
+  "testedVersions": [
+    "Sample B"
+  ],
+  "updatedAt": "2026-09-06",
+  "downloads": null,
+  "contentId": null,
+  "assetId": null,
+  "authorName": null,
+  "releaseVersion": null,
+  "endorsements": null,
+  "fileSize": null
+}

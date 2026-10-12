@@ -1,0 +1,188 @@
+{
+  "id": "build-library",
+  "type": "build-library",
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "sections": {
+    "evidence": {
+      "eyebrow": "EVIDENCE",
+      "title": "What each badge proves",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    "find": {
+      "eyebrow": "FIND A BUILD",
+      "title": "Find the right build",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    "setups": {
+      "eyebrow": "COMPLETE SETUPS",
+      "title": "Complete build setups",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    "presets": {
+      "eyebrow": "PRESET CODES",
+      "title": "Preset codes and evidence",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    "rescue": {
+      "eyebrow": "RESCUE A RUN",
+      "title": "When a core item is missing",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    },
+    "faq": {
+      "eyebrow": "QUESTIONS",
+      "title": "Build questions",
+      "description": "Demonstration only; no game behaviour or measured result is claimed."
+    }
+  },
+  "evidenceLegend": [
+    {
+      "id": "demo",
+      "label": "Unverified demonstration",
+      "description": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified"
+    },
+    {
+      "id": "no-measurement",
+      "label": "No measured results",
+      "description": "The example does not report clears, damage or success rates.",
+      "verification": "unverified"
+    },
+    {
+      "id": "no-source",
+      "label": "No source supplied",
+      "description": "Replace this example only after registering real evidence.",
+      "verification": "unverified"
+    }
+  ],
+  "filterOptions": {
+    "playstyles": [
+      {
+        "id": "steady",
+        "label": "Steady"
+      },
+      {
+        "id": "fast",
+        "label": "Fast"
+      }
+    ],
+    "weapons": [
+      {
+        "id": "practice-blade",
+        "label": "Practice blade"
+      },
+      {
+        "id": "practice-bow",
+        "label": "Practice bow"
+      }
+    ],
+    "classes": [
+      {
+        "id": "vanguard",
+        "label": "Vanguard (demo)"
+      }
+    ]
+  },
+  "buildIds": [
+    "demo-steady",
+    "demo-range",
+    "demo-fast",
+    "demo-guard-blade",
+    "demo-focus-bow",
+    "demo-anchor-blade",
+    "demo-burst-bow",
+    "demo-rush-blade",
+    "demo-dash-bow",
+    "demo-edge-bow",
+    "demo-build-11",
+    "demo-build-12",
+    "demo-build-13",
+    "demo-build-14",
+    "demo-build-15",
+    "demo-build-16",
+    "demo-build-17",
+    "demo-build-18",
+    "demo-build-19",
+    "demo-build-20",
+    "demo-build-21",
+    "demo-build-22",
+    "demo-build-23",
+    "demo-build-24",
+    "demo-build-25",
+    "demo-build-26",
+    "demo-build-27",
+    "demo-build-28",
+    "demo-build-29",
+    "demo-build-30",
+    "demo-build-31",
+    "demo-build-32",
+    "demo-build-33",
+    "demo-build-34",
+    "demo-build-35",
+    "demo-build-36",
+    "demo-build-37",
+    "demo-build-38",
+    "demo-build-39",
+    "demo-build-40",
+    "demo-build-41",
+    "demo-build-42",
+    "demo-build-43",
+    "demo-build-44",
+    "demo-build-45",
+    "demo-build-46",
+    "demo-build-47",
+    "demo-build-48",
+    "demo-build-49",
+    "demo-build-50",
+    "demo-build-51",
+    "demo-build-52",
+    "demo-build-53",
+    "demo-build-54",
+    "demo-build-55",
+    "demo-build-56",
+    "demo-build-57",
+    "demo-build-58",
+    "demo-build-59",
+    "demo-build-60",
+    "demo-build-61",
+    "demo-build-62",
+    "demo-build-63",
+    "demo-build-64",
+    "demo-build-65"
+  ],
+  "presets": [
+    {
+      "id": "demo-preset",
+      "buildId": "demo-steady",
+      "title": "Demonstration preset — not importable",
+      "code": "DEMO-ONLY|practice-setup|NOT-A-GAME-IMPORT",
+      "description": "This text tests copying only. It cannot be imported into a game.",
+      "verification": "unverified"
+    }
+  ],
+  "rescueRows": [
+    {
+      "id": "missing-core",
+      "buildId": "demo-steady",
+      "protectFirst": null,
+      "ifMissing": null,
+      "pivot": null,
+      "verification": "unverified"
+    }
+  ],
+  "faq": [
+    {
+      "id": "real",
+      "question": "Are these real recommendations?",
+      "answer": "Demonstration only; no game behaviour or measured result is claimed.",
+      "verification": "unverified"
+    }
+  ],
+  "columns": {
+    "build": "Build",
+    "protectFirst": "Protect first",
+    "ifMissing": "If missing",
+    "pivot": "Pivot"
+  }
+}

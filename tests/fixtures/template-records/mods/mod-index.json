@@ -1,0 +1,197 @@
+{
+  "locale": "en",
+  "verification": "unverified",
+  "demo": true,
+  "id": "mod-index",
+  "type": "mod-index",
+  "sections": {
+    "browse": {
+      "eyebrow": "Browse",
+      "title": "All listed mods",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour."
+    },
+    "install": {
+      "eyebrow": "Install",
+      "title": "Installing a mod safely",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour."
+    },
+    "compat": {
+      "eyebrow": "Compatibility",
+      "title": "What the version badge means",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour."
+    },
+    "safety": {
+      "eyebrow": "Safety",
+      "title": "Co-op, achievements and bans",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour."
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Mod questions",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour."
+    },
+    "legal": {
+      "eyebrow": "Attribution",
+      "title": "Attribution and scope",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour."
+    }
+  },
+  "modIds": [
+    "demo-mod-a",
+    "demo-mod-b",
+    "demo-mod-c",
+    "demo-mod-d",
+    "demo-mod-e",
+    "demo-mod-f",
+    "demo-mod-g",
+    "demo-mod-h"
+  ],
+  "currentVersion": "Sample A",
+  "perPage": 30,
+  "knownTotal": null,
+  "sortOptions": [
+    {
+      "id": "listed",
+      "label": "Trending — listed order"
+    },
+    {
+      "id": "downloads",
+      "label": "Most downloaded"
+    },
+    {
+      "id": "updated",
+      "label": "Recently updated"
+    }
+  ],
+  "categories": [
+    {
+      "id": "interface",
+      "label": "User interface"
+    },
+    {
+      "id": "visuals",
+      "label": "Visuals"
+    }
+  ],
+  "tags": [
+    {
+      "id": "panel",
+      "label": "Panel"
+    },
+    {
+      "id": "loader",
+      "label": "Loader"
+    },
+    {
+      "id": "palette",
+      "label": "Palette"
+    }
+  ],
+  "beforeInstall": {
+    "eyebrow": "Before installing",
+    "title": "Before you install",
+    "description": "Demonstration content only. These entries describe no real mod or verified game behaviour."
+  },
+  "installSteps": [
+    {
+      "id": "read",
+      "title": "Read the original instructions",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "verification": "unverified"
+    },
+    {
+      "id": "backup",
+      "title": "Confirm a backup procedure",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "verification": "unverified"
+    },
+    {
+      "id": "verify",
+      "title": "Check the tested version",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "verification": "unverified"
+    }
+  ],
+  "compatibility": [
+    {
+      "id": "current",
+      "title": "A listed tested version",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "verification": "unverified"
+    },
+    {
+      "id": "other",
+      "title": "A different version",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "verification": "unverified"
+    },
+    {
+      "id": "unknown",
+      "title": "Version unknown",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "verification": "unverified"
+    }
+  ],
+  "safetyNotes": [
+    {
+      "id": "coop",
+      "title": "Co-op behaviour",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "verification": "unverified"
+    },
+    {
+      "id": "achievements",
+      "title": "Achievement behaviour",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "verification": "unverified"
+    },
+    {
+      "id": "account",
+      "title": "Account restrictions",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "verification": "unverified"
+    },
+    {
+      "id": "files",
+      "title": "File provenance",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "verification": "unverified"
+    }
+  ],
+  "safetyAssetId": "mod-manager",
+  "safetyCaption": "No mod manager capture is supplied for this demonstration.",
+  "faq": [
+    {
+      "id": "demo-question",
+      "question": "Can I download these examples?",
+      "answer": "No. These are invented layout examples. No real file or author page is supplied.",
+      "verification": "unverified"
+    },
+    {
+      "id": "version-question",
+      "question": "Are the version labels verified?",
+      "answer": "No. Sample A and Sample B exist only to demonstrate combined filtering.",
+      "verification": "unverified"
+    }
+  ],
+  "legalNotes": [
+    {
+      "id": "scope",
+      "title": "Index scope",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "verification": "unverified"
+    },
+    {
+      "id": "rights",
+      "title": "Author rights",
+      "description": "Demonstration content only. These entries describe no real mod or verified game behaviour.",
+      "verification": "unverified"
+    },
+    {
+      "id": "corrections",
+      "title": "Corrections",
+      "description": "No correction destination is configured for this demonstration.",
+      "verification": "unverified"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "river-practice-bow",
+  "type": "weapon",
+  "locale": "en",
+  "demo": true,
+  "verification": "unverified",
+  "name": "River specimen 28",
+  "kind": "Demo ranged weapon",
+  "summary": "Demonstration only; no game behaviour or measured result is claimed.",
+  "contentId": null,
+  "assetId": null,
+  "iconAssetId": null,
+  "facts": [
+    {
+      "label": "Damage",
+      "value": null
+    }
+  ],
+  "tags": [
+    "Demo only"
+  ]
+}
