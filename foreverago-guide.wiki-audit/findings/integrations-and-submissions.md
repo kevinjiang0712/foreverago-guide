@@ -31,3 +31,5 @@
 以上提交/实时抓取不证明已被索引、收录数量、排名或抓取后的展现。
 
 GSC实时XML证据：../screenshots/gsc-sitemap-live-fetch.png 。
+
+Yandex续查：2026-10-12 23:41:52（Asia/Shanghai），首页和/sites/站点入口均仍为官方维护页。维护页链接的[官方公告](https://yandex.ru/company/news/09-10-2026-01)更新于11日，称数据中心受损后正在恢复，未给出恢复时间。此证据确认需要服务恢复后才能完成剩余提交；不把维护页HTTP200当作可用。
