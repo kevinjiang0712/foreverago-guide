@@ -6,7 +6,7 @@
     "config/categories.json": "a9c1f20b64defee3bbc0365b7b055d2a47108130877dfea4d10dc32a9db50536",
     "config/site.json": "7e91a49af8829b5a9e9b35c6a68cd1edd74c454862a6bc7913a4a15b5f2e52a1",
     "config/theme.json": "ac4c6d6f48dd17c5d793d9b8439cd4917fa83af7f7626d2e716709f2306d5376",
-    "content/assets.json": "6881c2580acdd8edba16ac4cf0af79f63439e1e1a7e52167431aa55c955cb0ce",
+    "content/assets.json": "21969d53bc308acc65a31c1d84b9eb623a0643e249a1d433e97bc6b2915f76d4",
     "content/en/home.json": "f250ae7ba6921a4f5d0de560ad9b6ad1c2e22518eac01b363ead17462c3a9072",
     "content/en/pages/about.mdx": "dcf3a91f9d66005b23ca426f2fab2e84b5dc3ddf34f81e7d63a82c8d0ec649c2",
     "content/en/pages/contact.mdx": "57369dcd29721ef0caaf80255f82a7da33a8d49a88e3513c6da2ea64c99b9656",
@@ -142,6 +142,12 @@
     "public/media/fonts/outfit-500.woff2": "7ad08ce9baa14a814abe2602bdb575afeebeac49b167f1dcd67a3bdc300fa6ee",
     "public/media/fonts/outfit-600.woff2": "3a533b4ee57ab044431e53d7eb12d443c17c0debfa387ceefcf8b90eff3c2b45",
     "public/media/logo.png": "9f45a192d0ef1a0b21e924ec2484b0ab0bf9417ad0ac6f2b5bf1559825e18721",
-    "public/media/road-trip-art.webp": "2581aef1c3e6f6c5fe67b6e42873a3f51c786c3d0c3943a9f5e7bdfad99ce6ca"
+    "public/media/road-trip-art.webp": "2581aef1c3e6f6c5fe67b6e42873a3f51c786c3d0c3943a9f5e7bdfad99ce6ca",
+    "public/media/road-trip-art-640.avif": "14a333ba5ec8ed42aada0b6b968c4138291a001f178e93aea3609dcfd49803f1",
+    "public/media/road-trip-art-960.avif": "8acbdbd7fd59e45ea73daaf1022762f8d2125c021a00e83378953b191c28b17f",
+    "public/media/road-trip-art-1600.avif": "85ffa46917dea54d66a6f3fb85a860e41a2c82dc16bc71d81401056131507d0e",
+    "public/media/campfire-art-640.avif": "7deacab53774ed625244871af2e3c59d7fdde607b345238a847311a7611741b7",
+    "public/media/campfire-art-960.avif": "dcd8112475bdb6506c64ba3746084e6dd8b76495bf2c9f4967e506e4a6672e12",
+    "public/media/campfire-art-1600.avif": "df2507f775f6a2cae73bd914e0ef165b5e108477de345e732274e27b8baf51a1"
   }
 }

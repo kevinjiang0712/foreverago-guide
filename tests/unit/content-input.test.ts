@@ -91,6 +91,11 @@ it('locates a missing media asset in its authoring file',async()=>{
  assets[0].src='/media/nonexistent.png';await writeFile(path,JSON.stringify(assets));
  await expect(readSite(root)).rejects.toThrow('content/assets.json :: hero.src = "/media/nonexistent.png" :: media file does not exist');
 });
+it('rejects a missing responsive source before a browser can select a broken image',async()=>{
+ const root=await fixture();const path=join(root,'content/assets.json');const assets=JSON.parse(await readFile(path,'utf8'));
+ assets[0].avifSources=[{src:'/media/nonexistent-640.avif',width:640}];await writeFile(path,JSON.stringify(assets));
+ await expect(readSite(root)).rejects.toThrow('content/assets.json :: hero.avifSources.0.src = "/media/nonexistent-640.avif" :: media file does not exist');
+});
 it('rejects script URLs in author metadata',async()=>{
  const root=await fixture();await writeFile(join(root,'content/en/pages/one.mdx'),article('author:\n  name: Author\n  url: javascript:alert(1)\n'));
  await expect(readSite(root)).rejects.toThrow(/one.mdx.*author.url.*javascript/);

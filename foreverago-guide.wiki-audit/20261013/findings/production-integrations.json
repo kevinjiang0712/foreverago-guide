@@ -1,0 +1,643 @@
+{
+  "checkedAt": "2026-10-13T02:40:35.083Z",
+  "release": "c2ce184",
+  "passed": true,
+  "rows": [
+    {
+      "path": "/guide/forever-ago-completion-tracker",
+      "status": 200,
+      "h1Count": 1,
+      "canonical": "https://www.foreverago-guide.wiki/guide/forever-ago-completion-tracker",
+      "mobileOverflow": false,
+      "pageErrors": [],
+      "ga4": {
+        "loader": [
+          {
+            "path": "/gtag/js",
+            "status": 200,
+            "host": "www.googletagmanager.com",
+            "category": "ga4-loader"
+          }
+        ],
+        "collect": {
+          "status": 204
+        },
+        "status": {
+          "config": [
+            "G-1L7F54XGRR"
+          ],
+          "gtag": "function"
+        }
+      },
+      "clarity": [
+        {
+          "path": "/tag/ywlgmczujj",
+          "status": 200,
+          "host": "www.clarity.ms",
+          "category": "clarity-loader"
+        },
+        {
+          "path": "/collect",
+          "status": 204,
+          "host": "h.clarity.ms",
+          "category": "clarity-collect"
+        }
+      ],
+      "ads": {
+        "mobile": [
+          {
+            "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+            "status": 403,
+            "host": "bauval.org",
+            "category": "adsterra"
+          },
+          {
+            "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+            "status": 403,
+            "host": "bauval.org",
+            "category": "adsterra"
+          },
+          {
+            "path": "/22/022560a71834d120ae48f9d385b4d880",
+            "status": 403,
+            "host": "bauval.org",
+            "category": "adsterra"
+          }
+        ],
+        "slots": [
+          {
+            "ready": "true",
+            "expanded": "false",
+            "slot": "native"
+          },
+          {
+            "ready": "true",
+            "expanded": "false",
+            "slot": "inline"
+          },
+          {
+            "ready": "true",
+            "expanded": "false",
+            "slot": "anchor"
+          }
+        ],
+        "desktop": [
+          {
+            "path": "/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/a5dd169b5c2f54b123c1cee7d1687132",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/a5dd169b5c2f54b123c1cee7d1687132",
+            "host": "bauval.org",
+            "status": 403
+          }
+        ]
+      },
+      "note": "Sequential follow-up received GA4 204 on every route; concurrent runs also recorded ERR_ABORTED requests. Proxy Adsterra 403 is expected; no creative fill is asserted."
+    },
+    {
+      "path": "/walkthrough/forever-ago-walkthrough",
+      "status": 200,
+      "h1Count": 1,
+      "canonical": "https://www.foreverago-guide.wiki/walkthrough/forever-ago-walkthrough",
+      "mobileOverflow": false,
+      "pageErrors": [],
+      "ga4": {
+        "loader": [
+          {
+            "path": "/gtag/js",
+            "status": 200,
+            "host": "www.googletagmanager.com",
+            "category": "ga4-loader"
+          }
+        ],
+        "collect": {
+          "status": 204
+        },
+        "status": {
+          "config": [
+            "G-1L7F54XGRR"
+          ],
+          "gtag": "function"
+        }
+      },
+      "clarity": [
+        {
+          "path": "/tag/ywlgmczujj",
+          "status": 200,
+          "host": "www.clarity.ms",
+          "category": "clarity-loader"
+        },
+        {
+          "path": "/collect",
+          "status": 204,
+          "host": "z.clarity.ms",
+          "category": "clarity-collect"
+        }
+      ],
+      "ads": {
+        "mobile": [
+          {
+            "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+            "status": 403,
+            "host": "bauval.org",
+            "category": "adsterra"
+          },
+          {
+            "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+            "status": 403,
+            "host": "bauval.org",
+            "category": "adsterra"
+          },
+          {
+            "path": "/22/022560a71834d120ae48f9d385b4d880",
+            "status": 403,
+            "host": "bauval.org",
+            "category": "adsterra"
+          }
+        ],
+        "slots": [
+          {
+            "ready": "true",
+            "expanded": "false",
+            "slot": "native"
+          },
+          {
+            "ready": "true",
+            "expanded": "false",
+            "slot": "inline"
+          },
+          {
+            "ready": "true",
+            "expanded": "false",
+            "slot": "anchor"
+          }
+        ],
+        "desktop": [
+          {
+            "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/a5dd169b5c2f54b123c1cee7d1687132",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/a5dd169b5c2f54b123c1cee7d1687132",
+            "host": "bauval.org",
+            "status": 403
+          }
+        ]
+      },
+      "note": "Sequential follow-up received GA4 204 on every route; concurrent runs also recorded ERR_ABORTED requests. Proxy Adsterra 403 is expected; no creative fill is asserted."
+    },
+    {
+      "path": "/guide/forever-ago-snooping-shutterbug",
+      "status": 200,
+      "h1Count": 1,
+      "canonical": "https://www.foreverago-guide.wiki/guide/forever-ago-snooping-shutterbug",
+      "mobileOverflow": false,
+      "pageErrors": [],
+      "ga4": {
+        "loader": [
+          {
+            "path": "/gtag/js",
+            "status": 200,
+            "host": "www.googletagmanager.com",
+            "category": "ga4-loader"
+          }
+        ],
+        "collect": {
+          "status": 204
+        },
+        "status": {
+          "config": [
+            "G-1L7F54XGRR"
+          ],
+          "gtag": "function"
+        }
+      },
+      "clarity": [
+        {
+          "path": "/tag/ywlgmczujj",
+          "status": 200,
+          "host": "www.clarity.ms",
+          "category": "clarity-loader"
+        },
+        {
+          "path": "/collect",
+          "status": 204,
+          "host": "z.clarity.ms",
+          "category": "clarity-collect"
+        }
+      ],
+      "ads": {
+        "mobile": [
+          {
+            "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+            "status": 403,
+            "host": "bauval.org",
+            "category": "adsterra"
+          },
+          {
+            "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+            "status": 403,
+            "host": "bauval.org",
+            "category": "adsterra"
+          }
+        ],
+        "slots": [
+          {
+            "ready": "true",
+            "expanded": "false",
+            "slot": "native"
+          },
+          {
+            "ready": "false",
+            "expanded": "false",
+            "slot": "inline"
+          },
+          {
+            "ready": "true",
+            "expanded": "false",
+            "slot": "anchor"
+          }
+        ],
+        "desktop": [
+          {
+            "path": "/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/a5dd169b5c2f54b123c1cee7d1687132",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/a5dd169b5c2f54b123c1cee7d1687132",
+            "host": "bauval.org",
+            "status": 403
+          }
+        ]
+      },
+      "note": "Sequential follow-up received GA4 204 on every route; concurrent runs also recorded ERR_ABORTED requests. Proxy Adsterra 403 is expected; no creative fill is asserted."
+    },
+    {
+      "path": "/guide/forever-ago-mosaic-pumpkins",
+      "status": 200,
+      "h1Count": 1,
+      "canonical": "https://www.foreverago-guide.wiki/guide/forever-ago-mosaic-pumpkins",
+      "mobileOverflow": false,
+      "pageErrors": [],
+      "ga4": {
+        "loader": [
+          {
+            "path": "/gtag/js",
+            "status": 200,
+            "host": "www.googletagmanager.com",
+            "category": "ga4-loader"
+          }
+        ],
+        "collect": {
+          "status": 204
+        },
+        "status": {
+          "config": [
+            "G-1L7F54XGRR"
+          ],
+          "gtag": "function"
+        }
+      },
+      "clarity": [
+        {
+          "path": "/tag/ywlgmczujj",
+          "status": 200,
+          "host": "www.clarity.ms",
+          "category": "clarity-loader"
+        },
+        {
+          "path": "/collect",
+          "status": 204,
+          "host": "l.clarity.ms",
+          "category": "clarity-collect"
+        }
+      ],
+      "ads": {
+        "mobile": [
+          {
+            "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+            "status": 403,
+            "host": "bauval.org",
+            "category": "adsterra"
+          },
+          {
+            "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+            "status": 403,
+            "host": "bauval.org",
+            "category": "adsterra"
+          },
+          {
+            "path": "/22/022560a71834d120ae48f9d385b4d880",
+            "status": 403,
+            "host": "bauval.org",
+            "category": "adsterra"
+          }
+        ],
+        "slots": [
+          {
+            "ready": "true",
+            "expanded": "false",
+            "slot": "native"
+          },
+          {
+            "ready": "true",
+            "expanded": "false",
+            "slot": "inline"
+          },
+          {
+            "ready": "true",
+            "expanded": "false",
+            "slot": "anchor"
+          }
+        ],
+        "desktop": [
+          {
+            "path": "/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/a5dd169b5c2f54b123c1cee7d1687132",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/a5dd169b5c2f54b123c1cee7d1687132",
+            "host": "bauval.org",
+            "status": 403
+          }
+        ]
+      },
+      "note": "Sequential follow-up received GA4 204 on every route; concurrent runs also recorded ERR_ABORTED requests. Proxy Adsterra 403 is expected; no creative fill is asserted."
+    },
+    {
+      "path": "/guide/forever-ago-marleys-bobblehead",
+      "status": 200,
+      "h1Count": 1,
+      "canonical": "https://www.foreverago-guide.wiki/guide/forever-ago-marleys-bobblehead",
+      "mobileOverflow": false,
+      "pageErrors": [],
+      "ga4": {
+        "loader": [
+          {
+            "path": "/gtag/js",
+            "status": 200,
+            "host": "www.googletagmanager.com",
+            "category": "ga4-loader"
+          }
+        ],
+        "collect": {
+          "status": 204
+        },
+        "status": {
+          "config": [
+            "G-1L7F54XGRR"
+          ],
+          "gtag": "function"
+        }
+      },
+      "clarity": [
+        {
+          "path": "/tag/ywlgmczujj",
+          "status": 200,
+          "host": "www.clarity.ms",
+          "category": "clarity-loader"
+        },
+        {
+          "path": "/collect",
+          "status": 204,
+          "host": "f.clarity.ms",
+          "category": "clarity-collect"
+        }
+      ],
+      "ads": {
+        "mobile": [
+          {
+            "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+            "status": 403,
+            "host": "bauval.org",
+            "category": "adsterra"
+          },
+          {
+            "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+            "status": 403,
+            "host": "bauval.org",
+            "category": "adsterra"
+          }
+        ],
+        "slots": [
+          {
+            "ready": "true",
+            "expanded": "false",
+            "slot": "native"
+          },
+          {
+            "ready": "false",
+            "expanded": "false",
+            "slot": "inline"
+          },
+          {
+            "ready": "true",
+            "expanded": "false",
+            "slot": "anchor"
+          }
+        ],
+        "desktop": [
+          {
+            "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/a5dd169b5c2f54b123c1cee7d1687132",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/a5dd169b5c2f54b123c1cee7d1687132",
+            "host": "bauval.org",
+            "status": 403
+          }
+        ]
+      },
+      "note": "Sequential follow-up received GA4 204 on every route; concurrent runs also recorded ERR_ABORTED requests. Proxy Adsterra 403 is expected; no creative fill is asserted."
+    },
+    {
+      "path": "/guide/forever-ago-guardian-lord",
+      "status": 200,
+      "h1Count": 1,
+      "canonical": "https://www.foreverago-guide.wiki/guide/forever-ago-guardian-lord",
+      "mobileOverflow": false,
+      "pageErrors": [],
+      "ga4": {
+        "loader": [
+          {
+            "path": "/gtag/js",
+            "status": 200,
+            "host": "www.googletagmanager.com",
+            "category": "ga4-loader"
+          }
+        ],
+        "collect": {
+          "status": 204
+        },
+        "status": {
+          "config": [
+            "G-1L7F54XGRR"
+          ],
+          "gtag": "function"
+        }
+      },
+      "clarity": [
+        {
+          "path": "/tag/ywlgmczujj",
+          "status": 200,
+          "host": "www.clarity.ms",
+          "category": "clarity-loader"
+        },
+        {
+          "path": "/collect",
+          "status": 204,
+          "host": "l.clarity.ms",
+          "category": "clarity-collect"
+        }
+      ],
+      "ads": {
+        "mobile": [
+          {
+            "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+            "status": 403,
+            "host": "bauval.org",
+            "category": "adsterra"
+          },
+          {
+            "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+            "status": 403,
+            "host": "bauval.org",
+            "category": "adsterra"
+          },
+          {
+            "path": "/22/022560a71834d120ae48f9d385b4d880",
+            "status": 403,
+            "host": "bauval.org",
+            "category": "adsterra"
+          }
+        ],
+        "slots": [
+          {
+            "ready": "true",
+            "expanded": "false",
+            "slot": "native"
+          },
+          {
+            "ready": "true",
+            "expanded": "false",
+            "slot": "inline"
+          },
+          {
+            "ready": "true",
+            "expanded": "false",
+            "slot": "anchor"
+          }
+        ],
+        "desktop": [
+          {
+            "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/a5dd169b5c2f54b123c1cee7d1687132",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+            "host": "bauval.org",
+            "status": 403
+          },
+          {
+            "path": "/22/a5dd169b5c2f54b123c1cee7d1687132",
+            "host": "bauval.org",
+            "status": 403
+          }
+        ]
+      },
+      "note": "Sequential follow-up received GA4 204 on every route; concurrent runs also recorded ERR_ABORTED requests. Proxy Adsterra 403 is expected; no creative fill is asserted."
+    }
+  ]
+}

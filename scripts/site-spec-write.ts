@@ -34,7 +34,16 @@ async function writeMedia(root:string,pack:SitePackage){
   const output=join(root,'public/media',outputName);await mkdir(dirname(output),{recursive:true});
   if(logo||extension==='.webp')await copyFile(input,output);
   else await sharp(input).webp({quality:82,effort:6}).toFile(output);
-  entries.push({id:asset.id,src:`/media/${outputName}`,width:width!,height:height!,purpose:asset.id,alt:{en:asset.alt??pack.site.gameName},position:asset.position??'50% 50%',demo:false});
+  const avifSources:{src:string;width:number}[]=[];
+  if(pack.site.siteId==='forever-ago'&&['road-trip-art','campfire-art'].includes(asset.id)){
+   for(const responsiveWidth of [640,960,1600]){
+    const sourceWidth=Math.min(responsiveWidth,width!);if(avifSources.some(source=>source.width===sourceWidth))continue;
+    const sourceName=`${asset.id}-${sourceWidth}.avif`;
+    await sharp(input).resize({width:sourceWidth,withoutEnlargement:true}).avif({quality:55,effort:6}).toFile(join(root,'public/media',sourceName));
+    avifSources.push({src:`/media/${sourceName}`,width:sourceWidth});
+   }
+  }
+  entries.push({id:asset.id,src:`/media/${outputName}`,width:width!,height:height!,purpose:asset.id,alt:{en:asset.alt??pack.site.gameName},position:asset.position??'50% 50%',demo:false,...(avifSources.length?{avifSources}:{})});
  }
  for(const font of pack.theme.fonts){
   const input=await safePackageFile(pack.root,`media/${font.src.slice('/media/'.length)}`);

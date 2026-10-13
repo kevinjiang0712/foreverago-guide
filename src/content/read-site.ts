@@ -99,14 +99,15 @@ export async function readSite(root:string):Promise<SiteInput>{
   }
   for(const asset of assets){
     for(const locale of site.locales)if(!asset.alt[locale])contentError('content/assets.json',`${asset.id}.alt.${locale}`,undefined,'missing alt translation');
-    if(asset.src){
-      const path=await realpath(join(root,'public',asset.src.slice(1))).catch((error:NodeJS.ErrnoException)=>{
-        if(error.code==='ENOENT')contentError('content/assets.json',`${asset.id}.src`,asset.src,'media file does not exist');
+    const sources=[...(asset.src?[{src:asset.src,field:`${asset.id}.src`}]:[]),...(asset.avifSources??[]).map((source,index)=>({src:source.src,field:`${asset.id}.avifSources.${index}.src`}))];
+    for(const source of sources){
+      const path=await realpath(join(root,'public',source.src.slice(1))).catch((error:NodeJS.ErrnoException)=>{
+        if(error.code==='ENOENT')contentError('content/assets.json',source.field,source.src,'media file does not exist');
         throw error;
       });
       const within=relative(join(absoluteRoot,'public','media'),path);
-      if(within.startsWith(`..${sep}`)||within==='..')contentError('content/assets.json',`${asset.id}.src`,asset.src,'asset must stay inside public/media');
-      if(!(await stat(path)).isFile())contentError('content/assets.json',`${asset.id}.src`,asset.src,'expected an existing file');
+      if(within.startsWith(`..${sep}`)||within==='..')contentError('content/assets.json',source.field,source.src,'asset must stay inside public/media');
+      if(!(await stat(path)).isFile())contentError('content/assets.json',source.field,source.src,'expected an existing file');
     }
   }
   return {root:absoluteRoot,site,ads,theme,categories,assets,dictionaries,homes,pages,records};

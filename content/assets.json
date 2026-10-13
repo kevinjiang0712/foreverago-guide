@@ -21,7 +21,21 @@
       "en": "Forever Ago key art showing Alfred and his van beside a mountain road"
     },
     "position": "44% 64%",
-    "demo": false
+    "demo": false,
+    "avifSources": [
+      {
+        "src": "/media/road-trip-art-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/media/road-trip-art-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/media/road-trip-art-1600.avif",
+        "width": 1600
+      }
+    ]
   },
   {
     "id": "campfire-art",
@@ -33,7 +47,21 @@
       "en": "Forever Ago promotional art showing Alfred, his dog and a campfire"
     },
     "position": "28% 70%",
-    "demo": false
+    "demo": false,
+    "avifSources": [
+      {
+        "src": "/media/campfire-art-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/media/campfire-art-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/media/campfire-art-1600.avif",
+        "width": 1600
+      }
+    ]
   },
   {
     "id": "body-images-forever-ago-review-relationship",
