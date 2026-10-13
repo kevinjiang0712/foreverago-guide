@@ -8,6 +8,7 @@ import {lookup} from '../src/content/lookup';
 import {contentError} from '../src/content/issues';
 import {fixedPageAnchors,pageTemplateAnchors} from '../src/content/template-anchors';
 import {writeGenerated} from '../src/content/write-generated';
+import {renderedTemplate,type RuntimeLayout} from '../src/content/template-layouts';
 import nextEnv from '@next/env';
 export async function prepareContent(root:string,options:{preview:boolean}={preview:process.env.SITE_ENV==='preview'}){
   const input=await readSite(root);const index=buildIndex(input,options);
@@ -59,8 +60,20 @@ export async function prepareContent(root:string,options:{preview:boolean}={prev
     }
   }
   const imports=Object.entries(index.pagesByKey).map(([key,page])=>`  ${JSON.stringify(key)}: () => import(${JSON.stringify(`../${page.sourcePath}`)}),`).join('\n');
+  const layouts=new Set<RuntimeLayout>(Object.values(index.routes).filter(route=>route.kind!=='page').map(route=>route.kind==='home'?'site-home':'list-page'));
+  for(const page of Object.values(index.pagesByKey)){
+    layouts.add(renderedTemplate(page.template));
+    if(page.articleRecord&&index.records[`${page.locale}:${page.articleRecord}`]?.type==='build')layouts.add('build-detail');
+  }
+  const templateModules=[['site-home','SiteHome'],['list-page','ListPage'],['article-page','ArticlePage'],['catalog-page','CatalogPage'],['database-detail','DatabaseDetail'],['mod-detail','ModDetail'],['build-detail','BuildDetail'],['interactive-map','InteractiveMap'],['weapon-explorer','WeaponExplorer']] as const;
+  const templateImports=templateModules.map(([layout,name])=>{
+    const path=`../src/templates/${layout}/${name}`;
+    const body=layouts.has(layout)?`return import(${JSON.stringify(path)});`:`throw new Error(${JSON.stringify(`Template ${layout} is not configured in this site`)});`;
+    return `export async function load${name}(): Promise<typeof import(${JSON.stringify(path)})> { ${body} }`;
+  }).join('\n');
   // All input/AST checks finish before any generated output is changed.
   await writeGenerated(join(root,'.generated/mdx-imports.ts'),`export const mdxImports = {\n${imports}\n};\n`);
+  await writeGenerated(join(root,'.generated/template-imports.ts'),`${templateImports}\n`);
   await writeGenerated(join(root,'.generated/redirects.json'),`${JSON.stringify(index.redirects,null,2)}\n`);
   await writeGenerated(join(root,'.generated/content-index.json'),`${JSON.stringify(index,null,2)}\n`);
   await writeGenerated(join(root,'.generated/preparation-error.ts'),'export const preparationError: string | null = null;\n');

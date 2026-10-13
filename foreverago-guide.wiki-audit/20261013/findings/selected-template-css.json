@@ -1,0 +1,42 @@
+{
+  "beforeCssBytes": 165116,
+  "afterCssBytes": 124267,
+  "reductionPercent": 24.739577024637224,
+  "layouts": [
+    "site-home",
+    "list-page",
+    "article-page"
+  ],
+  "rows": [
+    {
+      "file": "out/index.html",
+      "htmlBytes": 172349,
+      "css": [
+        {
+          "path": "/_next/static/css/6d4490b0c91e2ad6.css",
+          "bytes": 46062
+        },
+        {
+          "path": "/_next/static/css/f61de5c3f8209d1e.css",
+          "bytes": 78205
+        }
+      ],
+      "cssBytes": 124267
+    },
+    {
+      "file": "out/guide/forever-ago-completion-tracker.html",
+      "htmlBytes": 203598,
+      "css": [
+        {
+          "path": "/_next/static/css/6d4490b0c91e2ad6.css",
+          "bytes": 46062
+        },
+        {
+          "path": "/_next/static/css/f61de5c3f8209d1e.css",
+          "bytes": 78205
+        }
+      ],
+      "cssBytes": 124267
+    }
+  ]
+}

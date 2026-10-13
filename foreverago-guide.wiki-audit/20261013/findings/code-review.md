@@ -20,3 +20,11 @@ Limits: this review does not certify the parent release suite's reported pass co
 ## Resolution verified
 
 The failed-write defect is fixed: `loadSavedCompletion` preserves the current visit snapshot while saving is unavailable. A separate source review confirmed that normal saved-state synchronization, damaged-save protection and explicit restore/reset still work. The real-link regression failed against the old export and passed against the repaired export. The final release suite passed all 18 tests, including storage denial, readable storage with failed writes, cross-guide and cross-tab progress, ordered vignette stages and reset cancellation/confirmation.
+
+## Final media review
+
+The independent reviewer checked the AVIF files, registered width descriptors, picture layout, static-export compatibility, cross-site behavior and source validation. Initial missing-file and cross-site-ID assumptions were repaired before release: six real files are committed, rendering uses registered avifSources and read-site rejects missing derivatives. No remaining release-blocking issue was found in the final media/font diff. The reviewer did not run the parent tests or claim independent production fill verification.
+
+## Configured-template loader review
+
+The independent reviewer checked all nine runtime layouts, home/category and category landing routes, every enabled language, and record-backed articles. Build records enable BuildDetail using the same condition as rendering; other record-backed articles keep ArticlePage. Paths are fixed and unused imports are type-only. No missing supported layout or release-blocking issue was found. The production export measured 165,116 to 124,267 CSS bytes; parent regression checks passed 466 unit tests and 18 E2E.
