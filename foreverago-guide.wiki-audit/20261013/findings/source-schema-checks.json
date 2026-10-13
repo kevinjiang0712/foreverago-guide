@@ -1,0 +1,40 @@
+{
+  "scope": "Generated index and source functions; no HTTP or browser execution",
+  "routes": 43,
+  "sitemap_urls": 43,
+  "schema_types": {
+    "WebSite": 43,
+    "WebPage": 43,
+    "BreadcrumbList": 42,
+    "ItemList": 6,
+    "Article": 32
+  },
+  "itemlists": [
+    {
+      "path": "/review",
+      "items": 2
+    },
+    {
+      "path": "/guide",
+      "items": 18
+    },
+    {
+      "path": "/maps",
+      "items": 6
+    },
+    {
+      "path": "/story",
+      "items": 1
+    },
+    {
+      "path": "/walkthrough",
+      "items": 4
+    },
+    {
+      "path": "/characters",
+      "items": 1
+    }
+  ],
+  "linked_completion_tasks": 53,
+  "issues": []
+}

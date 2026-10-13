@@ -6,51 +6,38 @@ import type {NavigationItem} from '@/content/navigation';
 type NavigationProps={items:NavigationItem[];mobile:boolean;label:string;currentLabel:string;unavailableLabel:string;previousLabel:string;nextLabel:string;onNavigate:()=>void};
 function NavigationEntry({item,mobile,currentLabel,unavailableLabel,onNavigate}:Pick<NavigationProps,'mobile'|'currentLabel'|'unavailableLabel'|'onNavigate'>&{item:NavigationItem}){
  const [open,setOpen]=useState(false);
- const submenuId=useId();
- const host=useRef<HTMLSpanElement>(null);
- const submenu=useRef<HTMLSpanElement>(null);
- const timer=useRef<ReturnType<typeof setTimeout>|null>(null);
+ const submenuId=useId();const host=useRef<HTMLSpanElement>(null);const submenu=useRef<HTMLSpanElement>(null);const toggle=useRef<HTMLButtonElement>(null);const timer=useRef<ReturnType<typeof setTimeout>|null>(null);
  const hasChildren=item.children.length>0;
- const expanded=open||(mobile&&Boolean(item.href));
  function cancelClose(){if(timer.current)clearTimeout(timer.current);}
  function close(){setOpen(false);}
  useEffect(()=>()=>{if(timer.current)clearTimeout(timer.current);},[]);
  useLayoutEffect(()=>{
   const panel=submenu.current,anchor=host.current;
   if(!open||mobile||!panel||!anchor)return;
-  // A top-layer popover escapes the horizontal scroller without duplicating links.
-  const rect=anchor.getBoundingClientRect();
-  const width=Math.min(300,window.innerWidth-24);
-  panel.style.width=`${width}px`;
-  panel.style.left=`${Math.max(12,Math.min(rect.left,window.innerWidth-width-12))}px`;
-  panel.style.top=`${rect.bottom+8}px`;
+  const rect=anchor.getBoundingClientRect();const width=Math.min(310,window.innerWidth-24);
+  panel.style.width=`${width}px`;panel.style.left=`${Math.max(12,Math.min(rect.left,window.innerWidth-width-12))}px`;panel.style.top=`${rect.bottom+8}px`;panel.style.maxHeight=`${Math.max(120,window.innerHeight-rect.bottom-24)}px`;
   panel.showPopover();
-  const nav=anchor.closest('nav');
-  const outside=(event:PointerEvent)=>{if(!anchor.contains(event.target as Node))close();};
-  nav?.addEventListener('scroll',close,{passive:true});
-  window.addEventListener('resize',close);
-  window.addEventListener('scroll',close,{passive:true});
-  document.addEventListener('pointerdown',outside);
-  return()=>{
-   if(panel.matches(':popover-open'))panel.hidePopover();
-   nav?.removeEventListener('scroll',close);
-   window.removeEventListener('resize',close);
-   window.removeEventListener('scroll',close);
-   document.removeEventListener('pointerdown',outside);
-  };
+  const nav=anchor.closest('nav');const outside=(event:PointerEvent)=>{if(!anchor.contains(event.target as Node))close();};
+  nav?.addEventListener('scroll',close,{passive:true});window.addEventListener('resize',close);window.addEventListener('scroll',close,{passive:true});document.addEventListener('pointerdown',outside);
+  return()=>{if(panel.matches(':popover-open'))panel.hidePopover();nav?.removeEventListener('scroll',close);window.removeEventListener('resize',close);window.removeEventListener('scroll',close);document.removeEventListener('pointerdown',outside);};
  },[open,mobile]);
- const contents=<>{item.label}{item.current&&<span className="site-current-label">{currentLabel}</span>}{hasChildren&&<span className="site-caret" aria-hidden="true"/>}{!item.href&&!hasChildren&&<small className="site-plan-status">{unavailableLabel}</small>}</>;
- return <span ref={host} className="site-nav-item" data-sub-open={expanded}
-  onMouseEnter={()=>{cancelClose();if(!mobile&&hasChildren)setOpen(true);}}
-  onMouseLeave={()=>{cancelClose();if(!mobile)timer.current=setTimeout(close,140);}}
-  onFocus={()=>{cancelClose();if(!mobile&&hasChildren)setOpen(true);}}
+ const contents=<>{item.label}{item.current&&<span className="site-current-label">{currentLabel}</span>}{!item.href&&!hasChildren&&<small className="site-plan-status">{unavailableLabel}</small>}</>;
+ return <span ref={host} className="site-nav-item" data-sub-open={open} data-current={item.current}
+  onMouseLeave={()=>{cancelClose();if(!mobile)timer.current=setTimeout(close,180);}}
+  onMouseEnter={cancelClose}
   onBlur={event=>{if(!event.currentTarget.contains(event.relatedTarget as Node))close();}}
   onKeyDown={event=>{
-   if(event.key==='Escape'&&open&&!mobile){event.stopPropagation();event.preventDefault();host.current?.querySelector<HTMLElement>('.site-nav-link')?.focus();close();}
-   if(event.key==='ArrowDown'&&hasChildren&&!mobile){event.preventDefault();setOpen(true);requestAnimationFrame(()=>submenu.current?.querySelector<HTMLElement>('a[href]')?.focus());}
+   if(event.key==='Escape'&&open&&!mobile){event.stopPropagation();event.preventDefault();close();toggle.current?.focus();}
+   if((event.key==='ArrowDown'||event.key==='ArrowUp')&&hasChildren&&!mobile){
+    event.preventDefault();setOpen(true);requestAnimationFrame(()=>{
+     const links=Array.from(submenu.current?.querySelectorAll<HTMLAnchorElement>('a[href]')??[]);const current=links.indexOf(document.activeElement as HTMLAnchorElement);
+     const next=event.key==='ArrowDown'?(current+1)%links.length:current<0?links.length-1:(current-1+links.length)%links.length;links[next]?.focus();
+    });
+   }
   }}>
-  {item.href?<Link className="site-nav-link" href={item.href} aria-current={item.current?'page':undefined} aria-expanded={hasChildren?expanded:undefined} aria-controls={hasChildren?submenuId:undefined} onClick={onNavigate}>{contents}</Link>:<button type="button" className="site-nav-link site-unavailable" aria-expanded={hasChildren?expanded:undefined} aria-controls={hasChildren?submenuId:undefined} disabled={!hasChildren} onClick={()=>setOpen(mobile?!open:true)}>{contents}</button>}
-  {hasChildren&&<span ref={submenu} id={submenuId} className="site-submenu" aria-label={item.label} popover={mobile?undefined:'manual'} inert={!expanded}>
+  {item.href?<Link className="site-nav-link" href={item.href} aria-current={item.current?'page':undefined} onClick={()=>{close();onNavigate();}} onMouseEnter={()=>{cancelClose();if(!mobile&&hasChildren)setOpen(true);}}>{contents}</Link>:<button type="button" className="site-nav-link site-unavailable" aria-expanded={hasChildren?open:undefined} aria-controls={hasChildren?submenuId:undefined} disabled={!hasChildren} onClick={()=>setOpen(!open)}>{contents}</button>}
+  {hasChildren&&item.href&&<button ref={toggle} type="button" className="site-nav-expand" aria-label={`${open?'Close':'Open'} ${item.label} guides`} aria-expanded={open} aria-controls={submenuId} onClick={()=>{cancelClose();setOpen(!open);}}><span className="site-caret" aria-hidden="true"/></button>}
+  {hasChildren&&<span ref={submenu} id={submenuId} className="site-submenu" aria-label={item.label} popover={mobile?undefined:'manual'} inert={!open}>
    {item.children.map(child=>child.href?<Link key={child.id} href={child.href} className="site-subrow" onClick={()=>{close();onNavigate();}}>{child.label}</Link>:<span key={child.id} className="site-subrow site-planned-item">{child.label}<small>{unavailableLabel}</small></span>)}
   </span>}
  </span>;

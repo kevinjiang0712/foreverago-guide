@@ -21,12 +21,12 @@ it('counts Unicode code points, spaces and punctuation after trimming',()=>{
  expect(gameSchema.safeParse({name:'A'.repeat(39)+' !'}).success).toBe(false);
 });
 it('reports the source, field, rejected value and length constraint',async()=>{
- const dictionary=JSON.parse(await readFile('content/locales/en.json','utf8'));dictionary.game.name='W'.repeat(41);
+ const dictionary=JSON.parse(await readFile('tests/fixtures/input/site/content/locales/en.json','utf8'));dictionary.game.name='W'.repeat(41);
  expect(()=>parseContent(dictionarySchema,dictionary,'content/locales/en.json')).toThrow(/content\/locales\/en.json.*game.name.*W{41}.*1–40.*41/);
 });
 it('derives the same complete name for every brand location and homepage H1',async()=>{
  const input=await siteFixture();
- const dictionary=JSON.parse(await readFile('content/locales/en.json','utf8'));
+ const dictionary=JSON.parse(await readFile('tests/fixtures/input/site/content/locales/en.json','utf8'));
  dictionary.game.name='W'.repeat(40);input.dictionaries[0]=dictionarySchema.parse(dictionary);
  const index=buildIndex(input,{preview:false});const name='W'.repeat(40)+' Wiki';
  expect(index.dictionaries.en.siteName).toBe(name);
@@ -37,7 +37,7 @@ it('derives the same complete name for every brand location and homepage H1',asy
  expect(buildBrand(index,'ja').name).toBe(`${input.dictionaries[1].game.name} Wiki`);
 });
 it('rejects obsolete independently authored brand and H1 fields',async()=>{
- const dictionary=JSON.parse(await readFile('content/locales/en.json','utf8'));
+ const dictionary=JSON.parse(await readFile('tests/fixtures/input/site/content/locales/en.json','utf8'));
  for(const key of ['siteName','siteSuffix'])expect(dictionarySchema.safeParse({...dictionary,[key]:'Custom'}).success).toBe(false);
  const input=await siteFixture();
  expect(siteSchema.safeParse({...input.site,brand:{...input.site.brand,separator:'·'}}).success).toBe(false);

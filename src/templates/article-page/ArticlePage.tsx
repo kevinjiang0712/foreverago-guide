@@ -14,6 +14,8 @@ import {characterArticle} from './character';
 import {weaponArticle} from './weapon';
 import {systemsArticle} from './systems';
 import {modArticle} from './mod';
+import {CompletionTool} from '@/features/forever-ago/CompletionTool';
+import {completionToolForPage} from '@/features/forever-ago/completion-data';
 import '../wiki-page/wiki-page.css';
 import './article-page.css';
 
@@ -41,10 +43,11 @@ export function ArticlePage({index,page,body}:{index:ContentIndex;page:IndexedPa
  const bodyAds=page.template==='wiki-page'&&!page.articleRecord;
  const a2=(sectionId:string,position:'before'|'after')=>bodyAds?null:<>{sectionId===inlineAdAfter&&<ConfiguredAdSlot ads={index.ads} mode={adMode} placement="a2" template="article-page" anchor="content-midpoint" position={position}/>}<ConfiguredAdSlot ads={index.ads} mode={adMode} placement="a2" template="article-page" anchor={sectionId} position={position}/></>;
  for(const section of sections)if(modules.sections[section.id]===undefined)throw new Error(`${page.sourcePath}: missing article module ${section.id}`);
- const headings=sections.flatMap((section,i)=>[
+ const hasCompletionTool=index.site.siteId==='forever-ago'&&page.locale==='en'&&completionToolForPage(page.id)!==null;
+ const headings=[...(hasCompletionTool?[{id:'completion-checklist',text:'Completion checklist',depth:2 as const}]:[]),...sections.flatMap((section,i)=>[
   ...(section.title?[{id:section.id,text:section.title,depth:2 as const}]:[]),
   ...(i===0?page.headings:[]),
- ]);
+ ])];
  return <div data-template="article-page" data-article-type={page.template}>
   <header className="article-hero inner-hero" data-hero-size="article" data-theme-mode="night" data-floor="hero" data-has-art={Boolean(heroArt?.src)}>
    {heroArt?.src&&<div className="article-hero-art"><Media asset={heroArt} locale={page.locale} eager/></div>}
@@ -65,6 +68,7 @@ export function ArticlePage({index,page,body}:{index:ContentIndex;page:IndexedPa
    <div className="article-layout">
     <div className="article-directory"><AnchorRail headings={headings} label={ui.onThisPage} mobilePicker={false}/></div>
     <article className="article-content">
+     <CompletionTool index={index} page={page}/>
      {sections.map(section=><Fragment key={section.id}>{a2(section.id,'before')}<Reveal as="section" id={section.id} className="article-section" data-floor={section.id}>
       {section.title&&<h2>{section.title}</h2>}{section.description&&<p className="article-section-description">{section.description}</p>}
       {modules.sections[section.id]}

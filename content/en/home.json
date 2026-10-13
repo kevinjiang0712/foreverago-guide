@@ -3,20 +3,20 @@
   "template": "site-home",
   "locale": "en",
   "title": "Forever Ago Wiki",
-  "description": "Independent Forever Ago guides for photos, memories, achievements, and Alfred’s road trip.",
+  "description": "Independent Forever Ago walkthroughs, achievement checklists and photo routes, with a completion tracker for the journey.",
   "status": "published",
   "verification": "confirmed",
   "demo": false,
   "seo": {
-    "title": "Forever Ago Wiki: Photos, Memories & Achievement Guides",
-    "description": "Explore Forever Ago guides for photographs, memory petals, achievements, chapter replay, and Alfred’s story. Find the next step for your road-trip adventure.",
+    "title": "Forever Ago Guides: Walkthrough, Achievements & Completion Tracker",
+    "description": "Track Forever Ago achievements, memories and resting places. Follow the complete walkthrough, find photo locations, and solve optional quests.",
     "image": "road-trip-art",
     "noindex": false,
     "final": true
   },
   "hero": {
     "eyebrow": "THE ROAD AHEAD",
-    "description": "Find your way through Alfred’s photos, memories, and story.",
+    "description": "Follow the story. Find every memory. Keep track of the stops you still need.",
     "asset": "road-trip-art",
     "video": {
       "url": "https://www.youtube.com/watch?v=AeHgQ29sukE",
@@ -25,16 +25,16 @@
     "stats": null
   },
   "featured": {
-    "eyebrow": "START HERE",
-    "title": "Make the Next Stop Count",
-    "description": "Start with the essentials, then follow the memories north.",
+    "eyebrow": "YOUR NEXT STOP",
+    "title": "Choose Your Next Goal",
+    "description": "Start a full journey, track a cleanup run, or jump straight to the answer you need.",
     "pinnedIds": [
-      "forever-ago-gameplay",
-      "forever-ago-journal-photos",
-      "forever-ago-camera-controls",
+      "forever-ago-completion-tracker",
+      "forever-ago-walkthrough",
       "forever-ago-achievements",
       "forever-ago-memory-locations",
-      "forever-ago-game-length"
+      "forever-ago-old-bones-achievement",
+      "forever-ago-photo-puzzle"
     ]
   },
   "about": {
@@ -80,34 +80,34 @@
   "articleFloors": [
     {
       "id": "photos-and-memories",
-      "eyebrow": "LOOK CLOSER",
-      "title": "Photos and Memories",
-      "description": "Follow camera prompts and find the memories along the way.",
+      "eyebrow": "PHOTOGRAPHY ROUTES",
+      "title": "Find the Photo You’re Missing",
+      "description": "Choose the right route for story photographs, memory petals, or journal keepsakes.",
       "articleIds": [
-        "forever-ago-petal-locations",
-        "forever-ago-camera-achievements",
-        "forever-ago-chapter-2-photos",
         "forever-ago-photo-locations",
-        "forever-ago-photo-puzzle",
+        "forever-ago-petal-locations",
+        "forever-ago-camera-controls",
+        "forever-ago-journal-photos",
         "forever-ago-chapter-1-photos",
-        "forever-ago-dog-photo",
-        "forever-ago-chapter-3-photos"
+        "forever-ago-chapter-2-photos",
+        "forever-ago-chapter-3-photos",
+        "forever-ago-dog-photo"
       ]
     },
     {
       "id": "finish-the-journey",
-      "eyebrow": "KEEP GOING",
-      "title": "Finish the Journey",
-      "description": "Explore optional goals, replay choices, and the story’s end.",
+      "eyebrow": "OPTIONAL GOALS",
+      "title": "Finish the Side Quests",
+      "description": "Find the missing action, then return to the story. These guides explain where to go and what to do.",
       "articleIds": [
+        "forever-ago-snooping-shutterbug",
+        "forever-ago-mosaic-pumpkins",
+        "forever-ago-marleys-bobblehead",
+        "forever-ago-guardian-lord",
         "forever-ago-missable-achievements",
-        "forever-ago-old-bones-achievement",
-        "forever-ago-petal-collector-achievement",
-        "forever-ago-hidden-achievements",
-        "forever-ago-collectibles",
+        "forever-ago-selfie-achievement",
         "forever-ago-chapter-select",
-        "forever-ago-ending-explained",
-        "forever-ago-williamina-peak"
+        "forever-ago-checkpoint-save"
       ]
     }
   ],
@@ -139,17 +139,17 @@
   "cta": {
     "links": [
       {
-        "label": "Start the Journey",
+        "label": "Open Completion Tracker",
         "target": {
           "type": "content",
-          "id": "forever-ago-gameplay"
+          "id": "forever-ago-completion-tracker"
         }
       },
       {
-        "label": "Find Photo Guides",
+        "label": "Follow the Walkthrough",
         "target": {
-          "type": "category",
-          "id": "maps"
+          "type": "content",
+          "id": "forever-ago-walkthrough"
         }
       }
     ]

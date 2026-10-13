@@ -5,7 +5,7 @@ import {recordSchema} from '../../src/content/schemas/record';
 const records=['build-library','weapon-explorer','practice-blade-detail','demo-guide-detail','interactive-map'];
 const copy={eyebrow:'Sources',title:'Sources',description:'Old presentation copy'};
 async function withoutSourcePresentation(id:string){
- const record=JSON.parse(await readFile(`content/en/records/${id}.json`,'utf8'));
+ const record=JSON.parse(await readFile(`examples/site-a/content/en/records/${id}.json`,'utf8'));
  delete record.sourceGroups;
  delete record.sourceNote;
  delete record.sourceSection;

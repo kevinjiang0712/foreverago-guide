@@ -70,3 +70,25 @@
 .list-browser[data-card-layout=compact] .list-card h3{max-width:100%;margin:0;overflow:hidden;overflow-wrap:normal;text-overflow:ellipsis;white-space:nowrap}
 @media(max-width:1199px){.list-browser[data-card-layout=compact] .list-card-reveal{height:260px}.list-browser[data-card-layout=compact] .list-card .media-slot{flex-basis:152px;height:152px}}
 @media(max-width:600px){.list-browser[data-card-layout=compact] .list-card-reveal{height:300px}.list-browser[data-card-layout=compact] .list-card .media-slot{flex-basis:188px;height:188px}}
+
+.list-task-start{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:var(--s-6);padding-bottom:var(--s-6);margin-bottom:var(--s-6);border-bottom:var(--border-width) solid var(--border-default)}
+.list-task-start h2{font-family:var(--font-ui);font-size:var(--fs-h3);font-weight:var(--fw-semibold);margin:0 0 var(--s-2)}
+.list-task-start p{font-size:var(--fs-meta);line-height:var(--lh-caption);color:var(--text-secondary);margin:0;max-width:42ch}
+.list-task-links{display:flex;flex-direction:column;gap:var(--s-2)}
+.list-task-links a{display:flex;align-items:center;justify-content:space-between;gap:var(--s-5);min-height:var(--hit-min);padding:var(--s-3) var(--s-4);border:var(--border-width) solid var(--border-default);border-radius:var(--radius);font-size:var(--fs-body);color:var(--text-primary);background:var(--surface-alt)}
+.list-task-links a:hover{border-color:var(--marker);background:var(--surface-card-hover)}
+.list-task-links a:focus-visible{outline:2px solid var(--focus-ring);outline-offset:3px}
+.list-task-links .ui-arrow-right{color:var(--marker);flex:none}
+.list-browser[data-card-layout=directory] .list-grid{grid-template-columns:minmax(0,1fr);gap:0}
+.list-browser[data-card-layout=directory] .list-card-reveal{animation:none;transform:none}
+.list-browser[data-card-layout=directory] .list-card{border:0;border-bottom:var(--border-width) solid var(--border-default);border-radius:0;background:transparent}
+.list-browser[data-card-layout=directory] .list-card:hover{background:var(--surface-card-hover)}
+.list-browser[data-card-layout=directory] .list-card-body{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:var(--s-6);min-height:0;padding:var(--s-5) var(--s-4)}
+.list-browser[data-card-layout=directory] .list-card-meta{grid-column:1;justify-content:flex-start;gap:var(--s-4);margin-bottom:var(--s-2)}
+.list-browser[data-card-layout=directory] .list-card-meta>span:last-child{display:none}
+.list-browser[data-card-layout=directory] .list-card h3{grid-column:1;font-family:var(--font-ui);font-size:var(--fluid-h3);font-weight:var(--fw-semibold);line-height:var(--lh-body);letter-spacing:normal;margin:0 0 var(--s-2)}
+.list-browser[data-card-layout=directory] .list-card-body>p{grid-column:1;max-width:75ch;margin:0;font-size:var(--fs-body)}
+.list-browser[data-card-layout=directory] .list-card-action{grid-column:2;grid-row:1/4;align-self:center;margin:0}
+.list-browser[data-card-layout=directory] .list-card:focus-visible{outline:2px solid var(--focus-ring);outline-offset:-2px}
+.list-guide{border-left-width:var(--border-width)}
+@media(max-width:600px){.list-task-start{grid-template-columns:minmax(0,1fr);gap:var(--s-4)}.list-browser[data-card-layout=directory] .list-card-body{grid-template-columns:minmax(0,1fr);padding:var(--s-5) var(--s-2)}.list-browser[data-card-layout=directory] .list-card-action{grid-column:1;grid-row:auto;justify-self:start;margin-top:var(--s-4)}}

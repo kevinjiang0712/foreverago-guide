@@ -1,0 +1,19 @@
+{
+  "scope": "Live local static export XML/robots; not Google indexation",
+  "http_status": 200,
+  "content_type": "application/xml",
+  "sitemap_urls": 43,
+  "unique_urls": 43,
+  "expected_canonical_routes": 43,
+  "lastmod_entries": 32,
+  "lastmod_values": [
+    "2026-10-13"
+  ],
+  "hreflang_values": [
+    "en",
+    "x-default"
+  ],
+  "sitemap_in_robots": true,
+  "issues": [],
+  "indexation_verified": false
+}

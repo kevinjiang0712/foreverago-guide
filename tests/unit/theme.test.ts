@@ -15,7 +15,7 @@ it('computes real unrounded contrast and rejects unsupported RGB input',()=>{
 it('retains all core files byte for byte',async()=>{
  for(const name of ['core-space.css','core-typescale.css','core-motion.css','core-texture.css','base.css']){
   const hash=(bytes:Buffer)=>createHash('sha256').update(bytes).digest('hex');
-  expect(hash(await readFile(`src/styles/core/${name}`))).toBe(hash(await readFile(`tokens/${name}`)));
+  expect(hash(await readFile(`src/styles/core/${name}`))).toBe(hash(await readFile(`tests/fixtures/design-system/tokens/${name}`)));
  }
 });
 describe.each(presets)('%s day and night',preset=>{

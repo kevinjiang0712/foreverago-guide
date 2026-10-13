@@ -43,7 +43,8 @@ export async function verifySite(root:string,options:{url?:string;build?:boolean
     const actualTemplate=await page.locator('[data-template]').getAttribute('data-template');const expectedTemplate=route.kind==='home'?'site-home':route.kind==='category'?'list-page':renderedTemplate(index.pagesByKey[route.bodyKey].template);
     if(actualTemplate!==expectedTemplate)errors.push(`Incorrect template: ${actualTemplate}, expected ${expectedTemplate}`);
     const adMode=await page.locator('[data-site-shell]').getAttribute('data-ad-mode');
-    if(adMode!==index.ads.mode)errors.push(`Incorrect ad mode: ${adMode}, expected ${index.ads.mode}`);
+    const expectedAdMode=route.kind==='page'&&index.pagesByKey[route.bodyKey].category==='_pages'?'disabled':index.ads.mode;
+    if(adMode!==expectedAdMode)errors.push(`Incorrect ad mode: ${adMode}, expected ${expectedAdMode}`);
     if(index.ads.mode==='disabled'&&await page.locator('[data-ad-placement]').count())errors.push('Disabled ads must not render placement elements');
     const canonical=await page.locator('link[rel="canonical"]').getAttribute('href');
     if(canonical!==new URL(route.path,index.site.siteUrl).href)errors.push(`Incorrect canonical: ${canonical}`);

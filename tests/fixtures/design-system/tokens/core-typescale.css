@@ -1,0 +1,43 @@
+/* Size / line-height / measure ladder. A theme swaps the FAMILIES and the
+   display tracking + casing (see the theme contract); the scale itself is fixed. */
+:root{
+  --fs-d1:84px; /* @kind font */      --fs-d1-m:38px; /* @kind font */
+  --fs-h1:60px; /* @kind font */      --fs-h1-m:34px; /* @kind font */
+  --fs-h2:40px; /* @kind font */      --fs-h2-m:27px; /* @kind font */
+  --fs-h3:22px; /* @kind font */      --fs-h3-m:18px; /* @kind font */
+  --fs-h4:17px; /* @kind font */      --fs-h4-m:16px; /* @kind font */
+  --fs-body-lg:18px; /* @kind font */ --fs-body-lg-m:16px; /* @kind font */
+  --fs-body:16px; /* @kind font */    --fs-body-m:16px; /* @kind font */
+  --fs-card-body:15px; /* @kind font */
+  --fs-caption:14px; /* @kind font */ --fs-caption-m:14px; /* @kind font */
+  --fs-label:12px; /* @kind font */   --fs-meta:14px; /* @kind font */
+  --fs-button:16px; /* @kind font */  --fs-button-m:16px; /* @kind font */
+  --fs-num:15px; /* @kind font */     --fs-num-m:14px; /* @kind font */
+
+  --fluid-d1:clamp(38px,7vw,84px); /* @kind font */
+  --fluid-h1:clamp(34px,5.6vw,60px); /* @kind font */
+  --fluid-h2:clamp(27px,3.6vw,40px); /* @kind font */
+  --fluid-h3:clamp(18px,2vw,22px); /* @kind font */
+
+  --lh-d1:1.04; /* @kind font */
+  --lh-h1:1.08; /* @kind font */
+  --lh-h2:1.20; /* @kind font */
+  --lh-h3:1.35; /* @kind font */
+  --lh-h4:1.4; /* @kind font */
+  --lh-body:1.85; /* @kind font */
+  --lh-body-lg:1.8; /* @kind font */
+  --lh-caption:1.6; /* @kind font */
+  --lh-tight:1; /* @kind font */
+
+  --fw-regular:400; /* @kind font */
+  --fw-medium:500; /* @kind font */
+  --fw-semibold:600; /* @kind font */
+
+  --ls-body:.01em; /* @kind font */
+  --ls-caption:.02em; /* @kind font */
+  --ls-num:.04em; /* @kind font */
+
+  --measure-body:72ch; /* @kind font */
+  --measure-intro:52ch; /* @kind font */
+  --measure-prose:64ch; /* @kind font */
+}

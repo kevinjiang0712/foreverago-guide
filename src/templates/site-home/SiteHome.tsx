@@ -12,7 +12,6 @@ import {SectionHeading} from '@/components/content/SectionHeading';
 import {ArrowRightIcon} from '@/components/content/ArrowRightIcon';
 import {ConfiguredAdSlot,assertAdAnchor} from '@/components/ads/AdSlot';
 import {homeModel} from './model';
-import {FeaturedCarousel} from './FeaturedCarousel';
 import {HomeFaqAccordion} from './HomeFaqAccordion';
 import {WeaponShuffleGrid} from './WeaponShuffleGrid';
 import {CharacterSpotlight} from './CharacterSpotlight';
@@ -49,6 +48,7 @@ export function SiteHome({index,locale}:{index:ContentIndex;locale:string}){
   if(section.kind==='weapons')return weaponShowcaseAsset?.src?<Reveal as="section" data-floor={`category-${section.showcase.categoryId}`} className="home-floor home-weapon-floor"><div className="home-weapon-copy"><SectionHeading eyebrow={section.showcase.eyebrow} title={section.showcase.title} description={section.showcase.description}/><Link href={index.categories[`${locale}:${section.showcase.categoryId}`].path} className="button button-ghost">{ui.viewAll}<ArrowRightIcon/></Link></div><WeaponShuffleGrid src={weaponShowcaseAsset.src} label={section.showcase.ariaLabel}/></Reveal>:null;
   const floor=section.floor;
   if(floor.id==='weapons'&&home.articleFloors===undefined&&home.weaponShowcase&&weaponShowcaseAsset?.src)return <Reveal as="section" data-floor={`category-${floor.id}`} className="home-floor home-weapon-floor"><div className="home-weapon-copy"><SectionHeading eyebrow={floor.eyebrow} title={floor.title} description={floor.description}/><Link href={floor.path} className="button button-ghost">{ui.viewAll}<ArrowRightIcon/></Link></div><WeaponShuffleGrid src={weaponShowcaseAsset.src} label={home.weaponShowcase.ariaLabel}/></Reveal>;
+  if(home.articleFloors!==undefined)return <Reveal as="section" data-floor={`category-${floor.id}`} className="home-floor home-task-floor"><div className="floor-heading-row"><div className="section-heading"><h2>{floor.title}</h2><p>{floor.description}</p></div></div><div className="home-route-list">{floor.items.map(item=><Link key={item.id} href={item.path} className="home-route-link"><span><h3>{item.title}</h3><span>{item.description}</span></span><ArrowRightIcon/></Link>)}</div></Reveal>;
   const hoverReveal=floor.id==='guides'||floor.hoverReveal;
   return <Reveal as="section" data-floor={`category-${floor.id}`} className={`home-floor home-category-floor home-category-floor--${floor.layout}${floor.hoverReveal?' home-article-floor':''}`}><div className="floor-heading-row"><SectionHeading eyebrow={floor.eyebrow} title={floor.title} description={floor.description}/></div><div className={`home-discovery-grid home-discovery-grid--${floor.layout}${hoverReveal?' home-discovery-grid--hover-reveal':''}`}>{floor.items.map(item=><DiscoveryCard key={item.id} index={index} locale={locale} item={item} layout={floor.layout} hoverReveal={hoverReveal} showMeta={false}/>)}</div></Reveal>;
  };
@@ -58,7 +58,7 @@ export function SiteHome({index,locale}:{index:ContentIndex;locale:string}){
   </HeroMotion>
   <main id="main" className="container home-main">
 
-   <Reveal as="section" data-floor="featured" className="home-featured"><div className="home-featured-heading"><SectionHeading {...home.featured}/></div><FeaturedCarousel label={home.featured.title} previousLabel={ui.previous} nextLabel={ui.next} pauseLabel={ui.pause} resumeLabel={ui.resume}>{featured.map(item=><DiscoveryCard key={item.id} index={index} locale={locale} item={item} layout="media" carousel/>)}</FeaturedCarousel></Reveal>
+   <Reveal as="section" data-floor="featured" className="home-featured"><div className="home-featured-heading"><SectionHeading {...home.featured}/></div><div className="home-goal-grid">{featured.map((item,i)=><Link key={item.id} href={item.path} className="home-goal-link" data-primary={i===0}><span className="home-goal-section">{i===0?'Keep your progress':item.categoryTitle}</span><h3>{item.title}</h3><p>{item.description}</p><span className="home-goal-action">{i===0?'Open tracker':i===1?'Follow the route':'Read the guide'}<ArrowRightIcon/></span></Link>)}</div></Reveal>
    <AdContentSlot/>{a2('about','before')}
    <Reveal as="section" data-floor="about" className="home-floor home-about"><div className="home-about-grid"><div><SectionHeading {...home.about}/>{home.about.paragraphs.map((paragraph,i)=><p className="home-about-paragraph" key={i}>{paragraph}</p>)}<ContentLink index={index} locale={locale} target={home.about.link.target} className="text-action">{home.about.link.label}<ArrowRightIcon/></ContentLink></div><dl className="fact-sheet">{home.about.facts.map(fact=><div key={fact.label}><dt>{fact.label}</dt><dd>{fact.value??ui.unknown}</dd></div>)}</dl></div></Reveal>
    {a2('about','after')}

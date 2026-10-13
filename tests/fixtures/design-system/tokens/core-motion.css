@@ -1,0 +1,78 @@
+/* Motion GRAMMAR — fixed. Motion PERSONALITY lives in the theme file
+   (--e-entry / --e-exit / --e-emphasis / --motion-scale / --motion-overshoot).
+   Durations, stagger and the named-motion set are the same on every site;
+   how those motions FEEL is the theme's call. */
+:root{
+  /* --- role easings: alias the theme's personality --- */
+  --e-settle:var(--e-entry); /* @kind other */
+  --e-decisive:var(--e-emphasis); /* @kind other */
+  --e-out:var(--e-exit); /* @kind other */
+
+  /* --- duration ladder: instant → ui → structural → ambient --- */
+  --d-instant:80ms; /* @kind other */
+  --d-tap:120ms; /* @kind other */
+  --d-ui:240ms; /* @kind other */
+  --d-swap-out:120ms; /* @kind other */
+  --d-swap-in:180ms; /* @kind other */
+  --d-pulse:280ms; /* @kind other */
+  --d-expand:320ms; /* @kind other */
+  --d-card:420ms; /* @kind other */
+  --d-wipe:560ms; /* @kind other */
+  --d-reveal:720ms; /* @kind other */
+  --d-hero:1200ms; /* @kind other */
+  --d-skeleton:1600ms; /* @kind other */
+  --d-ambient:2400ms; /* @kind other */
+  --d-drawer:320ms; /* @kind other */
+
+  /* --- choreography: siblings stagger, children lag one step behind the shell --- */
+  --stagger-card:80ms; /* @kind other */
+  --stagger-drawer:50ms; /* @kind other */
+  --stagger-line:60ms; /* @kind other */
+  --stagger-swap:60ms; /* @kind other */
+  --stagger-inner:60ms; /* @kind other */
+
+  /* --- travel: every displacement scales with the theme's --motion-scale --- */
+  --lift-y:calc(-7px * var(--motion-scale)); /* @kind spacing */
+  --reveal-y:calc(22px * var(--motion-scale)); /* @kind spacing */
+  --arrow-shift:calc(7px * var(--motion-scale)); /* @kind spacing */
+  --swap-y:calc(6px * var(--motion-scale)); /* @kind spacing */
+  --drawer-item-y:calc(14px * var(--motion-scale)); /* @kind spacing */
+
+  /* --- scale: press shrinks, emphasis overshoots by the theme's cap --- */
+  --press-scale:.98; /* @kind other */
+  --press-scale-mobile:.985; /* @kind other */
+  --media-zoom:1.04; /* @kind other */
+  --pulse-scale:calc(1 + var(--motion-overshoot) / 2); /* @kind other */
+  --emphasis-scale:calc(1 + var(--motion-overshoot)); /* @kind other */
+
+  --parallax-max:8%; /* @kind other */
+}
+@media (prefers-reduced-motion:reduce){
+  :root{
+    --d-instant:80ms; /* @kind other */
+    --d-tap:120ms; /* @kind other */
+    --d-ui:140ms; /* @kind other */
+    --d-swap-out:100ms; /* @kind other */
+    --d-swap-in:120ms; /* @kind other */
+    --d-pulse:140ms; /* @kind other */
+    --d-expand:140ms; /* @kind other */
+    --d-card:160ms; /* @kind other */
+    --d-wipe:160ms; /* @kind other */
+    --d-reveal:160ms; /* @kind other */
+    --d-hero:160ms; /* @kind other */
+    --d-skeleton:1600ms; /* @kind other */
+    --d-ambient:2400ms; /* @kind other */
+    --d-drawer:160ms; /* @kind other */
+    --lift-y:0px; /* @kind spacing */
+    --reveal-y:0px; /* @kind spacing */
+    --arrow-shift:0px; /* @kind spacing */
+    --swap-y:0px; /* @kind spacing */
+    --drawer-item-y:0px; /* @kind spacing */
+    --media-zoom:1; /* @kind other */
+    --pulse-scale:1; /* @kind other */
+    --emphasis-scale:1; /* @kind other */
+    --stagger-card:0ms; /* @kind other */
+    --stagger-swap:0ms; /* @kind other */
+    --stagger-inner:0ms; /* @kind other */
+  }
+}

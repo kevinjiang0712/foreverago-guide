@@ -1,0 +1,37 @@
+/* 4-base ladder, container, floor rhythm, hit targets. NOT themeable — the
+   information density of a guide site is the same whatever game it covers. */
+:root{
+  --s-1:4px; --s-2:8px; --s-3:12px; --s-4:16px; --s-5:20px;
+  --s-6:24px; --s-7:32px; --s-8:40px; --s-9:56px; --s-10:72px;
+  --s-11:96px; --s-12:120px; --s-13:160px;
+
+  --container:1240px;
+  --pad-page-pc:40px; --pad-page-pad:32px; --pad-page-mobile:20px;
+  --pad-page:clamp(20px,4vw,40px);
+
+  --grid-cols-pc:12; /* @kind other */ --grid-gap-pc:24px;
+  --grid-cols-pad:8; /* @kind other */ --grid-gap-pad:20px;
+  --grid-cols-mobile:4; /* @kind other */ --grid-gap-mobile:12px;
+
+  --floor-pc:120px; --floor-pad:88px; --floor-mobile:56px;
+  --floor:clamp(56px,9vw,120px); /* @kind spacing */
+
+  --card-pad-pc:24px; --card-pad-pad:20px; --card-pad-mobile:16px;
+
+  --h-btn-pc:46px; --h-btn-pad:48px; --h-btn-mobile:52px;
+  --h-input:46px;
+  --h-chip:36px;
+  --h-nav-pc:72px; --h-nav-pc-scrolled:60px; --h-nav-mobile:60px; --h-ad-mobile:50px;
+  --h-anchor-rail:44px;
+  --offset-anchor-pc:calc(var(--h-nav-pc-scrolled) + var(--h-anchor-rail) + 8px);
+  --offset-anchor-mobile:calc(var(--h-nav-mobile) + var(--h-anchor-rail) + 8px);
+  --hit-min:44px;
+
+  --bp-mobile:767px; --bp-pad:1179px; --bp-pc:1180px;
+
+  --z-grain:900; /* @kind other */
+  --z-nav:200; /* @kind other */
+  --z-rail:150; /* @kind other */
+  --z-drawer:300; /* @kind other */
+  --z-sheet:400; /* @kind other */
+}

@@ -48,8 +48,8 @@ it('keeps application weights and line heights on the core typography scale',asy
 });
 
 it('renders the typography reference cards from the same core tokens',async()=>{
- const body=await readFile('guidelines/type-body.card.html','utf8');
- const latin=await readFile('guidelines/type-latin.card.html','utf8');
+ const body=await readFile('tests/fixtures/design-system/guidelines/type-body.card.html','utf8');
+ const latin=await readFile('tests/fixtures/design-system/guidelines/type-latin.card.html','utf8');
  expect(body).toContain('font-size:var(--fs-h3)');
  expect(body).toContain('font-size:var(--fs-body)');
  expect(body).toContain('font-size:var(--fs-caption)');

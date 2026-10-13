@@ -6,7 +6,7 @@ import {bossIndexModel} from '../boss-index/model';
 import {characterDatabaseModel} from '../character-database/model';
 import {modIndexModel} from '../mod-index/model';
 
-export type ListEntry={id:string;path?:string;title:string;description:string;verification:string;thumbnail?:Asset;label?:string;facets:Record<string,string[]>;facts?:{label:string;value:string|number}[];downloads?:number|null;updatedAt?:string|null};
+export type ListEntry={id:string;path?:string;title:string;description:string;keywords?:string;verification:string;thumbnail?:Asset;label?:string;facets:Record<string,string[]>;facts?:{label:string;value:string|number}[];downloads?:number|null;updatedAt?:string|null};
 export type ListFacet={id:string;label:string;options:{id:string;label:string}[];multiple?:boolean;disabledReason?:string};
 export type ListModel={entries:ListEntry[];facets:ListFacet[];perPage:number;sortOptions?:{id:'listed'|'downloads'|'updated';label:string}[];notice?:{label:string;description:string};showcase?:{eyebrow:string;title:string;description:string};knownTotal?:number|null};
 export const standardPageSize=30;
@@ -21,7 +21,10 @@ export function listPageModel(index:ContentIndex,source:IndexedCategory|IndexedP
    const roles=[...new Set(entries.map(entry=>entry.label))];
    return {entries,facets:roles.length>1?[{id:'role',label:ui.section,options:roles.map(role=>({id:role,label:role}))}]:[],perPage:standardPageSize};
   }
-  const entries=source.pages.map(key=>{const page=index.pagesByKey[key];const thumbnailId=page.card?.image??page.assets.thumbnail;return {id:page.id,path:page.path,title:page.card?.title??page.title,description:page.card?.description??page.description,verification:ui[page.verification],thumbnail:thumbnailId?index.assets[thumbnailId]:undefined,label:page.listGroup?dictionary.listGroups[page.listGroup]:undefined,facets:{group:page.listGroup?[page.listGroup]:[]}};});
+  const taskFor=(id:string)=>/snooping|mosaic|bobblehead|guardian/.test(id)?'Optional quests':/camera|journal|selfie|dog-photo/.test(id)?'Camera and photos':/chapter-[123]/.test(id)?'Chapter photo routes':/memory|petal/.test(id)?'Memories and petals':/achievement|collectibles|completion/.test(id)?'Completion goals':/walkthrough|williamina|photo-puzzle/.test(id)?'Story and puzzle routes':'Game essentials';
+  const taskDirectory=index.site.siteId==='forever-ago';
+  const entries=source.pages.map(key=>{const page=index.pagesByKey[key];const thumbnailId=page.card?.image??page.assets.thumbnail;const task=taskFor(page.id);return {id:page.id,path:page.path,title:page.card?.title??page.title,description:page.card?.description??page.description,keywords:page.id.replaceAll('-',' '),verification:ui[page.verification],thumbnail:thumbnailId?index.assets[thumbnailId]:undefined,label:taskDirectory?task:page.listGroup?dictionary.listGroups[page.listGroup]:undefined,facets:{group:page.listGroup?[page.listGroup]:[],task:taskDirectory?[task]:[]}};});
+  if(taskDirectory){const tasks=[...new Set(entries.flatMap(entry=>entry.facets.task))];return {entries,facets:tasks.length>1?[{id:'task',label:'Choose a task',options:tasks.map(task=>({id:task,label:task}))}]:[],perPage:standardPageSize};}
   const groups=[...new Set(entries.flatMap(entry=>entry.facets.group))];
   return {entries,facets:groups.length>1?[{id:'group',label:ui.section,options:groups.map(id=>({id,label:dictionary.listGroups[id]}))}]:[],perPage:standardPageSize};
  }
