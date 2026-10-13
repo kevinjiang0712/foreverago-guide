@@ -1,0 +1,360 @@
+{
+  "checkedAt": "2026-10-13T02:55:46.534Z",
+  "release": "af4a2ee",
+  "siteUrl": "https://www.foreverago-guide.wiki/",
+  "routeCount": 43,
+  "passed": true,
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 172681,
+      "matchesExport": true
+    },
+    {
+      "path": "/review",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 93635,
+      "matchesExport": true
+    },
+    {
+      "path": "/guide",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 121001,
+      "matchesExport": true
+    },
+    {
+      "path": "/maps",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 101591,
+      "matchesExport": true
+    },
+    {
+      "path": "/story",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 92100,
+      "matchesExport": true
+    },
+    {
+      "path": "/walkthrough",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 99155,
+      "matchesExport": true
+    },
+    {
+      "path": "/characters",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 92223,
+      "matchesExport": true
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 97456,
+      "matchesExport": true
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 95751,
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-achievements",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 197600,
+      "matchesExport": true
+    },
+    {
+      "path": "/characters/forever-ago-audrey-story",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 141042,
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-camera-achievements",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 140893,
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-camera-controls",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 149270,
+      "matchesExport": true
+    },
+    {
+      "path": "/maps/forever-ago-chapter-1-photos",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 138639,
+      "matchesExport": true
+    },
+    {
+      "path": "/maps/forever-ago-chapter-2-photos",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 137878,
+      "matchesExport": true
+    },
+    {
+      "path": "/maps/forever-ago-chapter-3-photos",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 136734,
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-chapter-select",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 144289,
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-checkpoint-save",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 127188,
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-collectibles",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 191817,
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-completion-tracker",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 203930,
+      "matchesExport": true
+    },
+    {
+      "path": "/walkthrough/forever-ago-dog-photo",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 139402,
+      "matchesExport": true
+    },
+    {
+      "path": "/story/forever-ago-ending-explained",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 139912,
+      "matchesExport": true
+    },
+    {
+      "path": "/review/forever-ago-game-length",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 126150,
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-gameplay",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 140204,
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-guardian-lord",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 115708,
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-hidden-achievements",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 144569,
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-journal-photos",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 140916,
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-marleys-bobblehead",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 114999,
+      "matchesExport": true
+    },
+    {
+      "path": "/maps/forever-ago-memory-locations",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 160503,
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-missable-achievements",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 145652,
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-mosaic-pumpkins",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 115835,
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-old-bones-achievement",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 156806,
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-petal-collector-achievement",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 145164,
+      "matchesExport": true
+    },
+    {
+      "path": "/maps/forever-ago-petal-locations",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 156754,
+      "matchesExport": true
+    },
+    {
+      "path": "/maps/forever-ago-photo-locations",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 163894,
+      "matchesExport": true
+    },
+    {
+      "path": "/walkthrough/forever-ago-photo-puzzle",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 140257,
+      "matchesExport": true
+    },
+    {
+      "path": "/review/forever-ago-review",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 138907,
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-selfie-achievement",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 139365,
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-snooping-shutterbug",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 116110,
+      "matchesExport": true
+    },
+    {
+      "path": "/walkthrough/forever-ago-walkthrough",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 133533,
+      "matchesExport": true
+    },
+    {
+      "path": "/walkthrough/forever-ago-williamina-peak",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 140395,
+      "matchesExport": true
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 100912,
+      "matchesExport": true
+    },
+    {
+      "path": "/terms",
+      "status": 200,
+      "contentEncoding": "br",
+      "bytes": 97504,
+      "matchesExport": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "/media/road-trip-art-640.avif",
+      "status": 200,
+      "type": "image/avif",
+      "bytes": 25233
+    },
+    {
+      "path": "/media/road-trip-art-960.avif",
+      "status": 200,
+      "type": "image/avif",
+      "bytes": 46762
+    },
+    {
+      "path": "/media/road-trip-art-1600.avif",
+      "status": 200,
+      "type": "image/avif",
+      "bytes": 111508
+    },
+    {
+      "path": "/media/campfire-art-640.avif",
+      "status": 200,
+      "type": "image/avif",
+      "bytes": 18567
+    },
+    {
+      "path": "/media/campfire-art-960.avif",
+      "status": 200,
+      "type": "image/avif",
+      "bytes": 33643
+    },
+    {
+      "path": "/media/campfire-art-1600.avif",
+      "status": 200,
+      "type": "image/avif",
+      "bytes": 64099
+    }
+  ],
+  "sitemap": {
+    "status": 200,
+    "matchesExport": true,
+    "urlCount": 43
+  },
+  "notFound": {
+    "status": 404
+  },
+  "bareDomain": {
+    "status": 301,
+    "location": "https://www.foreverago-guide.wiki/"
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "checkedAt": "2026-10-13T03:10:05.727Z",
+  "release": "66211f7",
+  "deployment": "https://11fb8473.foreverago-guide.pages.dev",
+  "passed": true,
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/review",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/guide",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/maps",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/story",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/walkthrough",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/characters",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-achievements",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/characters/forever-ago-audrey-story",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-camera-achievements",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-camera-controls",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/maps/forever-ago-chapter-1-photos",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/maps/forever-ago-chapter-2-photos",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/maps/forever-ago-chapter-3-photos",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-chapter-select",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-checkpoint-save",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-collectibles",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-completion-tracker",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/walkthrough/forever-ago-dog-photo",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/story/forever-ago-ending-explained",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/review/forever-ago-game-length",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-gameplay",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-guardian-lord",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-hidden-achievements",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-journal-photos",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-marleys-bobblehead",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/maps/forever-ago-memory-locations",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-missable-achievements",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-mosaic-pumpkins",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-old-bones-achievement",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-petal-collector-achievement",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/maps/forever-ago-petal-locations",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/maps/forever-ago-photo-locations",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/walkthrough/forever-ago-photo-puzzle",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/review/forever-ago-review",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-selfie-achievement",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/guide/forever-ago-snooping-shutterbug",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/walkthrough/forever-ago-walkthrough",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/walkthrough/forever-ago-williamina-peak",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    },
+    {
+      "path": "/terms",
+      "status": 200,
+      "encoding": "br",
+      "matchesExport": true
+    }
+  ],
+  "sitemap": {
+    "status": 200,
+    "matchesExport": true,
+    "urlCount": 43
+  }
+}

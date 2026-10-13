@@ -1,0 +1,470 @@
+{
+  "release": "af4a2ee",
+  "desktop": {
+    "viewport": 1920,
+    "responses": [
+      {
+        "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+        "status": 403
+      },
+      {
+        "path": "/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+        "status": 403
+      },
+      {
+        "path": "/22/a5dd169b5c2f54b123c1cee7d1687132",
+        "status": 403
+      },
+      {
+        "path": "/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+        "status": 403
+      },
+      {
+        "path": "/22/a5dd169b5c2f54b123c1cee7d1687132",
+        "status": 403
+      }
+    ]
+  },
+  "checkedAt": "2026-10-13T02:57:38.758Z",
+  "rows": [
+    {
+      "status": 200,
+      "overflow": false,
+      "hero": [
+        {
+          "src": "/media/road-trip-art-640.avif",
+          "loaded": true
+        }
+      ],
+      "responses": [
+        {
+          "path": "/tag/ywlgmczujj",
+          "status": 200,
+          "host": "www.clarity.ms",
+          "family": "clarity-loader"
+        },
+        {
+          "path": "/gtag/js",
+          "status": 200,
+          "host": "www.googletagmanager.com",
+          "family": "ga4-loader"
+        },
+        {
+          "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+          "status": 403,
+          "host": "bauval.org",
+          "family": "adsterra"
+        },
+        {
+          "path": "/collect",
+          "status": 204,
+          "host": "h.clarity.ms",
+          "family": "clarity-collect"
+        },
+        {
+          "path": "/g/collect",
+          "status": 204,
+          "host": "www.google-analytics.com",
+          "family": "ga4-collect"
+        },
+        {
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "host": "bauval.org",
+          "family": "adsterra"
+        },
+        {
+          "path": "/22/022560a71834d120ae48f9d385b4d880",
+          "status": 403,
+          "host": "bauval.org",
+          "family": "adsterra"
+        }
+      ],
+      "slots": [
+        {
+          "ready": "true",
+          "expanded": "false",
+          "slot": "native"
+        },
+        {
+          "ready": "true",
+          "expanded": "false",
+          "slot": "inline"
+        },
+        {
+          "ready": "true",
+          "expanded": "false",
+          "slot": "anchor"
+        }
+      ],
+      "path": "/guide/forever-ago-completion-tracker",
+      "ga4Collect": 204,
+      "clarityCollect": 204,
+      "pageErrors": []
+    },
+    {
+      "status": 200,
+      "overflow": false,
+      "hero": [
+        {
+          "src": "/media/road-trip-art-640.avif",
+          "loaded": true
+        }
+      ],
+      "responses": [
+        {
+          "path": "/gtag/js",
+          "status": 200,
+          "host": "www.googletagmanager.com",
+          "family": "ga4-loader"
+        },
+        {
+          "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+          "status": 403,
+          "host": "bauval.org",
+          "family": "adsterra"
+        },
+        {
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "host": "bauval.org",
+          "family": "adsterra"
+        },
+        {
+          "path": "/tag/ywlgmczujj",
+          "status": 200,
+          "host": "www.clarity.ms",
+          "family": "clarity-loader"
+        },
+        {
+          "path": "/collect",
+          "status": 204,
+          "host": "h.clarity.ms",
+          "family": "clarity-collect"
+        },
+        {
+          "path": "/g/collect",
+          "status": 204,
+          "host": "www.google-analytics.com",
+          "family": "ga4-collect"
+        },
+        {
+          "path": "/22/022560a71834d120ae48f9d385b4d880",
+          "status": 403,
+          "host": "bauval.org",
+          "family": "adsterra"
+        }
+      ],
+      "slots": [
+        {
+          "ready": "true",
+          "expanded": "false",
+          "slot": "native"
+        },
+        {
+          "ready": "true",
+          "expanded": "false",
+          "slot": "inline"
+        },
+        {
+          "ready": "true",
+          "expanded": "false",
+          "slot": "anchor"
+        }
+      ],
+      "path": "/walkthrough/forever-ago-walkthrough",
+      "ga4Collect": 204,
+      "clarityCollect": 204,
+      "pageErrors": []
+    },
+    {
+      "status": 200,
+      "overflow": false,
+      "hero": [
+        {
+          "src": "/media/road-trip-art-640.avif",
+          "loaded": true
+        }
+      ],
+      "responses": [
+        {
+          "path": "/gtag/js",
+          "status": 200,
+          "host": "www.googletagmanager.com",
+          "family": "ga4-loader"
+        },
+        {
+          "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+          "status": 403,
+          "host": "bauval.org",
+          "family": "adsterra"
+        },
+        {
+          "path": "/tag/ywlgmczujj",
+          "status": 200,
+          "host": "www.clarity.ms",
+          "family": "clarity-loader"
+        },
+        {
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "host": "bauval.org",
+          "family": "adsterra"
+        },
+        {
+          "path": "/collect",
+          "status": 204,
+          "host": "h.clarity.ms",
+          "family": "clarity-collect"
+        },
+        {
+          "path": "/g/collect",
+          "status": 204,
+          "host": "www.google-analytics.com",
+          "family": "ga4-collect"
+        }
+      ],
+      "slots": [
+        {
+          "ready": "true",
+          "expanded": "false",
+          "slot": "native"
+        },
+        {
+          "ready": "false",
+          "expanded": "false",
+          "slot": "inline"
+        },
+        {
+          "ready": "true",
+          "expanded": "false",
+          "slot": "anchor"
+        }
+      ],
+      "path": "/guide/forever-ago-snooping-shutterbug",
+      "ga4Collect": 204,
+      "clarityCollect": 204,
+      "pageErrors": []
+    },
+    {
+      "status": 200,
+      "overflow": false,
+      "hero": [
+        {
+          "src": "/media/road-trip-art-640.avif",
+          "loaded": true
+        }
+      ],
+      "responses": [
+        {
+          "path": "/gtag/js",
+          "status": 200,
+          "host": "www.googletagmanager.com",
+          "family": "ga4-loader"
+        },
+        {
+          "path": "/tag/ywlgmczujj",
+          "status": 200,
+          "host": "www.clarity.ms",
+          "family": "clarity-loader"
+        },
+        {
+          "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+          "status": 403,
+          "host": "bauval.org",
+          "family": "adsterra"
+        },
+        {
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "host": "bauval.org",
+          "family": "adsterra"
+        },
+        {
+          "path": "/collect",
+          "status": 204,
+          "host": "h.clarity.ms",
+          "family": "clarity-collect"
+        },
+        {
+          "path": "/22/022560a71834d120ae48f9d385b4d880",
+          "status": 403,
+          "host": "bauval.org",
+          "family": "adsterra"
+        },
+        {
+          "path": "/g/collect",
+          "status": 204,
+          "host": "www.google-analytics.com",
+          "family": "ga4-collect"
+        }
+      ],
+      "slots": [
+        {
+          "ready": "true",
+          "expanded": "false",
+          "slot": "native"
+        },
+        {
+          "ready": "true",
+          "expanded": "false",
+          "slot": "inline"
+        },
+        {
+          "ready": "true",
+          "expanded": "false",
+          "slot": "anchor"
+        }
+      ],
+      "path": "/guide/forever-ago-mosaic-pumpkins",
+      "ga4Collect": 204,
+      "clarityCollect": 204,
+      "pageErrors": []
+    },
+    {
+      "status": 200,
+      "overflow": false,
+      "hero": [
+        {
+          "src": "/media/road-trip-art-640.avif",
+          "loaded": true
+        }
+      ],
+      "responses": [
+        {
+          "path": "/gtag/js",
+          "status": 200,
+          "host": "www.googletagmanager.com",
+          "family": "ga4-loader"
+        },
+        {
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "host": "bauval.org",
+          "family": "adsterra"
+        },
+        {
+          "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+          "status": 403,
+          "host": "bauval.org",
+          "family": "adsterra"
+        },
+        {
+          "path": "/tag/ywlgmczujj",
+          "status": 200,
+          "host": "www.clarity.ms",
+          "family": "clarity-loader"
+        },
+        {
+          "path": "/collect",
+          "status": 204,
+          "host": "h.clarity.ms",
+          "family": "clarity-collect"
+        },
+        {
+          "path": "/g/collect",
+          "status": 204,
+          "host": "www.google-analytics.com",
+          "family": "ga4-collect"
+        }
+      ],
+      "slots": [
+        {
+          "ready": "true",
+          "expanded": "false",
+          "slot": "native"
+        },
+        {
+          "ready": "false",
+          "expanded": "false",
+          "slot": "inline"
+        },
+        {
+          "ready": "true",
+          "expanded": "false",
+          "slot": "anchor"
+        }
+      ],
+      "path": "/guide/forever-ago-marleys-bobblehead",
+      "ga4Collect": 204,
+      "clarityCollect": 204,
+      "pageErrors": []
+    },
+    {
+      "status": 200,
+      "overflow": false,
+      "hero": [
+        {
+          "src": "/media/road-trip-art-640.avif",
+          "loaded": true
+        }
+      ],
+      "responses": [
+        {
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "host": "bauval.org",
+          "family": "adsterra"
+        },
+        {
+          "path": "/gtag/js",
+          "status": 200,
+          "host": "www.googletagmanager.com",
+          "family": "ga4-loader"
+        },
+        {
+          "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+          "status": 403,
+          "host": "bauval.org",
+          "family": "adsterra"
+        },
+        {
+          "path": "/tag/ywlgmczujj",
+          "status": 200,
+          "host": "www.clarity.ms",
+          "family": "clarity-loader"
+        },
+        {
+          "path": "/22/022560a71834d120ae48f9d385b4d880",
+          "status": 403,
+          "host": "bauval.org",
+          "family": "adsterra"
+        },
+        {
+          "path": "/collect",
+          "status": 204,
+          "host": "h.clarity.ms",
+          "family": "clarity-collect"
+        },
+        {
+          "path": "/g/collect",
+          "status": 204,
+          "host": "www.google-analytics.com",
+          "family": "ga4-collect"
+        }
+      ],
+      "slots": [
+        {
+          "ready": "true",
+          "expanded": "false",
+          "slot": "native"
+        },
+        {
+          "ready": "true",
+          "expanded": "false",
+          "slot": "inline"
+        },
+        {
+          "ready": "true",
+          "expanded": "false",
+          "slot": "anchor"
+        }
+      ],
+      "path": "/guide/forever-ago-guardian-lord",
+      "ga4Collect": 204,
+      "clarityCollect": 204,
+      "pageErrors": []
+    }
+  ],
+  "passed": true
+}

@@ -1,6 +1,6 @@
-# Release actions
+# Release outcome
 
-- Completed: content/tool/navigation/SEO improvements, independent code review fixes, 465 unit checks, 18 release E2E checks and all-route validation.
-- Release: commit and push the verified changes; upload the static export to the existing Cloudflare Pages production project.
-- Post-deployment: verify all 43 routes, retained official trailer, all six new pages' real GA4/Clarity requests, responsive ad-loader requests and proxy 403 behavior; remeasure production mobile performance.
-- Preserve evidence boundaries: indexing, field CWV, traffic, ad fill, revenue and ranking improvements require later observed data. No multilingual work is included.
+- Completed and deployed: 32 game guides including 6 new pages, 53-task completion tools, direct navigation, search and source/platform-aware metadata and content. No multilingual expansion.
+- Completed checks: lint, TypeScript, static export, 466 unit tests, 18 E2E, independent source reviews, all 43 production routes and sitemap, GA4/Clarity 204 and expected proxy Adsterra 403 loader receipts.
+- Performance changes shipped: registered responsive AVIF art, first-view font preloads and CSS reduced by 24.7%. Simulated mobile LCP remains above 2.5 s; field CWV has no current receipt.
+- Application commit: 66211f7. Production deployment: https://11fb8473.foreverago-guide.pages.dev. Growth, indexing, ad fill and revenue are unmeasured outcomes.
