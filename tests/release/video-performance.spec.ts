@@ -7,6 +7,7 @@ test('trailer loads the player only after keyboard activation',async({page})=>{
   await route.fulfill({contentType:'text/html',body:'<!doctype html><title>Trailer player</title>'});
  });
  await page.goto('/',{waitUntil:'networkidle'});
+ await expect(page.locator('link[rel="preload"][href="/media/fonts/figtree-600.woff2"]').first()).toHaveAttribute('as','font');
  expect(playerRequests).toEqual([]);
  await expect(page.locator('.video-embed iframe')).toHaveCount(0);
  const preview=page.getByRole('button',{name:/Play.*trailer/i});

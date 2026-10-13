@@ -1,0 +1,16 @@
+{
+  "state": {
+    "googleTag": "function",
+    "clarity": "function",
+    "analyticsScripts": [
+      "https://scripts.clarity.ms/0.8.72-beta/clarity.js",
+      "https://www.clarity.ms/tag/ywlgmczujj",
+      "https://www.googletagmanager.com/gtag/js?id=G-1L7F54XGRR",
+      "https://bauval.org/22/43675deabe0c7d508546483f93c3f9e5"
+    ],
+    "overflow": false,
+    "playerCount": 0,
+    "previewCount": 1
+  },
+  "collectorReceipt": "Not obtained: waiting for collector response exceeded 20 seconds."
+}

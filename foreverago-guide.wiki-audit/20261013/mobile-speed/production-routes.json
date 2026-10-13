@@ -1,0 +1,352 @@
+{
+  "deployment": "https://4ccccc89.foreverago-guide.pages.dev",
+  "applicationCommit": "a626472",
+  "passed": true,
+  "count": 43,
+  "rows": [
+    {
+      "path": "/",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": true
+    },
+    {
+      "path": "/review",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/guide",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/maps",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/story",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/walkthrough",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/characters",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/guide/forever-ago-achievements",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/characters/forever-ago-audrey-story",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/guide/forever-ago-camera-achievements",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/guide/forever-ago-camera-controls",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/maps/forever-ago-chapter-1-photos",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/maps/forever-ago-chapter-2-photos",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/maps/forever-ago-chapter-3-photos",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/guide/forever-ago-chapter-select",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/guide/forever-ago-checkpoint-save",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/guide/forever-ago-collectibles",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/guide/forever-ago-completion-tracker",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/walkthrough/forever-ago-dog-photo",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/story/forever-ago-ending-explained",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/review/forever-ago-game-length",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/guide/forever-ago-gameplay",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/guide/forever-ago-guardian-lord",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/guide/forever-ago-hidden-achievements",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/guide/forever-ago-journal-photos",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/guide/forever-ago-marleys-bobblehead",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/maps/forever-ago-memory-locations",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/guide/forever-ago-missable-achievements",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/guide/forever-ago-mosaic-pumpkins",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/guide/forever-ago-old-bones-achievement",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/guide/forever-ago-petal-collector-achievement",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/maps/forever-ago-petal-locations",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/maps/forever-ago-photo-locations",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/walkthrough/forever-ago-photo-puzzle",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/review/forever-ago-review",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/guide/forever-ago-selfie-achievement",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/guide/forever-ago-snooping-shutterbug",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/walkthrough/forever-ago-walkthrough",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/walkthrough/forever-ago-williamina-peak",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    },
+    {
+      "path": "/terms",
+      "status": 200,
+      "sameTitle": true,
+      "sameStyles": true,
+      "sameHtml": false,
+      "preview": null
+    }
+  ]
+}
