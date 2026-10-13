@@ -49,3 +49,26 @@ All 43 production routes returned 200, with titles and stylesheet references mat
 ## Font follow-up validation
 
 The final static export compiled, type-checked and built successfully. The Figtree 600 preload has `as=font`, WOFF2 type and anonymous crossorigin, and its real local file exists. The updated real-browser trailer regression passed, including the preload assertion, no initial player request, keyboard activation and stable dimensions. All earlier broad-suite limitations above remain applicable.
+
+## Final production release and retest
+
+Application commit `dff3044`, deployment https://c0eff823.foreverago-guide.pages.dev, production https://www.foreverago-guide.wiki/.
+
+Final public mobile report: https://pagespeed.web.dev/analysis/https-www-foreverago-guide-wiki/2f5tbw3l6k?form_factor=mobile
+
+| Metric | Original | Final production |
+| --- | --- | --- |
+| Performance | 44 | 69 |
+| FCP | 7.2 s | 2.1 s |
+| LCP | 10.8 s | 7.4 s |
+| TBT | 570 ms | 110 ms |
+| CLS | 0 | 0 |
+| Accessibility | 100 | 100 |
+| Best Practices | 92 | 96 |
+| SEO | 100 | 100 |
+
+Both public samples used Lighthouse 13.5.0, emulated Moto G Power and slow 4G. Scores vary across samples; the first production retest scored 64. No gain is attributed to the font change in isolation. The verified player transfer reduction is about 974 to 13 KiB, and the final report no longer runs YouTube player JavaScript before playback. Services remain enabled; this is not the preview's analytics-free score of 86.
+
+The final verification fetched all 43 production routes and compared their SHA-256 hashes with the tested export after removing only the independently identified Cloudflare beacon script. All 43 returned 200 and matched exactly. The canonical domain also serves the added semibold preload. Evidence: `production-routes-final.json`, `psi-production-final.json`.
+
+Remaining limits: simulated LCP is still 7.4 s, so this is not a green performance score or a field-CWV pass. The ad supplier's HTTP 402 console warning remains in the public test. Broad unit and six-page integration timeouts remain recorded above; the full suites are not claimed as passing.

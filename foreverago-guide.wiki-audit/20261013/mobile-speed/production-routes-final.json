@@ -1,0 +1,310 @@
+{
+  "deployment": "https://c0eff823.foreverago-guide.pages.dev",
+  "applicationCommit": "dff3044",
+  "normalization": "Remove only the independently verified Cloudflare beacon script",
+  "passed": true,
+  "count": 43,
+  "rows": [
+    {
+      "path": "/",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "738c7ea9909782f3afd6ea6fb713e462d0afec24ced64dc70977bb503ad20841",
+      "exportSha256": "738c7ea9909782f3afd6ea6fb713e462d0afec24ced64dc70977bb503ad20841"
+    },
+    {
+      "path": "/review",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "f993d0a23b77695efbd332bfa6a3d23cf5825a7e2e973b89a879ee87a88fdb79",
+      "exportSha256": "f993d0a23b77695efbd332bfa6a3d23cf5825a7e2e973b89a879ee87a88fdb79"
+    },
+    {
+      "path": "/guide",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "5fb63798b711e42d8730dcd30250dfd50c999379d12bfd72f31ed3b56cf94687",
+      "exportSha256": "5fb63798b711e42d8730dcd30250dfd50c999379d12bfd72f31ed3b56cf94687"
+    },
+    {
+      "path": "/maps",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "f30c1ad5b608f26e0396efcbe3439afe0b92541edd88f7e57cb1dffb0d13cde8",
+      "exportSha256": "f30c1ad5b608f26e0396efcbe3439afe0b92541edd88f7e57cb1dffb0d13cde8"
+    },
+    {
+      "path": "/story",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "8d57fd3b2f1d2aa1f5d141c10d9d8bebedfdb89b16c9b9cbf9ee9ed1f4a960cf",
+      "exportSha256": "8d57fd3b2f1d2aa1f5d141c10d9d8bebedfdb89b16c9b9cbf9ee9ed1f4a960cf"
+    },
+    {
+      "path": "/walkthrough",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "87a9a64407dc157762155b246d7ce2755f47c2449a25090616152864ff476a44",
+      "exportSha256": "87a9a64407dc157762155b246d7ce2755f47c2449a25090616152864ff476a44"
+    },
+    {
+      "path": "/characters",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "86b80c49f5fdc1c3ed624e4886802af4bc124567fb83854f31763ef34003145a",
+      "exportSha256": "86b80c49f5fdc1c3ed624e4886802af4bc124567fb83854f31763ef34003145a"
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "6a7287f09890abd3486645ea13adbcf1bc9bc4065089e2ff441a524dc1575488",
+      "exportSha256": "6a7287f09890abd3486645ea13adbcf1bc9bc4065089e2ff441a524dc1575488"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "807296caa76477495f5f66da5f88938aa043d859439067495f7109cafc6344cc",
+      "exportSha256": "807296caa76477495f5f66da5f88938aa043d859439067495f7109cafc6344cc"
+    },
+    {
+      "path": "/guide/forever-ago-achievements",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "c40d5da731bf1adf7c4e0ddee34bd9808d5f7baacb1591c6cd41b4e49d69edc8",
+      "exportSha256": "c40d5da731bf1adf7c4e0ddee34bd9808d5f7baacb1591c6cd41b4e49d69edc8"
+    },
+    {
+      "path": "/characters/forever-ago-audrey-story",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "e3d2c4d3c87629e0fe97a20236a89ebe604041346bf9027942c2090612105ca2",
+      "exportSha256": "e3d2c4d3c87629e0fe97a20236a89ebe604041346bf9027942c2090612105ca2"
+    },
+    {
+      "path": "/guide/forever-ago-camera-achievements",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "f8e6d67555f42d5d0f61a87d30c23ee5a8ef2db3dc784a4a33cc81a232f64437",
+      "exportSha256": "f8e6d67555f42d5d0f61a87d30c23ee5a8ef2db3dc784a4a33cc81a232f64437"
+    },
+    {
+      "path": "/guide/forever-ago-camera-controls",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "5e70b25e9723773e3ed15be2d5cc8851119ab7c8ab89734c94497f7a9f5038c0",
+      "exportSha256": "5e70b25e9723773e3ed15be2d5cc8851119ab7c8ab89734c94497f7a9f5038c0"
+    },
+    {
+      "path": "/maps/forever-ago-chapter-1-photos",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "c5919d9ea8609230edb4c3e9b652f21ec9674a19d05a16307f8cae9eb9e61aec",
+      "exportSha256": "c5919d9ea8609230edb4c3e9b652f21ec9674a19d05a16307f8cae9eb9e61aec"
+    },
+    {
+      "path": "/maps/forever-ago-chapter-2-photos",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "bb3048c62bd970c2408465a8358e7c99dae254e878f051cf321b87dc553b5000",
+      "exportSha256": "bb3048c62bd970c2408465a8358e7c99dae254e878f051cf321b87dc553b5000"
+    },
+    {
+      "path": "/maps/forever-ago-chapter-3-photos",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "e7266b00f1354d0d9042047bf505858c330cc6f78a67e9676f67db55151efd46",
+      "exportSha256": "e7266b00f1354d0d9042047bf505858c330cc6f78a67e9676f67db55151efd46"
+    },
+    {
+      "path": "/guide/forever-ago-chapter-select",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "0dd30e87a9916319f436fdde7ff3c077686d2ebe42ac0f93c3dc73ffaf4d120e",
+      "exportSha256": "0dd30e87a9916319f436fdde7ff3c077686d2ebe42ac0f93c3dc73ffaf4d120e"
+    },
+    {
+      "path": "/guide/forever-ago-checkpoint-save",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "4a7ad2869d56f2d424bc58fd761dff7c60b74c6099f0f0ee5ef5a62daa49507d",
+      "exportSha256": "4a7ad2869d56f2d424bc58fd761dff7c60b74c6099f0f0ee5ef5a62daa49507d"
+    },
+    {
+      "path": "/guide/forever-ago-collectibles",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "e0f00ff92e64af33278c4b4ef55650836644a6ec824c88ff3fdf87becb5af023",
+      "exportSha256": "e0f00ff92e64af33278c4b4ef55650836644a6ec824c88ff3fdf87becb5af023"
+    },
+    {
+      "path": "/guide/forever-ago-completion-tracker",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "63ac38c97700ea5473d53280915e15ed39a1ae32c96998d880889f526a267c95",
+      "exportSha256": "63ac38c97700ea5473d53280915e15ed39a1ae32c96998d880889f526a267c95"
+    },
+    {
+      "path": "/walkthrough/forever-ago-dog-photo",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "e4a547ffbb0e6a7bf2f74374c51b12ee4eb5da6ee40a7ec58baedd0a08657ad1",
+      "exportSha256": "e4a547ffbb0e6a7bf2f74374c51b12ee4eb5da6ee40a7ec58baedd0a08657ad1"
+    },
+    {
+      "path": "/story/forever-ago-ending-explained",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "de253d30beaf28ab0e5e09481661f961a53707dadb22a26e219607593a3c48a1",
+      "exportSha256": "de253d30beaf28ab0e5e09481661f961a53707dadb22a26e219607593a3c48a1"
+    },
+    {
+      "path": "/review/forever-ago-game-length",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "0ab38b455598826a1516da907e541cfdf9302c220b713f50b0fb265d6a09203c",
+      "exportSha256": "0ab38b455598826a1516da907e541cfdf9302c220b713f50b0fb265d6a09203c"
+    },
+    {
+      "path": "/guide/forever-ago-gameplay",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "3465a29c75e5fe69362819321d4e05fdbde7db8922d0e4e1d3c6f47938d86c57",
+      "exportSha256": "3465a29c75e5fe69362819321d4e05fdbde7db8922d0e4e1d3c6f47938d86c57"
+    },
+    {
+      "path": "/guide/forever-ago-guardian-lord",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "f2404d8c3353df35a332f4061cafaf486cd9d7f65dc9d11a123e602be2675de8",
+      "exportSha256": "f2404d8c3353df35a332f4061cafaf486cd9d7f65dc9d11a123e602be2675de8"
+    },
+    {
+      "path": "/guide/forever-ago-hidden-achievements",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "ab0ba407e59b4828f811a5900c434a6dd222627d5c581dce64a2b07966319822",
+      "exportSha256": "ab0ba407e59b4828f811a5900c434a6dd222627d5c581dce64a2b07966319822"
+    },
+    {
+      "path": "/guide/forever-ago-journal-photos",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "9fa7184fb85152b147f07e6af27e3f1aca1bb42095afa53acf4a4f3ce1ccf66a",
+      "exportSha256": "9fa7184fb85152b147f07e6af27e3f1aca1bb42095afa53acf4a4f3ce1ccf66a"
+    },
+    {
+      "path": "/guide/forever-ago-marleys-bobblehead",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "c929e31fddff37da99ad64cc83b203ac34948b56c986364df5fd688e183f3b7d",
+      "exportSha256": "c929e31fddff37da99ad64cc83b203ac34948b56c986364df5fd688e183f3b7d"
+    },
+    {
+      "path": "/maps/forever-ago-memory-locations",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "7d69055dc7078db832236d2eda6529bf1417fc71fabf9c7a9ae5fb2096581281",
+      "exportSha256": "7d69055dc7078db832236d2eda6529bf1417fc71fabf9c7a9ae5fb2096581281"
+    },
+    {
+      "path": "/guide/forever-ago-missable-achievements",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "156c5c721f2646a3a4e6f0c4f51d4caff53757ad6db09e1ff8d57392be1babfb",
+      "exportSha256": "156c5c721f2646a3a4e6f0c4f51d4caff53757ad6db09e1ff8d57392be1babfb"
+    },
+    {
+      "path": "/guide/forever-ago-mosaic-pumpkins",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "3ae58a025d5ca3d2f8f2d68f65c5d4041512f822fb870a438c46bf60642f23b7",
+      "exportSha256": "3ae58a025d5ca3d2f8f2d68f65c5d4041512f822fb870a438c46bf60642f23b7"
+    },
+    {
+      "path": "/guide/forever-ago-old-bones-achievement",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "a611be1ee74cca73958acdc2e220b8304d511c55a050b2254ccaf1542649c6af",
+      "exportSha256": "a611be1ee74cca73958acdc2e220b8304d511c55a050b2254ccaf1542649c6af"
+    },
+    {
+      "path": "/guide/forever-ago-petal-collector-achievement",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "8e5ce411bb47f05f92419b1254a4270a759382e742e211e48b17e2f279cc2ac9",
+      "exportSha256": "8e5ce411bb47f05f92419b1254a4270a759382e742e211e48b17e2f279cc2ac9"
+    },
+    {
+      "path": "/maps/forever-ago-petal-locations",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "fab291dca03c41f82c07fd51b3c52ed0c6c06c30f1546de3e460d8b8488d0d95",
+      "exportSha256": "fab291dca03c41f82c07fd51b3c52ed0c6c06c30f1546de3e460d8b8488d0d95"
+    },
+    {
+      "path": "/maps/forever-ago-photo-locations",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "ca3b0a5c6a0187801aa22ee8f0fd43d2b905eee0540776ac2acf7867c8a8b5e5",
+      "exportSha256": "ca3b0a5c6a0187801aa22ee8f0fd43d2b905eee0540776ac2acf7867c8a8b5e5"
+    },
+    {
+      "path": "/walkthrough/forever-ago-photo-puzzle",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "a16675c222d68e1e825fa42e7a5f5f972c001b7477f9712250cb3f76d9b60135",
+      "exportSha256": "a16675c222d68e1e825fa42e7a5f5f972c001b7477f9712250cb3f76d9b60135"
+    },
+    {
+      "path": "/review/forever-ago-review",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "03d0351cb230b642641fd51f09867ea83fb83743b28d54e2e91d937bdf371b88",
+      "exportSha256": "03d0351cb230b642641fd51f09867ea83fb83743b28d54e2e91d937bdf371b88"
+    },
+    {
+      "path": "/guide/forever-ago-selfie-achievement",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "5eac404b8baad204713d64563663e000108c60caf36c8814baee50b7f678ea2c",
+      "exportSha256": "5eac404b8baad204713d64563663e000108c60caf36c8814baee50b7f678ea2c"
+    },
+    {
+      "path": "/guide/forever-ago-snooping-shutterbug",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "42310ea7779247f4fdb6637a8fe36c5ea5d15e7326b36212b071396b2ca14101",
+      "exportSha256": "42310ea7779247f4fdb6637a8fe36c5ea5d15e7326b36212b071396b2ca14101"
+    },
+    {
+      "path": "/walkthrough/forever-ago-walkthrough",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "eafd6a97fe1301cccceaeaa2f5ef1c333a558f104625984a8694899db2f10206",
+      "exportSha256": "eafd6a97fe1301cccceaeaa2f5ef1c333a558f104625984a8694899db2f10206"
+    },
+    {
+      "path": "/walkthrough/forever-ago-williamina-peak",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "db1a5e8e75f8ed8371d288b659b7ea7893cf6f26945bf8900dd01176ea9152a9",
+      "exportSha256": "db1a5e8e75f8ed8371d288b659b7ea7893cf6f26945bf8900dd01176ea9152a9"
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "5932db2ac240e4a4c15954e62ad121b8eeb81593420c37e519d6e9c4fa789a0b",
+      "exportSha256": "5932db2ac240e4a4c15954e62ad121b8eeb81593420c37e519d6e9c4fa789a0b"
+    },
+    {
+      "path": "/terms",
+      "status": 200,
+      "matchesExportAfterBeaconRemoval": true,
+      "productionSha256": "02779364264ffe1c58e1de4611d9c8a4d43356564cbe8015c37610de22a98ee0",
+      "exportSha256": "02779364264ffe1c58e1de4611d9c8a4d43356564cbe8015c37610de22a98ee0"
+    }
+  ]
+}
