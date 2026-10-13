@@ -51,10 +51,11 @@ it('requires only URL and a single-line title of at most 120 characters',()=>{
  expect(homeSchema.safeParse(withVideo({url,title:' '})).success).toBe(false);
 });
 
-it('renders a YouTube preview without a local cover or autoplay',()=>{
+it('renders a trailer preview without loading the player before activation',()=>{
  const html=renderToStaticMarkup(createElement(VideoCard,{url:`https://youtu.be/${videoId}`,title:'Official trailer'}));
- expect(html).toContain(`<iframe src="https://www.youtube-nocookie.com/embed/${videoId}"`);
- expect(html).toContain('title="Official trailer"');
- expect(html).not.toContain('<img');
+ expect(html).not.toContain('<iframe');
+ expect(html).toContain('aria-label="Play Official trailer"');
+ expect(html).toContain(`https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`);
+ expect(html).toContain('<noscript>');
  expect(html).not.toContain('autoplay');
 });
