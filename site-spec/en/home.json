@@ -10,7 +10,10 @@
     "eyebrow": "THE ROAD AHEAD",
     "description": "Find your way through Alfred’s photos, memories, and story.",
     "assetId": "road-trip-art",
-    "video": null,
+    "video": {
+      "url": "https://www.youtube.com/watch?v=AeHgQ29sukE",
+      "title": "Forever Ago | Launch Trailer"
+    },
     "stats": null,
     "cta": [
       {
