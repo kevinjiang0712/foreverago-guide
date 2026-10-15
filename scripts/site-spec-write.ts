@@ -39,7 +39,8 @@ async function writeMedia(root:string,pack:SitePackage){
    for(const responsiveWidth of [640,960,1600]){
     const sourceWidth=Math.min(responsiveWidth,width!);if(avifSources.some(source=>source.width===sourceWidth))continue;
     const sourceName=`${asset.id}-${sourceWidth}.avif`;
-    await sharp(input).resize({width:sourceWidth,withoutEnlargement:true}).avif({quality:55,effort:6}).toFile(join(root,'public/media',sourceName));
+    const isRoadTripHero=asset.id==='road-trip-art'&&sourceWidth===1600;
+    await sharp(input).resize({width:sourceWidth,withoutEnlargement:true}).avif(isRoadTripHero?{quality:40,effort:6,chromaSubsampling:'4:2:0'}:{quality:55,effort:6}).toFile(join(root,'public/media',sourceName));
     avifSources.push({src:`/media/${sourceName}`,width:sourceWidth});
    }
   }
