@@ -490,5 +490,55 @@
     "id": "body-images-forever-ago-audrey-story-shared-photo",
     "file": "body/images/forever-ago-audrey-story/shared-photo.webp",
     "alt": "Young Alfred following Audrey through the forest after the camera handover"
+  },
+  {
+    "id": "shopaholic-icon",
+    "file": "shopaholic-icon.webp",
+    "alt": "Official Forever Ago Shopaholic shopping bag achievement icon"
+  },
+  {
+    "id": "scallyrat-icon",
+    "file": "scallyrat-icon.webp",
+    "alt": "Official Forever Ago Scallyrat Roberts pirate achievement icon"
+  },
+  {
+    "id": "scallyrat-note-1",
+    "file": "body/scallyrat/scallyrat-note-1.webp",
+    "alt": "Scallyrat Roberts clue 1: red paper on a graffiti-covered pillar between benches"
+  },
+  {
+    "id": "scallyrat-note-2",
+    "file": "body/scallyrat/scallyrat-note-2.webp",
+    "alt": "Scallyrat Roberts clue 2: paper on the narrow wooden walkway floor"
+  },
+  {
+    "id": "scallyrat-note-3",
+    "file": "body/scallyrat/scallyrat-note-3.webp",
+    "alt": "Scallyrat Roberts clue 3: paper on a counter with pirate posters"
+  },
+  {
+    "id": "scallyrat-note-4",
+    "file": "body/scallyrat/scallyrat-note-4.webp",
+    "alt": "Scallyrat Roberts clue 4: paper on the window-side trestle table"
+  },
+  {
+    "id": "scallyrat-note-5",
+    "file": "body/scallyrat/scallyrat-note-5.webp",
+    "alt": "Scallyrat Roberts clue 5: note on storage shelving among boxes"
+  },
+  {
+    "id": "scallyrat-note-6",
+    "file": "body/scallyrat/scallyrat-note-6.webp",
+    "alt": "Scallyrat Roberts clue 6: note on a workshop bench beside a red cable reel"
+  },
+  {
+    "id": "scallyrat-note-7",
+    "file": "body/scallyrat/scallyrat-note-7.webp",
+    "alt": "Scallyrat Roberts clue 7: paper on a desk beneath the Captain Marley logo"
+  },
+  {
+    "id": "scallyrat-note-8",
+    "file": "body/scallyrat/scallyrat-note-8.webp",
+    "alt": "Scallyrat Roberts clue 8: newspaper on the framed wall noticeboard"
   }
 ]

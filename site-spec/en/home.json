@@ -1,14 +1,14 @@
 {
   "description": "Independent Forever Ago guides for photos, memories, achievements, and Alfred’s road trip.",
   "seo": {
-    "title": "Forever Ago Wiki: Photos, Memories & Achievement Guides",
-    "description": "Explore Forever Ago guides for photographs, memory petals, achievements, chapter replay, and Alfred’s story. Find the next step for your road-trip adventure.",
+    "title": "Forever Ago Wiki: 29 Achievements, Walkthrough & Tracker",
+    "description": "Find Forever Ago’s 29 achievements, exact collectible routes and full walkthrough. Track seven memories and six rests with a checklist saved in your browser.",
     "image": "road-trip-art",
     "noindex": false
   },
   "hero": {
     "eyebrow": "THE ROAD AHEAD",
-    "description": "Find your way through Alfred’s photos, memories, and story.",
+    "description": "Follow the story route and track each optional road stop.",
     "assetId": "road-trip-art",
     "video": {
       "url": "https://www.youtube.com/watch?v=AeHgQ29sukE",
@@ -37,12 +37,12 @@
     "title": "Make the Next Stop Count",
     "description": "Start with the essentials, then follow the memories north.",
     "articleIds": [
-      "forever-ago-gameplay",
-      "forever-ago-journal-photos",
-      "forever-ago-camera-controls",
+      "forever-ago-completion-tracker",
       "forever-ago-achievements",
+      "forever-ago-walkthrough",
       "forever-ago-memory-locations",
-      "forever-ago-game-length"
+      "forever-ago-marleys-bobblehead",
+      "forever-ago-shopaholic"
     ]
   },
   "about": {

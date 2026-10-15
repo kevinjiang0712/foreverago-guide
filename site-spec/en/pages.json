@@ -674,5 +674,221 @@
     "publishedAt": "2026-10-12",
     "updatedAt": "2026-10-12",
     "gameVersion": null
+  },
+  {
+    "id": "forever-ago-shopaholic",
+    "slug": "forever-ago-shopaholic",
+    "category": "guide",
+    "h1": "Forever Ago Shopaholic Guide",
+    "description": "Buy all eight listed products before paying at Karl’s store.",
+    "card": {
+      "title": "Shopaholic Shopping List",
+      "description": "Check all eight listed products before paying Milton.",
+      "image": "shopaholic-icon"
+    },
+    "heroImage": null,
+    "quickAnswer": [
+      "Collect cookies, wipers, the atlas, chips, canned goods, an air freshener, a shirt and a sticker before paying Milton. Check the optional shelves before checkout; the story supplies alone do not complete Shopaholic."
+    ],
+    "seo": {
+      "title": "Forever Ago Shopaholic: All 8 Shopping Items & Checkout",
+      "description": "Buy all eight listed products at Karl’s Pump ’n’ Mart before paying Milton. Use the complete shopping list, checkout steps and separate Milton speech advice.",
+      "image": "shopaholic-icon",
+      "noindex": false
+    },
+    "authorName": "Kevin",
+    "publishedAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "gameVersion": null,
+    "verification": "partial"
+  },
+  {
+    "id": "forever-ago-scallyrat-roberts",
+    "slug": "forever-ago-scallyrat-roberts",
+    "category": "guide",
+    "h1": "Forever Ago Scallyrat Roberts",
+    "description": "Read the eight resort notes before leaving by boat.",
+    "card": {
+      "title": "Scallyrat Roberts Notes",
+      "description": "Match all eight resort papers to the visual landmarks.",
+      "image": "scallyrat-icon"
+    },
+    "heroImage": null,
+    "quickAnswer": [
+      "Read all eight resort notes and newspaper clippings before taking the story boat. Match the pillar, walkway, counters, shelves, workbench, desk and noticeboard to the eight visual references below."
+    ],
+    "seo": {
+      "title": "Forever Ago Scallyrat Roberts: 8 Notes & Clippings",
+      "description": "Find the eight resort notes and newspaper clippings for Scallyrat Roberts. Match each image and landmark, then finish all reading before taking the story boat.",
+      "image": "scallyrat-icon",
+      "noindex": false
+    },
+    "authorName": "Kevin",
+    "publishedAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "gameVersion": null,
+    "verification": "partial"
+  },
+  {
+    "id": "forever-ago-completion-tracker",
+    "slug": "forever-ago-completion-tracker",
+    "category": "guide",
+    "h1": "Forever Ago Completion Tracker",
+    "description": "Track achievement, photo, memory and rest tasks with local progress.",
+    "card": {
+      "title": "Completion Tracker",
+      "description": "Track your route with saved checks and exact guide links.",
+      "image": "road-trip-art"
+    },
+    "heroImage": "road-trip-art",
+    "verification": "partial",
+    "quickAnswer": [
+      "Track achievements, seven vignettes and six rests separately. Mark memory progress only after the petal search, vignette unlock and final camera reveal. Your checks stay on this browser."
+    ],
+    "seo": {
+      "title": "Forever Ago Completion Tracker: Achievements & Memories",
+      "description": "Track Forever Ago achievements, memories and rest opportunities by road-trip stop. Save checklist progress locally and follow links to each task’s exact guide.",
+      "image": "road-trip-art",
+      "noindex": false
+    },
+    "authorName": "Kevin",
+    "publishedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "gameVersion": null
+  },
+  {
+    "id": "forever-ago-guardian-lord",
+    "slug": "forever-ago-guardian-lord",
+    "category": "guide",
+    "h1": "Forever Ago Guardian Lord",
+    "description": "Reach the resort arcade and beat Guardian Lord’s displayed high score.",
+    "card": {
+      "title": "Guardian Lord High Score",
+      "description": "Reach Guardian Lord and beat the arcade’s displayed record.",
+      "image": "road-trip-art"
+    },
+    "heroImage": "road-trip-art",
+    "verification": "partial",
+    "quickAnswer": [
+      "Obtain the bolt cutter, open Skull and Coins and play Guardian Lord at the back. Beat the displayed record, documented as 1,337 points; playing once can finish the story task without the achievement."
+    ],
+    "seo": {
+      "title": "Forever Ago Guardian Lord: Arcade Access & High Score",
+      "description": "Reach Guardian Lord in Forever Ago’s resort arcade and beat the displayed high score. Find the bolt cutter, open Skull and Coins, then target the 1,337 record.",
+      "image": "road-trip-art",
+      "noindex": false
+    },
+    "authorName": "Kevin",
+    "publishedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "gameVersion": null
+  },
+  {
+    "id": "forever-ago-marleys-bobblehead",
+    "slug": "forever-ago-marleys-bobblehead",
+    "category": "guide",
+    "h1": "Forever Ago Marley’s Bobblehead",
+    "description": "Return to the resort entrance with the bolt cutter before taking the boat.",
+    "card": {
+      "title": "Marley’s Bobblehead",
+      "description": "Revisit the locked resort entrance with the bolt cutter.",
+      "image": "road-trip-art"
+    },
+    "heroImage": "road-trip-art",
+    "verification": "partial",
+    "quickAnswer": [
+      "Before taking the resort boat, return to the entrance with the bolt cutter. Open the locked space and inspect Marley’s bobblehead on the table; verify The Plundered Plumage in your platform list."
+    ],
+    "seo": {
+      "title": "Forever Ago Marley’s Bobblehead: The Plundered Plumage",
+      "description": "Find Marley’s bobblehead in Forever Ago by revisiting the locked resort entrance with the bolt cutter. Inspect the table before boarding the boat to the island.",
+      "image": "road-trip-art",
+      "noindex": false
+    },
+    "authorName": "Kevin",
+    "publishedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "gameVersion": null
+  },
+  {
+    "id": "forever-ago-mosaic-pumpkins",
+    "slug": "forever-ago-mosaic-pumpkins",
+    "category": "guide",
+    "h1": "Forever Ago Mosaic Pumpkin Locations",
+    "description": "Find Audrey’s seven mosaic pumpkins in the home epilogue.",
+    "card": {
+      "title": "Mosaic Pumpkin Locations",
+      "description": "Find seven mosaic pumpkins around the home epilogue.",
+      "image": "road-trip-art"
+    },
+    "heroImage": "road-trip-art",
+    "verification": "partial",
+    "quickAnswer": [
+      "Inspect all seven mosaic pumpkins at home during the epilogue. Check the office, hallway, bathroom, stairwell and living or dining areas before finishing the final home sequence."
+    ],
+    "seo": {
+      "title": "Forever Ago Mosaic Pumpkins: All 7 Epilogue Locations",
+      "description": "Find Audrey’s seven mosaic pumpkins in Forever Ago’s epilogue. Use room landmarks for the office, hallway, bathroom, stairwell and living or dining areas.",
+      "image": "road-trip-art",
+      "noindex": false
+    },
+    "authorName": "Kevin",
+    "publishedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "gameVersion": null
+  },
+  {
+    "id": "forever-ago-snooping-shutterbug",
+    "slug": "forever-ago-snooping-shutterbug",
+    "category": "guide",
+    "h1": "Forever Ago Snooping Shutterbug",
+    "description": "Photograph the curious bedroom objects before advancing the introduction.",
+    "card": {
+      "title": "Snooping Shutterbug",
+      "description": "Sweep bedroom photo subjects before the window transition.",
+      "image": "road-trip-art"
+    },
+    "heroImage": "road-trip-art",
+    "verification": "partial",
+    "quickAnswer": [
+      "Photograph the bedroom’s distinct curious objects before the calendar and Alfred’s window portrait advance the introduction. Use the candidate sweep and confirm the platform unlock."
+    ],
+    "seo": {
+      "title": "Forever Ago Snooping Shutterbug: Bedroom Photo Sweep",
+      "description": "Photograph the curious bedroom objects for Snooping Shutterbug in Forever Ago. Sweep the candidate subjects before the calendar and window scene move things on.",
+      "image": "road-trip-art",
+      "noindex": false
+    },
+    "authorName": "Kevin",
+    "publishedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "gameVersion": null
+  },
+  {
+    "id": "forever-ago-walkthrough",
+    "slug": "forever-ago-walkthrough",
+    "category": "walkthrough",
+    "h1": "Forever Ago Complete Walkthrough",
+    "description": "Follow the story route across all nine stops and check optional tasks.",
+    "card": {
+      "title": "Complete Walkthrough",
+      "description": "Follow each story stop and check optional departure tasks.",
+      "image": "road-trip-art"
+    },
+    "heroImage": "road-trip-art",
+    "verification": "partial",
+    "quickAnswer": [
+      "Follow the full story route from Woolson Falls to Williamina Peak and the epilogue. Complete each stop’s required interactions, then check its optional achievements before leaving."
+    ],
+    "seo": {
+      "title": "Forever Ago Walkthrough: Complete Story & Optional Goals",
+      "description": "Follow the Forever Ago story from Woolson Falls to the resort, Winslow Lighthouse, Williamina Peak and epilogue. Check the optional tasks before each departure.",
+      "image": "road-trip-art",
+      "noindex": false
+    },
+    "authorName": "Kevin",
+    "publishedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "gameVersion": null
   }
 ]

@@ -1,0 +1,41 @@
+{
+  "checkedOn": "2026-10-15",
+  "routes": 45,
+  "gameGuides": 34,
+  "internalLinksChecked": 3893,
+  "fragmentLinksChecked": 537,
+  "errors": [],
+  "releaseTests": 22,
+  "unitChecks": {
+    "passedInFullRun": 468,
+    "timedOutThenPassedAlone": 1
+  },
+  "sourceRegeneration": {
+    "sourceArticleCount": 34,
+    "generatedRoutes": 45,
+    "newPages": [
+      {
+        "id": "forever-ago-shopaholic",
+        "verification": "partial",
+        "hero": null
+      },
+      {
+        "id": "forever-ago-scallyrat-roberts",
+        "verification": "partial",
+        "hero": null
+      }
+    ]
+  },
+  "localLighthouse": {
+    "page": "completion-tracker",
+    "performance": 71,
+    "accessibility": 100,
+    "bestPractices": 100,
+    "seo": 100,
+    "caveat": "Local uncompressed static preview; laboratory data, not production/field CWV."
+  },
+  "limitations": [
+    "GSC service account lacks this property permission.",
+    "No indexing, traffic increase, advertising fill or GEO citations established."
+  ]
+}

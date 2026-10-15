@@ -8,15 +8,15 @@
   "verification": "confirmed",
   "demo": false,
   "seo": {
-    "title": "Forever Ago Guides: Walkthrough, Achievements & Completion Tracker",
-    "description": "Track Forever Ago achievements, memories and resting places. Follow the complete walkthrough, find photo locations, and solve optional quests.",
+    "title": "Forever Ago Wiki: 29 Achievements, Walkthrough & Tracker",
+    "description": "Find Forever Ago’s 29 achievements, exact collectible routes and full walkthrough. Track seven memories and six rests with a checklist saved in your browser.",
     "image": "road-trip-art",
     "noindex": false,
     "final": true
   },
   "hero": {
     "eyebrow": "THE ROAD AHEAD",
-    "description": "Follow the story. Find every memory. Keep track of the stops you still need.",
+    "description": "Follow the story route and track each optional road stop.",
     "asset": "road-trip-art",
     "video": {
       "url": "https://www.youtube.com/watch?v=AeHgQ29sukE",
@@ -30,11 +30,11 @@
     "description": "Start a full journey, track a cleanup run, or jump straight to the answer you need.",
     "pinnedIds": [
       "forever-ago-completion-tracker",
-      "forever-ago-walkthrough",
       "forever-ago-achievements",
+      "forever-ago-walkthrough",
       "forever-ago-memory-locations",
-      "forever-ago-old-bones-achievement",
-      "forever-ago-photo-puzzle"
+      "forever-ago-marleys-bobblehead",
+      "forever-ago-shopaholic"
     ]
   },
   "about": {

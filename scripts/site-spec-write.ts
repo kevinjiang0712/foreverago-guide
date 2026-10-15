@@ -106,7 +106,7 @@ export async function writeSitePackage(root:string,pack:SitePackage){
  const paths={content:contentPaths,category:categoryPaths,assets:new Set(pack.assets.map(asset=>asset.id))};
  for(const [i,{meta,body,file}] of pack.articles.entries()){
   const converted=convertSiteMarkdown(body,file,paths);
-  const metadata:Record<string,unknown>={id:meta.id,locale:'en',slug:meta.slug,category:meta.category,template:'wiki-page',title:meta.h1,description:meta.description,quickAnswer:meta.quickAnswer,status:'published',verification:'confirmed',demo:false,order:i+1,records:[],assets:{hero:meta.heroImage,thumbnail:meta.card.image},card:meta.card,related:relatedIds(pack,meta.id),seo:{...meta.seo,final:true}};
+  const metadata:Record<string,unknown>={id:meta.id,locale:'en',slug:meta.slug,category:meta.category,template:'wiki-page',title:meta.h1,description:meta.description,quickAnswer:meta.quickAnswer,status:'published',verification:meta.verification??'confirmed',demo:false,order:i+1,records:[],assets:{...(meta.heroImage?{hero:meta.heroImage}:{}),thumbnail:meta.card.image},card:meta.card,related:relatedIds(pack,meta.id),seo:{...meta.seo,final:true}};
   if(meta.authorName)metadata.author={name:meta.authorName};
   if(meta.publishedAt)metadata.publishedAt=meta.publishedAt;
   if(meta.updatedAt)metadata.updatedAt=meta.updatedAt;

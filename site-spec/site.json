@@ -16,42 +16,12 @@
   "navigation": {
     "en": [
       {
-        "label": "Reviews",
+        "label": "Completion",
         "target": {
-          "type": "category",
-          "id": "review"
+          "type": "content",
+          "id": "forever-ago-completion-tracker"
         },
         "children": [
-          {
-            "label": "Review and Verdict",
-            "target": {
-              "type": "content",
-              "id": "forever-ago-review"
-            }
-          },
-          {
-            "label": "Game Length and Pacing",
-            "target": {
-              "type": "content",
-              "id": "forever-ago-game-length"
-            }
-          }
-        ]
-      },
-      {
-        "label": "Guides",
-        "target": {
-          "type": "category",
-          "id": "guide"
-        },
-        "children": [
-          {
-            "label": "Gameplay Essentials",
-            "target": {
-              "type": "content",
-              "id": "forever-ago-gameplay"
-            }
-          },
           {
             "label": "Achievements Checklist",
             "target": {
@@ -74,45 +44,68 @@
             }
           },
           {
-            "label": "Petal Collector Guide",
+            "label": "Petal Collector",
             "target": {
               "type": "content",
               "id": "forever-ago-petal-collector-achievement"
             }
           },
           {
-            "label": "Hidden Achievements Guide",
+            "label": "Hidden Achievements",
             "target": {
               "type": "content",
               "id": "forever-ago-hidden-achievements"
             }
           },
           {
-            "label": "Collectibles Checklist",
+            "label": "Collectibles Overview",
             "target": {
               "type": "content",
               "id": "forever-ago-collectibles"
             }
-          },
+          }
+        ]
+      },
+      {
+        "label": "Camera",
+        "target": {
+          "type": "content",
+          "id": "forever-ago-camera-controls"
+        },
+        "children": [
           {
-            "label": "Camera Achievements Guide",
+            "label": "Camera Achievements",
             "target": {
               "type": "content",
               "id": "forever-ago-camera-achievements"
             }
           },
           {
-            "label": "Camera Controls Guide",
-            "target": {
-              "type": "content",
-              "id": "forever-ago-camera-controls"
-            }
-          },
-          {
-            "label": "Journal Photos Guide",
+            "label": "Journal Photos",
             "target": {
               "type": "content",
               "id": "forever-ago-journal-photos"
+            }
+          },
+          {
+            "label": "Selfie Achievement",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-selfie-achievement"
+            }
+          },
+          {
+            "label": "Photo Puzzle Help",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-photo-puzzle"
+            }
+          },
+          {
+            "label": "Dog Photography",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-dog-photo"
             }
           }
         ]
@@ -132,14 +125,14 @@
             }
           },
           {
-            "label": "Photo Locations Guide",
+            "label": "Photo Locations",
             "target": {
               "type": "content",
               "id": "forever-ago-photo-locations"
             }
           },
           {
-            "label": "Petal Locations Route",
+            "label": "Petal Locations",
             "target": {
               "type": "content",
               "id": "forever-ago-petal-locations"
@@ -169,10 +162,105 @@
         ]
       },
       {
-        "label": "Story",
+        "label": "Walkthrough",
         "target": {
           "type": "category",
-          "id": "story"
+          "id": "walkthrough"
+        },
+        "children": [
+          {
+            "label": "Complete Story Walkthrough",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-walkthrough"
+            }
+          },
+          {
+            "label": "Williamina Peak",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-williamina-peak"
+            }
+          },
+          {
+            "label": "Gameplay Essentials",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-gameplay"
+            }
+          },
+          {
+            "label": "Chapter Select",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-chapter-select"
+            }
+          },
+          {
+            "label": "Checkpoints and Saving",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-checkpoint-save"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Side Quests",
+        "target": {
+          "type": "content",
+          "id": "forever-ago-snooping-shutterbug"
+        },
+        "children": [
+          {
+            "label": "Snooping Shutterbug",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-snooping-shutterbug"
+            }
+          },
+          {
+            "label": "Mosaic Pumpkins",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-mosaic-pumpkins"
+            }
+          },
+          {
+            "label": "Marley’s Bobblehead",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-marleys-bobblehead"
+            }
+          },
+          {
+            "label": "Guardian Lord Arcade",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-guardian-lord"
+            }
+          },
+          {
+            "label": "Shopaholic Shopping List",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-shopaholic"
+            }
+          },
+          {
+            "label": "Scallyrat Roberts Notes",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-scallyrat-roberts"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Story",
+        "target": {
+          "type": "content",
+          "id": "forever-ago-ending-explained"
         },
         "children": [
           {
@@ -181,51 +269,35 @@
               "type": "content",
               "id": "forever-ago-ending-explained"
             }
-          }
-        ]
-      },
-      {
-        "label": "Walkthrough",
-        "target": {
-          "type": "category",
-          "id": "walkthrough"
-        },
-        "children": [
-          {
-            "label": "Photo Puzzle Walkthrough",
-            "target": {
-              "type": "content",
-              "id": "forever-ago-photo-puzzle"
-            }
           },
           {
-            "label": "Williamina Peak Route",
-            "target": {
-              "type": "content",
-              "id": "forever-ago-williamina-peak"
-            }
-          },
-          {
-            "label": "Dog Photography Guide",
-            "target": {
-              "type": "content",
-              "id": "forever-ago-dog-photo"
-            }
-          }
-        ]
-      },
-      {
-        "label": "Characters",
-        "target": {
-          "type": "category",
-          "id": "characters"
-        },
-        "children": [
-          {
-            "label": "Audrey’s Story Explained",
+            "label": "Audrey’s Story",
             "target": {
               "type": "content",
               "id": "forever-ago-audrey-story"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Game Info",
+        "target": {
+          "type": "content",
+          "id": "forever-ago-review"
+        },
+        "children": [
+          {
+            "label": "Review and Verdict",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-review"
+            }
+          },
+          {
+            "label": "Game Length and Pacing",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-game-length"
             }
           }
         ]

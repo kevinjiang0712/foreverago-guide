@@ -246,6 +246,20 @@
               "type": "content",
               "id": "forever-ago-guardian-lord"
             }
+          },
+          {
+            "label": "Shopaholic Shopping List",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-shopaholic"
+            }
+          },
+          {
+            "label": "Scallyrat Roberts Notes",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-scallyrat-roberts"
+            }
           }
         ]
       },

@@ -1,7 +1,7 @@
 import {readFile,readdir,lstat} from 'node:fs/promises';
 import {join} from 'node:path';
 import {z} from 'zod';
-import {safeId,slug,httpUrl,date,target} from '../src/content/schemas/common';
+import {safeId,slug,httpUrl,date,target,verification} from '../src/content/schemas/common';
 import {navigationSchema,validateNavigationLabels} from '../src/content/schemas/navigation';
 import {parseContent} from '../src/content/issues';
 
@@ -41,7 +41,7 @@ export const articleSpecSchema=z.strictObject({
  id:safeId,slug:slug.regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),category:safeId,
  h1:singleLine(1,40),description:singleLine(1,100),
  card:z.strictObject({title:singleLine(12,28),description:singleLine(50,60),image:safeId}),
- heroImage:safeId,quickAnswer:z.array(singleLine(1,250)).min(1).max(4).refine(values=>{const total=values.reduce((sum,value)=>sum+Array.from(value).length,0);return total>=120&&total<=250;},'combined Quick Answer must contain 120–250 characters'),
+ heroImage:safeId.nullable(),verification:verification.optional(),quickAnswer:z.array(singleLine(1,250)).min(1).max(4).refine(values=>{const total=values.reduce((sum,value)=>sum+Array.from(value).length,0);return total>=120&&total<=250;},'combined Quick Answer must contain 120–250 characters'),
  seo,authorName:singleLine(1,80).nullable(),publishedAt:date.nullable(),updatedAt:date.nullable(),gameVersion:singleLine(1,40).nullable(),
 });
 export const policySpecSchema=z.strictObject({h1:singleLine(1,40),description:singleLine(1,100),heroImage:safeId.nullable(),seo});

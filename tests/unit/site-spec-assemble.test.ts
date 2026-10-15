@@ -46,6 +46,9 @@ async function makePackage(root:string){
 it('assembles and safely regenerates a site from a structured package',async()=>{
  const root=await mkdtemp(join(tmpdir(),'site-spec-test-'));temporaryRoots.push(root);
  const target=await makePackage(root);
+ const articles=JSON.parse(await readFile(join(target,'site-spec/en/pages.json'),'utf8'));
+ articles[0].heroImage=null;articles[0].verification='partial';
+ await json(join(target,'site-spec'),'en/pages.json',articles);
  const adConfig={mode:'adsterra',adsterra:{allowedHosts:['test-game-wiki.org'],units:{native:{containerId:'container-test-fixture',scriptUrl:'https://ads.example.org/native.js'},left:{key:'test-left',scriptUrl:'https://ads.example.org/left.js'}}}};
  await json(join(target,'site-spec'),'ads.json',adConfig);
  if(process.env.SITE_SPEC_KEEP_FIXTURE)console.log(`Temporary site-spec fixture: ${target}`);
@@ -53,6 +56,7 @@ it('assembles and safely regenerates a site from a structured package',async()=>
  expect(first.mode).toBe('created');expect(first.routes).toBeGreaterThanOrEqual(13);
  const article=await readFile(join(target,'content/en/pages/guide-1.mdx'),'utf8');
  expect(article).toContain('/guides');expect(article).toContain('demo: false');
+ expect(article).toContain('verification: partial');expect(article).not.toContain('  hero:');
  const second=await assembleSite(target,{templateSnapshotRoot:templateRoot});expect(second.mode).toBe('regenerated');
  expect(JSON.parse(await readFile(join(target,'config/ads.json'),'utf8'))).toMatchObject(adConfig);
  if(!process.env.SITE_SPEC_KEEP_FIXTURE){

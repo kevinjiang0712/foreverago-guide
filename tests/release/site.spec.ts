@@ -3,7 +3,7 @@ import {expect,test} from '@playwright/test';
 import type {ContentIndex} from '../../src/content/types';
 
 const index=JSON.parse(readFileSync('.generated/content-index.json','utf8')) as ContentIndex;
-const newIds=['forever-ago-completion-tracker','forever-ago-walkthrough','forever-ago-snooping-shutterbug','forever-ago-mosaic-pumpkins','forever-ago-marleys-bobblehead','forever-ago-guardian-lord'];
+const newIds=['forever-ago-completion-tracker','forever-ago-walkthrough','forever-ago-snooping-shutterbug','forever-ago-mosaic-pumpkins','forever-ago-marleys-bobblehead','forever-ago-guardian-lord','forever-ago-shopaholic','forever-ago-scallyrat-roberts'];
 const articleRoutes=Object.values(index.routes).filter(route=>route.kind==='page'&&route.categoryId!=='_pages');
 
 test('every production page has readable content, unique metadata and valid structured data without JavaScript',async({browser,baseURL})=>{

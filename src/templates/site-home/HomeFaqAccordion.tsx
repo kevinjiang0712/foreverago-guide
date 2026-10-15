@@ -17,5 +17,14 @@ function FaqRow({item,expanded,onToggle}:{item:FaqItem;expanded:boolean;onToggle
 
 export function HomeFaqAccordion({items}:{items:FaqItem[]}){
  const [openIndex,setOpenIndex]=useState<number|null>(null);
- return <div className="home-faq-list">{items.map((item,index)=><FaqRow key={item.question} item={item} expanded={openIndex===index} onToggle={()=>setOpenIndex(current=>current===index?null:index)}/>)}</div>;
+ return <>
+  <div className="home-faq-list">{items.map((item,index)=><FaqRow key={item.question} item={item} expanded={openIndex===index} onToggle={()=>setOpenIndex(current=>current===index?null:index)}/>)}</div>
+  <noscript>
+   <style>{'.home-faq-list{display:none}'}</style>
+   <div className="home-faq-fallback">{items.map(item=><details className="home-faq-item" key={item.question}>
+    <summary className="home-faq-question"><span>{item.question}</span><span className="home-faq-caret" aria-hidden="true"/></summary>
+    <p className="home-faq-answer">{item.answer}</p>
+   </details>)}</div>
+  </noscript>
+ </>;
 }

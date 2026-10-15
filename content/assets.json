@@ -1202,5 +1202,125 @@
     },
     "position": "50% 50%",
     "demo": false
+  },
+  {
+    "id": "shopaholic-icon",
+    "src": "/media/shopaholic-icon.webp",
+    "width": 128,
+    "height": 128,
+    "purpose": "Official achievement card icon",
+    "alt": {
+      "en": "Official Forever Ago Shopaholic shopping bag achievement icon"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "scallyrat-icon",
+    "src": "/media/scallyrat-icon.webp",
+    "width": 128,
+    "height": 128,
+    "purpose": "Official achievement card icon",
+    "alt": {
+      "en": "Official Forever Ago Scallyrat Roberts pirate achievement icon"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "scallyrat-note-1",
+    "src": "/media/scallyrat-note-1.webp",
+    "width": 1100,
+    "height": 614,
+    "purpose": "Guide body screenshot only",
+    "alt": {
+      "en": "Scallyrat Roberts clue 1: red paper on a graffiti-covered pillar between benches"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "scallyrat-note-2",
+    "src": "/media/scallyrat-note-2.webp",
+    "width": 1100,
+    "height": 618,
+    "purpose": "Guide body screenshot only",
+    "alt": {
+      "en": "Scallyrat Roberts clue 2: paper on the narrow wooden walkway floor"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "scallyrat-note-3",
+    "src": "/media/scallyrat-note-3.webp",
+    "width": 1100,
+    "height": 615,
+    "purpose": "Guide body screenshot only",
+    "alt": {
+      "en": "Scallyrat Roberts clue 3: paper on a counter with pirate posters"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "scallyrat-note-4",
+    "src": "/media/scallyrat-note-4.webp",
+    "width": 1100,
+    "height": 616,
+    "purpose": "Guide body screenshot only",
+    "alt": {
+      "en": "Scallyrat Roberts clue 4: paper on the window-side trestle table"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "scallyrat-note-5",
+    "src": "/media/scallyrat-note-5.webp",
+    "width": 1100,
+    "height": 616,
+    "purpose": "Guide body screenshot only",
+    "alt": {
+      "en": "Scallyrat Roberts clue 5: note on storage shelving among boxes"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "scallyrat-note-6",
+    "src": "/media/scallyrat-note-6.webp",
+    "width": 1100,
+    "height": 612,
+    "purpose": "Guide body screenshot only",
+    "alt": {
+      "en": "Scallyrat Roberts clue 6: note on a workshop bench beside a red cable reel"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "scallyrat-note-7",
+    "src": "/media/scallyrat-note-7.webp",
+    "width": 967,
+    "height": 744,
+    "purpose": "Guide body screenshot only",
+    "alt": {
+      "en": "Scallyrat Roberts clue 7: paper on a desk beneath the Captain Marley logo"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "scallyrat-note-8",
+    "src": "/media/scallyrat-note-8.webp",
+    "width": 1007,
+    "height": 744,
+    "purpose": "Guide body screenshot only",
+    "alt": {
+      "en": "Scallyrat Roberts clue 8: newspaper on the framed wall noticeboard"
+    },
+    "position": "50% 50%",
+    "demo": false
   }
 ]

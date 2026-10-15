@@ -3,6 +3,54 @@ import {expect,test} from '@playwright/test';
 const tracker='/guide/forever-ago-completion-tracker';
 const storageKey='forever-ago:completion:v1';
 
+test('shareable filters survive refresh and follow browser back and forward',async({page})=>{
+ await page.goto(`${tracker}?q=bench&stop=gas-station&type=rest&progress=remaining`);
+ const tool=page.locator('[data-completion-tool="all"]');
+ await expect(tool.getByLabel('Search tasks',{exact:true})).toHaveValue('bench');
+ await expect(tool.locator('[data-task-id]')).toHaveCount(1);
+ await expect(tool.getByLabel('Selected road stop remaining tasks')).toContainText('8 tasks remaining');
+ await page.reload();
+ await expect(tool.getByLabel('Search tasks',{exact:true})).toHaveValue('bench');
+ await expect(tool.getByLabel('Chapter / road stop',{exact:true})).toHaveValue('gas-station');
+ await tool.getByLabel('Chapter / road stop',{exact:true}).selectOption('diner');
+ await expect(page).toHaveURL(/stop=diner/);
+ await page.goBack();
+ await expect(tool.getByLabel('Chapter / road stop',{exact:true})).toHaveValue('gas-station');
+ await expect(tool.locator('[data-task-id]')).toHaveCount(1);
+ await page.goForward();
+ await expect(tool.getByLabel('Chapter / road stop',{exact:true})).toHaveValue('diner');
+ await tool.getByRole('button',{name:'Show remaining at this stop',exact:true}).click();
+ await expect(tool.getByLabel('Search tasks',{exact:true})).toHaveValue('');
+ await expect(tool.getByRole('button',{name:/^All types/})).toHaveAttribute('aria-pressed','true');
+});
+
+test('unknown filter values default safely and clipboard failure is explained',async({page})=>{
+ await page.addInitScript(()=>Object.defineProperty(navigator,'clipboard',{value:{writeText:async()=>{throw new DOMException('Clipboard denied','NotAllowedError');}}}));
+ await page.goto(`${tracker}?stop=unknown&type=unknown&progress=unknown`);
+ const tool=page.locator('[data-completion-tool="all"]');
+ await expect(tool.getByLabel('Chapter / road stop',{exact:true})).toHaveValue('all');
+ await expect(tool.getByLabel('Progress',{exact:true})).toHaveValue('all');
+ await expect(tool.locator('[data-task-id]')).toHaveCount(53);
+ await tool.getByRole('button',{name:'Copy filter link',exact:true}).click();
+ await expect(tool.getByText(/The filter link could not be copied/)).toBeVisible();
+});
+
+test('copied filter links share filters without saved progress and fit a 320px screen',async({page})=>{
+ await page.addInitScript(()=>Object.defineProperty(navigator,'clipboard',{value:{writeText:async(value:string)=>{document.documentElement.dataset.copiedLink=value;}}}));
+ await page.setViewportSize({width:320,height:800});
+ await page.goto(`${tracker}?stop=gas-station&type=rest`);
+ const tool=page.locator('[data-completion-tool="all"]');
+ await expect(tool.getByLabel('Search tasks',{exact:true})).toBeEnabled();
+ await tool.locator('[data-task-id="rest-forecourt"]').getByRole('checkbox').check();
+ await tool.getByRole('button',{name:'Copy filter link',exact:true}).click();
+ const copied=await page.locator('html').getAttribute('data-copied-link');
+ expect(copied).toContain('stop=gas-station&type=rest#completion-checklist');
+ expect(copied).not.toContain('rest-forecourt');
+ await expect(tool.getByText(/Filter link copied/)).toBeVisible();
+ const bounds=await tool.evaluate(element=>({left:element.getBoundingClientRect().left,right:element.getBoundingClientRect().right,overflow:element.scrollWidth>element.clientWidth}));
+ expect(bounds.left).toBeGreaterThanOrEqual(0);expect(bounds.right).toBeLessThanOrEqual(320);expect(bounds.overflow).toBe(false);
+});
+
 test('task filters, saved progress, cross-guide state and reset work through the real pages',async({page})=>{
  await page.goto(tracker);
  const tool=page.locator('[data-completion-tool="all"]');
