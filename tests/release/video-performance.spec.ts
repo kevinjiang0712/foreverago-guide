@@ -33,3 +33,23 @@ test('the mobile tracker avoids speculative breadcrumb downloads and its home li
  await expect(page).toHaveURL(/\/$/);
  await expect(page.locator('h1')).toBeVisible();
 });
+
+test('cold pages render their theme without external CSS or JavaScript',async({browser,baseURL})=>{
+ const context=await browser.newContext({baseURL,javaScriptEnabled:false,viewport:{width:390,height:844}});
+ const stylesheetRequests:string[]=[];
+ await context.route(/\.css(?:\?|$)/,async route=>{
+  stylesheetRequests.push(route.request().url());
+  await route.abort();
+ });
+ const page=await context.newPage();
+ for(const path of ['/','/guide/forever-ago-completion-tracker','/guide/forever-ago-scallyrat-roberts']){
+  await page.goto(path,{waitUntil:'networkidle'});
+  await expect(page.locator('h1')).toBeVisible();
+  const typography=await page.locator('h1').evaluate(heading=>({font:getComputedStyle(heading).fontFamily,size:parseFloat(getComputedStyle(heading).fontSize)}));
+  expect(typography.font).toContain('Outfit');
+  expect(typography.size).toBeGreaterThan(30);
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),path).toBe(true);
+ }
+ expect(stylesheetRequests).toEqual([]);
+ await context.close();
+});

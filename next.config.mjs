@@ -9,7 +9,7 @@ const redirects=JSON.parse(readFileSync(new URL('./.generated/redirects.json',im
 if(staticExport&&redirects.length)throw new Error('Static export requires host redirect rules; generated redirects must not be silently omitted.');
 export default withMDX({
   ...(staticExport?{output:'export',images:{unoptimized:true}}:{}),
-  experimental:{globalNotFound:true},
+  experimental:{globalNotFound:true,inlineCss:true},
   pageExtensions:['ts','tsx','mdx'],poweredByHeader:false,
   ...(!staticExport?{async redirects(){return redirects;}}:{}),
 });
