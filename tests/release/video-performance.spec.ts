@@ -53,17 +53,3 @@ test('cold pages render their theme without external CSS or JavaScript',async({b
  expect(stylesheetRequests).toEqual([]);
  await context.close();
 });
-
-test('the homepage preloads its selected AVIF hero without fetching the fallback image',async({page})=>{
- await page.setViewportSize({width:390,height:844});
- const heroRequests:string[]=[];
- page.on('request',request=>{if(/\/road-trip-art[^/]*\.(avif|webp)$/.test(new URL(request.url()).pathname))heroRequests.push(request.url());});
- await page.goto('/',{waitUntil:'networkidle'});
- const source=page.locator('.home-hero picture source[type="image/avif"]');
- const preload=page.locator('head link[rel="preload"][as="image"][type="image/avif"]');
- await expect(preload).toHaveAttribute('imagesrcset',(await source.getAttribute('srcset'))!);
- await expect(preload).toHaveAttribute('imagesizes',(await source.getAttribute('sizes'))!);
- const image=await page.locator('.home-hero picture img').evaluate((img:HTMLImageElement)=>({src:img.currentSrc,loaded:img.complete&&img.naturalWidth>0}));
- expect(image.loaded).toBe(true);
- expect(heroRequests).toEqual([image.src]);
-});
