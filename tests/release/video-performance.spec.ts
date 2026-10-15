@@ -20,3 +20,16 @@ test('trailer loads the player only after keyboard activation',async({page})=>{
  expect(after?.height).toBe(before?.height);
  expect(after?.width).toBe(before?.width);
 });
+
+test('the mobile tracker avoids speculative breadcrumb downloads and its home link still navigates',async({page})=>{
+ await page.setViewportSize({width:390,height:844});
+ const speculative:string[]=[];
+ page.on('request',request=>{if(new URL(request.url()).searchParams.has('_rsc'))speculative.push(request.url());});
+ await page.goto('/guide/forever-ago-completion-tracker',{waitUntil:'networkidle'});
+ await expect(page.getByLabel('Search tasks',{exact:true})).toBeEnabled();
+ await page.waitForTimeout(1000);
+ expect(speculative).toEqual([]);
+ await page.locator('.site-header-bar > .site-brand').click();
+ await expect(page).toHaveURL(/\/$/);
+ await expect(page.locator('h1')).toBeVisible();
+});

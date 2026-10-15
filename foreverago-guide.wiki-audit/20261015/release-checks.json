@@ -5,7 +5,7 @@
   "internalLinksChecked": 3893,
   "fragmentLinksChecked": 537,
   "errors": [],
-  "releaseTests": 22,
+  "releaseTests": 23,
   "unitChecks": {
     "passedInFullRun": 468,
     "timedOutThenPassedAlone": 1
@@ -26,16 +26,25 @@
       }
     ]
   },
-  "localLighthouse": {
+  "limitations": [
+    "GSC service account lacks this property permission.",
+    "No indexing, traffic increase, advertising fill or GEO citations established."
+  ],
+  "initialLocalLighthouse": {
     "page": "completion-tracker",
     "performance": 71,
     "accessibility": 100,
     "bestPractices": 100,
     "seo": 100,
-    "caveat": "Local uncompressed static preview; laboratory data, not production/field CWV."
+    "caveat": "Baseline before the text-only tracker header and prefetch changes; not final production or field CWV."
   },
-  "limitations": [
-    "GSC service account lacks this property permission.",
-    "No indexing, traffic increase, advertising fill or GEO citations established."
-  ]
+  "performanceChanges": {
+    "trackerHeaderArtwork": false,
+    "speculativeRequestsBeforeClick": {
+      "before": 6,
+      "after": 0,
+      "beforeTransferBytes": 45997
+    },
+    "socialImageWidth": 1600
+  }
 }

@@ -52,7 +52,7 @@ export function ArticlePage({index,page,body}:{index:ContentIndex;page:IndexedPa
   <header className="article-hero inner-hero" data-hero-size="article" data-theme-mode="night" data-floor="hero" data-has-art={Boolean(heroArt?.src)}>
    {heroArt?.src&&<div className="article-hero-art"><Media asset={heroArt} locale={page.locale} eager/></div>}
    <div className="article-header container inner-hero-content">
-   <nav className="breadcrumb" aria-label={ui.breadcrumb}><Link href={index.translationGroups.home[page.locale]}>{ui.home}</Link><span aria-hidden="true">/</span>{category&&<><Link href={category.path}>{category.title}</Link><span aria-hidden="true">/</span></>}<span aria-current="page">{page.title}</span></nav>
+   <nav className="breadcrumb" aria-label={ui.breadcrumb}><Link href={index.translationGroups.home[page.locale]} prefetch={false}>{ui.home}</Link><span aria-hidden="true">/</span>{category&&<><Link href={category.path} prefetch={false}>{category.title}</Link><span aria-hidden="true">/</span></>}<span aria-current="page">{page.title}</span></nav>
    <div className="article-kicker">{category&&<span>{category.title}</span>}{!policyPage&&<ArticleStatus value={page.verification} ui={ui}/>} {!policyPage&&page.demo&&<span>{ui.demo}</span>}</div>
    <div className="article-hero-copy"><h1>{page.title}</h1>
    <section className="article-quick-answer" aria-labelledby="article-quick-answer-title"><h2 id="article-quick-answer-title">Quick Answer</h2>{(page.quickAnswer??[page.description]).map((line,i)=><p key={i}>{line}</p>)}</section>
