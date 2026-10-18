@@ -3,7 +3,7 @@ import {expect,test} from '@playwright/test';
 import type {ContentIndex} from '../../src/content/types';
 
 const index=JSON.parse(readFileSync('.generated/content-index.json','utf8')) as ContentIndex;
-const newIds=['forever-ago-completion-tracker','forever-ago-walkthrough','forever-ago-snooping-shutterbug','forever-ago-mosaic-pumpkins','forever-ago-marleys-bobblehead','forever-ago-guardian-lord','forever-ago-shopaholic','forever-ago-scallyrat-roberts'];
+const newIds=['forever-ago-game-length','forever-ago-achievements','forever-ago-camera-achievements','forever-ago-photo-puzzle','forever-ago-completion-tracker','forever-ago-walkthrough','forever-ago-snooping-shutterbug','forever-ago-mosaic-pumpkins','forever-ago-marleys-bobblehead','forever-ago-guardian-lord','forever-ago-shopaholic','forever-ago-scallyrat-roberts'];
 const newRoutes=Object.values(index.routes).filter(route=>newIds.includes(route.contentId));
 
 test('every new page starts the shared analytics loaders and mobile ad units on an allowed host',async({browser,baseURL})=>{
@@ -40,6 +40,11 @@ test('every new page starts the shared analytics loaders and mobile ad units on 
   expect(inlineGap.present,`${route.path}: inline placement`).toBe(true);
   if(inlineGap.eligible)await expect.poll(()=>requested.has(index.ads.adsterra!.units.inline!.scriptUrl),`${route.path}: eligible inline`).toBe(true);
   else await expect(page.locator('[data-revenue-slot="inline"]')).toHaveAttribute('data-ready','false');
+  const diagnostics=await page.evaluate(()=>((window as Window&{dataLayer?:ArrayLike<unknown>[]}).dataLayer??[]).map(entry=>Array.from(entry)).filter(entry=>entry[0]==='event').map(entry=>String(entry[1])));
+  expect(diagnostics,route.path).toContain('ad_anchor_request');
+  expect(diagnostics,route.path).toContain('ad_anchor_script_error');
+  expect(diagnostics.filter(name=>name.endsWith('_viewable')),route.path).toEqual([]);
+  expect(diagnostics,route.path).not.toContain('ad_impression');
   expect(pageErrors,route.path).toEqual([]);
   await context.close();
  }

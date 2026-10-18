@@ -301,7 +301,7 @@
             }
           },
           {
-            "label": "Game Length and Pacing",
+            "label": "How Long to Beat?",
             "target": {
               "type": "content",
               "id": "forever-ago-game-length"

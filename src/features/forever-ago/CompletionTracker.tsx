@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import {useId,useRef,useState,useSyncExternalStore} from 'react';
+import {useEffect,useId,useRef,useState,useSyncExternalStore} from 'react';
 import {completionChapters,completionTypeLabels,type CompletionType,type CompletionToolMode,type LinkedCompletionEntry} from './completion-data';
 import {changeCompletionStage,completionStageCount,parseCompletionProgress,serializeCompletionProgress} from './completion-progress';
 import {saveCompletionProgress,useCompletionProgress} from './completion-store';
@@ -24,6 +24,14 @@ export function CompletionTracker({entries,mode,trackerHref}:{entries:LinkedComp
   const filters=parseCompletionFilters(filterSearch,entries);
   const {q:query,stop:chapter,type,progress:status}=filters;
   const [notice,setNotice]=useState('');const [restoring,setRestoring]=useState(false);
+  const articleDetails=useRef<HTMLDetailsElement>(null);
+  useEffect(()=>{
+    const openLinkedChecklist=()=>{
+      if(articleDetails.current&&(query||chapter!=='all'||type!=='all'||status!=='all'||window.location.hash.startsWith('#check-')||window.location.hash==='#completion-checklist'))articleDetails.current.open=true;
+    };
+    openLinkedChecklist();window.addEventListener('hashchange',openLinkedChecklist);
+    return()=>window.removeEventListener('hashchange',openLinkedChecklist);
+  },[query,chapter,type,status]);
   const restoreInput=useRef<HTMLInputElement>(null);
   const types=[...new Set(entries.map(entry=>entry.type))];
   const completed=entries.filter(entry=>(snapshot.progress[entry.id]??0)===completionStageCount(entry)).length;
@@ -75,11 +83,7 @@ export function CompletionTracker({entries,mode,trackerHref}:{entries:LinkedComp
     if(!window.confirm('Reset every Forever Ago checklist on this browser? All achievement, vignette, rest and photo checks will be cleared.'))return;
     saveCompletionProgress({},true);setNotice('All checklist progress reset.');
   }
-  return <section id="completion-checklist" className="completion-tool" data-completion-tool={mode} aria-labelledby={`${fieldId}-title`}>
-    <div className="completion-heading">
-      <div><span className="completion-eyebrow">Plan the next stop</span><h2 id={`${fieldId}-title`}>{toolTitles[mode]}</h2></div>
-      <div className="completion-total"><strong>{completed}<span> / {entries.length}</span></strong><span>tasks complete</span></div>
-    </div>
+  const checklistBody=<>
     <p className="completion-intro">Find the next action, follow its guide, then mark the result. Your checks carry across these guides on this browser.</p>
     <div className="completion-overview" aria-label="Checklist progress by task type">{typeProgress.map(group=><div key={group.type}><div><span>{completionTypeLabels[group.type]}</span><strong>{ready?`${group.complete} / ${group.total}`:`— / ${group.total}`}</strong></div><progress max={group.total} value={group.complete} aria-label={`${completionTypeLabels[group.type]} checklist tasks complete`}/></div>)}</div>
     <p className="completion-overview-note">Progress covers tasks in this checklist. It is not an official game completion percentage.</p>
@@ -116,5 +120,15 @@ export function CompletionTracker({entries,mode,trackerHref}:{entries:LinkedComp
     </div>
     <p className="completion-notice" role="status" aria-live="polite" aria-atomic="true">{notice}</p>
     <details className="completion-management"><summary>Manage progress</summary><p>Download a backup before switching browsers or clearing site data. Restoring a backup replaces your checklist; it does not alter your game save.</p><div><button type="button" disabled={!ready} onClick={downloadBackup}>Download backup</button><button type="button" disabled={!ready||restoring} onClick={()=>restoreInput.current?.click()}>{restoring?'Reading backup…':'Restore backup'}</button><button type="button" className="completion-reset" disabled={!ready} onClick={resetProgress}>Reset all progress</button></div><input ref={restoreInput} className="completion-visually-hidden" type="file" accept="application/json,.json" tabIndex={-1} aria-label="Choose a Forever Ago progress backup" onChange={event=>{const file=event.target.files?.[0];if(file)void restoreBackup(file);}}/></details>
+  </>;
+  return <section id="completion-checklist" className="completion-tool" data-completion-tool={mode} aria-labelledby={`${fieldId}-title`}>
+    <div className="completion-heading">
+      <div><span className="completion-eyebrow">Plan the next stop</span><h2 id={`${fieldId}-title`}>{toolTitles[mode]}</h2></div>
+      <div className="completion-total"><strong>{completed}<span> / {entries.length}</span></strong><span>tasks complete</span></div>
+    </div>
+    {mode==='all'?checklistBody:<details ref={articleDetails} className="completion-article-details">
+      <summary>Open searchable checklist · {entries.length} tasks</summary>
+      {checklistBody}
+    </details>}
   </section>;
 }

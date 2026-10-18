@@ -65,8 +65,9 @@ test('task filters, saved progress, cross-guide state and reset work through the
  await page.reload();
  await expect(page.locator('[data-task-id="rest-forecourt"]').getByRole('checkbox')).toBeChecked();
  await page.goto('/guide/forever-ago-old-bones-achievement');
- await expect(page.locator('[data-task-id="rest-forecourt"]').getByRole('checkbox')).toBeChecked();
  const rests=page.locator('[data-completion-tool="rests"]');
+ await rests.locator('.completion-article-details>summary').click();
+ await expect(page.locator('[data-task-id="rest-forecourt"]').getByRole('checkbox')).toBeChecked();
  await rests.getByLabel('Progress',{exact:true}).selectOption('done');
  await expect(rests.locator('[data-task-id]')).toHaveCount(1);
  await rests.getByRole('button',{name:'Clear filters',exact:true}).click();
@@ -86,6 +87,7 @@ test('task filters, saved progress, cross-guide state and reset work through the
 test('vignettes require ordered stages and stay in progress until photographed',async({page})=>{
  await page.goto('/maps/forever-ago-memory-locations');
  const tool=page.locator('[data-completion-tool="memories"]');
+ await tool.locator('.completion-article-details>summary').click();
  await expect(tool.getByLabel('Search tasks',{exact:true})).toBeEnabled();
  const vignette=tool.locator('[data-task-id="memory-fun-colors"]');
  const petals=vignette.getByRole('checkbox',{name:'Fun & Colors: Petals collected',exact:true});
@@ -130,6 +132,7 @@ test('a second open guide receives changed progress through the storage event',a
  await page.goto(tracker);
  const other=await context.newPage();
  await other.goto('/guide/forever-ago-old-bones-achievement');
+ await other.locator('.completion-article-details>summary').click();
  const target=other.locator('[data-task-id="rest-forecourt"]').getByRole('checkbox');
  await expect(target).toBeEnabled();
  await page.locator('[data-task-id="rest-forecourt"]').getByRole('checkbox').check();
@@ -152,6 +155,27 @@ test('readable storage with failed writes preserves visit progress when followin
  await expect(page.getByText(/Saving is unavailable in this browser/)).toBeVisible();
  await row.getByRole('link',{name:/Step-by-step guide/}).click();
  await expect(page).toHaveURL(/\/guide\/forever-ago-old-bones-achievement#/);
+ await page.locator('.completion-article-details>summary').click();
  await expect(page.locator('[data-task-id="rest-forecourt"]').getByRole('checkbox')).toBeChecked();
  await expect(page.getByText(/Saving is unavailable in this browser/)).toBeVisible();
+});
+
+test('article checklist stays compact until opened and preserves saved checks',async({page})=>{
+ await page.goto('/guide/forever-ago-achievements');
+ const tool=page.locator('[data-completion-tool="achievements"]');
+ await expect(tool.locator('.completion-article-details')).not.toHaveAttribute('open','');
+ await expect(tool.getByLabel('Search tasks',{exact:true})).not.toBeVisible();
+ await expect(tool.locator('[data-task-id]')).toHaveCount(29);
+ expect((await tool.boundingBox())!.height).toBeLessThan(400);
+ await tool.locator('summary').first().click();
+ await expect(tool.getByLabel('Search tasks',{exact:true})).toBeVisible();
+ await tool.getByLabel('Search tasks',{exact:true}).fill('Chrono Selfie');
+ await expect(tool.locator('[data-task-id]')).toHaveCount(1);
+ await tool.getByRole('checkbox').check();
+ await tool.getByRole('button',{name:'Clear filters',exact:true}).click();
+ await expect(tool.getByLabel('Search tasks',{exact:true})).toBeVisible();
+ await page.reload();
+ await expect(tool.locator('.completion-total')).toContainText('1');
+ await tool.locator('summary').first().click();
+ await expect(tool.locator('[data-task-id]').filter({hasText:'Chrono Selfie'}).getByRole('checkbox')).toBeChecked();
 });

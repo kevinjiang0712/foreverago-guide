@@ -27,14 +27,14 @@
   "featured": {
     "eyebrow": "YOUR NEXT STOP",
     "title": "Choose Your Next Goal",
-    "description": "Start a full journey, track a cleanup run, or jump straight to the answer you need.",
+    "description": "Plan a three-to-five-hour story run, check all 29 achievements, or find the photograph that moves your journey forward.",
     "pinnedIds": [
       "forever-ago-completion-tracker",
       "forever-ago-achievements",
       "forever-ago-walkthrough",
       "forever-ago-memory-locations",
-      "forever-ago-marleys-bobblehead",
-      "forever-ago-shopaholic"
+      "forever-ago-game-length",
+      "forever-ago-photo-puzzle"
     ]
   },
   "about": {
@@ -82,15 +82,15 @@
       "id": "photos-and-memories",
       "eyebrow": "PHOTOGRAPHY ROUTES",
       "title": "Find the Photo You’re Missing",
-      "description": "Choose the right route for story photographs, memory petals, or journal keepsakes.",
+      "description": "Solve story photo objectives, track camera achievements, and find memory petals or journal keepsakes.",
       "articleIds": [
         "forever-ago-photo-locations",
         "forever-ago-petal-locations",
         "forever-ago-camera-controls",
         "forever-ago-journal-photos",
         "forever-ago-chapter-1-photos",
-        "forever-ago-chapter-2-photos",
-        "forever-ago-chapter-3-photos",
+        "forever-ago-camera-achievements",
+        "forever-ago-photo-puzzle",
         "forever-ago-dog-photo"
       ]
     },
@@ -123,8 +123,8 @@
         "answer": "Forever Ago is a single-player narrative road-trip adventure. Explore compact locations, meet people, take instant-camera photos, and solve small environmental puzzles."
       },
       {
-        "question": "How long is the main story journey?",
-        "answer": "Reported story playthroughs span roughly two to five hours. Allow three to five hours for a first visit; optional memories, photography, and replay can add time."
+        "question": "How long is Forever Ago, and how many chapters are there?",
+        "answer": "Allow about three to five hours for the main story across nine chapters, including the opening and epilogue. Published review times vary with exploration. All-achievement cleanup can take longer; a story estimate is not a guaranteed 100% time."
       },
       {
         "question": "What does Alfred use the camera for?",

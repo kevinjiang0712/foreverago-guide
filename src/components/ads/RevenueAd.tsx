@@ -2,6 +2,7 @@
 import {useEffect,useRef,useState,type CSSProperties} from 'react';
 import {useAds} from './AdProvider';
 import {loadAdScript,bannerSizes,type AdScriptStatus,type RevenueSlot} from './ad-script';
+import {recordAdStage,observeAdVisibility} from './ad-measurement';
 
 // Collapsed grid ads leave the grid flow; use the preceding card to preserve
 // lazy loading at their actual insertion point without adding an empty row.
@@ -15,6 +16,7 @@ export function RevenueAd({slot,eager=false}:{slot:RevenueSlot;eager?:boolean}){
  const [ready,setReady]=useState(false),[attempt,setAttempt]=useState(0);
  const [status,setStatus]=useState('waiting'),[expanded,setExpanded]=useState(false);
  const currentPath=useRef(context?.path);
+ const viewedPath=useRef<string|null>(null);
  useEffect(()=>{currentPath.current=context?.path;},[context?.path]);
  const ads=context?.ads,path=context?.path;
  const mode=ads?.mode==='adsterra'&&!context?.production?'disabled':ads?.mode??'disabled';
@@ -23,6 +25,7 @@ export function RevenueAd({slot,eager=false}:{slot:RevenueSlot;eager?:boolean}){
  useEffect(()=>{
   const element=root.current;if(!element||mode==='disabled')return;
   let observer:IntersectionObserver|undefined;
+  let eligibleReported=false;
   const check=()=>{
    const anchor=loadingAnchor(element),box=element.getBoundingClientRect();
    const top=anchor===element?box.top:anchor.getBoundingClientRect().bottom;
@@ -34,6 +37,7 @@ export function RevenueAd({slot,eager=false}:{slot:RevenueSlot;eager?:boolean}){
    }
    if(slot==='anchor'&&innerWidth<320)return;
    if(mode==='adsterra'&&(!context?.production||!ads?.adsterra?.allowedHosts.includes(location.hostname)||!unit))return;
+   if(mode==='adsterra'&&!eligibleReported){recordAdStage(slot,'eligible',path??location.pathname);eligibleReported=true;}
    if(mode==='placeholder'||eager){setReady(true);return;}
    observer?.disconnect();
    observer=new IntersectionObserver(entries=>{if(entries.some(entry=>entry.isIntersecting)){setReady(true);observer?.disconnect();}},{rootMargin:`${innerHeight}px 0px`});
@@ -49,11 +53,13 @@ export function RevenueAd({slot,eager=false}:{slot:RevenueSlot;eager?:boolean}){
   const config=JSON.parse(scriptConfig);
   if(!config.adsterra?.allowedHosts.includes(location.hostname))return;
   const element=canvas.current;
+  const requestedPath=currentPath.current??location.pathname;
   let retry:ReturnType<typeof setTimeout>|undefined;
   let creativeFound=false;
   const report=(next:AdScriptStatus|'creative-dom')=>{
    setStatus(previous=>previous==='creative-dom'&&next==='script-loaded'?previous:next);
-   root.current?.dispatchEvent(new CustomEvent('ad-lifecycle',{bubbles:true,detail:{slot,status:next,path:currentPath.current,attempt}}));
+   root.current?.dispatchEvent(new CustomEvent('ad-lifecycle',{bubbles:true,detail:{slot,status:next,path:requestedPath,attempt}}));
+   if(next!=='creative-dom')recordAdStage(slot,next==='script-loaded'?'script_loaded':'script_error',requestedPath,attempt);
    if(next==='script-error'&&attempt<2&&!retry)retry=setTimeout(()=>setAttempt(previous=>previous+1),1000*4**attempt);
   };
   const loadedFrames=new WeakMap<HTMLIFrameElement,string>();
@@ -122,9 +128,14 @@ export function RevenueAd({slot,eager=false}:{slot:RevenueSlot;eager?:boolean}){
   const observer=new MutationObserver(measureCreative);observer.observe(element,{childList:true,subtree:true,attributes:true,characterData:true});
   const resize=new ResizeObserver(measureCreative);resize.observe(element);
   for(const event of contentEvents)element.addEventListener(event,measureCreative,true);
-  const unload=loadAdScript(element,config,slot,report);
+  const unload=loadAdScript(element,config,slot,report,()=>recordAdStage(slot,'request',requestedPath,attempt));
   return()=>{observer.disconnect();resize.disconnect();for(const event of contentEvents)element.removeEventListener(event,measureCreative,true);for(const [frame,tracked] of frameObservers){frame.removeEventListener('load',tracked.load);tracked.observer?.disconnect();for(const event of contentEvents)tracked.document?.removeEventListener(event,measureCreative,true);}unload();if(retry)clearTimeout(retry);};
  },[ready,mode,scriptConfig,slot,attempt]);
+ useEffect(()=>{
+  const measuredPath=path??location.pathname;
+  if(!expanded||mode!=='adsterra'||!root.current||viewedPath.current===measuredPath)return;
+  return observeAdVisibility(root.current,()=>{viewedPath.current=measuredPath;recordAdStage(slot,'viewable',measuredPath);});
+ },[expanded,mode,slot,path]);
  if(mode==='disabled'||(mode==='adsterra'&&!unit))return null;
  const size=slot==='native'?null:bannerSizes[slot];
  const style={'--revenue-width':size?`${size[0]}px`:'100%','--revenue-height':`${size?size[1]:mode==='placeholder'?480:0}px`} as CSSProperties;

@@ -6,7 +6,7 @@ export const bannerSizes={left:[160,300],right:[160,600],inline:[300,250],anchor
 let bannerLoads=Promise.resolve();
 let nativeLoads=Promise.resolve();
 
-export function loadAdScript(canvas:HTMLDivElement,ads:AdsConfig,slot:RevenueSlot,report:(status:AdScriptStatus)=>void){
+export function loadAdScript(canvas:HTMLDivElement,ads:AdsConfig,slot:RevenueSlot,report:(status:AdScriptStatus)=>void,onRequest?:()=>void){
  const unit=ads.adsterra?.units[slot];
  if(!unit)throw new Error(`Missing Adsterra unit: ${slot}`);
  let cancelled=false;
@@ -22,6 +22,7 @@ export function loadAdScript(canvas:HTMLDivElement,ads:AdsConfig,slot:RevenueSlo
   };
   script.onload=()=>finish('script-loaded');
   script.onerror=()=>finish('script-error');
+  onRequest?.();
   canvas.append(script);
  };
  if(slot==='native'&&!('containerId' in unit))throw new Error(`Missing Adsterra Native container ID: ${slot}`);

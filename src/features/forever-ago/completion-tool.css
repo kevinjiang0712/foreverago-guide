@@ -70,3 +70,7 @@
 @media(max-width:420px){.completion-filters{grid-template-columns:minmax(0,1fr)}.completion-heading{flex-wrap:wrap}.completion-total{text-align:left}.completion-results{flex-direction:column;gap:var(--s-2)}.completion-results>div{justify-content:flex-start}.completion-stop-heading{flex-wrap:wrap}.completion-tool{overflow-wrap:anywhere}}
 
 .completion-overview>div>div>span{white-space:nowrap}
+
+.completion-article-details>summary{min-height:var(--hit-min);padding-block:var(--s-3);color:var(--text-primary);font-weight:var(--fw-semibold);cursor:pointer}
+.completion-article-details>summary::marker{color:var(--marker)}
+.completion-article-details[open]>summary{margin-bottom:var(--s-4);border-bottom:var(--border-width) solid var(--border-default)}
