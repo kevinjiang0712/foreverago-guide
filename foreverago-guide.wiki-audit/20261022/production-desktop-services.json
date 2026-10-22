@@ -1,0 +1,286 @@
+{
+  "collectedAt": "2026-10-22T12:46:17.203Z",
+  "appCommit": "f42a84c280b900f70e62e905ff5889401edb5229",
+  "device": "desktop 1920x1000",
+  "interception": false,
+  "errors": [],
+  "rows": [
+    {
+      "slug": "forever-ago-steam",
+      "network": [
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "status": 200,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.clarity.ms",
+          "path": "/tag/ywlgmczujj",
+          "status": 200,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": "page_view",
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "scripts.clarity.ms",
+          "path": "/0.8.72-beta/clarity.js",
+          "status": 200,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/a5dd169b5c2f54b123c1cee7d1687132",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "j.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "j.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/a5dd169b5c2f54b123c1cee7d1687132",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "j.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        }
+      ],
+      "fontRequests": [
+        {
+          "url": "https://www.foreverago-guide.wiki/media/fonts/figtree-400.woff2",
+          "startTime": 22340.89999999106
+        },
+        {
+          "url": "https://www.foreverago-guide.wiki/media/fonts/figtree-600.woff2",
+          "startTime": 22341.09999999404
+        },
+        {
+          "url": "https://www.foreverago-guide.wiki/media/fonts/figtree-700.woff2",
+          "startTime": 22341.29999999702
+        },
+        {
+          "url": "https://www.foreverago-guide.wiki/media/fonts/outfit-500.woff2",
+          "startTime": 22341.29999999702
+        },
+        {
+          "url": "https://www.foreverago-guide.wiki/media/fonts/outfit-600.woff2",
+          "startTime": 22341.29999999702
+        }
+      ],
+      "overflow": false,
+      "expandedSlots": 0,
+      "h1": "Forever Ago Steam: PC Requirements"
+    },
+    {
+      "slug": "forever-ago-ps5",
+      "network": [
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "status": 200,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": "page_view",
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/a5dd169b5c2f54b123c1cee7d1687132",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.clarity.ms",
+          "path": "/tag/ywlgmczujj",
+          "status": 200,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "scripts.clarity.ms",
+          "path": "/0.8.72-beta/clarity.js",
+          "status": 200,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/a5dd169b5c2f54b123c1cee7d1687132",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "j.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "j.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/a5dd169b5c2f54b123c1cee7d1687132",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "j.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        }
+      ],
+      "fontRequests": [
+        {
+          "url": "https://www.foreverago-guide.wiki/media/fonts/figtree-400.woff2",
+          "startTime": 662.3999999910593
+        },
+        {
+          "url": "https://www.foreverago-guide.wiki/media/fonts/figtree-600.woff2",
+          "startTime": 662.5
+        },
+        {
+          "url": "https://www.foreverago-guide.wiki/media/fonts/figtree-700.woff2",
+          "startTime": 662.5
+        },
+        {
+          "url": "https://www.foreverago-guide.wiki/media/fonts/outfit-500.woff2",
+          "startTime": 662.5
+        },
+        {
+          "url": "https://www.foreverago-guide.wiki/media/fonts/outfit-600.woff2",
+          "startTime": 662.5
+        }
+      ],
+      "overflow": false,
+      "expandedSlots": 0,
+      "h1": "Forever Ago PS5: Features and Languages"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+数据分析
+旧版 JavaScript 预计节省 22 KiB
+使用高效的缓存生命周期 预计节省 14 KiB
+网络依赖关系树
+避免链接关键请求，方法是缩短链长、缩减资源的下载文件大小，或者推迟下载不必要的资源，从而提高网页加载速度。LCP不计分
+关键路径延迟时间上限： 308毫秒
+初始导航
+/guide/forever-ago-steam(www.foreverago-guide.wiki) - 289毫秒, 51.85 KiB
+/beacon.min.js/vce70182…(static.cloudflareinsights.com) - 308毫秒, 10.38 KiB
+预连接的源
+preconnect 提示可帮助浏览器在加载网页时尽早建立连接，从而在向该源发出第一个请求时节省时间。以下是该网页预先连接到的源。
+未预连接任何源
+预连接候选项
+为最重要的源添加 preconnect 提示，但请尽量不要超过 4 个。
+没有其他源是预连接的合适候选对象
+改进图片传送 预计节省 60 KiB
+LCP 细分
+每个子部分都有特定的改进策略。理想情况下，LCP 的大部分时间应该用于加载资源，而不是消耗在延迟上。LCP不计分
+子部分
+	
+时长
+
+
+第一字节时间 (Time to First Byte)
+	
+10毫秒
+
+
+元素渲染延迟
+	
+2,390毫秒
+Forever Ago is available on Steam, following its October 8, 2026 release. The l…
+<p class="wiki-paragraph">
+第三方
+第三方代码可能会显著影响加载性能。请减少并推迟加载第三方代码，以优先渲染您的网页内容。不计分
+第三方
+	
+传输大小
+	
+主线程耗时
+
+
+Google Tag Manager Tag-Manager 
+177 KiB	188毫秒
+
+/gtag/js?id=G-1L7F54XGRR(www.googletagmanager.com)
+	
+177 KiB
+	
+188毫秒
+
+
+Clarity Utility 
+28 KiB	87毫秒
+
+/0.8.75-beta/clarity.js(scripts.clarity.ms)
+	
+25 KiB
+	
+85毫秒
+
+
+/tag/ywlgmczujj(www.clarity.ms)
+	
+1 KiB
+	
+2毫秒
+
+
+/collect(t.clarity.ms)
+	
+1 KiB
+	
+0毫秒
+
+
+/c.gif?ctsa=…(c.clarity.ms)
+	
+1 KiB
+	
+0毫秒
+
+
+Cloudflare Utility 
+10 KiB	8毫秒
+
+/beacon.min.js/vce70182…(static.cloudflareinsights.com)
+	
+10 KiB
+	
+8毫秒
+
+
+Google Analytics Analytics 
+1 KiB	0毫秒
+
+/g/collect?v=…(www.google-analytics.com)
+	
+1 KiB
+	
+0毫秒
+
+
+bauval.org
+5 KiB	0毫秒
+
+/22/43675de…(bauval.org)
+	
+5 KiB
+	
+0毫秒
+您还可在 Chrome 开发者工具的“性能”面板中查看这些数据分析。只要记录跟踪信息，即可查看更详细的信息。

@@ -1,6 +1,6 @@
 {
   "site": "https://www.foreverago-guide.wiki",
-  "appCommit": "33e3a1a61d9716ccde17cbc17cb64ea0bbbbbb7b",
+  "appCommit": "f42a84c280b900f70e62e905ff5889401edb5229",
   "routeCount": 47,
   "sitemapCount": 47,
   "routes": [
@@ -10,8 +10,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "e9d3df9d3763c8106a68576a98add7ad902477cbf2cb95c5d74bd809311ab0c2",
-      "exportSha256": "e9d3df9d3763c8106a68576a98add7ad902477cbf2cb95c5d74bd809311ab0c2"
+      "remoteSha256": "4ce3339d48da6028afad62744be30336c855cb96f56f66932f6b2dd71532c7f7",
+      "exportSha256": "4ce3339d48da6028afad62744be30336c855cb96f56f66932f6b2dd71532c7f7"
     },
     {
       "path": "/review",
@@ -19,8 +19,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "f0e24d3c4e86ec176ef3bf2015d0dd422ce32b49bb71f5ddfac2d727e868d2d5",
-      "exportSha256": "f0e24d3c4e86ec176ef3bf2015d0dd422ce32b49bb71f5ddfac2d727e868d2d5"
+      "remoteSha256": "b585154dcf39ec557fd296d6cd1c29ea640377b365bc4767c4e76b644dc6f56f",
+      "exportSha256": "b585154dcf39ec557fd296d6cd1c29ea640377b365bc4767c4e76b644dc6f56f"
     },
     {
       "path": "/guide",
@@ -28,8 +28,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "7f4cf6926b33fe6d584d2c14aebc814f88b63df5bea9b7bb4cb863d139559fa6",
-      "exportSha256": "7f4cf6926b33fe6d584d2c14aebc814f88b63df5bea9b7bb4cb863d139559fa6"
+      "remoteSha256": "190c34c6457baed21bee16db62f98c34fdd38ac87e8ceea494118fbaa633e796",
+      "exportSha256": "190c34c6457baed21bee16db62f98c34fdd38ac87e8ceea494118fbaa633e796"
     },
     {
       "path": "/maps",
@@ -37,8 +37,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "042bfa255d107a8fb6e064451698280a001f074139c67e3e0431bb5c51f3efef",
-      "exportSha256": "042bfa255d107a8fb6e064451698280a001f074139c67e3e0431bb5c51f3efef"
+      "remoteSha256": "d708aabb0ce0bf9cf3109f33bd46ae4258c917c945fc0d0f8a7783e4686e3ca7",
+      "exportSha256": "d708aabb0ce0bf9cf3109f33bd46ae4258c917c945fc0d0f8a7783e4686e3ca7"
     },
     {
       "path": "/story",
@@ -46,8 +46,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "27360cc23d2f2b3161d051926839126f36104e72d5b9b6e3c72d14b196ea95fe",
-      "exportSha256": "27360cc23d2f2b3161d051926839126f36104e72d5b9b6e3c72d14b196ea95fe"
+      "remoteSha256": "0bac32a1c0c7d3eab6aeed60c140abefbbcc1eb464f7422fc2c5ffde71d6a482",
+      "exportSha256": "0bac32a1c0c7d3eab6aeed60c140abefbbcc1eb464f7422fc2c5ffde71d6a482"
     },
     {
       "path": "/walkthrough",
@@ -55,8 +55,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "57460751739a0e21cbd9598102e83ffff3871cdf50a70e90d18da8eededd74b3",
-      "exportSha256": "57460751739a0e21cbd9598102e83ffff3871cdf50a70e90d18da8eededd74b3"
+      "remoteSha256": "662635e8e8fffaeecbfd2caad0227546e2c5bc6e57711bd195587c33a6640be5",
+      "exportSha256": "662635e8e8fffaeecbfd2caad0227546e2c5bc6e57711bd195587c33a6640be5"
     },
     {
       "path": "/characters",
@@ -64,8 +64,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "770287b19a756db5cb037fc02c236facc3780dd52b525f55ac84c9bff6039992",
-      "exportSha256": "770287b19a756db5cb037fc02c236facc3780dd52b525f55ac84c9bff6039992"
+      "remoteSha256": "cb0b1623af8e4f090cdceb9fe13edba87955a738f40ae4a8e6a00d1514b849c6",
+      "exportSha256": "cb0b1623af8e4f090cdceb9fe13edba87955a738f40ae4a8e6a00d1514b849c6"
     },
     {
       "path": "/about",
@@ -73,8 +73,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "7da3e1903c66afadd2cae508794c8e607a795e7288e7cfeccf3078ea3ce06364",
-      "exportSha256": "7da3e1903c66afadd2cae508794c8e607a795e7288e7cfeccf3078ea3ce06364"
+      "remoteSha256": "13c61f16d6b6de1408976a2871b62f326d7f603f37b0b58a042ddb99b2cc8780",
+      "exportSha256": "13c61f16d6b6de1408976a2871b62f326d7f603f37b0b58a042ddb99b2cc8780"
     },
     {
       "path": "/contact",
@@ -82,8 +82,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "a3c4ff9d1b20d543c04d9ca7639b7d8a14f0e78e462cfcf15b7d75d371a9fbb0",
-      "exportSha256": "a3c4ff9d1b20d543c04d9ca7639b7d8a14f0e78e462cfcf15b7d75d371a9fbb0"
+      "remoteSha256": "e4e6507dceb4e013a9b58c8037c491b330764913aad309d8672b2fdb9356d68e",
+      "exportSha256": "e4e6507dceb4e013a9b58c8037c491b330764913aad309d8672b2fdb9356d68e"
     },
     {
       "path": "/guide/forever-ago-achievements",
@@ -91,8 +91,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "2bc952f9be6264b99f88f05220b0553f370d9f711cbdeea71c276553b3f5dab2",
-      "exportSha256": "2bc952f9be6264b99f88f05220b0553f370d9f711cbdeea71c276553b3f5dab2"
+      "remoteSha256": "5ce71e839424302187a3b2142f16170b07ca292a6f97b9a3ceb088c7be752ddd",
+      "exportSha256": "5ce71e839424302187a3b2142f16170b07ca292a6f97b9a3ceb088c7be752ddd"
     },
     {
       "path": "/characters/forever-ago-audrey-story",
@@ -100,8 +100,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "fd82f30ee8b8d50ea178bacade9ef08490e31d474101cc210b1ae07bb2676e26",
-      "exportSha256": "fd82f30ee8b8d50ea178bacade9ef08490e31d474101cc210b1ae07bb2676e26"
+      "remoteSha256": "32c5f6fdb8c0345436011a06fcede919b34fee74e7af181f3f9c18418b781963",
+      "exportSha256": "32c5f6fdb8c0345436011a06fcede919b34fee74e7af181f3f9c18418b781963"
     },
     {
       "path": "/guide/forever-ago-camera-achievements",
@@ -109,8 +109,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "e565a29c4a813d9c6b90817ee984d120ae7a7c6cb41313a6593a0ba8b64b82c5",
-      "exportSha256": "e565a29c4a813d9c6b90817ee984d120ae7a7c6cb41313a6593a0ba8b64b82c5"
+      "remoteSha256": "157831b30afdaeef8722f928002fa6de5ebc47f018c5f4fac4113260738ebd80",
+      "exportSha256": "157831b30afdaeef8722f928002fa6de5ebc47f018c5f4fac4113260738ebd80"
     },
     {
       "path": "/guide/forever-ago-camera-controls",
@@ -118,8 +118,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "f4c677a738a92472f9ac5ac777b35644c347eabb0c6bdbfe74dc000189e44239",
-      "exportSha256": "f4c677a738a92472f9ac5ac777b35644c347eabb0c6bdbfe74dc000189e44239"
+      "remoteSha256": "608a67c08f30713c4f98425004105c599ea99bb0c565b680afa8841be3c72383",
+      "exportSha256": "608a67c08f30713c4f98425004105c599ea99bb0c565b680afa8841be3c72383"
     },
     {
       "path": "/maps/forever-ago-chapter-1-photos",
@@ -127,8 +127,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "d03f03680972aaf6b1fa463da40a800d6c33034619ca638be6e2f51208bdb85a",
-      "exportSha256": "d03f03680972aaf6b1fa463da40a800d6c33034619ca638be6e2f51208bdb85a"
+      "remoteSha256": "1dfd6feba6c076e57e2d723af0c12c93e2549dd7733462c6dc445dc2e5cd09a4",
+      "exportSha256": "1dfd6feba6c076e57e2d723af0c12c93e2549dd7733462c6dc445dc2e5cd09a4"
     },
     {
       "path": "/maps/forever-ago-chapter-2-photos",
@@ -136,8 +136,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "8fe380b6a4964d1e3cbee9b5d10b577af0b698d28cec674d85ba0d9cd8ecb84f",
-      "exportSha256": "8fe380b6a4964d1e3cbee9b5d10b577af0b698d28cec674d85ba0d9cd8ecb84f"
+      "remoteSha256": "467d316373e57f2f7233c7ac9d93bf0bff7a0437a720517499e84be137156ffa",
+      "exportSha256": "467d316373e57f2f7233c7ac9d93bf0bff7a0437a720517499e84be137156ffa"
     },
     {
       "path": "/maps/forever-ago-chapter-3-photos",
@@ -145,8 +145,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "4c2e9e7547906638e69cbbbd13f31be9b6eded368481cfc468a0cc4c50f61f48",
-      "exportSha256": "4c2e9e7547906638e69cbbbd13f31be9b6eded368481cfc468a0cc4c50f61f48"
+      "remoteSha256": "c8f729cd52fc745d47f2773c54e39adecc3a7b44ed879327d3d61c477c3d378e",
+      "exportSha256": "c8f729cd52fc745d47f2773c54e39adecc3a7b44ed879327d3d61c477c3d378e"
     },
     {
       "path": "/guide/forever-ago-chapter-select",
@@ -154,8 +154,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "dafe29e8b25349fb6cb7fec98daaa032f45f75898075676052b6b107067c8365",
-      "exportSha256": "dafe29e8b25349fb6cb7fec98daaa032f45f75898075676052b6b107067c8365"
+      "remoteSha256": "3db27e67f277cf1d8e036e85e5780abbcce1ce90b1b4aa9a79c15c0084f7d119",
+      "exportSha256": "3db27e67f277cf1d8e036e85e5780abbcce1ce90b1b4aa9a79c15c0084f7d119"
     },
     {
       "path": "/guide/forever-ago-checkpoint-save",
@@ -163,8 +163,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "f17809f259e5414f8f3244b3ad4a0a71949fa941f7dfc2bf8ac256d70c70c8cc",
-      "exportSha256": "f17809f259e5414f8f3244b3ad4a0a71949fa941f7dfc2bf8ac256d70c70c8cc"
+      "remoteSha256": "ce166edb22f8a57e0bd169231013ae7a599c62ce9a562b2344c0220235695c14",
+      "exportSha256": "ce166edb22f8a57e0bd169231013ae7a599c62ce9a562b2344c0220235695c14"
     },
     {
       "path": "/guide/forever-ago-collectibles",
@@ -172,8 +172,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "483b556426fa4b2ab8ee2438533ac5bb977f5a7239182df20c5a6662faac5491",
-      "exportSha256": "483b556426fa4b2ab8ee2438533ac5bb977f5a7239182df20c5a6662faac5491"
+      "remoteSha256": "21aa1243476a883c8f19c9243313916454ddf3103e42651287a0368a3d9674a9",
+      "exportSha256": "21aa1243476a883c8f19c9243313916454ddf3103e42651287a0368a3d9674a9"
     },
     {
       "path": "/guide/forever-ago-completion-tracker",
@@ -181,8 +181,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "1e6b90fdd851ccd264d33de96752aac7a91db88f3c9599a7f3219485c0714de6",
-      "exportSha256": "1e6b90fdd851ccd264d33de96752aac7a91db88f3c9599a7f3219485c0714de6"
+      "remoteSha256": "44b6b09bdfbbd1286350e5bb987e15bf2d60423a2d09afdf01ec3ee8fee269ee",
+      "exportSha256": "44b6b09bdfbbd1286350e5bb987e15bf2d60423a2d09afdf01ec3ee8fee269ee"
     },
     {
       "path": "/walkthrough/forever-ago-dog-photo",
@@ -190,8 +190,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "c9748ae8989bd6f0700b1a23aa3cffa2ad0cb88d44d47c59fa0ab3817bf61fd6",
-      "exportSha256": "c9748ae8989bd6f0700b1a23aa3cffa2ad0cb88d44d47c59fa0ab3817bf61fd6"
+      "remoteSha256": "39864c270b8600d9ad8f29756a7122e872866e3a9570a693ed47987f834bc117",
+      "exportSha256": "39864c270b8600d9ad8f29756a7122e872866e3a9570a693ed47987f834bc117"
     },
     {
       "path": "/story/forever-ago-ending-explained",
@@ -199,8 +199,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "310ecf7806aabb6c43f33619bbf51183276895af18363b81ef1e5ea1c3654430",
-      "exportSha256": "310ecf7806aabb6c43f33619bbf51183276895af18363b81ef1e5ea1c3654430"
+      "remoteSha256": "e9b9fc346d5c4fdf68e1018c086c0ff37d7218cad4c0cb1164c974de63497a7f",
+      "exportSha256": "e9b9fc346d5c4fdf68e1018c086c0ff37d7218cad4c0cb1164c974de63497a7f"
     },
     {
       "path": "/review/forever-ago-game-length",
@@ -208,8 +208,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "a7c7017b378c93396fd42c59de9c272d09174993b9c15a05b7c7029bb5bde7d3",
-      "exportSha256": "a7c7017b378c93396fd42c59de9c272d09174993b9c15a05b7c7029bb5bde7d3"
+      "remoteSha256": "755060eb26ecc9c8d701d76b7a893f9d7ed776e4febf023832e2e691d357c165",
+      "exportSha256": "755060eb26ecc9c8d701d76b7a893f9d7ed776e4febf023832e2e691d357c165"
     },
     {
       "path": "/guide/forever-ago-gameplay",
@@ -217,8 +217,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "73ab64377ae2c50805fad13e92ab6539449688fe0e4b06de40d5e434e4d9694a",
-      "exportSha256": "73ab64377ae2c50805fad13e92ab6539449688fe0e4b06de40d5e434e4d9694a"
+      "remoteSha256": "2be2ab42c53bbe3d980c27c6760aa544c22fa57393008c887ec1fc104fb8e0cd",
+      "exportSha256": "2be2ab42c53bbe3d980c27c6760aa544c22fa57393008c887ec1fc104fb8e0cd"
     },
     {
       "path": "/guide/forever-ago-guardian-lord",
@@ -226,8 +226,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "3bf401cb22bcb6336c53424f4a779695104f75bff2777cc79008e8df4f806762",
-      "exportSha256": "3bf401cb22bcb6336c53424f4a779695104f75bff2777cc79008e8df4f806762"
+      "remoteSha256": "c85ea46c7b905fe33f7aae06e9fae55363e4b9dba3e413c886ca13f170d4fb4c",
+      "exportSha256": "c85ea46c7b905fe33f7aae06e9fae55363e4b9dba3e413c886ca13f170d4fb4c"
     },
     {
       "path": "/guide/forever-ago-hidden-achievements",
@@ -235,8 +235,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "0a173a1d840844e03b29f9bf2516647075dc0aa2fc1c4f964768c289fc5b0688",
-      "exportSha256": "0a173a1d840844e03b29f9bf2516647075dc0aa2fc1c4f964768c289fc5b0688"
+      "remoteSha256": "dc4797f72bd869b8c0430d14e62bb23582d9b356ed441bd39ef46467f6f15d68",
+      "exportSha256": "dc4797f72bd869b8c0430d14e62bb23582d9b356ed441bd39ef46467f6f15d68"
     },
     {
       "path": "/guide/forever-ago-journal-photos",
@@ -244,8 +244,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "e33e7f9bd98dda1b1ca3d51f2f57ceb0549fa7804ae3d83966160b6da50cb3ee",
-      "exportSha256": "e33e7f9bd98dda1b1ca3d51f2f57ceb0549fa7804ae3d83966160b6da50cb3ee"
+      "remoteSha256": "5ffedc7bdb22d8115e024d9e6ff7242e2246ca12182f24b9e97df65104b960c0",
+      "exportSha256": "5ffedc7bdb22d8115e024d9e6ff7242e2246ca12182f24b9e97df65104b960c0"
     },
     {
       "path": "/guide/forever-ago-marleys-bobblehead",
@@ -253,8 +253,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "ce2702006233da0419b4361710b94605c674ae5f2535cdcd28430f291bf62352",
-      "exportSha256": "ce2702006233da0419b4361710b94605c674ae5f2535cdcd28430f291bf62352"
+      "remoteSha256": "f0e71dcf699ea426a2292d94a95b98b3c219f2c754a5f008527547d2b8bd77c8",
+      "exportSha256": "f0e71dcf699ea426a2292d94a95b98b3c219f2c754a5f008527547d2b8bd77c8"
     },
     {
       "path": "/maps/forever-ago-memory-locations",
@@ -262,8 +262,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "0fcdf52641b52fe0336d15c9be1f034e1e002bc06d7a1d35cfd280462cc66fe5",
-      "exportSha256": "0fcdf52641b52fe0336d15c9be1f034e1e002bc06d7a1d35cfd280462cc66fe5"
+      "remoteSha256": "dfcf8bd9785c1f8e0bde284e31a048d1b2115fd32255f015ad3d64aaaade799d",
+      "exportSha256": "dfcf8bd9785c1f8e0bde284e31a048d1b2115fd32255f015ad3d64aaaade799d"
     },
     {
       "path": "/guide/forever-ago-missable-achievements",
@@ -271,8 +271,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "4e433cecc9e1c6056c743bab7269c5b55ab1209c613b0256d271b430c16f3586",
-      "exportSha256": "4e433cecc9e1c6056c743bab7269c5b55ab1209c613b0256d271b430c16f3586"
+      "remoteSha256": "52e76b6382b60732528c73d3b1325bd60e092d8209ed5c28a7c290a2b149199c",
+      "exportSha256": "52e76b6382b60732528c73d3b1325bd60e092d8209ed5c28a7c290a2b149199c"
     },
     {
       "path": "/guide/forever-ago-mosaic-pumpkins",
@@ -280,8 +280,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "f71fdfdbc627df31f1dfd6b26edf1b9d44e93e471806160e94512615ca79b0c0",
-      "exportSha256": "f71fdfdbc627df31f1dfd6b26edf1b9d44e93e471806160e94512615ca79b0c0"
+      "remoteSha256": "49e0edaaad80daed614a1c2b74d4b09b7d0c6a46573ce565bb67ec4a0fca0499",
+      "exportSha256": "49e0edaaad80daed614a1c2b74d4b09b7d0c6a46573ce565bb67ec4a0fca0499"
     },
     {
       "path": "/guide/forever-ago-old-bones-achievement",
@@ -289,8 +289,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "27020874f3de48f0f0300972a8aba249d229bb9cc05c0ff74b9925da6eea84a0",
-      "exportSha256": "27020874f3de48f0f0300972a8aba249d229bb9cc05c0ff74b9925da6eea84a0"
+      "remoteSha256": "6e93a0506c6a437ea6774dec0eb01d342c80a61bb72166141a0be87bf029e4f2",
+      "exportSha256": "6e93a0506c6a437ea6774dec0eb01d342c80a61bb72166141a0be87bf029e4f2"
     },
     {
       "path": "/guide/forever-ago-petal-collector-achievement",
@@ -298,8 +298,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "c3817d338a0a1e015b66876903dd69e4290fcf69027f7f289f5b3256e07231be",
-      "exportSha256": "c3817d338a0a1e015b66876903dd69e4290fcf69027f7f289f5b3256e07231be"
+      "remoteSha256": "fc5717dfe92f5886dad07862c69c9f09109a1746c9e0a0b12a3c0b569ccb1062",
+      "exportSha256": "fc5717dfe92f5886dad07862c69c9f09109a1746c9e0a0b12a3c0b569ccb1062"
     },
     {
       "path": "/maps/forever-ago-petal-locations",
@@ -307,8 +307,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "4b3e48d3e304e3ce9c51994afdca85d0ccc823a70d3e0834439f2a42137c6d21",
-      "exportSha256": "4b3e48d3e304e3ce9c51994afdca85d0ccc823a70d3e0834439f2a42137c6d21"
+      "remoteSha256": "e626e791a820a00175c1fabe8eb014ba9aa470c20e684f56412cde59c38a7548",
+      "exportSha256": "e626e791a820a00175c1fabe8eb014ba9aa470c20e684f56412cde59c38a7548"
     },
     {
       "path": "/maps/forever-ago-photo-locations",
@@ -316,8 +316,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "8e08d6b3cf1e0d5f2cb714c7204d693e7867df43b7adaf7258d9d864ba152d67",
-      "exportSha256": "8e08d6b3cf1e0d5f2cb714c7204d693e7867df43b7adaf7258d9d864ba152d67"
+      "remoteSha256": "3f9547dc6fc230df146e1440ce05843fb3e42899538a518b2875edd80078ecff",
+      "exportSha256": "3f9547dc6fc230df146e1440ce05843fb3e42899538a518b2875edd80078ecff"
     },
     {
       "path": "/walkthrough/forever-ago-photo-puzzle",
@@ -325,8 +325,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "3f18e9c231cf582e2481127695c7229f063f6be784d21606a88f12c68b859224",
-      "exportSha256": "3f18e9c231cf582e2481127695c7229f063f6be784d21606a88f12c68b859224"
+      "remoteSha256": "bdbd1659bd7039242938b46fa7e6d9f2b007e704bfe5f22a13eb5674533e339b",
+      "exportSha256": "bdbd1659bd7039242938b46fa7e6d9f2b007e704bfe5f22a13eb5674533e339b"
     },
     {
       "path": "/guide/forever-ago-ps5",
@@ -334,8 +334,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "e073bd70d7bce07c5b1e22d9f5b11b2ed358dd97758d2dfd53042816e545f016",
-      "exportSha256": "e073bd70d7bce07c5b1e22d9f5b11b2ed358dd97758d2dfd53042816e545f016"
+      "remoteSha256": "f88bb1a35dd151900c2fd6611e093e1257799dd27ad9421187e717b4ac0313c9",
+      "exportSha256": "f88bb1a35dd151900c2fd6611e093e1257799dd27ad9421187e717b4ac0313c9"
     },
     {
       "path": "/review/forever-ago-review",
@@ -343,8 +343,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "86268de80a72c9b335c9aaf9b109e3e77e466cf7e9cddb02584725f546f642fa",
-      "exportSha256": "86268de80a72c9b335c9aaf9b109e3e77e466cf7e9cddb02584725f546f642fa"
+      "remoteSha256": "efa996b31ce2916c12f730f5d1f6a828bc9ff0af4c0a03c4052673eabf281504",
+      "exportSha256": "efa996b31ce2916c12f730f5d1f6a828bc9ff0af4c0a03c4052673eabf281504"
     },
     {
       "path": "/guide/forever-ago-scallyrat-roberts",
@@ -352,8 +352,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "d16d0e853fc9dab02c83d9f5238a463324c31abb3ff6016d7973bdd05059f350",
-      "exportSha256": "d16d0e853fc9dab02c83d9f5238a463324c31abb3ff6016d7973bdd05059f350"
+      "remoteSha256": "2242d2dcbeccaa8d8400ad4ffe498df6b8cbc8a3e70c0f40bd31ec470710a186",
+      "exportSha256": "2242d2dcbeccaa8d8400ad4ffe498df6b8cbc8a3e70c0f40bd31ec470710a186"
     },
     {
       "path": "/guide/forever-ago-selfie-achievement",
@@ -361,8 +361,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "baa1a2e1b0c53b2f98360f65f8c08ee527440a9acb652b9e63e57a64335bd006",
-      "exportSha256": "baa1a2e1b0c53b2f98360f65f8c08ee527440a9acb652b9e63e57a64335bd006"
+      "remoteSha256": "5b413a1994b433cf81152bd2c9525d78cfc2cb58ae534713785dee7071dab6bc",
+      "exportSha256": "5b413a1994b433cf81152bd2c9525d78cfc2cb58ae534713785dee7071dab6bc"
     },
     {
       "path": "/guide/forever-ago-shopaholic",
@@ -370,8 +370,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "021b4dbcc495d7fdfb8d77faf90c7f63bdc39fddd991dce11d3c5593184fec83",
-      "exportSha256": "021b4dbcc495d7fdfb8d77faf90c7f63bdc39fddd991dce11d3c5593184fec83"
+      "remoteSha256": "4690dbb65aa69d38b607a4f3f8ff50357e0ab99761af9c77d34e9beda56c7e88",
+      "exportSha256": "4690dbb65aa69d38b607a4f3f8ff50357e0ab99761af9c77d34e9beda56c7e88"
     },
     {
       "path": "/guide/forever-ago-snooping-shutterbug",
@@ -379,8 +379,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "d01627eb0f992001aba59ee06cea452d6bb9b71271982cdc85eea8de6cb23d7f",
-      "exportSha256": "d01627eb0f992001aba59ee06cea452d6bb9b71271982cdc85eea8de6cb23d7f"
+      "remoteSha256": "34b1817b0812ffc2ac9a8c50d5b4dd87f9f00776a2b901ec7ae7f2ac220cb62c",
+      "exportSha256": "34b1817b0812ffc2ac9a8c50d5b4dd87f9f00776a2b901ec7ae7f2ac220cb62c"
     },
     {
       "path": "/guide/forever-ago-steam",
@@ -388,8 +388,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "012aa03d38b4d786ab35e2aab1c319c651072da3eac5fd0af83d7e68d2a05cde",
-      "exportSha256": "012aa03d38b4d786ab35e2aab1c319c651072da3eac5fd0af83d7e68d2a05cde"
+      "remoteSha256": "2863890c92aba1cea09678602ff183fbf5cf4311ce667970e460d71f6b0373bd",
+      "exportSha256": "2863890c92aba1cea09678602ff183fbf5cf4311ce667970e460d71f6b0373bd"
     },
     {
       "path": "/walkthrough/forever-ago-walkthrough",
@@ -397,8 +397,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "65880155b88300ac19da2f7af75412fb6b6f2daa5bd40846b3b4a56fba4927a8",
-      "exportSha256": "65880155b88300ac19da2f7af75412fb6b6f2daa5bd40846b3b4a56fba4927a8"
+      "remoteSha256": "71b3fb91eb7be021b6b370f683219726e5dd8efa96ea5e43fb449a75817300da",
+      "exportSha256": "71b3fb91eb7be021b6b370f683219726e5dd8efa96ea5e43fb449a75817300da"
     },
     {
       "path": "/walkthrough/forever-ago-williamina-peak",
@@ -406,8 +406,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "d488876e422073f72b0c0968937cf9ce0d8f156455ff50976e0ac34428619ab4",
-      "exportSha256": "d488876e422073f72b0c0968937cf9ce0d8f156455ff50976e0ac34428619ab4"
+      "remoteSha256": "ccd111954bf742eb5a4817e4bab3633a3c800e5459fc1f4031d1a8aef3bfe24d",
+      "exportSha256": "ccd111954bf742eb5a4817e4bab3633a3c800e5459fc1f4031d1a8aef3bfe24d"
     },
     {
       "path": "/privacy",
@@ -415,8 +415,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "ce053a8ee08ce264016e9d81df28d69dbfb7d7dab23c6896393346c72349519c",
-      "exportSha256": "ce053a8ee08ce264016e9d81df28d69dbfb7d7dab23c6896393346c72349519c"
+      "remoteSha256": "15d48aceacbb1d9f1fe6e4468c9f69ec8f95d2c7d52600cdd468610f890b5ecb",
+      "exportSha256": "15d48aceacbb1d9f1fe6e4468c9f69ec8f95d2c7d52600cdd468610f890b5ecb"
     },
     {
       "path": "/terms",
@@ -424,8 +424,8 @@
       "xRobotsTag": null,
       "canonicalPresent": true,
       "sameHtmlExceptCloudflareBeacon": true,
-      "remoteSha256": "b68524ca57bc3b0ee5d84cd1620df7ab5cca657c3859413464d6256f0845770d",
-      "exportSha256": "b68524ca57bc3b0ee5d84cd1620df7ab5cca657c3859413464d6256f0845770d"
+      "remoteSha256": "3a4d1c73613db0b3e158e8a8e9d5bbed66034758adc3340de5b11a1def0dbd91",
+      "exportSha256": "3a4d1c73613db0b3e158e8a8e9d5bbed66034758adc3340de5b11a1def0dbd91"
     }
   ]
 }

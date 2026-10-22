@@ -1,0 +1,43 @@
+{
+  "collected_date": "20261022",
+  "recorded_at": "2026-10-22T12:05:36.814691+00:00",
+  "keywords": [
+    "forever ago steam",
+    "forever ago ps5"
+  ],
+  "serper": {
+    "script": "/Users/jiangchenxiang/Desktop/产品/自动化建站/Serper/serper.mjs",
+    "exit_code": 2,
+    "error_code": "ALL_API_KEYS_UNAVAILABLE",
+    "message": "所有配置的 Serper API Key 均无效或额度已耗尽",
+    "successful_keywords": 0,
+    "attempted_keywords": 1,
+    "remaining_keywords": 1
+  },
+  "jina_reader": {
+    "script": "/Users/jiangchenxiang/Desktop/产品/自动化建站/jina reader/jina-reader.mjs",
+    "exit_code": 2,
+    "error_code": "ALL_API_KEYS_UNAVAILABLE",
+    "message": "All configured Jina API keys are invalid or have insufficient balance",
+    "input_origin": "Supplemental ordinary web search discovery after Serper failure; NOT Serper ranking results",
+    "total_urls": 18,
+    "succeeded": 0,
+    "failed": 0,
+    "skipped": 0,
+    "unprocessed": 18,
+    "markdown_files": []
+  },
+  "limitations": [
+    "No current Serper ranking results were obtained.",
+    "No current Jina-processed webpage body was obtained.",
+    "Official sources were separately opened through the normal web tool for factual verification; they are not represented as Jina-processed local research.",
+    "Failure receipt is stored in the site audit directory; the requested raw-data directory contains no unprocessed material."
+  ],
+  "youtube": {
+    "search_attempts": 3,
+    "error": "PROXY_PREFLIGHT_FAILED",
+    "details": "Proxy CONNECT timeout after 20 seconds; three starts about two minutes apart.",
+    "videos": 0,
+    "extract_transcripts": "not run: no valid video input"
+  }
+}

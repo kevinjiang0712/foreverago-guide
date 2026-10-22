@@ -1,0 +1,180 @@
+{
+  "scope": "local browser resource timing after font preload change",
+  "rows": [
+    {
+      "route": "/",
+      "uniquePreloadFonts": [
+        "/media/fonts/figtree-400.woff2",
+        "/media/fonts/figtree-600.woff2",
+        "/media/fonts/outfit-500.woff2",
+        "/media/fonts/figtree-700.woff2",
+        "/media/fonts/outfit-600.woff2"
+      ],
+      "fontRequests": [
+        {
+          "path": "/media/fonts/figtree-400.woff2",
+          "startTime": 15,
+          "duration": 3.0999999940395355
+        },
+        {
+          "path": "/media/fonts/figtree-600.woff2",
+          "startTime": 16,
+          "duration": 1.7000000029802322
+        },
+        {
+          "path": "/media/fonts/outfit-500.woff2",
+          "startTime": 16.299999997019768,
+          "duration": 1.7999999970197678
+        },
+        {
+          "path": "/media/fonts/outfit-600.woff2",
+          "startTime": 51,
+          "duration": 2.5
+        },
+        {
+          "path": "/media/fonts/figtree-700.woff2",
+          "startTime": 159.29999999701977,
+          "duration": 2.2999999970197678
+        }
+      ]
+    },
+    {
+      "route": "/privacy",
+      "uniquePreloadFonts": [
+        "/media/fonts/figtree-400.woff2",
+        "/media/fonts/figtree-600.woff2",
+        "/media/fonts/outfit-500.woff2",
+        "/media/fonts/figtree-700.woff2",
+        "/media/fonts/outfit-600.woff2"
+      ],
+      "fontRequests": [
+        {
+          "path": "/media/fonts/figtree-400.woff2",
+          "startTime": 5.699999988079071,
+          "duration": 2.1000000089406967
+        },
+        {
+          "path": "/media/fonts/figtree-600.woff2",
+          "startTime": 5.799999997019768,
+          "duration": 2.0999999940395355
+        },
+        {
+          "path": "/media/fonts/outfit-500.woff2",
+          "startTime": 5.799999997019768,
+          "duration": 2.2999999970197678
+        },
+        {
+          "path": "/media/fonts/outfit-600.woff2",
+          "startTime": 17.399999991059303,
+          "duration": 5.100000008940697
+        },
+        {
+          "path": "/media/fonts/figtree-700.woff2",
+          "startTime": 69.5,
+          "duration": 2.8999999910593033
+        }
+      ]
+    },
+    {
+      "route": "/guide/forever-ago-steam",
+      "uniquePreloadFonts": [
+        "/media/fonts/figtree-400.woff2",
+        "/media/fonts/figtree-600.woff2",
+        "/media/fonts/outfit-500.woff2",
+        "/media/fonts/figtree-700.woff2",
+        "/media/fonts/outfit-600.woff2"
+      ],
+      "fontRequests": [
+        {
+          "path": "/media/fonts/outfit-500.woff2",
+          "startTime": 5.4000000059604645,
+          "duration": 3
+        },
+        {
+          "path": "/media/fonts/figtree-600.woff2",
+          "startTime": 5.4000000059604645,
+          "duration": 3.2999999970197678
+        },
+        {
+          "path": "/media/fonts/figtree-400.woff2",
+          "startTime": 5.4000000059604645,
+          "duration": 3.3999999910593033
+        },
+        {
+          "path": "/media/fonts/outfit-600.woff2",
+          "startTime": 5.4000000059604645,
+          "duration": 6.5999999940395355
+        },
+        {
+          "path": "/media/fonts/figtree-700.woff2",
+          "startTime": 5.4000000059604645,
+          "duration": 6.899999991059303
+        }
+      ]
+    },
+    {
+      "route": "/guide/forever-ago-ps5",
+      "uniquePreloadFonts": [
+        "/media/fonts/figtree-400.woff2",
+        "/media/fonts/figtree-600.woff2",
+        "/media/fonts/outfit-500.woff2",
+        "/media/fonts/figtree-700.woff2",
+        "/media/fonts/outfit-600.woff2"
+      ],
+      "fontRequests": [
+        {
+          "path": "/media/fonts/figtree-400.woff2",
+          "startTime": 5.4000000059604645,
+          "duration": 3.8999999910593033
+        },
+        {
+          "path": "/media/fonts/outfit-500.woff2",
+          "startTime": 5.5,
+          "duration": 4
+        },
+        {
+          "path": "/media/fonts/figtree-600.woff2",
+          "startTime": 5.5,
+          "duration": 7.4000000059604645
+        },
+        {
+          "path": "/media/fonts/figtree-700.woff2",
+          "startTime": 5.600000008940697,
+          "duration": 8.099999994039536
+        },
+        {
+          "path": "/media/fonts/outfit-600.woff2",
+          "startTime": 5.600000008940697,
+          "duration": 8.099999994039536
+        }
+      ]
+    }
+  ],
+  "note": "Hydrated DOM can include article font preloads introduced by Next route prefetch even on home/policy. Static HTML preload lists are recorded separately; no duplicate network downloads observed.",
+  "staticHtmlPreloads": {
+    "/": [
+      "/media/fonts/figtree-400.woff2",
+      "/media/fonts/figtree-600.woff2",
+      "/media/fonts/outfit-500.woff2"
+    ],
+    "/privacy": [
+      "/media/fonts/figtree-400.woff2",
+      "/media/fonts/figtree-600.woff2",
+      "/media/fonts/outfit-500.woff2"
+    ],
+    "/guide/forever-ago-steam": [
+      "/media/fonts/figtree-400.woff2",
+      "/media/fonts/figtree-600.woff2",
+      "/media/fonts/figtree-700.woff2",
+      "/media/fonts/outfit-500.woff2",
+      "/media/fonts/outfit-600.woff2"
+    ],
+    "/guide/forever-ago-ps5": [
+      "/media/fonts/figtree-400.woff2",
+      "/media/fonts/figtree-600.woff2",
+      "/media/fonts/figtree-700.woff2",
+      "/media/fonts/outfit-500.woff2",
+      "/media/fonts/outfit-600.woff2"
+    ]
+  }
+}
