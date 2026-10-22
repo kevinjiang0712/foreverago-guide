@@ -890,5 +890,59 @@
     "publishedAt": "2026-10-13",
     "updatedAt": "2026-10-13",
     "gameVersion": null
+  },
+  {
+    "id": "forever-ago-steam",
+    "slug": "forever-ago-steam",
+    "category": "guide",
+    "h1": "Forever Ago Steam: PC Requirements",
+    "description": "Check Windows hardware, Steam features, controllers and languages before buying Forever Ago.",
+    "card": {
+      "title": "Steam PC Requirements",
+      "description": "Check PC hardware, controllers, Steam Cloud and languages.",
+      "image": "road-trip-art"
+    },
+    "heroImage": null,
+    "verification": "partial",
+    "quickAnswer": [
+      "Forever Ago is available on Steam for 64-bit Windows, with DirectX 12 and 8 GB of storage listed. Compare the exact CPU and GPU requirements below; Steam Cloud does not confirm cross-platform saves."
+    ],
+    "seo": {
+      "title": "Forever Ago Steam: PC Requirements, Cloud & Controls",
+      "description": "Check Forever Ago on Steam: minimum and recommended PC requirements, controller support, Steam Cloud and all 13 text languages, with official feature limits.",
+      "image": "road-trip-art",
+      "noindex": false
+    },
+    "authorName": "Kevin",
+    "publishedAt": "2026-10-22",
+    "updatedAt": "2026-10-22",
+    "gameVersion": null
+  },
+  {
+    "id": "forever-ago-ps5",
+    "slug": "forever-ago-ps5",
+    "category": "guide",
+    "h1": "Forever Ago PS5: Features and Languages",
+    "description": "Check PS5 controller features, language support, Remote Play and purchase conditions.",
+    "card": {
+      "title": "PS5 Features and Languages",
+      "description": "Check DualSense support, screen languages and Remote Play.",
+      "image": "road-trip-art"
+    },
+    "heroImage": null,
+    "verification": "partial",
+    "quickAnswer": [
+      "Forever Ago is available on PS5 as a single-player adventure. The official store lists DualSense vibration, trigger effects and Remote Play; those labels do not promise a frame rate or resolution."
+    ],
+    "seo": {
+      "title": "Forever Ago PS5: DualSense, Languages & Remote Play",
+      "description": "Check Forever Ago on PS5: DualSense vibration and trigger effects, 13 screen languages, Remote Play and Premium streaming, with clear purchase conditions.",
+      "image": "road-trip-art",
+      "noindex": false
+    },
+    "authorName": "Kevin",
+    "publishedAt": "2026-10-22",
+    "updatedAt": "2026-10-22",
+    "gameVersion": null
   }
 ]

@@ -1322,5 +1322,29 @@
     },
     "position": "50% 50%",
     "demo": false
+  },
+  {
+    "id": "body-forever-ago-steam",
+    "src": "/media/forever-ago-steam/camera-gameplay-503cbbb1c8ca.webp",
+    "width": 1600,
+    "height": 900,
+    "purpose": "body-gameplay",
+    "alt": {
+      "en": "Alfred driving his camper van through the desert on his road trip"
+    },
+    "position": "50% 50%",
+    "demo": false
+  },
+  {
+    "id": "body-forever-ago-ps5",
+    "src": "/media/forever-ago-ps5/road-trip-exploration-0beec6dfa16d.webp",
+    "width": 1600,
+    "height": 900,
+    "purpose": "body-gameplay",
+    "alt": {
+      "en": "Alfred talking with a woman beside his camper van during the journey"
+    },
+    "position": "50% 50%",
+    "demo": false
   }
 ]

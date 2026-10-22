@@ -306,6 +306,20 @@
               "type": "content",
               "id": "forever-ago-game-length"
             }
+          },
+          {
+            "label": "Steam & PC",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-steam"
+            }
+          },
+          {
+            "label": "PS5 Version",
+            "target": {
+              "type": "content",
+              "id": "forever-ago-ps5"
+            }
           }
         ]
       }

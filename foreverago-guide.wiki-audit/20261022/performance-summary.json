@@ -1,0 +1,20 @@
+[
+  {
+    "page": "steam",
+    "scope": "local uncompressed preview, production analytics/ad host guard prevents third-party loading",
+    "performance": 70,
+    "seo": 100,
+    "lcp": 6969.4710000000005,
+    "tbt": 144.5,
+    "cls": 0.0025983405878662142
+  },
+  {
+    "page": "ps5",
+    "scope": "local uncompressed preview, production analytics/ad host guard prevents third-party loading",
+    "performance": 71,
+    "seo": 100,
+    "lcp": 6923.5446,
+    "tbt": 98,
+    "cls": 0.009755646311016027
+  }
+]

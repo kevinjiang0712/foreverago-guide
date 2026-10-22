@@ -540,5 +540,17 @@
     "id": "scallyrat-note-8",
     "file": "body/scallyrat/scallyrat-note-8.webp",
     "alt": "Scallyrat Roberts clue 8: newspaper on the framed wall noticeboard"
+  },
+  {
+    "id": "body-forever-ago-steam",
+    "file": "body/forever-ago-steam/camera-gameplay-503cbbb1c8ca.webp",
+    "alt": "Alfred driving his camper van through the desert on his road trip",
+    "position": "50% 50%"
+  },
+  {
+    "id": "body-forever-ago-ps5",
+    "file": "body/forever-ago-ps5/road-trip-exploration-0beec6dfa16d.webp",
+    "alt": "Alfred talking with a woman beside his camper van during the journey",
+    "position": "50% 50%"
   }
 ]

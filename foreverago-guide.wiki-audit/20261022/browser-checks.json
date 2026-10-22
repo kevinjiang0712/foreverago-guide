@@ -1,0 +1,140 @@
+[
+  {
+    "kind": "real local page",
+    "device": "mobile",
+    "route": "/guide/forever-ago-steam",
+    "status": 200,
+    "imageDecoded": true,
+    "noOverflow": true,
+    "errors": []
+  },
+  {
+    "kind": "real local page",
+    "device": "mobile",
+    "route": "/guide/forever-ago-ps5",
+    "status": 200,
+    "imageDecoded": true,
+    "noOverflow": true,
+    "errors": []
+  },
+  {
+    "kind": "real local page",
+    "device": "desktop",
+    "route": "/guide/forever-ago-steam",
+    "status": 200,
+    "imageDecoded": true,
+    "noOverflow": true,
+    "errors": []
+  },
+  {
+    "kind": "real local page",
+    "device": "desktop",
+    "route": "/guide/forever-ago-ps5",
+    "status": 200,
+    "imageDecoded": true,
+    "noOverflow": true,
+    "errors": []
+  },
+  {
+    "kind": "mobile navigation and search",
+    "status": "passed"
+  },
+  {
+    "kind": "controlled production-host loader regression, vendor scripts stubbed/403",
+    "device": "mobile",
+    "route": "/guide/forever-ago-steam",
+    "googleAndClarityRequested": true,
+    "adSlotsVerified": [
+      "anchor",
+      "native"
+    ],
+    "noExpandedEmptySlots": true,
+    "requests": [
+      "https://www.googletagmanager.com/gtag/js?id=G-1L7F54XGRR",
+      "https://www.clarity.ms/tag/ywlgmczujj",
+      "https://bauval.org/22/43675deabe0c7d508546483f93c3f9e5",
+      "https://bauval.org/22/43675deabe0c7d508546483f93c3f9e5",
+      "https://bauval.org/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+      "https://bauval.org/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+      "https://bauval.org/22/022560a71834d120ae48f9d385b4d880",
+      "https://bauval.org/22/022560a71834d120ae48f9d385b4d880",
+      "https://bauval.org/22/43675deabe0c7d508546483f93c3f9e5",
+      "https://bauval.org/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+      "https://bauval.org/22/022560a71834d120ae48f9d385b4d880"
+    ]
+  },
+  {
+    "kind": "controlled production-host loader regression, vendor scripts stubbed/403",
+    "device": "mobile",
+    "route": "/guide/forever-ago-ps5",
+    "googleAndClarityRequested": true,
+    "adSlotsVerified": [
+      "anchor",
+      "native"
+    ],
+    "noExpandedEmptySlots": true,
+    "requests": [
+      "https://www.googletagmanager.com/gtag/js?id=G-1L7F54XGRR",
+      "https://www.clarity.ms/tag/ywlgmczujj",
+      "https://bauval.org/22/43675deabe0c7d508546483f93c3f9e5",
+      "https://bauval.org/22/43675deabe0c7d508546483f93c3f9e5",
+      "https://bauval.org/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+      "https://bauval.org/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+      "https://bauval.org/22/022560a71834d120ae48f9d385b4d880",
+      "https://bauval.org/22/022560a71834d120ae48f9d385b4d880",
+      "https://bauval.org/22/43675deabe0c7d508546483f93c3f9e5",
+      "https://bauval.org/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+      "https://bauval.org/22/022560a71834d120ae48f9d385b4d880"
+    ]
+  },
+  {
+    "kind": "controlled production-host loader regression, vendor scripts stubbed/403",
+    "device": "desktop",
+    "route": "/guide/forever-ago-steam",
+    "googleAndClarityRequested": true,
+    "adSlotsVerified": [
+      "native",
+      "left",
+      "right"
+    ],
+    "noExpandedEmptySlots": true,
+    "requests": [
+      "https://www.googletagmanager.com/gtag/js?id=G-1L7F54XGRR",
+      "https://www.clarity.ms/tag/ywlgmczujj",
+      "https://bauval.org/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+      "https://bauval.org/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+      "https://bauval.org/22/a5dd169b5c2f54b123c1cee7d1687132",
+      "https://bauval.org/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+      "https://bauval.org/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+      "https://bauval.org/22/a5dd169b5c2f54b123c1cee7d1687132",
+      "https://bauval.org/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+      "https://bauval.org/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+      "https://bauval.org/22/a5dd169b5c2f54b123c1cee7d1687132"
+    ]
+  },
+  {
+    "kind": "controlled production-host loader regression, vendor scripts stubbed/403",
+    "device": "desktop",
+    "route": "/guide/forever-ago-ps5",
+    "googleAndClarityRequested": true,
+    "adSlotsVerified": [
+      "native",
+      "left",
+      "right"
+    ],
+    "noExpandedEmptySlots": true,
+    "requests": [
+      "https://www.googletagmanager.com/gtag/js?id=G-1L7F54XGRR",
+      "https://www.clarity.ms/tag/ywlgmczujj",
+      "https://bauval.org/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+      "https://bauval.org/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+      "https://bauval.org/22/a5dd169b5c2f54b123c1cee7d1687132",
+      "https://bauval.org/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+      "https://bauval.org/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+      "https://bauval.org/22/a5dd169b5c2f54b123c1cee7d1687132",
+      "https://bauval.org/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+      "https://bauval.org/22/3b4ee0977f8c3eae5ca43e2f2715af63",
+      "https://bauval.org/22/a5dd169b5c2f54b123c1cee7d1687132"
+    ]
+  }
+]
