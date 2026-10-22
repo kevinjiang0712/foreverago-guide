@@ -36,7 +36,7 @@ test('scene links and all three guides remain usable without JavaScript',async({
   const response=await page.goto(path);
   expect(response?.status()).toBe(200);
   await expect(page.locator('h1')).toHaveCount(1);
-  await expect(page.locator('#article-body')).toHaveAttribute('data-revealed','true');
+  expect(await page.locator('#article-body').evaluate(element=>getComputedStyle(element).opacity)).toBe('1');
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
  }
  await page.goto(paths[1]);

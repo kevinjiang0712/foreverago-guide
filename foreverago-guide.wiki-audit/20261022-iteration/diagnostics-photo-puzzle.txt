@@ -1,0 +1,46 @@
+数据分析
+旧版 JavaScript 预计节省 22 KiB
+改进图片传送 预计节省 31 KiB
+网络依赖关系树
+避免链接关键请求，方法是缩短链长、缩减资源的下载文件大小，或者推迟下载不必要的资源，从而提高网页加载速度。LCP不计分
+关键路径延迟时间上限： 890毫秒
+初始导航
+/walkthrough/forever-ago-photo-puzzle(www.foreverago-guide.wiki) - 292毫秒, 55.68 KiB
+/beacon.min.js/vce70182…(static.cloudflareinsights.com) - 306毫秒, 10.37 KiB
+/cdn-cgi/rum(www.foreverago-guide.wiki) - 890毫秒, 0.67 KiB
+预连接的源
+preconnect 提示可帮助浏览器在加载网页时尽早建立连接，从而在向该源发出第一个请求时节省时间。以下是该网页预先连接到的源。
+未预连接任何源
+预连接候选项
+为最重要的源添加 preconnect 提示，但请尽量不要超过 4 个。
+没有其他源是预连接的合适候选对象
+使用高效的缓存生命周期 预计节省 14 KiB
+LCP 细分
+每个子部分都有特定的改进策略。理想情况下，LCP 的大部分时间应该用于加载资源，而不是消耗在延迟上。LCP不计分
+子部分
+	
+时长
+
+
+第一字节时间 (Time to First Byte)
+	
+40毫秒
+
+
+资源加载延迟
+	
+220毫秒
+
+
+资源加载时长
+	
+270毫秒
+
+
+元素渲染延迟
+	
+1,880毫秒
+Forever Ago promotional art showing Alfred, his dog and a campfire
+<img alt="Forever Ago promotional art showing Alfred, his dog and a campfire" fetchpriority="high" loading="eager" width="1600" height="900" decoding="async" data-nimg="1" style="color:transparent;object-position:28% 70%" src="https://www.foreverago-guide.wiki/media/campfire-art-960.avif">
+第三方
+您还可在 Chrome 开发者工具的“性能”面板中查看这些数据分析。只要记录跟踪信息，即可查看更详细的信息。

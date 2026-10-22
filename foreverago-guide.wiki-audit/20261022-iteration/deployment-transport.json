@@ -1,0 +1,20 @@
+{
+  "officialVersion": "4.151.3",
+  "officialCliSha256": "85a0fd68160392c7b9233a2a3406a94d61ab2a84d6dc192ebcb758774a76ee61",
+  "temporaryCopyOnly": true,
+  "patches": {
+    "MAX_BUCKET_SIZE = 40 * 1024 * 1024;": "MAX_BUCKET_SIZE = 1024 * 1024;",
+    "MAX_BUCKET_FILE_COUNT = isWindows3 ? 1e3 : 2e3;": "MAX_BUCKET_FILE_COUNT = 20;"
+  },
+  "reason": "Two rounds of large upload batches timed out (six HeadersTimeoutError entries); deployment list API succeeded and confirmed old production remains active.",
+  "proxyChanged": false,
+  "APIEndpointsChanged": false,
+  "authorizationChanged": false,
+  "originalCliUnchanged": true,
+  "firstSmallBatchPhase": "Sequential 1MiB batches succeeded; last progress before restart was 180/453. Resumed with normal concurrency 3 and same small batch limits.",
+  "originalCliUnchangedAfterDeployment": true,
+  "deployment": "https://3f4c119b.foreverago-guide.pages.dev",
+  "uploaded": 293,
+  "alreadyCached": 160,
+  "finalUploadDurationSeconds": 586.1
+}

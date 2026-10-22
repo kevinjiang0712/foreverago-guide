@@ -5,5 +5,11 @@
     "Single-Player\tPolled\tAverage\tMedian\tRushed\tLeisure\nMain Story\t17\t4h 12m\t4h 13m\t3h 36m\t5h 6m\nMain + Sides\t6\t5h 11m\t5h 10m\t4h 25m\t5h 54m\nCompletionist\t2\t4h 47m\t4h 47m\t4h 31m\t5h 2m\nAll PlayStyles\t25\t4h 29m\t4h 16m\t3h 41m\t5h 30m"
   ],
   "method": "Rendered public browser page; not Jina output",
-  "note": "Independent self-reported categories; completionist n=2 does not establish an expected all-achievement duration."
+  "note": "Independent self-reported categories; completionist n=2 does not establish an expected all-achievement duration.",
+  "headlineConflict": {
+    "observedCompletionistHeadline": "6 Hours",
+    "detailedCompletionistAverage": "4h 47m",
+    "detailedCompletionistPolled": 2,
+    "resolution": "Headline calculation/cache basis was not established. Article explicitly uses the dated detailed table and withholds a reliable 100% completion estimate."
+  }
 }

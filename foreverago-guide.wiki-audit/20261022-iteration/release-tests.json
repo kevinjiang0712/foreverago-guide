@@ -1,7 +1,7 @@
 {
   "stats": {
-    "startTime": "2026-10-22T13:07:20.574Z",
-    "duration": 63326.335999999996,
+    "startTime": "2026-10-22T13:44:38.167Z",
+    "duration": 98486.59,
     "expected": 14,
     "skipped": 0,
     "unexpected": 0,
@@ -12,5 +12,6 @@
     "search-navigation.spec.ts",
     "strategy-iteration.spec.ts"
   ],
-  "command": "RELEASE_TEST_URL=http://127.0.0.1:3387 npx playwright test --config tests/release/playwright.config.ts site.spec.ts search-navigation.spec.ts strategy-iteration.spec.ts"
+  "command": "RELEASE_TEST_URL=http://127.0.0.1:3387 npx playwright test --config tests/release/playwright.config.ts site.spec.ts search-navigation.spec.ts strategy-iteration.spec.ts",
+  "note": "Final run after replacing an internal data-attribute assertion with observed body opacity; no application build changed."
 }

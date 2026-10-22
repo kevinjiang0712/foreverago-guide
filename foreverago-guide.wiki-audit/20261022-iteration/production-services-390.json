@@ -1,0 +1,604 @@
+{
+  "collectedAt": "2026-10-22T13:41:07.523Z",
+  "appCommit": "8643e64550b24e3174abdacd6b94c79f9004f27f",
+  "viewport": 390,
+  "interception": false,
+  "errors": [],
+  "rows": [
+    {
+      "path": "/review/forever-ago-game-length",
+      "network": [
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": "ad_inline_eligible",
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "status": 200,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": "page_view",
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "www.clarity.ms",
+          "path": "/tag/ywlgmczujj",
+          "status": 200,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "scripts.clarity.ms",
+          "path": "/0.8.72-beta/clarity.js",
+          "status": 200,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "bauval.org",
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/022560a71834d120ae48f9d385b4d880",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/022560a71834d120ae48f9d385b4d880",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "bauval.org",
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": "scroll",
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/022560a71834d120ae48f9d385b4d880",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        }
+      ],
+      "images": [
+        {
+          "src": "/media/body-images-forever-ago-game-length-travel.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/body-images-forever-ago-game-length-memory.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/body-images-forever-ago-game-length-journal.webp",
+          "loaded": true
+        }
+      ],
+      "overflow": false,
+      "expandedSlots": 0,
+      "h1": "How Long Is Forever Ago?",
+      "bodyInitiallyVisible": true
+    },
+    {
+      "path": "/walkthrough/forever-ago-photo-puzzle",
+      "network": [
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "status": 200,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": "page_view",
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.clarity.ms",
+          "path": "/tag/ywlgmczujj",
+          "status": 200,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "scripts.clarity.ms",
+          "path": "/0.8.72-beta/clarity.js",
+          "status": 200,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "bauval.org",
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "bauval.org",
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/022560a71834d120ae48f9d385b4d880",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/022560a71834d120ae48f9d385b4d880",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": "scroll",
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/022560a71834d120ae48f9d385b4d880",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        }
+      ],
+      "images": [
+        {
+          "src": "/media/body-images-forever-ago-photo-puzzle-window.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/body-images-forever-ago-photo-puzzle-develop.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/body-images-forever-ago-photo-puzzle-dog.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/body-images-forever-ago-photo-puzzle-vignette.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/body-images-forever-ago-photo-puzzle-boat.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/body-images-forever-ago-photo-locations-lighthouse.webp",
+          "loaded": true
+        }
+      ],
+      "overflow": false,
+      "expandedSlots": 0,
+      "h1": "Forever Ago Photo Puzzle Guide",
+      "bodyInitiallyVisible": true
+    },
+    {
+      "path": "/guide/forever-ago-camera-achievements",
+      "network": [
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "status": 200,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": "page_view",
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "www.clarity.ms",
+          "path": "/tag/ywlgmczujj",
+          "status": 200,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "scripts.clarity.ms",
+          "path": "/0.8.72-beta/clarity.js",
+          "status": 200,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/022560a71834d120ae48f9d385b4d880",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/022560a71834d120ae48f9d385b4d880",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "bauval.org",
+          "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "www.google-analytics.com",
+          "path": "/g/collect",
+          "status": 204,
+          "event": "scroll",
+          "measurementId": "G-1L7F54XGRR"
+        },
+        {
+          "host": "bauval.org",
+          "path": "/22/022560a71834d120ae48f9d385b4d880",
+          "status": 403,
+          "event": null,
+          "measurementId": null
+        },
+        {
+          "host": "r.clarity.ms",
+          "path": "/collect",
+          "status": 204,
+          "event": null,
+          "measurementId": null
+        }
+      ],
+      "images": [
+        {
+          "src": "/media/body-images-forever-ago-camera-achievements-bedroom.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/body-images-forever-ago-camera-achievements-milton-selfie.webp",
+          "loaded": true
+        }
+      ],
+      "overflow": false,
+      "expandedSlots": 0,
+      "h1": "Forever Ago Camera Achievements",
+      "bodyInitiallyVisible": true
+    }
+  ]
+}
