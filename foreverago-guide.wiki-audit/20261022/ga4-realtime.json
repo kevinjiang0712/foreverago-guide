@@ -1,0 +1,33 @@
+{
+  "request": {
+    "property_id": 558454403,
+    "dimensions": [
+      "unifiedScreenName"
+    ],
+    "metrics": [
+      "screenPageViews",
+      "activeUsers"
+    ],
+    "dimension_filter": {
+      "filter": {
+        "field_name": "unifiedScreenName",
+        "in_list_filter": {
+          "values": [
+            "Forever Ago Steam: PC Requirements, Cloud & Controls",
+            "Forever Ago PS5: DualSense, Languages & Remote Play"
+          ]
+        }
+      }
+    },
+    "limit": 100
+  },
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"dimension_headers\": [\n    {\n      \"name\": \"unifiedScreenName\"\n    }\n  ],\n  \"metric_headers\": [\n    {\n      \"name\": \"screenPageViews\",\n      \"type_\": \"TYPE_INTEGER\"\n    },\n    {\n      \"name\": \"activeUsers\",\n      \"type_\": \"TYPE_INTEGER\"\n    }\n  ],\n  \"rows\": [\n    {\n      \"dimension_values\": [\n        {\n          \"value\": \"Forever Ago PS5: DualSense, Languages & Remote Play\"\n        }\n      ],\n      \"metric_values\": [\n        {\n          \"value\": \"1\"\n        },\n        {\n          \"value\": \"1\"\n        }\n      ]\n    },\n    {\n      \"dimension_values\": [\n        {\n          \"value\": \"Forever Ago Steam: PC Requirements, Cloud & Controls\"\n        }\n      ],\n      \"metric_values\": [\n        {\n          \"value\": \"1\"\n        },\n        {\n          \"value\": \"1\"\n        }\n      ]\n    }\n  ],\n  \"row_count\": 2,\n  \"kind\": \"analyticsData#runRealtimeReport\",\n  \"totals\": [],\n  \"maximums\": [],\n  \"minimums\": []\n}"
+      }
+    ],
+    "isError": false
+  }
+}

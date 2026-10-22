@@ -1,0 +1,431 @@
+{
+  "site": "https://www.foreverago-guide.wiki",
+  "appCommit": "33e3a1a61d9716ccde17cbc17cb64ea0bbbbbb7b",
+  "routeCount": 47,
+  "sitemapCount": 47,
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "e9d3df9d3763c8106a68576a98add7ad902477cbf2cb95c5d74bd809311ab0c2",
+      "exportSha256": "e9d3df9d3763c8106a68576a98add7ad902477cbf2cb95c5d74bd809311ab0c2"
+    },
+    {
+      "path": "/review",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "f0e24d3c4e86ec176ef3bf2015d0dd422ce32b49bb71f5ddfac2d727e868d2d5",
+      "exportSha256": "f0e24d3c4e86ec176ef3bf2015d0dd422ce32b49bb71f5ddfac2d727e868d2d5"
+    },
+    {
+      "path": "/guide",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "7f4cf6926b33fe6d584d2c14aebc814f88b63df5bea9b7bb4cb863d139559fa6",
+      "exportSha256": "7f4cf6926b33fe6d584d2c14aebc814f88b63df5bea9b7bb4cb863d139559fa6"
+    },
+    {
+      "path": "/maps",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "042bfa255d107a8fb6e064451698280a001f074139c67e3e0431bb5c51f3efef",
+      "exportSha256": "042bfa255d107a8fb6e064451698280a001f074139c67e3e0431bb5c51f3efef"
+    },
+    {
+      "path": "/story",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "27360cc23d2f2b3161d051926839126f36104e72d5b9b6e3c72d14b196ea95fe",
+      "exportSha256": "27360cc23d2f2b3161d051926839126f36104e72d5b9b6e3c72d14b196ea95fe"
+    },
+    {
+      "path": "/walkthrough",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "57460751739a0e21cbd9598102e83ffff3871cdf50a70e90d18da8eededd74b3",
+      "exportSha256": "57460751739a0e21cbd9598102e83ffff3871cdf50a70e90d18da8eededd74b3"
+    },
+    {
+      "path": "/characters",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "770287b19a756db5cb037fc02c236facc3780dd52b525f55ac84c9bff6039992",
+      "exportSha256": "770287b19a756db5cb037fc02c236facc3780dd52b525f55ac84c9bff6039992"
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "7da3e1903c66afadd2cae508794c8e607a795e7288e7cfeccf3078ea3ce06364",
+      "exportSha256": "7da3e1903c66afadd2cae508794c8e607a795e7288e7cfeccf3078ea3ce06364"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "a3c4ff9d1b20d543c04d9ca7639b7d8a14f0e78e462cfcf15b7d75d371a9fbb0",
+      "exportSha256": "a3c4ff9d1b20d543c04d9ca7639b7d8a14f0e78e462cfcf15b7d75d371a9fbb0"
+    },
+    {
+      "path": "/guide/forever-ago-achievements",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "2bc952f9be6264b99f88f05220b0553f370d9f711cbdeea71c276553b3f5dab2",
+      "exportSha256": "2bc952f9be6264b99f88f05220b0553f370d9f711cbdeea71c276553b3f5dab2"
+    },
+    {
+      "path": "/characters/forever-ago-audrey-story",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "fd82f30ee8b8d50ea178bacade9ef08490e31d474101cc210b1ae07bb2676e26",
+      "exportSha256": "fd82f30ee8b8d50ea178bacade9ef08490e31d474101cc210b1ae07bb2676e26"
+    },
+    {
+      "path": "/guide/forever-ago-camera-achievements",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "e565a29c4a813d9c6b90817ee984d120ae7a7c6cb41313a6593a0ba8b64b82c5",
+      "exportSha256": "e565a29c4a813d9c6b90817ee984d120ae7a7c6cb41313a6593a0ba8b64b82c5"
+    },
+    {
+      "path": "/guide/forever-ago-camera-controls",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "f4c677a738a92472f9ac5ac777b35644c347eabb0c6bdbfe74dc000189e44239",
+      "exportSha256": "f4c677a738a92472f9ac5ac777b35644c347eabb0c6bdbfe74dc000189e44239"
+    },
+    {
+      "path": "/maps/forever-ago-chapter-1-photos",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "d03f03680972aaf6b1fa463da40a800d6c33034619ca638be6e2f51208bdb85a",
+      "exportSha256": "d03f03680972aaf6b1fa463da40a800d6c33034619ca638be6e2f51208bdb85a"
+    },
+    {
+      "path": "/maps/forever-ago-chapter-2-photos",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "8fe380b6a4964d1e3cbee9b5d10b577af0b698d28cec674d85ba0d9cd8ecb84f",
+      "exportSha256": "8fe380b6a4964d1e3cbee9b5d10b577af0b698d28cec674d85ba0d9cd8ecb84f"
+    },
+    {
+      "path": "/maps/forever-ago-chapter-3-photos",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "4c2e9e7547906638e69cbbbd13f31be9b6eded368481cfc468a0cc4c50f61f48",
+      "exportSha256": "4c2e9e7547906638e69cbbbd13f31be9b6eded368481cfc468a0cc4c50f61f48"
+    },
+    {
+      "path": "/guide/forever-ago-chapter-select",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "dafe29e8b25349fb6cb7fec98daaa032f45f75898075676052b6b107067c8365",
+      "exportSha256": "dafe29e8b25349fb6cb7fec98daaa032f45f75898075676052b6b107067c8365"
+    },
+    {
+      "path": "/guide/forever-ago-checkpoint-save",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "f17809f259e5414f8f3244b3ad4a0a71949fa941f7dfc2bf8ac256d70c70c8cc",
+      "exportSha256": "f17809f259e5414f8f3244b3ad4a0a71949fa941f7dfc2bf8ac256d70c70c8cc"
+    },
+    {
+      "path": "/guide/forever-ago-collectibles",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "483b556426fa4b2ab8ee2438533ac5bb977f5a7239182df20c5a6662faac5491",
+      "exportSha256": "483b556426fa4b2ab8ee2438533ac5bb977f5a7239182df20c5a6662faac5491"
+    },
+    {
+      "path": "/guide/forever-ago-completion-tracker",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "1e6b90fdd851ccd264d33de96752aac7a91db88f3c9599a7f3219485c0714de6",
+      "exportSha256": "1e6b90fdd851ccd264d33de96752aac7a91db88f3c9599a7f3219485c0714de6"
+    },
+    {
+      "path": "/walkthrough/forever-ago-dog-photo",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "c9748ae8989bd6f0700b1a23aa3cffa2ad0cb88d44d47c59fa0ab3817bf61fd6",
+      "exportSha256": "c9748ae8989bd6f0700b1a23aa3cffa2ad0cb88d44d47c59fa0ab3817bf61fd6"
+    },
+    {
+      "path": "/story/forever-ago-ending-explained",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "310ecf7806aabb6c43f33619bbf51183276895af18363b81ef1e5ea1c3654430",
+      "exportSha256": "310ecf7806aabb6c43f33619bbf51183276895af18363b81ef1e5ea1c3654430"
+    },
+    {
+      "path": "/review/forever-ago-game-length",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "a7c7017b378c93396fd42c59de9c272d09174993b9c15a05b7c7029bb5bde7d3",
+      "exportSha256": "a7c7017b378c93396fd42c59de9c272d09174993b9c15a05b7c7029bb5bde7d3"
+    },
+    {
+      "path": "/guide/forever-ago-gameplay",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "73ab64377ae2c50805fad13e92ab6539449688fe0e4b06de40d5e434e4d9694a",
+      "exportSha256": "73ab64377ae2c50805fad13e92ab6539449688fe0e4b06de40d5e434e4d9694a"
+    },
+    {
+      "path": "/guide/forever-ago-guardian-lord",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "3bf401cb22bcb6336c53424f4a779695104f75bff2777cc79008e8df4f806762",
+      "exportSha256": "3bf401cb22bcb6336c53424f4a779695104f75bff2777cc79008e8df4f806762"
+    },
+    {
+      "path": "/guide/forever-ago-hidden-achievements",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "0a173a1d840844e03b29f9bf2516647075dc0aa2fc1c4f964768c289fc5b0688",
+      "exportSha256": "0a173a1d840844e03b29f9bf2516647075dc0aa2fc1c4f964768c289fc5b0688"
+    },
+    {
+      "path": "/guide/forever-ago-journal-photos",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "e33e7f9bd98dda1b1ca3d51f2f57ceb0549fa7804ae3d83966160b6da50cb3ee",
+      "exportSha256": "e33e7f9bd98dda1b1ca3d51f2f57ceb0549fa7804ae3d83966160b6da50cb3ee"
+    },
+    {
+      "path": "/guide/forever-ago-marleys-bobblehead",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "ce2702006233da0419b4361710b94605c674ae5f2535cdcd28430f291bf62352",
+      "exportSha256": "ce2702006233da0419b4361710b94605c674ae5f2535cdcd28430f291bf62352"
+    },
+    {
+      "path": "/maps/forever-ago-memory-locations",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "0fcdf52641b52fe0336d15c9be1f034e1e002bc06d7a1d35cfd280462cc66fe5",
+      "exportSha256": "0fcdf52641b52fe0336d15c9be1f034e1e002bc06d7a1d35cfd280462cc66fe5"
+    },
+    {
+      "path": "/guide/forever-ago-missable-achievements",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "4e433cecc9e1c6056c743bab7269c5b55ab1209c613b0256d271b430c16f3586",
+      "exportSha256": "4e433cecc9e1c6056c743bab7269c5b55ab1209c613b0256d271b430c16f3586"
+    },
+    {
+      "path": "/guide/forever-ago-mosaic-pumpkins",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "f71fdfdbc627df31f1dfd6b26edf1b9d44e93e471806160e94512615ca79b0c0",
+      "exportSha256": "f71fdfdbc627df31f1dfd6b26edf1b9d44e93e471806160e94512615ca79b0c0"
+    },
+    {
+      "path": "/guide/forever-ago-old-bones-achievement",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "27020874f3de48f0f0300972a8aba249d229bb9cc05c0ff74b9925da6eea84a0",
+      "exportSha256": "27020874f3de48f0f0300972a8aba249d229bb9cc05c0ff74b9925da6eea84a0"
+    },
+    {
+      "path": "/guide/forever-ago-petal-collector-achievement",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "c3817d338a0a1e015b66876903dd69e4290fcf69027f7f289f5b3256e07231be",
+      "exportSha256": "c3817d338a0a1e015b66876903dd69e4290fcf69027f7f289f5b3256e07231be"
+    },
+    {
+      "path": "/maps/forever-ago-petal-locations",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "4b3e48d3e304e3ce9c51994afdca85d0ccc823a70d3e0834439f2a42137c6d21",
+      "exportSha256": "4b3e48d3e304e3ce9c51994afdca85d0ccc823a70d3e0834439f2a42137c6d21"
+    },
+    {
+      "path": "/maps/forever-ago-photo-locations",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "8e08d6b3cf1e0d5f2cb714c7204d693e7867df43b7adaf7258d9d864ba152d67",
+      "exportSha256": "8e08d6b3cf1e0d5f2cb714c7204d693e7867df43b7adaf7258d9d864ba152d67"
+    },
+    {
+      "path": "/walkthrough/forever-ago-photo-puzzle",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "3f18e9c231cf582e2481127695c7229f063f6be784d21606a88f12c68b859224",
+      "exportSha256": "3f18e9c231cf582e2481127695c7229f063f6be784d21606a88f12c68b859224"
+    },
+    {
+      "path": "/guide/forever-ago-ps5",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "e073bd70d7bce07c5b1e22d9f5b11b2ed358dd97758d2dfd53042816e545f016",
+      "exportSha256": "e073bd70d7bce07c5b1e22d9f5b11b2ed358dd97758d2dfd53042816e545f016"
+    },
+    {
+      "path": "/review/forever-ago-review",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "86268de80a72c9b335c9aaf9b109e3e77e466cf7e9cddb02584725f546f642fa",
+      "exportSha256": "86268de80a72c9b335c9aaf9b109e3e77e466cf7e9cddb02584725f546f642fa"
+    },
+    {
+      "path": "/guide/forever-ago-scallyrat-roberts",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "d16d0e853fc9dab02c83d9f5238a463324c31abb3ff6016d7973bdd05059f350",
+      "exportSha256": "d16d0e853fc9dab02c83d9f5238a463324c31abb3ff6016d7973bdd05059f350"
+    },
+    {
+      "path": "/guide/forever-ago-selfie-achievement",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "baa1a2e1b0c53b2f98360f65f8c08ee527440a9acb652b9e63e57a64335bd006",
+      "exportSha256": "baa1a2e1b0c53b2f98360f65f8c08ee527440a9acb652b9e63e57a64335bd006"
+    },
+    {
+      "path": "/guide/forever-ago-shopaholic",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "021b4dbcc495d7fdfb8d77faf90c7f63bdc39fddd991dce11d3c5593184fec83",
+      "exportSha256": "021b4dbcc495d7fdfb8d77faf90c7f63bdc39fddd991dce11d3c5593184fec83"
+    },
+    {
+      "path": "/guide/forever-ago-snooping-shutterbug",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "d01627eb0f992001aba59ee06cea452d6bb9b71271982cdc85eea8de6cb23d7f",
+      "exportSha256": "d01627eb0f992001aba59ee06cea452d6bb9b71271982cdc85eea8de6cb23d7f"
+    },
+    {
+      "path": "/guide/forever-ago-steam",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "012aa03d38b4d786ab35e2aab1c319c651072da3eac5fd0af83d7e68d2a05cde",
+      "exportSha256": "012aa03d38b4d786ab35e2aab1c319c651072da3eac5fd0af83d7e68d2a05cde"
+    },
+    {
+      "path": "/walkthrough/forever-ago-walkthrough",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "65880155b88300ac19da2f7af75412fb6b6f2daa5bd40846b3b4a56fba4927a8",
+      "exportSha256": "65880155b88300ac19da2f7af75412fb6b6f2daa5bd40846b3b4a56fba4927a8"
+    },
+    {
+      "path": "/walkthrough/forever-ago-williamina-peak",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "d488876e422073f72b0c0968937cf9ce0d8f156455ff50976e0ac34428619ab4",
+      "exportSha256": "d488876e422073f72b0c0968937cf9ce0d8f156455ff50976e0ac34428619ab4"
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "ce053a8ee08ce264016e9d81df28d69dbfb7d7dab23c6896393346c72349519c",
+      "exportSha256": "ce053a8ee08ce264016e9d81df28d69dbfb7d7dab23c6896393346c72349519c"
+    },
+    {
+      "path": "/terms",
+      "status": 200,
+      "xRobotsTag": null,
+      "canonicalPresent": true,
+      "sameHtmlExceptCloudflareBeacon": true,
+      "remoteSha256": "b68524ca57bc3b0ee5d84cd1620df7ab5cca657c3859413464d6256f0845770d",
+      "exportSha256": "b68524ca57bc3b0ee5d84cd1620df7ab5cca657c3859413464d6256f0845770d"
+    }
+  ]
+}

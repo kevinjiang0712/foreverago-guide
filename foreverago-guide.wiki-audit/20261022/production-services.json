@@ -1,0 +1,248 @@
+[
+  {
+    "route": "/guide/forever-ago-steam",
+    "url": "https://www.foreverago-guide.wiki/guide/forever-ago-steam",
+    "title": "Forever Ago Steam: PC Requirements, Cloud & Controls",
+    "network": [
+      {
+        "host": "www.clarity.ms",
+        "path": "/tag/ywlgmczujj",
+        "status": 200
+      },
+      {
+        "host": "scripts.clarity.ms",
+        "path": "/0.8.72-beta/clarity.js",
+        "status": 200
+      },
+      {
+        "host": "bauval.org",
+        "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+        "status": 403
+      },
+      {
+        "host": "bauval.org",
+        "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+        "status": 403
+      },
+      {
+        "host": "bauval.org",
+        "path": "/22/022560a71834d120ae48f9d385b4d880",
+        "status": 403
+      },
+      {
+        "host": "bauval.org",
+        "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+        "status": 403
+      },
+      {
+        "host": "bauval.org",
+        "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+        "status": 403
+      },
+      {
+        "host": "bauval.org",
+        "path": "/22/022560a71834d120ae48f9d385b4d880",
+        "status": 403
+      },
+      {
+        "host": "j.clarity.ms",
+        "path": "/collect",
+        "status": 204
+      },
+      {
+        "host": "j.clarity.ms",
+        "path": "/collect",
+        "status": 204
+      },
+      {
+        "host": "j.clarity.ms",
+        "path": "/collect",
+        "status": 204
+      },
+      {
+        "host": "bauval.org",
+        "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+        "status": 403
+      },
+      {
+        "host": "bauval.org",
+        "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+        "status": 403
+      },
+      {
+        "host": "j.clarity.ms",
+        "path": "/collect",
+        "status": 204
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "path": "/gtag/js",
+        "status": 200
+      },
+      {
+        "host": "bauval.org",
+        "path": "/22/022560a71834d120ae48f9d385b4d880",
+        "status": 403
+      },
+      {
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "status": 204,
+        "measurementId": "G-1L7F54XGRR",
+        "event": "page_view",
+        "page": "/guide/forever-ago-steam"
+      },
+      {
+        "host": "j.clarity.ms",
+        "path": "/collect",
+        "status": 204
+      },
+      {
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "status": 204,
+        "measurementId": "G-1L7F54XGRR",
+        "event": null,
+        "page": "/guide/forever-ago-steam"
+      }
+    ],
+    "errors": [],
+    "overflow": false,
+    "expandedEmpty": 0
+  },
+  {
+    "route": "/guide/forever-ago-ps5",
+    "url": "https://www.foreverago-guide.wiki/guide/forever-ago-ps5",
+    "title": "Forever Ago PS5: DualSense, Languages & Remote Play",
+    "network": [
+      {
+        "host": "www.googletagmanager.com",
+        "path": "/gtag/js",
+        "status": 200
+      },
+      {
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "status": 204,
+        "measurementId": "G-1L7F54XGRR",
+        "event": "page_view",
+        "page": "/guide/forever-ago-ps5"
+      },
+      {
+        "host": "bauval.org",
+        "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+        "status": 403
+      },
+      {
+        "host": "www.clarity.ms",
+        "path": "/tag/ywlgmczujj",
+        "status": 200
+      },
+      {
+        "host": "scripts.clarity.ms",
+        "path": "/0.8.72-beta/clarity.js",
+        "status": 200
+      },
+      {
+        "host": "bauval.org",
+        "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+        "status": 403
+      },
+      {
+        "host": "j.clarity.ms",
+        "path": "/collect",
+        "status": 204
+      },
+      {
+        "host": "bauval.org",
+        "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+        "status": 403
+      },
+      {
+        "host": "j.clarity.ms",
+        "path": "/collect",
+        "status": 204
+      },
+      {
+        "host": "bauval.org",
+        "path": "/22/022560a71834d120ae48f9d385b4d880",
+        "status": 403
+      },
+      {
+        "host": "bauval.org",
+        "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+        "status": 403
+      },
+      {
+        "host": "bauval.org",
+        "path": "/22/022560a71834d120ae48f9d385b4d880",
+        "status": 403
+      },
+      {
+        "host": "j.clarity.ms",
+        "path": "/collect",
+        "status": 204
+      },
+      {
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "status": 204,
+        "measurementId": "G-1L7F54XGRR",
+        "event": null,
+        "page": "/guide/forever-ago-ps5"
+      },
+      {
+        "host": "bauval.org",
+        "path": "/22/43675deabe0c7d508546483f93c3f9e5",
+        "status": 403
+      },
+      {
+        "host": "bauval.org",
+        "path": "/21/0b980c4f07a8a3ae9d1bea353cd6bdbb",
+        "status": 403
+      },
+      {
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "status": 204,
+        "measurementId": "G-1L7F54XGRR",
+        "event": null,
+        "page": "/guide/forever-ago-ps5"
+      },
+      {
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "status": 204,
+        "measurementId": "G-1L7F54XGRR",
+        "event": "scroll",
+        "page": "/guide/forever-ago-ps5"
+      },
+      {
+        "host": "j.clarity.ms",
+        "path": "/collect",
+        "status": 204
+      },
+      {
+        "host": "bauval.org",
+        "path": "/22/022560a71834d120ae48f9d385b4d880",
+        "status": 403
+      },
+      {
+        "host": "j.clarity.ms",
+        "path": "/collect",
+        "status": 204
+      },
+      {
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "status": 204,
+        "measurementId": "G-1L7F54XGRR",
+        "event": null,
+        "page": "/guide/forever-ago-ps5"
+      }
+    ],
+    "errors": [],
+    "overflow": false,
+    "expandedEmpty": 0
+  }
+]
