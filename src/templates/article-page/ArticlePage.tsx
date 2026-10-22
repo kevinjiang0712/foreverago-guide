@@ -41,6 +41,7 @@ export function ArticlePage({index,page,body}:{index:ContentIndex;page:IndexedPa
  const inlineAdAfter=sections[Math.min(1,sections.length-1)]?.id;
  assertAdAnchor(index.ads,'a2',['content-midpoint',...sections.map(section=>section.id)],'article-page');
  const bodyAds=page.template==='wiki-page'&&!page.articleRecord;
+ const immediateBody=index.site.siteId==='forever-ago'&&['forever-ago-game-length','forever-ago-photo-puzzle','forever-ago-camera-achievements'].includes(page.id);
  const a2=(sectionId:string,position:'before'|'after')=>bodyAds?null:<>{sectionId===inlineAdAfter&&<ConfiguredAdSlot ads={index.ads} mode={adMode} placement="a2" template="article-page" anchor="content-midpoint" position={position}/>}<ConfiguredAdSlot ads={index.ads} mode={adMode} placement="a2" template="article-page" anchor={sectionId} position={position}/></>;
  for(const section of sections)if(modules.sections[section.id]===undefined)throw new Error(`${page.sourcePath}: missing article module ${section.id}`);
  const hasCompletionTool=index.site.siteId==='forever-ago'&&page.locale==='en'&&completionToolForPage(page.id)!==null;
@@ -69,7 +70,7 @@ export function ArticlePage({index,page,body}:{index:ContentIndex;page:IndexedPa
     <div className="article-directory"><AnchorRail headings={headings} label={ui.onThisPage} mobilePicker={false}/></div>
     <article className="article-content">
      <CompletionTool index={index} page={page}/>
-     {sections.map(section=><Fragment key={section.id}>{a2(section.id,'before')}<Reveal as="section" id={section.id} className="article-section" data-floor={section.id}>
+     {sections.map(section=><Fragment key={section.id}>{a2(section.id,'before')}<Reveal as="section" id={section.id} className="article-section" data-floor={section.id} data-revealed={immediateBody&&section.id==='article-body'?'true':undefined}>
       {section.title&&<h2>{section.title}</h2>}{section.description&&<p className="article-section-description">{section.description}</p>}
       {modules.sections[section.id]}
      </Reveal>{!bodyAds&&!policyPage&&section.id===sections[0]?.id&&<AdContentSlot/>}{a2(section.id,'after')}</Fragment>)}

@@ -1,8 +1,8 @@
-A Forever Ago photo puzzle usually resolves when you photograph the right subject from the scene's intended position after its prerequisite interactions. At the diner, photograph the dog behind the bins for Maddy, then sit in the permitted booth and photograph the outside view. During the resort boat ride, take the prompted picture to enter the memory. At Winslow Lighthouse, read the entrance sign and photograph the top of the structure.
+A Forever Ago photo puzzle usually resolves when you photograph the right subject from the scene's intended position after its prerequisite interactions. At the diner, photograph the dog behind the bins for [Maddy](content:forever-ago-dog-photo), then sit in the permitted booth and photograph the outside view. During the resort boat ride, take the prompted picture to enter the memory. At Winslow Lighthouse, read the entrance sign and photograph the top of the structure.
 
 Optional petal vignettes have an additional step: inspect the local petals, find where they gather after the unlock message, and reveal the memory through the camera. A scenic photo taken before that sequence does not replace it. The solutions below concern those environmental camera actions, rather than a printed-photo jigsaw or a hidden code system.
 
-## Identify the kind of camera blockage
+## Photo puzzle solutions by scene
 
 | What is happening | Likely unfinished stage to check | Useful next action |
 | --- | --- | --- |
@@ -15,17 +15,13 @@ Optional petal vignettes have an additional step: inspect the local petals, find
 | The resort boat memory has begun | Coordinated rowing | Alternate strokes with Audrey |
 | You have reached the lighthouse entrance | Sign and upper-lighthouse photograph | Read the sign, then aim toward the top |
 
-Start with the unfinished stage. Taking more pictures is useful only when the camera subject itself is the remaining action. It cannot grant booth permission, inspect a petal, or place a physical photograph in the journal.
-
 ## Opening room and Woolson Falls sequence
 
 The opening teaches subject selection with the camera manual and nearby objects. Photograph the teddy bear on the bed and inspect the photo display and calendar around the study area before the window shot. When Alfred calls, photograph him posing outside to move into the car journey.
 
-The useful order is room sweep, window photograph, drive, trail subjects, and final couple photograph. The room objects do not form a code whose order opens the window. The departure cue is Alfred's pose; keeping it last simply lets you finish the optional photography you want first.
-
 During the drive, photograph the Woolson Falls sign when Alfred points it out. After arrival, crouch near the flowers, photograph Alfred's pose, and continue the sign-and-conversation sequence along the trail. Those actions belong to their current scene beats, so an earlier picture of Alfred does not automatically replace a later prompted pose.
 
-![Young Alfred outside the opening bedroom window](asset:body-images-forever-ago-photo-puzzle-window)
+![Gameplay reference](asset:body-images-forever-ago-photo-puzzle-window)
 
 After Audrey hands over the camera, follow her in third person and continue the hike. At the endpoint, the couple photograph leads into the time change. If the camera ceases to be the active action, check the current walking or dialogue prompt rather than trying to solve the whole trail with repeated photos.
 
@@ -33,13 +29,11 @@ After Audrey hands over the camera, follow her in third person and continue the 
 
 The opening's last step is handling the instant picture. Shake it to develop the image, then open the journal and place it inside. The photo already exists. The task is to finish its presentation and storage.
 
-![The instant photograph and Shake Photo prompt](asset:body-images-forever-ago-photo-puzzle-develop)
+![Gameplay reference](asset:body-images-forever-ago-photo-puzzle-develop)
 
 This distinction matters because a blank-looking instant print can seem like a failed exposure. In the sequence, development is the next interaction. Use the shaking prompt and wait for the image to appear before moving on to the journal.
 
 If you have developed the picture but the chapter remains open, check journal placement. The two actions are not interchangeable. You can have a visible image in Alfred's hand while still needing to record it in the journal.
-
-Do not restart the camera tutorial simply because the picture has not yet been placed. Identify the stage currently on screen and complete it. The game's photograph-handling step is separate from the act of aiming and pressing the shutter.
 
 ## Diner access comes before the window shot
 
@@ -49,13 +43,11 @@ The booth is restricted. Speak to Maddy at the counter, and complete the favor s
 
 The flower pickup and the petal vignettes should also remain separate. The story flower patch is reached near the telescope. Optional petal memories use the motel pool and diner approach. A flower close-up cannot satisfy a pick interaction, and an inspected petal cannot replace the requested bouquet.
 
-Once you understand which task is active, use the relevant action label. Pick the flowers, use the jukebox, speak to Maddy, investigate behind the building, and photograph the dog. This order resolves the access route without inventing a hidden membership item to find in a shop.
-
 ## Photograph the dog and report the result
 
-Leave the diner and turn right through the fence. Investigate the hole and rubbish area, then photograph the dog beside the bins. Frame the animal itself; the bin is a landmark, not the final subject.
+If Maddy has not given Alfred the favor yet, speak to her at the counter first. Leave the diner and turn right through the fence. Investigate the hole and rubbish area, then photograph the dog beside the bins. Frame the animal itself; the bin is a landmark, not the final subject.
 
-![Dog photo subject behind the diner bins](asset:body-images-forever-ago-photo-puzzle-dog)
+![Gameplay reference](asset:body-images-forever-ago-photo-puzzle-dog)
 
 If you took a photograph before completing the investigation, check the ground and rubbish interactions first. Then bring the animal clearly into view and take the requested picture. A photograph of a fence, hole, or litter pile can show the area while missing the actual subject.
 
@@ -69,11 +61,9 @@ A petal vignette begins with inspection. The on-screen name and fraction identif
 
 After the vignette unlocks, the instruction changes to finding where the petals gather. Move to that point and use the camera to reveal the memory. The unlock message is not the final photograph, so do not leave as soon as it appears.
 
-![Vignette Unlocked prompt after the playground petal search](asset:body-images-forever-ago-photo-puzzle-vignette)
+![Gameplay reference](asset:body-images-forever-ago-photo-puzzle-vignette)
 
 If you already photographed the scenery before gathering the petals, take that as a personal picture. It does not substitute for the camera action after the vignette becomes available. The necessary state change comes from collection and the gathering-point interaction.
-
-A practical diagnostic is to keep the three states separate: a partial petal counter, an unlocked vignette, and a revealed memory. Each calls for a different next action. Searching the ground again after the unlock can be as unhelpful as repeatedly photographing a landmark while its petal count is still incomplete.
 
 ## Resort boat photograph and rowing
 
@@ -81,9 +71,7 @@ At Buccaneers' Retreat, you need access to the boat before its photograph become
 
 Take the photograph during the ride toward the island to enter the memory with Audrey. Once the memory starts, the task changes from photography to coordinated rowing. Wait for Audrey's stroke, then perform Alfred's, and repeat the alternating pattern toward the island.
 
-![Boat ride with Audrey during the resort memory](asset:body-images-forever-ago-photo-puzzle-boat)
-
-If the boat is not yet available, look at the access route and lock interactions. If the memory has already begun, look at the rowing rhythm. Neither state is solved by accumulating unrelated photographs of the resort.
+![Gameplay reference](asset:body-images-forever-ago-photo-puzzle-boat)
 
 The harbor also contains the Responsible Adults petal cluster. Finish its shore-side vignette separately before moving into the boat route if you intend to collect it. The shared location does not turn the optional petal memory and the required boat photograph into one action.
 
@@ -93,10 +81,22 @@ At Winslow Lighthouse, make the coffee and feed the dog before following Charles
 
 Continue toward the lighthouse after the session. Read the entrance sign and allow the scene to play. Then aim at the top of the lighthouse and take the photograph that begins the memory. A general path photograph does not match the structure's upper section.
 
+![Lighthouse approach with the tower visible beyond the trail](asset:body-images-forever-ago-photo-locations-lighthouse)
+
+**Approach reference:** the tower is visible beyond the trail. Continue to its entrance sign before taking the upper-lighthouse photograph.
+
 After the transition, enter the lighthouse and climb the stairs. The next stage is inside the memory, not another required landscape exposure outside. Treat the scene change as the sign that the photograph succeeded.
 
-## Use a small correction before repeating the whole sequence
+## Camera will not focus or the objective stays open
 
-For an unresponsive object or camera prompt, lower the camera, reposition slightly, and look at the intended subject or interaction surface again. Then check the current prerequisite: conversation, inspection, seat access, or journal action. This narrows the correction to the stage that is actually unfinished.
+For an unresponsive object or camera prompt, lower the camera, reposition slightly, and aim at the intended subject or interaction surface again. Check the current journal objective: a conversation, inspection, booth permission or photo placement may still be unfinished. See the [camera controls guide](content:forever-ago-camera-controls) for framing help and [journal photos](content:forever-ago-journal-photos) for album selection.
 
-Do not erase progress to diagnose a missed frame. A clear subject mismatch calls for reframing; a locked area calls for its tool or access interaction; a changed scene calls for its new action. Following those cues solves the supported photo puzzles without inventing codes, film-saving penalties, or a universal secret angle for every photograph.
+For the preceding and following story actions, use the [complete road-trip walkthrough](content:forever-ago-walkthrough).
+
+## Sources and verification
+
+Requirements use the [Epic Games Store achievement list](https://store.epicgames.com/achievements/forever-ago-c55775). Epic XP values are not Xbox gamerscore or PlayStation trophy grades. Route details are compiled from release guides and footage; this site has not separately replayed every platform or tested cross-chapter progress.
+
+- [Release achievement route and illustrated locations](https://kosgames.com/forever-ago-achievement-guide-100-57795/).
+- [Into Indie Games: main-story walkthrough and camera objectives](https://intoindiegames.com/walkthroughs/forever-ago-complete-main-story-walkthrough/).
+- [Full release playthrough with achievement actions](https://www.youtube.com/watch?v=t9P-yBLXF0E).

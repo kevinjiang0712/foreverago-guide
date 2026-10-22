@@ -1,0 +1,13 @@
+{
+  "checkedDate": "20261022",
+  "jina": {
+    "status": "fatal",
+    "error": "ALL_API_KEYS_UNAVAILABLE",
+    "inputUrls": 1,
+    "processed": 0
+  },
+  "fallback": "Existing Jina/transcript material reused for mechanics; current HLTB detailed table read in normal browser and receipt stored in audit, not raw-data directory.",
+  "youtube": "Not needed: no new video-dependent facts; previously processed material already covers the existing routes.",
+  "rawDataDirectory": "../research/关键词_20261022原始数据",
+  "unprocessedInputsRetained": false
+}

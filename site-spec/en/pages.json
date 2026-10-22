@@ -315,7 +315,7 @@
     "id": "forever-ago-game-length",
     "slug": "forever-ago-game-length",
     "category": "review",
-    "h1": "Forever Ago Game Length",
+    "h1": "How Long Is Forever Ago?",
     "description": "Story completion time, exploration and chapter replay.",
     "card": {
       "title": "Game Length and Pacing",
@@ -324,17 +324,17 @@
     },
     "heroImage": "road-trip-art",
     "quickAnswer": [
-      "Forever Ago is a short narrative adventure. Reported full-story playthroughs fall roughly between two and five hours, with several clustering around four hours or a little longer."
+      "Allow about 3–5 hours for a first story run. On October 22, 17 Main Story reports averaged 4h 12m; six Main + Sides reports averaged 5h 11m. Only two completionist reports are available, so no dependable 100% time is established."
     ],
     "seo": {
-      "title": "Forever Ago Game Length Guide and Tips | Forever Ago",
-      "description": "Read our game length guide for Forever Ago. Story completion time, exploration and chapter replay. Use clear chapter advice to plan your next step on the road.",
+      "title": "Forever Ago Game Length: Story & 100% Completion Time",
+      "description": "Forever Ago takes about 3–5 hours for the story across nine chapters. Compare review times, current player reports and the extra tasks for all 29 achievements.",
       "image": "road-trip-art",
       "noindex": false
     },
     "authorName": "Kevin",
     "publishedAt": "2026-10-12",
-    "updatedAt": "2026-10-12",
+    "updatedAt": "2026-10-22",
     "gameVersion": null
   },
   {
@@ -350,17 +350,17 @@
     },
     "heroImage": "road-trip-art",
     "quickAnswer": [
-      "Forever Ago's camera achievements fall into two groups: total photographs and pictures of specific subjects. Focus Finder requires 25 photos, Picture Perfect requires 50, and Self-Portrait Photography requires 10 selfies."
+      "Focus Finder needs 25 photos, Picture Perfect needs 50, and Self-Portrait Photography needs 10 selfies. Snooping Shutterbug, Chrono Selfie and the lighthouse Doggo shot each require a specific subject."
     ],
     "seo": {
-      "title": "Forever Ago Camera Achievements Guide | Forever Ago Wiki",
-      "description": "Read our camera achievements guide for Forever Ago. Photo milestones, selfies and special photography objectives. Plan each step of Alfred’s road trip.",
+      "title": "Forever Ago Camera Achievements: 25/50 Photos, 10 Selfies",
+      "description": "Track Forever Ago's six camera achievements: 25 and 50 photos, 10 selfies, bedroom objects, Milton's selfie and the lighthouse Doggo shot, with route checks.",
       "image": "road-trip-art",
       "noindex": false
     },
     "authorName": "Kevin",
     "publishedAt": "2026-10-12",
-    "updatedAt": "2026-10-12",
+    "updatedAt": "2026-10-22",
     "gameVersion": null
   },
   {
@@ -497,7 +497,7 @@
     "id": "forever-ago-photo-puzzle",
     "slug": "forever-ago-photo-puzzle",
     "category": "walkthrough",
-    "h1": "Forever Ago Photo Puzzle",
+    "h1": "Forever Ago Photo Puzzle Guide",
     "description": "Story photography objectives and environmental interactions.",
     "card": {
       "title": "Photo Puzzle Walkthrough",
@@ -506,17 +506,17 @@
     },
     "heroImage": "campfire-art",
     "quickAnswer": [
-      "A Forever Ago photo puzzle usually resolves when you photograph the right subject from the scene's intended position after its prerequisite interactions."
+      "If a photograph does not advance the story, check its prerequisite and target. At the diner, finish Maddy’s dog request before the booth shot; at the resort, unlock harbor access before the boat sequence; in the opening, develop and place the print."
     ],
     "seo": {
-      "title": "Forever Ago Photo Puzzle Guide and Tips | Forever Ago",
-      "description": "Read our photo puzzle guide for Forever Ago. Story photography objectives and environmental interactions. Follow the chapter route and plan each step.",
+      "title": "Forever Ago Photo Puzzle Guide: Diner, Boat & Lighthouse",
+      "description": "Stuck taking a photo in Forever Ago? Find the right subject and prerequisites at the diner, boat and lighthouse, plus the opening print and journal steps.",
       "image": "campfire-art",
       "noindex": false
     },
     "authorName": "Kevin",
     "publishedAt": "2026-10-12",
-    "updatedAt": "2026-10-12",
+    "updatedAt": "2026-10-22",
     "gameVersion": null
   },
   {

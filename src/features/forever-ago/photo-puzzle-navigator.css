@@ -1,0 +1,12 @@
+.photo-puzzle-navigator{margin-bottom:var(--s-7);padding-bottom:var(--s-5);border-bottom:var(--border-width) solid var(--border-default)}
+.article-content .photo-puzzle-navigator h2{font-size:var(--fluid-h3);margin-bottom:var(--s-3)}
+.photo-puzzle-navigator label{display:block;margin-bottom:var(--s-2);color:var(--text-secondary);font-size:var(--fs-meta)}
+.photo-puzzle-navigator form>div{display:flex;flex-wrap:wrap;gap:var(--s-3)}
+.photo-puzzle-navigator select,.photo-puzzle-navigator button{min-height:var(--hit-min);max-width:100%;padding:var(--s-3);font:inherit;color:var(--text-primary);background:var(--surface-input);border:var(--border-width) solid var(--border-default);border-radius:var(--radius)}
+.photo-puzzle-navigator select{flex:1;min-width:0}
+.photo-puzzle-navigator button{cursor:pointer;background:var(--surface-card)}
+.photo-puzzle-navigator button:hover{border-color:var(--border-hover)}
+.photo-puzzle-navigator details{margin-top:var(--s-3)}
+.photo-puzzle-navigator summary{min-height:var(--hit-min);padding-block:var(--s-3);cursor:pointer;color:var(--accent-text)}
+.photo-puzzle-navigator a{display:inline-block;min-height:var(--hit-min);padding-block:var(--s-2)}
+@media(max-width:420px){.photo-puzzle-navigator select{flex-basis:100%}.photo-puzzle-navigator button{width:100%}}
